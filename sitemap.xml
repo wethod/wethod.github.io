@@ -2,66 +2,66 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://wethod.github.io/hugo-wethod-ghpages/getting-started/index/</loc>
+    <loc>https://wethod.github.io/getting-started/index/</loc>
     <lastmod>2016-03-09T00:11:02+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://wethod.github.io/hugo-wethod-ghpages/dashboard/index/</loc>
+    <loc>https://wethod.github.io/dashboard/index/</loc>
     <lastmod>2016-03-09T19:56:50+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://wethod.github.io/hugo-wethod-ghpages/pipeline/index/</loc>
+    <loc>https://wethod.github.io/pipeline/index/</loc>
     <lastmod>2016-03-09T20:10:46+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://wethod.github.io/hugo-wethod-ghpages/planning/index/</loc>
+    <loc>https://wethod.github.io/planning/index/</loc>
     <lastmod>2016-03-09T20:08:11+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://wethod.github.io/hugo-wethod-ghpages/index/</loc>
+    <loc>https://wethod.github.io/index/</loc>
     <lastmod>2016-03-08T21:07:13+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://wethod.github.io/hugo-wethod-ghpages/categories/</loc>
+    <loc>https://wethod.github.io/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://wethod.github.io/hugo-wethod-ghpages/dashboard/</loc>
+    <loc>https://wethod.github.io/dashboard/</loc>
     <lastmod>2016-03-09T19:56:50+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://wethod.github.io/hugo-wethod-ghpages/getting-started/</loc>
+    <loc>https://wethod.github.io/getting-started/</loc>
     <lastmod>2016-03-09T00:11:02+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://wethod.github.io/hugo-wethod-ghpages/pipeline/</loc>
+    <loc>https://wethod.github.io/pipeline/</loc>
     <lastmod>2016-03-09T20:10:46+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://wethod.github.io/hugo-wethod-ghpages/planning/</loc>
+    <loc>https://wethod.github.io/planning/</loc>
     <lastmod>2016-03-09T20:08:11+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://wethod.github.io/hugo-wethod-ghpages/tags/</loc>
+    <loc>https://wethod.github.io/tags/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://wethod.github.io/hugo-wethod-ghpages/</loc>
+    <loc>https://wethod.github.io/</loc>
     <lastmod>2016-03-09T00:11:02+01:00</lastmod>
     <priority>0</priority>
   </url>

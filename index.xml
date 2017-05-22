@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>WETHOD / Learning Center</title>
-    <link>https://wethod.github.io/hugo-wethod-ghpages/</link>
+    <link>https://wethod.github.io/</link>
     <description>Recent content on WETHOD / Learning Center</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Released under the MIT license</copyright>
     <lastBuildDate>Wed, 09 Mar 2016 00:11:02 +0100</lastBuildDate>
     
-	<atom:link href="https://wethod.github.io/hugo-wethod-ghpages/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://wethod.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Getting Started</title>
-      <link>https://wethod.github.io/hugo-wethod-ghpages/getting-started/index/</link>
+      <link>https://wethod.github.io/getting-started/index/</link>
       <pubDate>Wed, 09 Mar 2016 00:11:02 +0100</pubDate>
       
-      <guid>https://wethod.github.io/hugo-wethod-ghpages/getting-started/index/</guid>
+      <guid>https://wethod.github.io/getting-started/index/</guid>
       <description>Installation WETHOD 8&amp;rsquo;9e&amp;rsquo;23457325732ì45 Installing Hugo-sfgsgs Hugo itself is just a single binary without dependencies on expensive runtimes like Ruby, Python or PHP and without dependencies on any databases. You just need to download the latest version. For more information read the official installation guides.
 Let&amp;rsquo;s make sure Hugo is set up as expected. You should see a similar version number in your terminal:
 hugo version # Hugo Static Site Generator v0.</description>
@@ -25,42 +25,41 @@ hugo version # Hugo Static Site Generator v0.</description>
     
     <item>
       <title>Dashboard</title>
-      <link>https://wethod.github.io/hugo-wethod-ghpages/dashboard/index/</link>
+      <link>https://wethod.github.io/dashboard/index/</link>
       <pubDate>Wed, 09 Mar 2016 19:56:50 +0100</pubDate>
       
-      <guid>https://wethod.github.io/hugo-wethod-ghpages/dashboard/index/</guid>
+      <guid>https://wethod.github.io/dashboard/index/</guid>
       <description>Overview Let&amp;rsquo;s create our first content file for your documenion. Open a terminal and add the following command for each new file you want to add. Replace &amp;amp;amp;amp;amp;lt;section-name&amp;amp;amp;amp;amp;gt; with a general term that describes your document in detail.
 hugo new &amp;amp;amp;amp;amp;lt;section-name&amp;amp;amp;amp;amp;gt;/filename.md  Visitors of your website will find the final document under www.example.com/&amp;amp;amp;amp;amp;lt;section-name&amp;amp;amp;amp;amp;gt;/filename/.
 Since it&amp;rsquo;s possible to have multiple content files in the same section I recommend to create at least one index.</description>
     </item>
     
     <item>
-      <title>Pipeline-2</title>
-      <link>https://wethod.github.io/hugo-wethod-ghpages/pipeline/index/</link>
+      <title>Pipeline</title>
+      <link>https://wethod.github.io/pipeline/index/</link>
       <pubDate>Wed, 09 Mar 2016 20:10:46 +0100</pubDate>
       
-      <guid>https://wethod.github.io/hugo-wethod-ghpages/pipeline/index/</guid>
-      <description>Copyright &amp;copy; 2016 Digitalcraftsman digitalcraftsman@protonmail.com
-Copyright &amp;copy; 2016 Martin Donath martin.donath@squidfunk.com
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the &amp;ldquo;Software&amp;rdquo;), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:</description>
+      <guid>https://wethod.github.io/pipeline/index/</guid>
+      <description> Overview Add a new widget to your dashboard is so easy: just click on the &amp;ldquo;+&amp;rdquo; and pick one from the list of the available widgets.
+Basket Projects Programs </description>
     </item>
     
     <item>
       <title>Planning</title>
-      <link>https://wethod.github.io/hugo-wethod-ghpages/planning/index/</link>
+      <link>https://wethod.github.io/planning/index/</link>
       <pubDate>Wed, 09 Mar 2016 20:08:11 +0100</pubDate>
       
-      <guid>https://wethod.github.io/hugo-wethod-ghpages/planning/index/</guid>
+      <guid>https://wethod.github.io/planning/index/</guid>
       <description>Quo vadis? The port of the original Material theme has replicated nearly all of its features. A few are still missing but I&amp;rsquo;ve good news: the Hugo community is actively working on this issues. Maybe with the next release of Hugo we can abandon this list. Stay tuned.
 Localization Currently, it is possible to collect all strings in a single place for easy customization. However, this only enables you to define all strings in a single language.</description>
     </item>
     
     <item>
       <title>Material for Wethod</title>
-      <link>https://wethod.github.io/hugo-wethod-ghpages/index/</link>
+      <link>https://wethod.github.io/index/</link>
       <pubDate>Tue, 08 Mar 2016 21:07:13 +0100</pubDate>
       
-      <guid>https://wethod.github.io/hugo-wethod-ghpages/index/</guid>
+      <guid>https://wethod.github.io/index/</guid>
       <description>A Lean Multi-Project Management Platform WETHOD è lo strumento dedicato alle aziende di servizi per gestire persone e progetti in modo collaborativo. L’obiettivo è quello di semplificare le attività di project management distribuendo la responsabilità su tutti i membri del team e riducendo lo stress derivante dalla supervisione dei progetti.
 Il risultato è un sistema integrato che gestisce tutte le informazioni essenziali a un’organizzazione orientata ai progetti: budget, pianificazione, timesheet e report delle attività.</description>
     </item>
