@@ -7,10 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Released under the MIT license</copyright>
-    <lastBuildDate>Wed, 09 Mar 2016 19:56:50 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 09 Mar 2016 00:11:02 +0100</lastBuildDate>
     
 	<atom:link href="https://wethod.github.io/hugo-wethod-ghpages/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Getting Started</title>
+      <link>https://wethod.github.io/hugo-wethod-ghpages/getting-started/index/</link>
+      <pubDate>Wed, 09 Mar 2016 00:11:02 +0100</pubDate>
+      
+      <guid>https://wethod.github.io/hugo-wethod-ghpages/getting-started/index/</guid>
+      <description>Installation WETHOD 8&amp;rsquo;9e&amp;rsquo;23457325732ì45 Installing Hugo-sfgsgs Hugo itself is just a single binary without dependencies on expensive runtimes like Ruby, Python or PHP and without dependencies on any databases. You just need to download the latest version. For more information read the official installation guides.
+Let&amp;rsquo;s make sure Hugo is set up as expected. You should see a similar version number in your terminal:
+hugo version # Hugo Static Site Generator v0.</description>
+    </item>
     
     <item>
       <title>Dashboard-WETHOD</title>
@@ -42,17 +53,6 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
       <guid>https://wethod.github.io/hugo-wethod-ghpages/planning/index/</guid>
       <description>Quo vadis? The port of the original Material theme has replicated nearly all of its features. A few are still missing but I&amp;rsquo;ve good news: the Hugo community is actively working on this issues. Maybe with the next release of Hugo we can abandon this list. Stay tuned.
 Localization Currently, it is possible to collect all strings in a single place for easy customization. However, this only enables you to define all strings in a single language.</description>
-    </item>
-    
-    <item>
-      <title>Getting Started</title>
-      <link>https://wethod.github.io/hugo-wethod-ghpages/getting-started/index/</link>
-      <pubDate>Wed, 09 Mar 2016 00:11:02 +0100</pubDate>
-      
-      <guid>https://wethod.github.io/hugo-wethod-ghpages/getting-started/index/</guid>
-      <description>Installation WETHOD 8&amp;rsquo;9e&amp;rsquo;23457325732ì45 Installing Hugo-sfgsgs Hugo itself is just a single binary without dependencies on expensive runtimes like Ruby, Python or PHP and without dependencies on any databases. You just need to download the latest version. For more information read the official installation guides.
-Let&amp;rsquo;s make sure Hugo is set up as expected. You should see a similar version number in your terminal:
-hugo version # Hugo Static Site Generator v0.</description>
     </item>
     
     <item>
