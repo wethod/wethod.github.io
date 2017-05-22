@@ -71,6 +71,26 @@ Since it&amp;rsquo;s possible to have multiple content files in the same section
     </item>
     
     <item>
+      <title>Glossary</title>
+      <link>https://wethod.github.io/glossary/index/</link>
+      <pubDate>Mon, 22 May 2017 17:31:29 +0200</pubDate>
+      
+      <guid>https://wethod.github.io/glossary/index/</guid>
+      <description>Project Status Valore che indica la stima a finire per un certo progetto. In pratica esprime il numero di giorni mancanti alla fine del progetto.
+Roardunner Index (RRI) Valore che indica la quantità di lavoro a vuoto per un certo progetto. Con &amp;ldquo;lavoro a vuoto&amp;rdquo; si intende il rapporto tra l&amp;rsquo;avanzamento del progetto (Project Status) e le giornate lavorate (Timesheet).
+Timesheet Valore che indica il numero di ore lavorate da una risorsa su un progetto.</description>
+    </item>
+    
+    <item>
+      <title>FAQ</title>
+      <link>https://wethod.github.io/faq/index/</link>
+      <pubDate>Mon, 22 May 2017 17:08:16 +0200</pubDate>
+      
+      <guid>https://wethod.github.io/faq/index/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Material for Wethod</title>
       <link>https://wethod.github.io/index/</link>
       <pubDate>Tue, 08 Mar 2016 21:07:13 +0100</pubDate>
