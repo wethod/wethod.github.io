@@ -1,0 +1,38 @@
+@supports (-webkit-appearance: none) {
+    .palette-primary-black {
+        background: #363636
+    }
+}
+.palette-primary-black .footer,
+.palette-primary-black .header {
+    background: #363636
+}
+.palette-primary-black .drawer .toc a.current,
+.palette-primary-black .drawer .toc a:focus {
+    color: #363636
+}
+.palette-primary-black .drawer .toc a:hover {
+    color: #48a5f4
+}
+.palette-primary-black .drawer .anchor a {
+    border-left: 2px solid #48a5f4
+}
+.ios.standalone .palette-primary-black .article {
+    background: -webkit-linear-gradient(top, #fff 50%, #363636 0);
+    background: linear-gradient(180deg, #fff 50%, #363636 0)
+}
+.palette-primary-black .article a,
+.palette-primary-black .article code,
+.palette-primary-black .article h1,
+.palette-primary-black .article h2 {
+    color: #48a5f4
+}
+.palette-primary-black .article .headerlink {
+    color: rgba(0, 0, 0, .26)
+}
+.palette-primary-black .article table th {
+    background: #48a5f4
+}
+.palette-primary-black .results .meta {
+    background: #48a5f4
+}
