@@ -26,7 +26,7 @@ hugo version # Hugo Static Site Generator v0.</description>
     <item>
       <title>Dashboard</title>
       <link>https://wethod.github.io/dashboard/index/</link>
-      <pubDate>Wed, 09 Mar 2016 19:56:50 +0100</pubDate>
+      <pubDate>Thu, 10 Mar 2016 19:56:50 +0100</pubDate>
       
       <guid>https://wethod.github.io/dashboard/index/</guid>
       <description>Overview Let&amp;rsquo;s create our first content file for your documenion. Open a terminal and add the following command for each new file you want to add. Replace &amp;amp;amp;amp;amp;amp;lt;section-name&amp;amp;amp;amp;amp;amp;gt; with a general term that describes your document in detail.
@@ -37,7 +37,7 @@ Since it&amp;rsquo;s possible to have multiple content files in the same section
     <item>
       <title>Pipeline</title>
       <link>https://wethod.github.io/pipeline/index/</link>
-      <pubDate>Wed, 09 Mar 2016 20:10:46 +0100</pubDate>
+      <pubDate>Fri, 11 Mar 2016 20:10:46 +0100</pubDate>
       
       <guid>https://wethod.github.io/pipeline/index/</guid>
       <description> Overview Basket Projects Programs </description>
@@ -46,7 +46,7 @@ Since it&amp;rsquo;s possible to have multiple content files in the same section
     <item>
       <title>Planning</title>
       <link>https://wethod.github.io/planning/index/</link>
-      <pubDate>Wed, 09 Mar 2016 20:08:11 +0100</pubDate>
+      <pubDate>Sat, 12 Mar 2016 20:08:11 +0100</pubDate>
       
       <guid>https://wethod.github.io/planning/index/</guid>
       <description>Overview</description>
@@ -62,15 +62,6 @@ Since it&amp;rsquo;s possible to have multiple content files in the same section
     </item>
     
     <item>
-      <title>FAQ</title>
-      <link>https://wethod.github.io/faq/index/</link>
-      <pubDate>Mon, 22 May 2017 17:08:16 +0200</pubDate>
-      
-      <guid>https://wethod.github.io/faq/index/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Glossary</title>
       <link>https://wethod.github.io/glossary/index/</link>
       <pubDate>Mon, 22 May 2017 17:31:29 +0200</pubDate>
@@ -82,7 +73,7 @@ Timesheet Valore che indica il numero di ore lavorate da una risorsa su un proge
     </item>
     
     <item>
-      <title>Material for Wethod</title>
+      <title>Discover WETHOD</title>
       <link>https://wethod.github.io/index/</link>
       <pubDate>Tue, 08 Mar 2016 21:07:13 +0100</pubDate>
       

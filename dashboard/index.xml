@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Released under the MIT license</copyright>
-    <lastBuildDate>Wed, 09 Mar 2016 19:56:50 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 10 Mar 2016 19:56:50 +0100</lastBuildDate>
     
 	<atom:link href="https://wethod.github.io/dashboard/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title>Dashboard</title>
       <link>https://wethod.github.io/dashboard/index/</link>
-      <pubDate>Wed, 09 Mar 2016 19:56:50 +0100</pubDate>
+      <pubDate>Thu, 10 Mar 2016 19:56:50 +0100</pubDate>
       
       <guid>https://wethod.github.io/dashboard/index/</guid>
       <description>Overview Let&amp;rsquo;s create our first content file for your documenion. Open a terminal and add the following command for each new file you want to add. Replace &amp;amp;amp;amp;amp;amp;lt;section-name&amp;amp;amp;amp;amp;amp;gt; with a general term that describes your document in detail.

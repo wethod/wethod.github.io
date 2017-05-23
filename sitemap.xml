@@ -8,27 +8,22 @@
   
   <url>
     <loc>https://wethod.github.io/dashboard/index/</loc>
-    <lastmod>2016-03-09T19:56:50+01:00</lastmod>
+    <lastmod>2016-03-10T19:56:50+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://wethod.github.io/pipeline/index/</loc>
-    <lastmod>2016-03-09T20:10:46+01:00</lastmod>
+    <lastmod>2016-03-11T20:10:46+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://wethod.github.io/planning/index/</loc>
-    <lastmod>2016-03-09T20:08:11+01:00</lastmod>
+    <lastmod>2016-03-12T20:08:11+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://wethod.github.io/friday/index/</loc>
     <lastmod>2017-05-22T15:51:35+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://wethod.github.io/faq/index/</loc>
-    <lastmod>2017-05-22T17:08:16+02:00</lastmod>
   </url>
   
   <url>
@@ -48,13 +43,7 @@
   
   <url>
     <loc>https://wethod.github.io/dashboard/</loc>
-    <lastmod>2016-03-09T19:56:50+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://wethod.github.io/faq/</loc>
-    <lastmod>2017-05-22T17:08:16+02:00</lastmod>
+    <lastmod>2016-03-10T19:56:50+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -78,13 +67,13 @@
   
   <url>
     <loc>https://wethod.github.io/pipeline/</loc>
-    <lastmod>2016-03-09T20:10:46+01:00</lastmod>
+    <lastmod>2016-03-11T20:10:46+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://wethod.github.io/planning/</loc>
-    <lastmod>2016-03-09T20:08:11+01:00</lastmod>
+    <lastmod>2016-03-12T20:08:11+01:00</lastmod>
     <priority>0</priority>
   </url>
   
