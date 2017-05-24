@@ -60,12 +60,30 @@ Since it&amp;rsquo;s possible to have multiple content files in the same section
     </item>
     
     <item>
-      <title>Reports</title>
-      <link>https://wethod.github.io/report/</link>
-      <pubDate>Wed, 24 May 2017 11:34:23 +0000</pubDate>
+      <title>Friday</title>
+      <link>https://wethod.github.io/report/index/</link>
+      <pubDate>Wed, 24 May 2017 12:01:45 +0200</pubDate>
       
-      <guid>https://wethod.github.io/report/</guid>
+      <guid>https://wethod.github.io/report/index/</guid>
       <description> Overview Budget Consumption Revenue Progress Revenue Pipeline Revenue Actuals Production Value Timesheets Changelog </description>
+    </item>
+    
+    <item>
+      <title>Finance</title>
+      <link>https://wethod.github.io/finance/index/</link>
+      <pubDate>Wed, 24 May 2017 12:06:54 +0200</pubDate>
+      
+      <guid>https://wethod.github.io/finance/index/</guid>
+      <description> Overview Orders Invoices Clients Suppliers </description>
+    </item>
+    
+    <item>
+      <title>Settings</title>
+      <link>https://wethod.github.io/settings/index/</link>
+      <pubDate>Wed, 24 May 2017 12:09:44 +0200</pubDate>
+      
+      <guid>https://wethod.github.io/settings/index/</guid>
+      <description> Tutorial Account Team Company Rule Engine Permissions Switch Company </description>
     </item>
     
     <item>
