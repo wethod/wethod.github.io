@@ -2,66 +2,132 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://wethod.github.io/hugo-wethod-ghpages/getting-started/index/</loc>
+    <loc>https://wethod.github.io/getting-started/index/</loc>
     <lastmod>2016-03-09T00:11:02+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://wethod.github.io/hugo-wethod-ghpages/dashboard/index/</loc>
-    <lastmod>2016-03-09T19:56:50+01:00</lastmod>
+    <loc>https://wethod.github.io/dashboard/index/</loc>
+    <lastmod>2016-03-10T19:56:50+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://wethod.github.io/hugo-wethod-ghpages/pipeline/index/</loc>
-    <lastmod>2016-03-09T20:10:46+01:00</lastmod>
+    <loc>https://wethod.github.io/pipeline/index/</loc>
+    <lastmod>2016-03-11T20:10:46+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://wethod.github.io/hugo-wethod-ghpages/planning/index/</loc>
-    <lastmod>2016-03-09T20:08:11+01:00</lastmod>
+    <loc>https://wethod.github.io/planning/index/</loc>
+    <lastmod>2016-03-12T20:08:11+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://wethod.github.io/hugo-wethod-ghpages/index/</loc>
+    <loc>https://wethod.github.io/friday/index/</loc>
+    <lastmod>2017-05-22T15:51:35+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://wethod.github.io/reports/index/</loc>
+    <lastmod>2017-05-24T12:01:45+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://wethod.github.io/finance/index/</loc>
+    <lastmod>2017-05-24T12:06:54+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://wethod.github.io/settings/index/</loc>
+    <lastmod>2017-05-24T12:09:44+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://wethod.github.io/faq/index/</loc>
+    <lastmod>2017-05-22T17:08:16+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://wethod.github.io/glossary/index/</loc>
+    <lastmod>2017-05-22T17:31:29+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://wethod.github.io/index/</loc>
     <lastmod>2016-03-08T21:07:13+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://wethod.github.io/hugo-wethod-ghpages/categories/</loc>
+    <loc>https://wethod.github.io/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://wethod.github.io/hugo-wethod-ghpages/dashboard/</loc>
-    <lastmod>2016-03-09T19:56:50+01:00</lastmod>
+    <loc>https://wethod.github.io/dashboard/</loc>
+    <lastmod>2016-03-10T19:56:50+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://wethod.github.io/hugo-wethod-ghpages/getting-started/</loc>
+    <loc>https://wethod.github.io/faq/</loc>
+    <lastmod>2017-05-22T17:08:16+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://wethod.github.io/finance/</loc>
+    <lastmod>2017-05-24T12:06:54+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://wethod.github.io/friday/</loc>
+    <lastmod>2017-05-22T15:51:35+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://wethod.github.io/getting-started/</loc>
     <lastmod>2016-03-09T00:11:02+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://wethod.github.io/hugo-wethod-ghpages/pipeline/</loc>
-    <lastmod>2016-03-09T20:10:46+01:00</lastmod>
+    <loc>https://wethod.github.io/glossary/</loc>
+    <lastmod>2017-05-22T17:31:29+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://wethod.github.io/hugo-wethod-ghpages/planning/</loc>
-    <lastmod>2016-03-09T20:08:11+01:00</lastmod>
+    <loc>https://wethod.github.io/pipeline/</loc>
+    <lastmod>2016-03-11T20:10:46+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://wethod.github.io/hugo-wethod-ghpages/tags/</loc>
+    <loc>https://wethod.github.io/planning/</loc>
+    <lastmod>2016-03-12T20:08:11+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://wethod.github.io/hugo-wethod-ghpages/</loc>
+    <loc>https://wethod.github.io/reports/</loc>
+    <lastmod>2017-05-24T12:01:45+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://wethod.github.io/settings/</loc>
+    <lastmod>2017-05-24T12:09:44+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://wethod.github.io/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://wethod.github.io/</loc>
     <lastmod>2016-03-09T00:11:02+01:00</lastmod>
     <priority>0</priority>
   </url>
