@@ -60,11 +60,11 @@ Since it&amp;rsquo;s possible to have multiple content files in the same section
     </item>
     
     <item>
-      <title>Friday</title>
-      <link>https://wethod.github.io/report/index/</link>
+      <title>Reports</title>
+      <link>https://wethod.github.io/reports/index/</link>
       <pubDate>Wed, 24 May 2017 12:01:45 +0200</pubDate>
       
-      <guid>https://wethod.github.io/report/index/</guid>
+      <guid>https://wethod.github.io/reports/index/</guid>
       <description> Overview Budget Consumption Revenue Progress Revenue Pipeline Revenue Actuals Production Value Timesheets Changelog </description>
     </item>
     
@@ -84,6 +84,15 @@ Since it&amp;rsquo;s possible to have multiple content files in the same section
       
       <guid>https://wethod.github.io/settings/index/</guid>
       <description> Tutorial Account Team Company Rule Engine Permissions Switch Company </description>
+    </item>
+    
+    <item>
+      <title>FAQ</title>
+      <link>https://wethod.github.io/faq/index/</link>
+      <pubDate>Mon, 22 May 2017 17:08:16 +0200</pubDate>
+      
+      <guid>https://wethod.github.io/faq/index/</guid>
+      <description>(function(q,u,e,s,t,i,o,n) { o=u.getElementsByTagName(e)[0]; n=u.createElement(s),n.async=1,n.defer=1,n.src=i; o.appendChild(n) })(window,document,&#34;head&#34;,&#34;script&#34;,&#34;res_pars&#34;, &#34;https://goresponsa.com/widgets/57a0713be0e2ee8a8c001270.js&#34;);  </description>
     </item>
     
     <item>
