@@ -66,10 +66,14 @@
     </style>
 
     
+    <link rel="stylesheet" href="https://wethod.github.io/stylesheets/custom-style.css">
+    
     <script src="https://wethod.github.io/javascripts/modernizr.js"></script>
 
     
 
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/2/docsearch.min.css" />
   </head>
   <body class="palette-primary-black palette-accent-teal">
 
@@ -99,14 +103,13 @@
     </div>
 
     
-    <div class="button button-twitter" role="button" aria-label="Twitter">
-       <a href="https://twitter.com/wethodhq" title="@wethodhq on Twitter" target="_blank" class="toggle-button icon icon-twitter"></a>
-    </div>
-    
 
     
     
-        
+    
+    <div class="button button-search" role="button" aria-label="Search">
+      <label class="toggle-button icon icon-search" title="Search" for="toggle-search"></label>
+    </div>
   </div>
   <div class="bar search">
     <div class="button button-close" role="button" aria-label="Close">
@@ -354,19 +357,13 @@
         <ul>
           
           
-          <li>
-            <a href="https://twitter.com/wethodhq" target="_blank" title="@wethodhq on Twitter">
-              @wethodhq on Twitter
-            </a>
-          </li>
-          
 
           
 
           
           <li>
             <a href="mailto:info@wethod.com" title="Email of info@wethod.com">
-              Contact via email
+              Contact us
             </a>
           </li>
           
@@ -382,7 +379,7 @@
 	<article class="article">
 		<div class="wrapper">
 			<h1>Reports </h1>
-
+			
 			
 
 <h2 id="overview">Overview</h2>
@@ -517,6 +514,17 @@
 
     <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.8.0/highlight.min.js"></script>
     <script>hljs.initHighlightingOnLoad();</script>
+    
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/2/docsearch.min.js"></script>
+    <script type="text/javascript"> 
+      docsearch(
+        {
+          apiKey: '5a3110ef2e7dbf10020850a03f15adfa',
+          indexName: 'wethod',
+          inputSelector: '.query',
+          debug: false
+        });
+    </script>
   </body>
 </html>
 
