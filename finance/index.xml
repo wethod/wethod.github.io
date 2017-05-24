@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Finances on WETHOD / Learning Center</title>
-    <link>https://wethod.github.io/finance/</link>
+    <link>http://support.wethod.com/finance/</link>
     <description>Recent content in Finances on WETHOD / Learning Center</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 24 May 2017 12:06:54 +0200</lastBuildDate>
     
-	<atom:link href="https://wethod.github.io/finance/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://support.wethod.com/finance/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Finance</title>
-      <link>https://wethod.github.io/finance/index/</link>
+      <link>http://support.wethod.com/finance/index/</link>
       <pubDate>Wed, 24 May 2017 12:06:54 +0200</pubDate>
       
-      <guid>https://wethod.github.io/finance/index/</guid>
+      <guid>http://support.wethod.com/finance/index/</guid>
       <description> Overview Orders Invoices Clients Suppliers </description>
     </item>
     

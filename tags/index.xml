@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on WETHOD / Learning Center</title>
-    <link>https://wethod.github.io/tags/</link>
+    <link>http://support.wethod.com/tags/</link>
     <description>Recent content in Tags on WETHOD / Learning Center</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="https://wethod.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://support.wethod.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

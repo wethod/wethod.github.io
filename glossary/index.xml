@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Glossaries on WETHOD / Learning Center</title>
-    <link>https://wethod.github.io/glossary/</link>
+    <link>http://support.wethod.com/glossary/</link>
     <description>Recent content in Glossaries on WETHOD / Learning Center</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 22 May 2017 17:31:29 +0200</lastBuildDate>
     
-	<atom:link href="https://wethod.github.io/glossary/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://support.wethod.com/glossary/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Glossary</title>
-      <link>https://wethod.github.io/glossary/index/</link>
+      <link>http://support.wethod.com/glossary/index/</link>
       <pubDate>Mon, 22 May 2017 17:31:29 +0200</pubDate>
       
-      <guid>https://wethod.github.io/glossary/index/</guid>
+      <guid>http://support.wethod.com/glossary/index/</guid>
       <description>Project Status Valore che indica la stima a finire per un certo progetto. In pratica esprime il numero di giorni mancanti alla fine del progetto.
 Roardunner Index (RRI) Valore che indica la quantità di lavoro a vuoto per un certo progetto. Con &amp;ldquo;lavoro a vuoto&amp;rdquo; si intende il rapporto tra l&amp;rsquo;avanzamento del progetto (Project Status) e le giornate lavorate (Timesheet).
 Timesheet Valore che indica il numero di ore lavorate da una risorsa su un progetto.</description>

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pipelines on WETHOD / Learning Center</title>
-    <link>https://wethod.github.io/pipeline/</link>
+    <link>http://support.wethod.com/pipeline/</link>
     <description>Recent content in Pipelines on WETHOD / Learning Center</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 11 Mar 2016 20:10:46 +0100</lastBuildDate>
     
-	<atom:link href="https://wethod.github.io/pipeline/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://support.wethod.com/pipeline/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Pipeline</title>
-      <link>https://wethod.github.io/pipeline/index/</link>
+      <link>http://support.wethod.com/pipeline/index/</link>
       <pubDate>Fri, 11 Mar 2016 20:10:46 +0100</pubDate>
       
-      <guid>https://wethod.github.io/pipeline/index/</guid>
+      <guid>http://support.wethod.com/pipeline/index/</guid>
       <description> Overview Basket Projects Programs </description>
     </item>
     

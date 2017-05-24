@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>WETHOD / Learning Center</title>
-    <link>https://wethod.github.io/</link>
+    <link>http://support.wethod.com/</link>
     <description>Recent content on WETHOD / Learning Center</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 09 Mar 2016 00:11:02 +0100</lastBuildDate>
     
-	<atom:link href="https://wethod.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://support.wethod.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Getting Started</title>
-      <link>https://wethod.github.io/getting-started/index/</link>
+      <link>http://support.wethod.com/getting-started/index/</link>
       <pubDate>Wed, 09 Mar 2016 00:11:02 +0100</pubDate>
       
-      <guid>https://wethod.github.io/getting-started/index/</guid>
+      <guid>http://support.wethod.com/getting-started/index/</guid>
       <description>A New Adventure Visita https://app.wethod.com/registration per creare il tuo team e iniziare la prova gratuita di 30 giorni.
 Scopri di più su Get Started.</description>
     </item>
     
     <item>
       <title>Dashboard</title>
-      <link>https://wethod.github.io/dashboard/index/</link>
+      <link>http://support.wethod.com/dashboard/index/</link>
       <pubDate>Thu, 10 Mar 2016 19:56:50 +0100</pubDate>
       
-      <guid>https://wethod.github.io/dashboard/index/</guid>
+      <guid>http://support.wethod.com/dashboard/index/</guid>
       <description>Overview Let&amp;rsquo;s create our first content file for your documenion. Open a terminal and add the following command for each new file you want to add. Replace section-name with a general term that describes your document in detail.
 hugo new section-name/filename.md  Visitors of your website will find the final document under www.example.com/&amp;amp;amp;amp;amp;amp;amp;lt;section-name&amp;amp;amp;amp;amp;amp;amp;gt;/filename/.
 Since it&amp;rsquo;s possible to have multiple content files in the same section I recommend to create at least one index.</description>
@@ -34,73 +34,73 @@ Since it&amp;rsquo;s possible to have multiple content files in the same section
     
     <item>
       <title>Pipeline</title>
-      <link>https://wethod.github.io/pipeline/index/</link>
+      <link>http://support.wethod.com/pipeline/index/</link>
       <pubDate>Fri, 11 Mar 2016 20:10:46 +0100</pubDate>
       
-      <guid>https://wethod.github.io/pipeline/index/</guid>
+      <guid>http://support.wethod.com/pipeline/index/</guid>
       <description> Overview Basket Projects Programs </description>
     </item>
     
     <item>
       <title>Planning</title>
-      <link>https://wethod.github.io/planning/index/</link>
+      <link>http://support.wethod.com/planning/index/</link>
       <pubDate>Sat, 12 Mar 2016 20:08:11 +0100</pubDate>
       
-      <guid>https://wethod.github.io/planning/index/</guid>
+      <guid>http://support.wethod.com/planning/index/</guid>
       <description>Overview</description>
     </item>
     
     <item>
       <title>Friday</title>
-      <link>https://wethod.github.io/friday/index/</link>
+      <link>http://support.wethod.com/friday/index/</link>
       <pubDate>Mon, 22 May 2017 15:51:35 +0200</pubDate>
       
-      <guid>https://wethod.github.io/friday/index/</guid>
+      <guid>http://support.wethod.com/friday/index/</guid>
       <description> Overview Timesheet Project Status </description>
     </item>
     
     <item>
       <title>Reports</title>
-      <link>https://wethod.github.io/reports/index/</link>
+      <link>http://support.wethod.com/reports/index/</link>
       <pubDate>Wed, 24 May 2017 12:01:45 +0200</pubDate>
       
-      <guid>https://wethod.github.io/reports/index/</guid>
+      <guid>http://support.wethod.com/reports/index/</guid>
       <description> Overview Budget Consumption Revenue Progress Revenue Pipeline Revenue Actuals Production Value Timesheets Changelog </description>
     </item>
     
     <item>
       <title>Finance</title>
-      <link>https://wethod.github.io/finance/index/</link>
+      <link>http://support.wethod.com/finance/index/</link>
       <pubDate>Wed, 24 May 2017 12:06:54 +0200</pubDate>
       
-      <guid>https://wethod.github.io/finance/index/</guid>
+      <guid>http://support.wethod.com/finance/index/</guid>
       <description> Overview Orders Invoices Clients Suppliers </description>
     </item>
     
     <item>
       <title>Settings</title>
-      <link>https://wethod.github.io/settings/index/</link>
+      <link>http://support.wethod.com/settings/index/</link>
       <pubDate>Wed, 24 May 2017 12:09:44 +0200</pubDate>
       
-      <guid>https://wethod.github.io/settings/index/</guid>
+      <guid>http://support.wethod.com/settings/index/</guid>
       <description> Tutorial Account Team Company Rule Engine Permissions Switch Company </description>
     </item>
     
     <item>
       <title>FAQ</title>
-      <link>https://wethod.github.io/faq/index/</link>
+      <link>http://support.wethod.com/faq/index/</link>
       <pubDate>Mon, 22 May 2017 17:08:16 +0200</pubDate>
       
-      <guid>https://wethod.github.io/faq/index/</guid>
+      <guid>http://support.wethod.com/faq/index/</guid>
       <description>(function(q,u,e,s,t,i,o,n) { o=u.getElementsByTagName(e)[0]; n=u.createElement(s),n.async=1,n.defer=1,n.src=i; o.appendChild(n) })(window,document,&#34;head&#34;,&#34;script&#34;,&#34;res_pars&#34;, &#34;https://goresponsa.com/widgets/57a0713be0e2ee8a8c001270.js&#34;);  </description>
     </item>
     
     <item>
       <title>Glossary</title>
-      <link>https://wethod.github.io/glossary/index/</link>
+      <link>http://support.wethod.com/glossary/index/</link>
       <pubDate>Mon, 22 May 2017 17:31:29 +0200</pubDate>
       
-      <guid>https://wethod.github.io/glossary/index/</guid>
+      <guid>http://support.wethod.com/glossary/index/</guid>
       <description>Project Status Valore che indica la stima a finire per un certo progetto. In pratica esprime il numero di giorni mancanti alla fine del progetto.
 Roardunner Index (RRI) Valore che indica la quantità di lavoro a vuoto per un certo progetto. Con &amp;ldquo;lavoro a vuoto&amp;rdquo; si intende il rapporto tra l&amp;rsquo;avanzamento del progetto (Project Status) e le giornate lavorate (Timesheet).
 Timesheet Valore che indica il numero di ore lavorate da una risorsa su un progetto.</description>
@@ -108,10 +108,10 @@ Timesheet Valore che indica il numero di ore lavorate da una risorsa su un proge
     
     <item>
       <title>Discover WETHOD</title>
-      <link>https://wethod.github.io/index/</link>
+      <link>http://support.wethod.com/index/</link>
       <pubDate>Tue, 08 Mar 2016 21:07:13 +0100</pubDate>
       
-      <guid>https://wethod.github.io/index/</guid>
+      <guid>http://support.wethod.com/index/</guid>
       <description>In Breve WETHOD è lo strumento dedicato alle aziende di servizi per gestire persone e progetti in modo collaborativo. L&amp;rsquo;obiettivo è quello di semplificare le attività di project management distribuendo la responsabilità su tutti i membri del team e riducendo lo stress derivante dalla supervisione dei progetti.
 Il risultato è un sistema integrato che gestisce tutte le informazioni essenziali a un’organizzazione orientata ai progetti: budget, pianificazione, timesheet e report delle attività.</description>
     </item>
