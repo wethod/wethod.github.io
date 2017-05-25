@@ -68,15 +68,6 @@ Basket The Basket contains all the project’s opportunity that are not well-def
     </item>
     
     <item>
-      <title>Reports</title>
-      <link>http://support.wethod.com/reports/index/</link>
-      <pubDate>Wed, 24 May 2017 12:01:45 +0200</pubDate>
-      
-      <guid>http://support.wethod.com/reports/index/</guid>
-      <description> Overview Budget Consumption Revenue Progress Revenue Pipeline Revenue Actuals Production Value Timesheets Changelog </description>
-    </item>
-    
-    <item>
       <title>Finance</title>
       <link>http://support.wethod.com/finance/index/</link>
       <pubDate>Wed, 24 May 2017 12:06:54 +0200</pubDate>
