@@ -106,5 +106,15 @@ Roardunner Index (RRI) Valore che indica la quantità di lavoro a vuoto per un c
 Timesheet Valore che indica il numero di ore lavorate da una risorsa su un progetto.</description>
     </item>
     
+    <item>
+      <title>Discover WETHOD</title>
+      <link>http://support.wethod.com/index/</link>
+      <pubDate>Tue, 08 Mar 2016 21:07:13 +0100</pubDate>
+      
+      <guid>http://support.wethod.com/index/</guid>
+      <description>In Breve WETHOD è lo strumento dedicato alle aziende di servizi per gestire persone e progetti in modo collaborativo. L&amp;rsquo;obiettivo è quello di semplificare le attività di project management distribuendo la responsabilità su tutti i membri del team e riducendo lo stress derivante dalla supervisione dei progetti.
+Il risultato è un sistema integrato che gestisce tutte le informazioni essenziali a un’organizzazione orientata ai progetti: budget, pianificazione, timesheet e report delle attività.</description>
+    </item>
+    
   </channel>
 </rss>
