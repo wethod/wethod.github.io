@@ -76,7 +76,7 @@ Basket The Basket contains all the project’s opportunity that are not well-def
       <guid>http://support.wethod.com/settings/index/</guid>
       <description>Tutorial Account Team Since you are a Superuser you have the super power to: invite people, assign specific roles and allow special permission
 Company Here you can configure your company by setting:
- User levels: each one of your collaborators has a level which defines his daily cost to the company and the price you want to sell a day of his work to the clients. This way you can define clusters of employees like intern, junior, senior and so on; **Job Order Categories: **each one of your projects must have one.</description>
+ User levels: each one of your collaborators has a level which defines his daily cost to the company and the price you want to sell a day of his work to the clients. This way you can define clusters of employees like intern, junior, senior and so on;</description>
     </item>
     
     <item>
