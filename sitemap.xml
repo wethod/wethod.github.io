@@ -37,11 +37,6 @@
   </url>
   
   <url>
-    <loc>http://support.wethod.com/settings/index/</loc>
-    <lastmod>2017-05-24T12:09:44+02:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://support.wethod.com/faq/index/</loc>
     <lastmod>2017-05-22T17:08:16+02:00</lastmod>
   </url>
@@ -112,12 +107,6 @@
   <url>
     <loc>http://support.wethod.com/reports/</loc>
     <lastmod>2017-05-24T12:01:45+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://support.wethod.com/settings/</loc>
-    <lastmod>2017-05-24T12:09:44+02:00</lastmod>
     <priority>0</priority>
   </url>
   
