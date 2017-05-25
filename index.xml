@@ -38,7 +38,15 @@ Since it&amp;rsquo;s possible to have multiple content files in the same section
       <pubDate>Fri, 11 Mar 2016 20:10:46 +0100</pubDate>
       
       <guid>http://support.wethod.com/pipeline/index/</guid>
-      <description> Overview Basket Projects Programs </description>
+      <description>Overview Everything starts from Pipeline, here is where opportunities and projects are listed, both of them are defined by a small amount of significant information:
+ Name;
+ Client;
+ Value (in €k);
+ Percentage of external costs;
+ Category;
+ Probability.
+  Pipeline has three subsections: Basket, Projects and Programs.
+Basket The Basket contains all the project’s opportunity that are not well-defined yet. You can see it as a place where to put all the ideas that you usually write on a notebook or on a Post-It.</description>
     </item>
     
     <item>
