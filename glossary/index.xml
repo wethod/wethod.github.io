@@ -18,8 +18,7 @@
       
       <guid>http://support.wethod.com/glossary/index/</guid>
       <description>Project Status Valore che indica la stima a finire per un certo progetto. In pratica esprime il numero di giorni mancanti alla fine del progetto.
-Roardunner Index (RRI) Valore che indica la quantità di lavoro a vuoto per un certo progetto. Con &amp;ldquo;lavoro a vuoto&amp;rdquo; si intende il rapporto tra l&amp;rsquo;avanzamento del progetto (Project Status) e le giornate lavorate (Timesheet).
-Timesheet Valore che indica il numero di ore lavorate da una risorsa su un progetto.</description>
+Production Value Valore che indica &amp;ldquo;quanto un progetto ha prodotto&amp;rdquo; ovvero la percentuale di completamento * il valore del progetto. Ad esempio: un progetto con project status al di 40 su 100 giornate (gliene mancano 40 alla fine) e con valore 10K avrà production value = 10K * ((100 - 40)/100).</description>
     </item>
     
   </channel>
