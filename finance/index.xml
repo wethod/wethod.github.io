@@ -17,7 +17,10 @@
       <pubDate>Wed, 24 May 2017 12:06:54 +0200</pubDate>
       
       <guid>http://support.wethod.com/finance/index/</guid>
-      <description> Overview Orders Invoices Clients Suppliers </description>
+      <description>Overview Orders In this section you can view all your orders and create new ones. Once you click on the &amp;ldquo;Send&amp;rdquo; button, an e-mail is sent to the address inserted in the Email Bot section.
+You can create orders only for projects you have already provided with job order and budget.
+Order&amp;rsquo;s value must be lower or equal then the external costs entered in the budget.
+Invoices In this section you can view all your invoices and create new ones.</description>
     </item>
     
   </channel>
