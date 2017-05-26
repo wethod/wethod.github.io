@@ -57,7 +57,9 @@ Basket The Basket contains all the project’s opportunity that are not well-def
       <pubDate>Fri, 26 May 2017 13:04:19 +0200</pubDate>
       
       <guid>http://support.wethod.com/budget/index/</guid>
-      <description>Overview When the project has enough probability to start you can add a budget: the total resources available for the project, as internal and external costs. Choose the project in the projects pipeline by clicking on it and use the &amp;lsquo;Budget&amp;rsquo; button to enter the budget creation mode. Here you can define the budget structure: choose the default areas or create a budget from a previously saved template (see budget creation for more info).</description>
+      <description>Overview The budget is the total amount of resources needed by a project, either internal and external costs. Internal costs are the working days you need to end the project, the external costs are the expenses you need to take.
+Budget creation
+Choose the project in the projects pipeline by clicking on it and use the &amp;lsquo;Budget&amp;rsquo; button to enter the budget creation mode. Here you can define the budget structure: choose the default areas or create a budget from a previously saved template (see budget creation for more info).</description>
     </item>
     
     <item>
