@@ -17,6 +17,11 @@
   </url>
   
   <url>
+    <loc>http://support.wethod.com/budget/index/</loc>
+    <lastmod>2017-05-26T13:04:19+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://support.wethod.com/friday/index/</loc>
     <lastmod>2017-05-22T15:51:35+02:00</lastmod>
   </url>
@@ -44,6 +49,12 @@
   <url>
     <loc>http://support.wethod.com/index/</loc>
     <lastmod>2016-03-08T21:07:13+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://support.wethod.com/budget/</loc>
+    <lastmod>2017-05-26T13:04:19+02:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
