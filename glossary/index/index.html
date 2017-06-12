@@ -402,7 +402,7 @@
 
 <h3 id="pipeline-value">Pipeline Value</h3>
 
-<p>This is the total estimated value of the pipeline&rsquo;s projects, weighted on their probability.</p>
+<p>This value indicates the total estimated value of the pipeline&rsquo;s projects, weighted on their probability.</p>
 
 <h3 id="project-status">Project Status</h3>
 
@@ -410,7 +410,15 @@
 
 <h3 id="production-value">Production Value</h3>
 
-<p>Valore che indica &ldquo;quanto un progetto ha prodotto&rdquo; ovvero la percentuale di completamento * il valore del progetto. Ad esempio: un progetto con project status al di 40 su 100 giornate (gliene mancano 40 alla fine) e con valore 10K  avrà production value = 10K * ((100 - 40)/100).</p>
+<p>This value indicates *how much a project has produced *at a specific moment in time. This is calculated by multiplying the project&rsquo;s value for the project&rsquo;s percentage of completion (obtained from the Project Status).For example, a project with:</p>
+
+<ul>
+<li>Budget days: <strong>100</strong>;</li>
+<li>Last project status: <strong>40</strong>;</li>
+<li>Project&rsquo;s value: <strong>10 K</strong>;</li>
+</ul>
+
+<p>Has a production value of: <strong>10 K * ( ( 100 - 40 ) / 100 )</strong>.</p>
 
 <h3 id="roardunner-index-rri">Roardunner Index (RRI)</h3>
 

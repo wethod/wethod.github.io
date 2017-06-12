@@ -17,9 +17,9 @@
       <pubDate>Mon, 22 May 2017 17:31:29 +0200</pubDate>
       
       <guid>http://support.wethod.com/glossary/index/</guid>
-      <description>Pipeline Value This is the total estimated value of the pipeline&amp;rsquo;s projects, weighted on their probability.
+      <description>Pipeline Value This value indicates the total estimated value of the pipeline&amp;rsquo;s projects, weighted on their probability.
 Project Status Valore che indica la stima a finire per un certo progetto. In pratica esprime il numero di giorni mancanti alla fine del progetto.
-Production Value Valore che indica &amp;ldquo;quanto un progetto ha prodotto&amp;rdquo; ovvero la percentuale di completamento * il valore del progetto. Ad esempio: un progetto con project status al di 40 su 100 giornate (gliene mancano 40 alla fine) e con valore 10K avrà production value = 10K * ((100 - 40)/100).</description>
+Production Value This value indicates *how much a project has produced *at a specific moment in time. This is calculated by multiplying the project&amp;rsquo;s value for the project&amp;rsquo;s percentage of completion (obtained from the Project Status).</description>
     </item>
     
   </channel>
