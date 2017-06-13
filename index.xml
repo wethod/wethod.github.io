@@ -143,7 +143,7 @@ Company Here you can configure your company by setting:
       <guid>http://support.wethod.com/glossary/index/</guid>
       <description>Budget Consumption This value indicates, for a project, the percentage of the budget days already used. This is calculated by comparing timesheet hours and budget days.
 Expected Value This value indicates the estimated value of a project, weighted on its probability.
-Production Value This value indicates *how much a project has produced *at a specific moment in time. This is calculated by multiplying the project&amp;rsquo;s value for the project&amp;rsquo;s percentage of completion (obtained from the Project Status).</description>
+Production Value This value indicates how much a project has produced at a specific moment in time. This is calculated by multiplying the project&amp;rsquo;s value for the project&amp;rsquo;s percentage of completion (obtained from the Project Status).</description>
     </item>
     
     <item>
