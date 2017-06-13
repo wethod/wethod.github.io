@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Alerts on WETHOD / Learning Center</title>
+    <link>http://support.wethod.com/alerts/</link>
+    <description>Recent content in Alerts on WETHOD / Learning Center</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 13 Jun 2017 18:08:29 +0200</lastBuildDate>
+    
+	<atom:link href="http://support.wethod.com/alerts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Alerts</title>
+      <link>http://support.wethod.com/alerts/index/</link>
+      <pubDate>Tue, 13 Jun 2017 18:08:29 +0200</pubDate>
+      
+      <guid>http://support.wethod.com/alerts/index/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
