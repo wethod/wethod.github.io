@@ -106,10 +106,9 @@ Budget Consumption / Project Status This section shows the budget consumption of
       <pubDate>Wed, 24 May 2017 12:06:54 +0200</pubDate>
       
       <guid>http://support.wethod.com/finance/index/</guid>
-      <description>Overview Orders In this section you can view all your orders and create new ones. Once you click on the &amp;ldquo;Send&amp;rdquo; button, an e-mail is sent to the address inserted in the Email Bot section.
-You can create orders only for projects you have already provided with job order and budget.
-Order&amp;rsquo;s value must be lower or equal then the external costs entered in the budget.
-Invoices In this section you can view all your invoices and create new ones.</description>
+      <description>Orders In this section you can view all your orders and create new ones. Once you click on the &amp;ldquo;Send&amp;rdquo; button, an e-mail is sent to the address provided in the Email Bot section.
+To create a order:
+ Click on the top left &amp;ldquo;+ order&amp;rdquo; button and an empty order will be added to the list; Compile the order&amp;rsquo;s empty fields; Click on the &amp;ldquo;create&amp;rdquo; button.  You can create orders only for projects you have already provided with job order and budget.</description>
     </item>
     
     <item>
