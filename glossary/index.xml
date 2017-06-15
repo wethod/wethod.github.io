@@ -17,9 +17,11 @@
       <pubDate>Mon, 22 May 2017 17:31:29 +0200</pubDate>
       
       <guid>http://support.wethod.com/glossary/index/</guid>
-      <description>Absolute Project Progress This value indicates how much a project is advanced since its beginning, it&amp;rsquo;s calculated as the difference between the budget&amp;rsquo;s days and the last project status.
-Budget Consumption This value indicates, for a project, the percentage of the budget days already used. This is calculated by comparing timesheet hours and budget days.
-Expected Value This value indicates the estimated value of a project, weighted on its probability.</description>
+      <description>Absolute Project Progress This value indicates how much a project is advanced since its beginning. For example, a project with:
+ Budget days: 200;
+ Last project status: 40;
+  Has an absolute project progress of: ( 200 - 40 ) / 200 * 100 = 80 % .
+Budget Consumption This value indicates, for a project, the percentage of the budget days already used. This is calculated by comparing timesheet hours and budget days.</description>
     </item>
     
   </channel>
