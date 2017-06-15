@@ -40,7 +40,9 @@ Widgets Add a new widget to your dashboard is so easy: just click on the &amp;ld
       
       <guid>http://support.wethod.com/alerts/index/</guid>
       <description>Overview This widget shows all the inconsistencies regarding the user. Each alert has a priority (indicated by its color):
- Red alerts have an high priority and must be solved as soon as possible; Yellow alerts have a low priority and can be seen more as advices.  Hovering on an alert will display a description of the problem.
+ Red alerts have an high priority and must be solved as soon as possible;
+ Yellow alerts have a low priority and can be seen more as advices.
+  Hovering on an alert will display a description of the problem.
 Description Unsent Order This alert is shown to the project manager who have created orders not sent yet.</description>
     </item>
     
