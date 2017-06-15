@@ -474,15 +474,23 @@
 
 <h3 id="planning-or-timesheet-but-probability-90">Planning or Timesheet but Probability &lt; 90%</h3>
 
-<p>This alert is shown to the project manager who have created orders not sent yet.</p>
+<p>This alert is shown if you&rsquo;re manager of a project with probability lower than 90% but which already have a planning and/or timesheets.</p>
 
 <h3 id="planning-project-status">Planning &gt; Project Status</h3>
 
-<p>This alert is shown to the project manager who have created orders not sent yet.</p>
+<p>This alert is shown if you&rsquo;re manager of a project for which are planned (in the future) more days than the last project status days. What&rsquo;s the meaning of requiring more resources than what you really need?</p>
 
 <h3 id="client-po-project-probablity">Client PO / Project Probablity</h3>
 
-<p>This alert is shown to the project manager who have created orders not sent yet.</p>
+<p>This alert is shown to the project manager if one of the following situations happens:</p>
+
+<ul>
+<li><p>Project has probability of 100% but there isn&rsquo;t a Purchase Order set for the project;</p></li>
+
+<li><p>A Purchase Order is set for the project despite its probability is lower than 100%.</p></li>
+</ul>
+
+<p>A Purchase Order is needed to emit invoices, so it&rsquo;s strange that a 100% probability project hasn&rsquo;t a Purchase Order or vice versa.</p>
 
 <h3 id="project-start">Project Start</h3>
 
