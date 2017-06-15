@@ -497,8 +497,9 @@
 <p>This alert is shown to the project manager if one of the following situations happens:</p>
 
 <ul>
-<li>A project is started but its probability is lower than 90%;</li>
-<li>A project is going to start during the current month but its probability is lower than 75%.</li>
+<li><p>A project is started but its probability is lower than 90%;</p></li>
+
+<li><p>A project is going to start during the current month but its probability is lower than 75%.</p></li>
 </ul>
 
 <p>A project is considered started if it has a start date in the past or if someone has submitted timesheets for it.</p>
@@ -510,6 +511,49 @@
 <h3 id="timesheet">Timesheet</h3>
 
 <p>This alert is shown to the employee of a project who forgot to submit the timesheet in the last two weeks.</p>
+
+<h3 id="invoice-plan-budget-final-net-price">Invoice Plan / Budget Final Net Price</h3>
+
+<p>This alert is shown to the manager of a project if the following situations happens:</p>
+
+<ul>
+<li><p>The invoice plan is set as manual;</p></li>
+
+<li><p>Invoice plan&rsquo;s total amount and final net price mismatch.</p></li>
+</ul>
+
+<p>This can happen when you edit budget after setting invoice plan as manual.</p>
+
+<h3 id="job-order-project-probability">Job Order / Project Probability</h3>
+
+<p>This alert is shown to the manager of a project if one of the following situations happens:</p>
+
+<ul>
+<li>The probability si greater than 90% but the project has&rsquo;t a job order;</li>
+<li>The probability si lower than 90% and the project has a job order.</li>
+</ul>
+
+<p>Only active project must have a job order.</p>
+
+<h3 id="planning-project-end">Planning / Project End</h3>
+
+<p>This alert is shown to the manager of a project for which are planned people somewhen after the project&rsquo;s end date.</p>
+
+<h3 id="planning-budget-status">Planning / Budget Status</h3>
+
+<p>This alert is shown to the manager of a project which has future planned resources but hasn&rsquo;t an approved budget.</p>
+
+<p>You cannot plan resources if you haven&rsquo;t a budget which gives you the right to do it.</p>
+
+<h3 id="non-chargeable-budget-final-net-price">Non Chargeable / Budget Final Net Price</h3>
+
+<p>This alert is shown to the manager of a non chargeable project which has a final net price greater than zero. A non chargeable project can&rsquo;t have revenues by definition.</p>
+
+<h3 id="empty-planning">Empty Planning</h3>
+
+<p>This alert is shown to you if you&rsquo;re not planned for tomorrow (Saturday and Sunday excluded).</p>
+
+<h3 id="orders-external-cost">Orders / External Cost</h3>
 
 			
 			<aside class="copyright" role="note"></aside>
