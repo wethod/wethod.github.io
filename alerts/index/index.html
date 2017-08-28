@@ -423,74 +423,121 @@
 <p>This widget shows all the inconsistencies regarding the user. Each alert has a priority (indicated by its color):</p>
 
 <ul>
-<li><p>Red alerts have an high priority and must be solved as soon as possible;</p></li>
+<li><p><em>Red</em> alerts have an high priority and must be solved as soon as possible;</p></li>
 
-<li><p>Yellow alerts have a low priority and can be seen more as advices.</p></li>
+<li><p><em>Yellow</em> alerts have a low priority and can be seen more as advices.</p></li>
 </ul>
 
-<p>Hovering on an alert will display a description of the problem.</p>
+<p>Hovering the cursor over an alert will display a description of the problem.</p>
 
-<h2 id="description">Description</h2>
+<h2 id="yellow-alerts">Yellow Alerts</h2>
 
 <h3 id="unsent-order">Unsent Order</h3>
 
 <p>This alert is shown to the project manager who have created orders not sent yet.</p>
 
+<p><em>How to solve? Just send all the waiting orders.</em></p>
+
 <h3 id="opportunity-due-date">Opportunity Due Date</h3>
 
 <p>This alert is shown to the project manager who have created an opportunity that&rsquo;s expiring in 3 days or that&rsquo;s already expired.</p>
+
+<p><em>How to solve? Transform the opportunity into a project by clicking on the &ldquo;+ PROJECT&rdquo;  button placed near the opportunity itself. Otherwise, if the opportunity isn&rsquo;t ready to became a project, just change the date in the opportunity&rsquo;s &ldquo;Next Step&rdquo; field. </em></p>
 
 <h3 id="project-probability-invoice-plan">Project Probability / Invoice Plan</h3>
 
 <p>This alert is shown to the project manager of a project which has:</p>
 
 <ul>
-<li><p>An invoice plan manually set;</p></li>
+<li><p><strong>An <a href="http://support.wethod.com/pipeline/index/#invoice plan">invoice plan</a> manually set;</strong></p></li>
 
-<li><p>A probability lower than 90%.</p></li>
+<li><p><strong>A probability lower than 90%.</strong></p></li>
 </ul>
+
+<p>A project is considered active when its probability reaches 90%, only when this happens makes sense to think about an invoice plan.</p>
+
+<p><em>How to solve? Leave the invoice plan set to &ldquo;Auto&rdquo; until your ptoject hits the 90% of probability.</em></p>
 
 <h3 id="budget-submitted">Budget Submitted</h3>
 
 <p>This alert is shown if you have the permission to approve budgets and there&rsquo;s a budget waiting for approval.</p>
 
+<p><em>How to solve? Approve the waiting budget.</em></p>
+
 <h3 id="budget-consumption-too-fast">Budget Consumption Too Fast</h3>
 
-<p>This alert is shown if you&rsquo;re manager of a project where the <a href="http://support.wethod.com/reports/index/#budget-consumption">budget consumption</a> is more than 20% greater than the project&rsquo;s <a href="http://support.wethod.com/glossary/index/#absolute-project-progress">progress</a>.</p>
+<p>This alert is shown if you&rsquo;re manager of a project where the <a href="http://support.wethod.com/glossary/index/##budget-consumption">budget consumption</a> is more than 20% greater than the project&rsquo;s <a href="http://support.wethod.com/glossary/index/#absolute-project-progress">progress</a>.</p>
+
+<img src="http://support.wethod.com/uploads/2017/08/28/budget_cons_too_fast.png" class="figure--center"></img>
+
+<p>This means you&rsquo;re consuming too many days and, if you don&rsquo;t fix this situation, you will be soon run out of budget days.
+This can have two main causes:</p>
+
+<ul>
+<li><p>Somebody has done some wrong timesheet;</p></li>
+
+<li><p>The project manager has done an incorrect project status.</p></li>
+</ul>
+
+<p><em>How to solve? Talk to your teammates in order to find why timesheets and project status differ so much. Once you&rsquo;ve find the problem, edit the timesheet or the project status which is causing it.</em></p>
 
 <h3 id="budget-consumption-too-slow">Budget Consumption Too Slow</h3>
 
 <p>This alert is shown if you&rsquo;re manager of a project where the <a href="http://support.wethod.com/reports/index/#budget-consumption">budget consumption</a> is more than 20% lower than the project&rsquo;s <a href="http://support.wethod.com/glossary/index/#absolute-project-progress">progress</a>.</p>
 
+<img src="http://support.wethod.com/uploads/2017/08/28/budget_cons_too_slow.png" class="figure--center"></img>
+
+<p>This means you&rsquo;ve planned too many days and, if you don&rsquo;t fix this situation, you will reach the end of the project with a lot of budget days left.
+This can have two main causes:</p>
+
+<ul>
+<li><p>Somebody has done some wrong timesheet;</p></li>
+
+<li><p>The project manager has done an incorrect project status.</p></li>
+</ul>
+
+<p><em>How to solve? Talk to your teammates in order to find why timesheets and project status differ so much. Once you&rsquo;ve find the problem, edit the timesheet or the project status which is causing it.</em></p>
+
 <h3 id="project-status-archived">Project Status / Archived</h3>
 
 <p>This alert is shown if you&rsquo;re manager of a finished project which isn&rsquo;t already been archived.</p>
 
-<p>It&rsquo;s a good practice to archive your projects when their project status reach 0.</p>
+<p><em>How to solve? Archive your projects when their project status reach 0. </em></p>
 
 <h3 id="project-probability-budget">Project Probability / Budget</h3>
 
-<p>This alert is shown if you&rsquo;re manager of a project with probability greater than 50% but with budget in draft or missing.<span style="font-size: 1rem;">&nbsp;</span></p>
+<p>This alert is shown if you&rsquo;re manager of a project with probability greater than 50% and with budget missing or still in draft.</p>
+
+<p><em>How to solve?  Lower the probability or ask your supervisor to approve the budget.</em></p>
 
 <h3 id="planning-or-timesheet-but-probability-90">Planning or Timesheet but Probability &lt; 90%</h3>
 
-<p>This alert is shown if you&rsquo;re manager of a project with probability lower than 90% but which already have a planning and/or timesheets.</p>
+<p>This alert is shown if you&rsquo;re manager of a project with probability lower than 90% but which already have planning and/or timesheets assigned.</p>
+
+<p>Remember that a project is considered active only if it has a probability greater or equal to 90%.
+For a project that is not active yet, there&rsquo;s no need to plan resources or to register a timesheet.</p>
+
+<p><em>How to solve? Increase project&rsquo;s probability or delete plannend hours and timesheets for the project itself. </em></p>
 
 <h3 id="planning-project-status">Planning &gt; Project Status</h3>
 
 <p>This alert is shown if you&rsquo;re manager of a project for which are planned (in the future) more days than the last project status days. What&rsquo;s the meaning of requiring more resources than what you really need?</p>
+
+<p><em>How to solve? Make project&rsquo;s planning and last project status to be consistent each other.</em></p>
 
 <h3 id="client-po">Client PO</h3>
 
 <p>This alert is shown to the project manager if one of the following situations happens:</p>
 
 <ul>
-<li><p>Project has probability of 100% or has some Invoices but there isn&rsquo;t a Purchase Order set for the project;</p></li>
+<li><p>Project has probability of 100% and there isn&rsquo;t a Purchase Order set for the project;</p></li>
+
+<li><p>Project has some invoices but there isn&rsquo;t a Purchase Order set for the project;</p></li>
 
 <li><p>A Purchase Order is set for the project despite its probability is lower than 100%.</p></li>
 </ul>
 
-<p>A Purchase Order is needed to emit invoices, so it&rsquo;s strange that a 100% probability project hasn&rsquo;t a Purchase Order or vice versa.</p>
+<p><em>How to solve? Add a PO once a project reach 100% of probability, add invoices only to projects that already have a PO.</em></p>
 
 <h3 id="project-start">Project Start</h3>
 
@@ -502,69 +549,94 @@
 <li><p>A project is going to start during the current month but its probability is lower than 75%.</p></li>
 </ul>
 
-<p>A project is considered started if it has a start date in the past or if someone has submitted timesheets for it.</p>
+<p>Remember: a project is considered started if it has a start date in the past or if someone has submitted timesheets for it.</p>
+
+<p><em>How to solve? If a project is going to start during the current month, increase its probability to 90%. Change the start date otherwise. </em></p>
 
 <h3 id="project-status">Project Status</h3>
 
-<p>This alert is shown to the manager of a project who forgot to update the project status in the last two weeks.</p>
+<p>This alert is shown if you&rsquo;re manager and you&rsquo;ve forgot to update a project&rsquo;s status in the last two weeks.
+A project status is required for a given week only if at least a timesheet has been submitted for that week.</p>
+
+<p><em>How to solve? Provide the missing project statuses.</em></p>
 
 <h3 id="timesheet">Timesheet</h3>
 
 <p>This alert is shown to the employee of a project who forgot to submit the timesheet in the last two weeks.</p>
 
+<p><em>How to solve? Do the missing timesheets.</em></p>
+
+<h2 id="red-alerts">Red Alerts</h2>
+
 <h3 id="project-duration-timesheet">Project Duration / Timesheet</h3>
 
-<p>This alert is shown to the manager of a project which has some timesheets done before the start date or after the end date. Why are your teammates doing timesheets for a non active project?</p>
+<p>This alert is shown to the manager of a project which has some timesheets done before the start date or after the end date.</p>
+
+<p><em>How to solve? Delete the timesheets done before the start date or after the end date. Otherwise extend the project duration so it include all the project status done.</em></p>
 
 <h3 id="invoice-plan-budget-final-net-price">Invoice Plan / Budget Final Net Price</h3>
 
-<p>This alert is shown to the manager of a project if the following situations happens:</p>
+<p>This alert is shown to the manager of a project if the following situations happen:</p>
 
 <ul>
 <li><p>The invoice plan is set as manual;</p></li>
 
-<li><p>Invoice plan&rsquo;s total amount and final net price mismatch.</p></li>
+<li><p>Invoice plan&rsquo;s total amount and final net price  mismatch.</p></li>
 </ul>
 
-<p>This can happen when you edit budget after setting invoice plan as manual.</p>
+<p>This can happen when you edit a budget after setting invoice plan as manual.</p>
+
+<p><em>How to solve? Make invoice plan and final net price match.</em></p>
 
 <h3 id="job-order-project-probability">Job Order / Project Probability</h3>
 
 <p>This alert is shown to the manager of a project if one of the following situations happens:</p>
 
 <ul>
-<li><p>The probability si greater than 90% but the project has&rsquo;t a job order;</p></li>
+<li><p>The probability is greater than 90% but the project hasn&rsquo;t a job order;</p></li>
 
 <li><p>The probability si lower than 90% and the project has a job order.</p></li>
 </ul>
 
-<p>Only active project must have a <a href="http://support.wethod.com/glossary/index/#job-order">job order</a>.</p>
+<p>Remind: only active projects (which means projects with a probability greater or equal to 90%) must have a <a href="http://support.wethod.com/glossary/index/#job-order">job order</a></p>
 
-<h3 id="job-order-used-multiple-times">Job Order used multiple times</h3>
-
-<p>This alert shows that the Job Order of a Project is used multiple times by different Projects.</p>
+<p><em>How to solve? Assign job order only to active projects.</em></p>
 
 <h3 id="planning-project-end">Planning / Project End</h3>
 
-<p>This alert is shown to the manager of a project for which are planned people somewhen after the project&rsquo;s end date.</p>
+<p>This alert is shown to the manager of a project for which are planned people even after the project&rsquo;s end date.</p>
+
+<p>In other words: the project is over, you have no reason to plan people on it.</p>
+
+<p><em>How to solve? Remove planned people assigned to ended projects.</em></p>
 
 <h3 id="planning-budget-status">Planning / Budget Status</h3>
 
-<p>This alert is shown to the manager of a project which has future planned resources but hasn&rsquo;t an approved budget.</p>
+<p>This alert is shown to the manager of a project which has future planned resources but hasn&rsquo;t an approved <a href="http://support.wethod.com/budget/index/#budget">budget</a></p>
 
-<p>You cannot plan resources if you haven&rsquo;t a budget which gives you the right to do it.</p>
+<p>The planned resources say that the project is active but the budget is not approved, so the alert remind you to approve it as soon as possible.You cannot plan resources if you haven&rsquo;t a budget which gives you the right to do it.</p>
+
+<p><em>How to solve? Ask your supervisor to approve the budget.</em></p>
 
 <h3 id="non-chargeable-budget-final-net-price">Non Chargeable / Budget Final Net Price</h3>
 
-<p>This alert is shown to the manager of a non chargeable project which has a final net price greater than zero. A non chargeable project can&rsquo;t have revenues by definition.</p>
+<p>This alert is shown to the manager of a non chargeable project which has a final net price greater than zero. This is a paradox because non chargeable project can&rsquo;t have revenues by definition.</p>
+
+<p><em>How to solve? If the project is really non chargeable, set its final net price to zero. Otherwise change the project&rsquo;s type to a chargeable one.</em></p>
 
 <h3 id="empty-planning">Empty Planning</h3>
 
 <p>This alert is shown to you if you&rsquo;re not planned for tomorrow (Saturday and Sunday excluded).</p>
 
+<p><em>How to solve? Ask the project managers in your team to fill your planning.</em></p>
+
 <h3 id="orders-external-cost">Orders / External Cost</h3>
 
-<p>This alert is shown to the manager of a project where the sum of orders, travels and expenses go over the budget external costs. You don&rsquo;t want to spend money you don&rsquo;t have, right?</p>
+<p>This alert is shown to the manager of a project where the sum of orders, travels and expenses go over the <a href="http://support.wethod.com/budget/index/#budget external cost">budget external cost</a>.</p>
+
+<p>You don&rsquo;t want to spend money you don&rsquo;t have, do you? You do not have to go over the budget!</p>
+
+<p><em>How to solve? Review your expenses or increase the external cost for yor project.</em></p>
 
 			
 			<aside class="copyright" role="note"></aside>
