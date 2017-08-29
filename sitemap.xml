@@ -67,6 +67,11 @@
   </url>
   
   <url>
+    <loc>http://support.wethod.com/payroll/index/</loc>
+    <lastmod>2017-08-29T10:41:03+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://support.wethod.com/general-admin/index/</loc>
     <lastmod>2017-08-29T10:24:40+02:00</lastmod>
   </url>
@@ -159,6 +164,12 @@
   <url>
     <loc>http://support.wethod.com/marketing/</loc>
     <lastmod>2017-08-29T10:24:54+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://support.wethod.com/payroll/</loc>
+    <lastmod>2017-08-29T10:41:03+02:00</lastmod>
     <priority>0</priority>
   </url>
   
