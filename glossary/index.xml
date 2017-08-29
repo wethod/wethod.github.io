@@ -21,7 +21,8 @@
  Budget days: 200;
  Last project status: 40;
   Has an absolute project progress of: ( 200 - 40 ) / 200 * 100 = 80 % .
-Budget Consumption This value indicates, for a project, the percentage of the budget days already used. This is calculated by comparing timesheet hours and budget days.</description>
+Bluesky It represents the value you are missing in order to reach an hypothetical value previously decided.
+It is decided by the Owner or by the users that have the permissions.</description>
     </item>
     
   </channel>
