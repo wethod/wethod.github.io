@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>External-costs on WETHOD / Learning Center</title>
+    <link>http://support.wethod.com/external-costs/</link>
+    <description>Recent content in External-costs on WETHOD / Learning Center</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 29 Aug 2017 10:24:26 +0200</lastBuildDate>
+    
+	<atom:link href="http://support.wethod.com/external-costs/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>External Costs</title>
+      <link>http://support.wethod.com/external-costs/index/</link>
+      <pubDate>Tue, 29 Aug 2017 10:24:26 +0200</pubDate>
+      
+      <guid>http://support.wethod.com/external-costs/index/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

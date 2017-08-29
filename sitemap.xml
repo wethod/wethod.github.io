@@ -52,6 +52,31 @@
   </url>
   
   <url>
+    <loc>http://support.wethod.com/profit-loss/index/</loc>
+    <lastmod>2017-08-29T10:23:59+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://support.wethod.com/revenues/index/</loc>
+    <lastmod>2017-08-29T10:24:15+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://support.wethod.com/external-costs/index/</loc>
+    <lastmod>2017-08-29T10:24:26+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://support.wethod.com/general-admin/index/</loc>
+    <lastmod>2017-08-29T10:24:40+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://support.wethod.com/marketing/index/</loc>
+    <lastmod>2017-08-29T10:24:54+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://support.wethod.com/faq/index/</loc>
     <lastmod>2017-05-22T17:08:16+02:00</lastmod>
   </url>
@@ -90,6 +115,12 @@
   </url>
   
   <url>
+    <loc>http://support.wethod.com/external-costs/</loc>
+    <lastmod>2017-08-29T10:24:26+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://support.wethod.com/faq/</loc>
     <lastmod>2017-05-22T17:08:16+02:00</lastmod>
     <priority>0</priority>
@@ -108,6 +139,12 @@
   </url>
   
   <url>
+    <loc>http://support.wethod.com/general-admin/</loc>
+    <lastmod>2017-08-29T10:24:40+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://support.wethod.com/getting-started/</loc>
     <lastmod>2016-03-09T00:11:02+01:00</lastmod>
     <priority>0</priority>
@@ -116,6 +153,12 @@
   <url>
     <loc>http://support.wethod.com/glossary/</loc>
     <lastmod>2017-05-22T17:31:29+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://support.wethod.com/marketing/</loc>
+    <lastmod>2017-08-29T10:24:54+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -132,8 +175,20 @@
   </url>
   
   <url>
+    <loc>http://support.wethod.com/profit-loss/</loc>
+    <lastmod>2017-08-29T10:23:59+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://support.wethod.com/reports/</loc>
     <lastmod>2017-05-24T12:01:45+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://support.wethod.com/revenues/</loc>
+    <lastmod>2017-08-29T10:24:15+02:00</lastmod>
     <priority>0</priority>
   </url>
   

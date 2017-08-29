@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Revenues on WETHOD / Learning Center</title>
+    <link>http://support.wethod.com/revenues/</link>
+    <description>Recent content in Revenues on WETHOD / Learning Center</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 29 Aug 2017 10:24:15 +0200</lastBuildDate>
+    
+	<atom:link href="http://support.wethod.com/revenues/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Revenues</title>
+      <link>http://support.wethod.com/revenues/index/</link>
+      <pubDate>Tue, 29 Aug 2017 10:24:15 +0200</pubDate>
+      
+      <guid>http://support.wethod.com/revenues/index/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
