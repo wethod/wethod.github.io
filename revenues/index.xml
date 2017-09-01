@@ -17,10 +17,7 @@
       <pubDate>Tue, 29 Aug 2017 10:24:15 +0200</pubDate>
       
       <guid>http://support.wethod.com/revenues/index/</guid>
-      <description>Overview Revenues are the sum of the values of the projects in the Pipeline distributed among the months according to their probability and considering the Invoice Plan.
-In this section the projects of the Pipeline considering their probability and duration are listed showing the value they have per month.
-The Value is the sum of the actual values of all the projects per month and year.
-Over the Value there is what we call the Bluesky which represents the hypothetical value that a project will have, it is decided by the Owner or by the users that have the permissions.</description>
+      <description>Overview Here you can see the value of your projects for each month of the current year. The monthly distribution is achieved by looking at the invoice plan of every project; for example: if a project is evaluated 10 K with 3 K planned to be invoiced in January and 7 K planned to be invoiced in February, the value of this project will contribute with 3 K to the January&amp;rsquo;s revenues and with 7 K to February&amp;rsquo;s revenues.</description>
     </item>
     
   </channel>
