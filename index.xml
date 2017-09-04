@@ -192,12 +192,11 @@ Each Employee has at least a segment which represents a work contract between th
       <pubDate>Tue, 29 Aug 2017 10:24:40 +0200</pubDate>
       
       <guid>http://support.wethod.com/general-admin/index/</guid>
-      <description> Overview Here you can list all your general and administratrion costs. This is the right place to put all that costs which aren&amp;rsquo;t about external costs, payroll or marketing.
+      <description>Overview Here you can list all your general and administratrion costs. This is the right place to put all that costs which aren&amp;rsquo;t about external costs, payroll or marketing.
 Each cost has:
  Start month
  End month
- Net monthly
-   </description>
+  *</description>
     </item>
     
     <item>
