@@ -19,7 +19,10 @@
       <guid>http://support.wethod.com/marketing/index/</guid>
       <description> Overview This is the right place to put all that costs related to the promotion of your products.
 Each cost has:
- Start month End month Net monthly   </description>
+ Start month
+ End month
+ Net monthly
+  </description>
     </item>
     
   </channel>
