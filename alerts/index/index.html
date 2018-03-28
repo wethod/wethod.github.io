@@ -545,47 +545,53 @@
 
 <h2 id="overview">Overview</h2>
 
-<p>This widget shows all the inconsistencies regarding the user. Each alert has a priority (indicated by its color):</p>
+<p>An alert is an inconsistency regarding the user. Each alert has a priority (indicated by its color):</p>
 
 <ul>
 <li><em>Red</em> alerts have an high priority and must be solved as soon as possible;</li>
 <li><em>Yellow</em> alerts have a low priority and can be seen more as advices.</li>
 </ul>
 
-<p>Hovering the cursor over an alert will display a description of the problem.</p>
+<p>Positioning the cursor over an alert will display a description of the problem.</p>
 
-<h2 id="yellow-alerts">Yellow Alerts</h2>
+<p>Some alerts depends on parameters that you can customize using the <a href="http://support.wethod.com/settings/index/#alerts-engine">Alerts Engine</a>.</p>
 
 <h3 id="unsent-order">Unsent Order</h3>
 
-<p>This alert is shown to the project manager who has created  the orders not  to be sent yet.</p>
+<p>This alert is shown to the project manager who has created the orders which need to be sent.</p>
 
-<p><em>How to solve it? Just send all the waiting orders.</em></p>
+<p><em>How to solve it?</em> Just send all the waiting orders.</p>
 
-<h3 id="opportunity-due-date">Opportunity Due Date</h3>
+<h3 id="expiring-opportunity">Expiring Opportunity</h3>
 
-<p>This alert is shown to the project manager who have created an opportunity that&rsquo;s expiring in 3 days or that&rsquo;s already expired.</p>
+<p>This alert is shown to the project manager who have created an opportunity that&rsquo;s expiring in 3 days.</p>
 
-<p>*How to solve it? Transform the opportunity into a project by clicking on the &ldquo;+ PROJECT&rdquo;  button placed near the opportunity itself. Otherwise, if the opportunity isn&rsquo;t ready to became a project, just change the date in the opportunity&rsquo;s &ldquo;Next Step&rdquo; field. *</p>
+<p><em>How to solve it?</em> Transform the opportunity into a project by clicking on the &ldquo;+ PROJECT&rdquo;  button placed near the opportunity itself. Otherwise, if the opportunity isn&rsquo;t ready to became a project, just change the date in the opportunity&rsquo;s &ldquo;Next Step&rdquo; field.</p>
+
+<h3 id="expired-opportunity">Expired Opportunity</h3>
+
+<p>This alert is shown to the project manager who have created an opportunity that&rsquo;s already expired.</p>
+
+<p><em>How to solve it?</em> Transform the opportunity into a project by clicking on the &ldquo;+ PROJECT&rdquo;  button placed near the opportunity itself. Otherwise, if the opportunity isn&rsquo;t ready to became a project, just change the date in the opportunity&rsquo;s &ldquo;Next Step&rdquo; field.</p>
 
 <h3 id="project-probability-invoice-plan">Project Probability / Invoice Plan</h3>
 
 <p>This alert is shown to the project manager of a project which has:</p>
 
 <ul>
-<li><strong>An <a href="http://support.wethod.com/pipeline/index/#invoice plan">invoice plan</a> manually set;</strong></li>
-<li><strong>A probability lower than 90%.</strong></li>
+<li>An <a href="http://support.wethod.com/pipeline/index/#invoice-plan">invoice plan</a> manually set;</li>
+<li>A probability lower than 90</li>
 </ul>
 
 <p>A project is considered active when its probability reaches 90%, only when this happens makes sense to think about creating a invoice plan.</p>
 
-<p><em>How to solve it</em>? Leave the invoice plan set to &ldquo;Auto&rdquo; until your ptoject hits the 90% of probability.</p>
+<p><em>How to solve it?</em> Leave the invoice plan set to &ldquo;Auto&rdquo; until your project hits the 90% of probability.</p>
 
 <h3 id="budget-submitted">Budget Submitted</h3>
 
 <p>This alert is shown if you have the permission to approve budgets and there&rsquo;s a budget waiting for approval.</p>
 
-<p><em>How to solve it</em>? Approve the waiting budget.</p>
+<p><em>How to solve it?</em> Approve the waiting budget.</p>
 
 <h3 id="budget-consumption-too-fast">Budget Consumption Too Fast</h3>
 
@@ -601,7 +607,7 @@ This can have two main causes:</p>
 <li>The project manager has done an incorrect project status.</li>
 </ul>
 
-<p><em>How to solve it</em>? Talk to your teammates in order to find why timesheets and project status differ so much. Once you&rsquo;ve find the problem, edit the timesheet or the project status which is causing it.</p>
+<p><em>How to solve it?</em> Talk to your teammates in order to find why timesheets and project status differ so much. Once you&rsquo;ve find the problem, edit the timesheet or the project status which is causing it.</p>
 
 <h3 id="budget-consumption-too-slow">Budget Consumption Too Slow</h3>
 
@@ -617,106 +623,110 @@ This can have two main causes:</p>
 <li>The project manager has done an incorrect project status.</li>
 </ul>
 
-<p><em>How to solve it? Talk to your teammates in order to find why timesheets and project status differ so much. Once you&rsquo;ve find the problem, edit the timesheet or the project status which is causing it.</em></p>
+<p><em>How to solve it?</em> Talk to your teammates in order to find why timesheets and project status differ so much. Once you&rsquo;ve find the problem, edit the timesheet or the project status which is causing it.</p>
 
 <h3 id="project-status-archived">Project Status / Archived</h3>
 
 <p>This alert is shown if you&rsquo;re manager of a finished project which isn&rsquo;t already been archived.</p>
 
-<p>*How to solve it? Archive your projects when their project status reach 0. *</p>
+<p>*How to solve it?* Archive your projects when their project status reach 0.</p>
 
-<h3 id="project-probability-budget">Project Probability / Budget</h3>
+<h3 id="project-probability-missing-budget">Project Probability / Missing Budget</h3>
 
-<p>This alert is shown if you&rsquo;re manager of a project with probability greater than 50% and with budget missing or still in draft.</p>
+<p>This alert is shown if you&rsquo;re manager of a project with probability greater than 50% and with budget missing.</p>
 
-<p><em>How to solve it</em>?  Lower the probability or ask your supervisor to approve the budget.</p>
+<p><em>How to solve it?</em> Lower the probability, provide a budget or ask your supervisor to approve the budget.</p>
 
-<h3 id="planning-or-timesheet-but-probability-90">Planning or Timesheet but Probability &lt; 90%</h3>
+<h3 id="project-probability-budget-status">Project Probability / Budget Status</h3>
 
-<p>This alert is shown if you&rsquo;re manager of a project with probability lower than 90% but which already have planning and/or timesheets assigned.</p>
+<p>This alert is shown if you&rsquo;re manager of a project with probability greater than 50% and with a budget still in draft.</p>
+
+<p><em>How to solve it?</em> Lower the probability or ask your supervisor to approve the budget.</p>
+
+<h3 id="planning-or-timesheet-but-probability-is-too-low">Planning Or Timesheet But Probability Is Too Low</h3>
+
+<p>This alert is shown if you&rsquo;re manager of a project with probability lower than 90% but which already has planning and/or timesheets assigned.</p>
 
 <p>Remember that a project is considered active only if it has a probability greater or equal to 90%.
 For a project that is not active yet, there&rsquo;s no need to plan resources or to register a timesheet.</p>
 
-<p>*How to solve it? Increase project&rsquo;s probability or delete plannend hours and timesheets for the project itself. *</p>
+<p><em>How to solve it?</em> Increase project&rsquo;s probability or delete plannend hours and timesheets for the project itself.</p>
 
 <h3 id="planning-project-status">Planning &gt; Project Status</h3>
 
 <p>This alert is shown if you&rsquo;re manager of a project for which are planned (in the future) more days than the last project status days. What&rsquo;s the meaning of requiring more resources than what you really need?</p>
 
-<p><em>How to solve it</em>? Make project&rsquo;s planning and last project status to be consistent each other.</p>
+<p><em>How to solve it?</em> Make project&rsquo;s planning and last project status to be consistent each other.</p>
 
 <h3 id="client-po">Client PO</h3>
 
 <p>This alert is shown to the project manager if one of the following situations happens:</p>
 
 <ul>
-<li>Project has probability of 100% and there isn&rsquo;t a Purchase Order set for the project;</li>
-<li>Project has some invoices but there isn&rsquo;t a Purchase Order set for the project;</li>
-<li>A Purchase Order is set for the project despite its probability is lower than 100%.</li>
+<li>Project has probability of 100% and there isn&rsquo;t a Purchase Order set for the project</li>
+<li>Project has some invoices but there isn&rsquo;t a Purchase Order set for the project</li>
+<li>A Purchase Order is set for the project despite its probability is lower than 100%</li>
 </ul>
 
-<p><em>How to solve it</em>? Add a PO once a project reach 100% of probability, add invoices only to projects that already have a PO.</p>
+<p><em>How to solve it?</em> Add a PO once a project reach 100% of probability, add invoices only to projects that already have a PO.</p>
 
 <h3 id="project-start">Project Start</h3>
 
 <p>This alert is shown to the project manager if one of the following situations happens:</p>
 
 <ul>
-<li>A project is started but its probability is lower than 90%;</li>
-<li>A project is going to start during the current month but its probability is lower than 75%.</li>
+<li>A project is started but its probability is lower than 90%</li>
+<li>A project is going to start during the current month but its probability is lower than 75%</li>
 </ul>
 
 <p>Remember: a project is considered started if it has a start date in the past or if someone has submitted timesheets for it.</p>
 
-<p>*How to solve it? If a project is going to start during the current month, increase its probability to 90%. Change the start date otherwise. *</p>
+<p>*How to solve it?* If a project is going to start during the current month, increase its probability to 90%. Change the start date otherwise.</p>
 
 <h3 id="project-status">Project Status</h3>
 
 <p>This alert is shown if you&rsquo;re manager and you&rsquo;ve forgot to update a project&rsquo;s status in the last two weeks.
 A project status is required for a given week only if at least a timesheet has been submitted for that week.</p>
 
-<p><em>How to solve it</em>? Provide the missing project statuses.</p>
+<p><em>How to solve it?</em> Provide the missing project statuses.</p>
 
 <h3 id="timesheet">Timesheet</h3>
 
 <p>This alert is shown to the employee of a project who forgot to submit the timesheet in the last two weeks.</p>
 
-<p><em>How to solve it</em>? Do the missing timesheets.</p>
-
-<h2 id="red-alerts">Red Alerts</h2>
+<p>_How to solve it?_ Provide the missing timesheets.</p>
 
 <h3 id="project-duration-timesheet">Project Duration / Timesheet</h3>
 
 <p>This alert is shown to the manager of a project which has some timesheets done before the start date or after the end date.</p>
 
-<p><em>How to solve it</em>? Delete the timesheets done before the start date or after the end date. Otherwise extend the project duration _so it will include_ all the project status done.</p>
+<p><em>How to solve it?</em> Delete the timesheets done before the start date or after the end date. Otherwise extend the project duration _so it will include_ all the project status done.</p>
 
 <h3 id="invoice-plan-budget-final-net-price">Invoice Plan / Budget Final Net Price</h3>
 
 <p>This alert is shown to the manager of a project if the following situations happen:</p>
 
 <ul>
-<li>The invoice plan is set as manual;</li>
-<li>Invoice plan&rsquo;s total amount and final net price  mismatch.</li>
+<li>The invoice plan is set as manual</li>
+<li>Invoice plan&rsquo;s total amount and final net price  mismatch</li>
 </ul>
 
 <p>This can happen when you edit a budget after setting invoice plan as manual.</p>
 
-<p><em>How to solve it</em>? Make invoice plan and final net price match.</p>
+<p><em>How to solve it?</em> Make invoice plan and final net price match.</p>
 
 <h3 id="job-order-project-probability">Job Order / Project Probability</h3>
 
 <p>This alert is shown to the manager of a project if one of the following situations happens:</p>
 
 <ul>
-<li>The probability is greater than 90% but the project hasn&rsquo;t a job order;</li>
-<li>The probability si lower than 90% and the project has a job order.</li>
+<li>The probability is greater than 90% but the project hasn&rsquo;t a job order</li>
+<li>The probability si lower than 90% and the project has a job order</li>
 </ul>
 
 <p>Remind: only active projects (which means projects with a probability greater or equal to 90%) must have a <a href="http://support.wethod.com/glossary/index/#job-order">job order</a></p>
 
-<p><em>How to solve it</em>? Assign job order only to active projects.</p>
+<p><em>How to solve it?</em> Assign job order only to active projects.</p>
 
 <h3 id="planning-project-end">Planning / Project End</h3>
 
@@ -724,7 +734,7 @@ A project status is required for a given week only if at least a timesheet has b
 
 <p>In other words: the project is over, you have no reason to plan people on it.</p>
 
-<p><em>How to solve it</em>? Remove planned people assigned to ended projects.</p>
+<p><em>How to solve it?</em> Remove planned people assigned to ended projects.</p>
 
 <h3 id="planning-budget-status">Planning / Budget Status</h3>
 
@@ -732,42 +742,61 @@ A project status is required for a given week only if at least a timesheet has b
 
 <p>The planned resources say that the project is active but the budget is not approved, so the alert will remind you to approve it as soon as possible.You cannot plan resources if you haven’t got a budget  which gives you the right to do it.</p>
 
-<p><em>How to solve it</em>? Ask your supervisor to approve the budget.</p>
+<p><em>How to solve it?</em> Ask your supervisor to approve the budget.</p>
 
 <h3 id="non-chargeable-budget-final-net-price">Non Chargeable / Budget Final Net Price</h3>
 
 <p>This alert is shown to the manager of a non chargeable project which has a final net price greater than zero. This is a paradox because non chargeable project can&rsquo;t have revenues by definition.</p>
 
-<p><em>How to solve it</em>? If the project is really non chargeable, set its final net price to zero. Otherwise change the project&rsquo;s type to a chargeable one.</p>
+<p><em>How to solve it?</em> If the project is really non chargeable, set its final net price to zero. Otherwise change the project&rsquo;s type to a chargeable one.</p>
 
 <h3 id="empty-planning">Empty Planning</h3>
 
 <p>This alert is shown to you if you&rsquo;re not planned for tomorrow (Saturday and Sunday excluded).</p>
 
-<p><em>How to solve it</em>? Ask the project managers in your team to fill your planning.</p>
+<p><em>How to solve it?</em> Ask the project managers in your team to fill your planning.</p>
 
 <h3 id="orders-external-cost">Orders / External Cost</h3>
 
-<p>This alert is shown to the manager of a project where the sum of orders, travels and expenses go over the <a href="http://support.wethod.com/budget/index/#budget external cost">budget external cost</a>.</p>
+<p>This alert is shown to the manager of a project where the sum of orders, travels and expenses go over the <a href="http://support.wethod.com/budget/index/#budget-external-cost">budget external cost</a>.</p>
 
 <p>You don&rsquo;t want to spend money you don&rsquo;t have, do you? You do not have to go over the budget!</p>
 
-<p><em>How to solve it</em>? Review your expenses or increase the external cost for your project.</p>
+<p><em>How to solve it?</em> Review your expenses or increase the external cost for your project.</p>
 
 <h3 id="production-plan-project-duration">Production Plan / Project Duration</h3>
 
-<p>This alert is shown when there is a mismatch between the ProductionPlan data and the Project duration, you could be in one of the following scenery:</p>
+<p>This alert is shown when there is a mismatch between the Production Plan data and the Project duration, you could be in one of the following situations:</p>
 
 <ul>
-<li>The ProductionPlan on the first or last month of the Project lifespan is set to 0. This is a no sense, the project could start one month later or end one month earlier respectively.</li>
-<li>There is a ProductionPlan before the project start or after the project end.</li>
+<li>You&rsquo;ve set to 0 the planned production for the first or the last month of a particular project, this means the project could start one month later or end one month earlier respectively</li>
+<li>There is some planned production before the project&rsquo;s start or after the project&rsquo;s end</li>
 </ul>
 
-<p>You don&rsquo;t have this alert if the project is archived with probability 0 or its &lsquo;Job Order Category&rsquo; has &lsquo;Time Based Progress&rsquo; flag.</p>
+<p>This alert doesn&rsquo;t appear if the project is archived with probability 0 or its Job Order Category has the &ldquo;Time Based Progress&rdquo; flag.</p>
+
+<p><em>How to solve it?</em> Adjust the project plan in order to be aligned with the project&rsquo;s duration.</p>
 
 <h3 id="production-plan-correction">Production Plan Correction</h3>
 
-<p>A Project has this Alert if the &lsquo;correction&rsquo; applied on the future ProductionPlan if greater than 10%. A &lsquo;correction&rsquo; is the difference between what you planned for a past month and what the Production came to be.</p>
+<p>At the end of the month, the month&rsquo;s actual production (based on Project Status) is compared to the month&rsquo;s planned production. If these values differ, a correction will be suggested in the planned production of the future months.
+This alert warns you if these values differ by 10% or more.</p>
+
+<p><em>How to solve it?</em> Just find the project in the Production Plan and accept or edit the suggested correction.</p>
+
+<h3 id="job-order-used-multiple-times">Job Order Used Multiple Times</h3>
+
+<p>This alert is shown if you&rsquo;re sharing the same job order for different projects.</p>
+
+<p><em>How to solve it</em>? Assign different job orders to different projects.</p>
+
+<h3 id="project-probability-program">Project Probability / Program</h3>
+
+<p>Parameters: <span style="color:#FF9800">probability</span></p>
+
+<p>This alert is shown if you&rsquo;re manager of a project with a probability equal or greater than <span style="color:#FF9800">probability</span> but it hasn&rsquo;t been added to a <a href="http://support.wethod.com/pipeline/index/#programs">program</a> yet.</p>
+
+<p><em>How to solve it</em>? Add project to a program or reduce its probability.</p>
 
 			
 			<aside class="copyright" role="note"></aside>
