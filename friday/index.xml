@@ -6,7 +6,7 @@
     <description>Recent content in Fridays on WETHOD / Learning Center</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 22 May 2017 15:51:35 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 22 May 2017 13:51:35 +0000</lastBuildDate>
     
 	<atom:link href="http://support.wethod.com/friday/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,14 +14,12 @@
     <item>
       <title>Friday</title>
       <link>http://support.wethod.com/friday/index/</link>
-      <pubDate>Mon, 22 May 2017 15:51:35 +0200</pubDate>
+      <pubDate>Mon, 22 May 2017 13:51:35 +0000</pubDate>
       
       <guid>http://support.wethod.com/friday/index/</guid>
       <description>Overview WETHOD follows a weekly cycle: we think that a week is a good trade-off between the need to control the project&amp;rsquo;s progress as much as possible and the need to not burden the control activities.
 Every Friday an e-mail will remind:
- Each project manager to compile the Project Status for its projects;
- Each collaborator to compile the Timesheet for the projects he worked on.
-  Timesheet At the end of each week, type in here the actual hours you&amp;rsquo;ve spent working on the projects you are involved in.</description>
+ Each project manager to compile the Project Status for its projects; Each collaborator to compile the Timesheet for the projects he worked on.  Timesheet At the end of each week, type in here the actual hours you&amp;rsquo;ve spent working on the projects you are involved in.</description>
     </item>
     
   </channel>
