@@ -62,7 +62,17 @@ Some alerts depends on parameters that you can customize using the Alerts Engine
       <guid>http://support.wethod.com/budget/index/</guid>
       <description>Overview The budget is where you can list all the resources you think you&amp;rsquo;ll need for the project.
  Basically, this is the place where you try define (for a project):
- How many people you need; Which experience levels you need; Which tasks are needed to get the job done; Who will do what; The external costs; The selling price.  Done? Now the budget must be approved by a supervisor and, once approved, the project manager can start [planning]() and creating [orders](/finance/index/#orders).</description>
+ How many people you need; Which experience levels you need; Which tasks are needed to get the job done; Who will do what; The external costs; The selling price.  Done? Now the budget must be approved by a supervisor and, once approved, the project manager can start [planning](/planning/index/) and creating [orders](/finance/index/#orders).</description>
+    </item>
+    
+    <item>
+      <title>Planning</title>
+      <link>http://support.wethod.com/planning/index/</link>
+      <pubDate>Sat, 12 Mar 2016 19:08:11 +0000</pubDate>
+      
+      <guid>http://support.wethod.com/planning/index/</guid>
+      <description>Overview The planning has two section: People Allocation and Projects&amp;rsquo; Heatmap, the first one is useful to look at teammates availability, allocate them for projects and check that you respect the budget quota; the second section shows the daily amount of people needed by each project, it also offers a milestone system that allows your team to have an overview on the scheduled events.
+Everything is arranged into a six weeks calendar, you can explore past and future using the horizontal scroll or clicking on the top right arrow navigator.</description>
     </item>
     
     <item>
