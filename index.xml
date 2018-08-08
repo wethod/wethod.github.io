@@ -62,7 +62,7 @@ Some alerts depends on parameters that you can customize using the Alerts Engine
       <guid>http://support.wethod.com/budget/index/</guid>
       <description>Overview The budget is where you can list all the resources you think you&amp;rsquo;ll need for the project.
  Basically, this is the place where you try define (for a project):
- How many people you need; Which experience levels you need; Which tasks are needed to get the job done; Who will do what; The external costs; The selling price.  Done? Now the budget must be approved by a supervisor and, once approved, the project manager can start [planning](/planning/index/) and creating [orders](/finance/index/#orders).</description>
+ How many people you need; Which experience levels you need; Which tasks are needed to get the job done; Who will do what; The external costs; The selling price.  Done? Now the budget must be approved by a supervisor and, once approved, the project manager can start [planning](/planning/index/) and creating [orders]().</description>
     </item>
     
     <item>
@@ -100,17 +100,6 @@ Every Friday an e-mail will remind:
 Project Report Each Monday, utilising data provided by Timesheet, Project Status and Budget, a Project Report is automatically created.
 Budget Consumption / Project Status This section shows the budget consumption of the project, compared to its progress:
  If the project is above the diagonal: it&amp;rsquo;s using a lot of days but it&amp;rsquo;s progressing slowly than predictions based on budget; If the project is under the diagonal: it&amp;rsquo;s using few days but it&amp;rsquo;s progressing faster than predictions based on budget; If the project is on the diagonal: it&amp;rsquo;s planned and managed correctly.</description>
-    </item>
-    
-    <item>
-      <title>Finance</title>
-      <link>http://support.wethod.com/finance/index/</link>
-      <pubDate>Wed, 24 May 2017 10:06:54 +0000</pubDate>
-      
-      <guid>http://support.wethod.com/finance/index/</guid>
-      <description>Orders In this section you can see all your orders and create new ones.
-To create an order:
- Click on the top left &amp;ldquo;+ order&amp;rdquo; button and an empty order will be added to the list Compile the required fields Click on the &amp;ldquo;create&amp;rdquo; button  After creating an order you can send it and approve it. Once you click on the &amp;ldquo;send&amp;rdquo; button, an e-mail will be sent to the address provided in the settings&amp;rsquo; Email Bot section.</description>
     </item>
     
     <item>
