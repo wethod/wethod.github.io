@@ -6,7 +6,7 @@
     <description>Recent content in Capexes on WETHOD / Learning Center</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 23 Nov 2018 10:24:15 +0200</lastBuildDate>
+    <lastBuildDate>Fri, 23 Nov 2018 08:24:15 +0000</lastBuildDate>
     
 	<atom:link href="http://support.wethod.com/capex/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,11 +14,12 @@
     <item>
       <title>Capex</title>
       <link>http://support.wethod.com/capex/index/</link>
-      <pubDate>Fri, 23 Nov 2018 10:24:15 +0200</pubDate>
+      <pubDate>Fri, 23 Nov 2018 08:24:15 +0000</pubDate>
       
       <guid>http://support.wethod.com/capex/index/</guid>
-      <description>Overview Here you can see the value of your projects for each month of the current year.
-The monthly distribution is achieved by looking at the production plan of every project, for example: if a project is evaluated 10 K with 3 K planned to be produced in January and 7 K planned to be produced in February, the value of this project will contribute with 3 K to the January&amp;rsquo;s revenues and with 7 K to February&amp;rsquo;s revenues.</description>
+      <description>Overview Here you can see the value of your Capex by project. To mark all costs in a project as Capex, just assign that project a job order category where &amp;ldquo;Capex&amp;rdquo; is flagged
+Total Capex costs for a prooject are divided into: * Payroll costs: all the costs derived from employees&amp;rsquo; levels&amp;rsquo; rates * External costs
+You can edit the Capex percentage field to tell Wethod the real ratio between costs and capex for a project.</description>
     </item>
     
   </channel>
