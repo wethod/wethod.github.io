@@ -6,7 +6,7 @@
     <description>Recent content in Dashboards on WETHOD / Learning Center</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 10 Mar 2016 19:56:50 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 10 Mar 2016 18:56:50 +0000</lastBuildDate>
     
 	<atom:link href="http://support.wethod.com/dashboard/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>Dashboard</title>
       <link>http://support.wethod.com/dashboard/index/</link>
-      <pubDate>Thu, 10 Mar 2016 19:56:50 +0100</pubDate>
+      <pubDate>Thu, 10 Mar 2016 18:56:50 +0000</pubDate>
       
       <guid>http://support.wethod.com/dashboard/index/</guid>
       <description>Overview The Dashboard is basically a set of widgets, any one of which can be added or removed and customized by the user.
