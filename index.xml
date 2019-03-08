@@ -131,7 +131,8 @@ Account Here you set your name, surname and password.</description>
       <pubDate>Tue, 29 Aug 2017 08:23:59 +0000</pubDate>
       
       <guid>http://support.wethod.com/profit-loss/index/</guid>
-      <description>Overview This page provides an overview of the budgetary slippages between a company&amp;rsquo;s projected revenues and expenses, as well as its budget target over a given period of time. The three columns &amp;lsquo;budget&amp;rsquo;, &amp;lsquo;forecast 1&amp;rsquo; and &amp;lsquo;forecast 2&amp;rsquo; can be used to set the company financial goals for each year. The column &amp;lsquo;budget&amp;rsquo; in the row &amp;lsquo;revenues&amp;rsquo; sets the revenues target throughout the company, which is used in the widget Revenue Clock and in the report Production Value.</description>
+      <description>Overview This page provides an overview of the budgetary slippages between a company&amp;rsquo;s projected revenues and its expenses, as well as its budget target over a given period of time. The three columns budget, forecast 1 and forecast 2 can be used to set the company&amp;rsquo;s financial goals for each quarter of the year.
+The column budget in the revenues row is used to set the revenues&amp;rsquo; target for the company, which is used in the widget Revenue Clock and in the report Production Value.</description>
     </item>
     
     <item>
