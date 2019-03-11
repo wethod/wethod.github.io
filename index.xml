@@ -211,6 +211,18 @@ To mark all costs in a project as CapEx, just assign that project a job order ca
     </item>
     
     <item>
+      <title>Invoice Plan</title>
+      <link>http://support.wethod.com/invoice-plan/index/</link>
+      <pubDate>Mon, 11 Mar 2019 08:24:15 +0000</pubDate>
+      
+      <guid>http://support.wethod.com/invoice-plan/index/</guid>
+      <description> Overview From here you can see the invoice plans of all your company&amp;rsquo;s projects.
+This is basically a summary of the view you have from pipeline, where you can access each project&amp;rsquo;s invoice plan one by one.
+Each row in this view represents a project and carries with it a bunch of information:
+ Whether the plan is automatically or manually distributed Name and client for the project The monthly plan&amp;rsquo;s distribution for the current year: for each month you can appreciate the plan&amp;rsquo;s value and the actual invoices amount (colored with lower opacity) The total plan&amp;rsquo;s amount for the current year  </description>
+    </item>
+    
+    <item>
       <title>FAQ</title>
       <link>http://support.wethod.com/faq/index/</link>
       <pubDate>Mon, 22 May 2017 17:08:16 +0200</pubDate>

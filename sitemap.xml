@@ -87,6 +87,11 @@
   </url>
   
   <url>
+    <loc>http://support.wethod.com/invoice-plan/index/</loc>
+    <lastmod>2019-03-11T08:24:15+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://support.wethod.com/faq/index/</loc>
     <lastmod>2017-05-22T17:08:16+02:00</lastmod>
   </url>
@@ -169,6 +174,12 @@
   <url>
     <loc>http://support.wethod.com/glossary/</loc>
     <lastmod>2017-05-22T15:31:29+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://support.wethod.com/invoice-plan/</loc>
+    <lastmod>2019-03-11T08:24:15+00:00</lastmod>
     <priority>0</priority>
   </url>
   
