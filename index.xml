@@ -6,10 +6,20 @@
     <description>Recent content on WETHOD / Learning Center</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 09 Mar 2016 00:11:02 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 29 Mar 2019 10:01:45 +0000</lastBuildDate>
     
 	<atom:link href="http://support.wethod.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Reports</title>
+      <link>http://support.wethod.com/group-reports/index/</link>
+      <pubDate>Fri, 29 Mar 2019 10:01:45 +0000</pubDate>
+      
+      <guid>http://support.wethod.com/group-reports/index/</guid>
+      <description>Overview Here you can find reports obtained by aggregating data coming from all the companies belonging to the group.
+Profit &amp;amp; Loss Each Monday, utilising data provided by Timesheet, Project Status and Budget, a Project Report is automatically created.</description>
+    </item>
     
     <item>
       <title>Getting Started</title>
@@ -20,6 +30,16 @@
       <description>Warm Up Visit app.wethod.com/registration to create your team and get a 14 days free trial, we don&amp;rsquo;t force you to insert a credit card and you can take advantage of our tutorial.
 Setup Your Company By clicking on your initials (in the top right corner), the Settings menu will be shown and you can select the Company section to configure your team.
 Now you can invite your team members by visiting the Team section.</description>
+    </item>
+    
+    <item>
+      <title>Setup</title>
+      <link>http://support.wethod.com/group-setup/index/</link>
+      <pubDate>Fri, 29 Mar 2019 10:01:45 +0000</pubDate>
+      
+      <guid>http://support.wethod.com/group-setup/index/</guid>
+      <description>Overview Here you can find reports obtained by aggregating data coming from all the companies belonging to the group.
+Profit &amp;amp; Loss Each Monday, utilising data provided by Timesheet, Project Status and Budget, a Project Report is automatically created.</description>
     </item>
     
     <item>
