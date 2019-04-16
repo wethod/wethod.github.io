@@ -12,15 +12,12 @@
     
     
     <item>
-      <title>Reports</title>
+      <title>Profit &amp; Loss</title>
       <link>http://support.wethod.com/group-reports/index/</link>
       <pubDate>Fri, 29 Mar 2019 10:01:45 +0000</pubDate>
       
       <guid>http://support.wethod.com/group-reports/index/</guid>
-      <description>Overview Here you can find reports obtained by aggregating data coming from all the companies belonging to the group.
-Profit &amp;amp; Loss An aggregated view for the profit &amp;amp; loss report
-Revenues An aggregated view for the revenues report
-Revenues by month Here you have the yearly revenues of your group, distributed on a monthly basis. As you can see in the legend, there are various notable things in the chart:</description>
+      <description>Overview An aggregated view for the profit &amp;amp; loss report</description>
     </item>
     
     <item>
