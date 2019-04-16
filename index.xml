@@ -13,10 +13,10 @@
     
     <item>
       <title>Profit &amp; Loss</title>
-      <link>http://support.wethod.com/group-reports/index/</link>
+      <link>http://support.wethod.com/group-profit-loss/index/</link>
       <pubDate>Fri, 29 Mar 2019 10:01:45 +0000</pubDate>
       
-      <guid>http://support.wethod.com/group-reports/index/</guid>
+      <guid>http://support.wethod.com/group-profit-loss/index/</guid>
       <description>Overview An aggregated view for the profit &amp;amp; loss report</description>
     </item>
     
@@ -29,6 +29,17 @@
       <description>Warm Up Visit app.wethod.com/registration to create your team and get a 14 days free trial, we don&amp;rsquo;t force you to insert a credit card and you can take advantage of our tutorial.
 Setup Your Company By clicking on your initials (in the top right corner), the Settings menu will be shown and you can select the Company section to configure your team.
 Now you can invite your team members by visiting the Team section.</description>
+    </item>
+    
+    <item>
+      <title>Revenues</title>
+      <link>http://support.wethod.com/group-revenues/index/</link>
+      <pubDate>Fri, 29 Mar 2019 10:01:45 +0000</pubDate>
+      
+      <guid>http://support.wethod.com/group-revenues/index/</guid>
+      <description>Revenues An aggregated view for the revenues report
+Revenues by month Here you have the yearly revenues of your group, distributed on a monthly basis. As you can see in the legend, there are various notable things in the chart:
+ Production based on companies&amp;rsquo; project status Production plan based on companies&amp;rsquo; production plan Bluesky based on companies&amp;rsquo; bluesky Production average target obtained by dividing the target (which you can edit from the company&amp;rsquo;s profit &amp;amp; loss and displayed inside the clock chart on the right) for 12 (the number of months per year) Production trend based on the production of the last three years   Revenues by client A table where you can appreciate how much production has been generated from each company of the group an towards each of their clients.</description>
     </item>
     
     <item>

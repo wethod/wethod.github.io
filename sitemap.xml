@@ -2,13 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://support.wethod.com/group-reports/index/</loc>
+    <loc>http://support.wethod.com/group-profit-loss/index/</loc>
     <lastmod>2019-03-29T10:01:45+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://support.wethod.com/getting-started/index/</loc>
     <lastmod>2016-03-09T00:11:02+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://support.wethod.com/group-revenues/index/</loc>
+    <lastmod>2019-03-29T10:01:45+00:00</lastmod>
   </url>
   
   <url>
@@ -188,7 +193,13 @@
   </url>
   
   <url>
-    <loc>http://support.wethod.com/group-reports/</loc>
+    <loc>http://support.wethod.com/group-profit-loss/</loc>
+    <lastmod>2019-03-29T10:01:45+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://support.wethod.com/group-revenues/</loc>
     <lastmod>2019-03-29T10:01:45+00:00</lastmod>
     <priority>0</priority>
   </url>
