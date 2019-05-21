@@ -690,26 +690,23 @@
 <li><strong>Chargeable</strong>: the projects in this category are billable</li>
 <li><strong>Everybody can plan</strong>: the projects in this category can be planned by everybody, not only by its pm or account</li>
 <li><strong>Unlimited planning</strong>: the projects in this category can be planned regardless budget availability</li>
-<li><strong>Must be in program</strong>: the projects in this category must be added to a <a href="http://support.wethod.com/pipeline/index/#programs">Program</a></li>
+<li><strong>Must be in program</strong>: the projects in this category must be added to a [Program](/pipeline/index/#programs)</li>
 <li><strong>Invoice driven budget</strong>: the value of the projects on this category changes based on the total invoiced for that project. This logic also updates the Invoice Plan and the Production value. You can use this flag on all the project categories in which you are not sure of the final price because it can vary slightly based on external factors. You can then set a budget with an approximate price and let the issued invoices adjust the final price as a result of the delta between the ‘invoice plan’ and the real invoice.</li>
 <li><strong>Capex</strong>: the projects in this category must be treated as investments</li>
-<li><strong>Project status</strong>
-
-<ul>
+<li><strong>Project status</strong></li>
 <li><strong>Estimate to complete</strong>: the project status is assigned as estimated days to complete (e.g. in order to complete we need 12 more days of work).</li>
 <li><strong>Time based progress</strong>: the &lsquo;progress&rsquo; of the projects in this category are not based on their &lsquo;projects status&rsquo;, but based on their duration (equally distributed on their lifespam indicated by date start and duration on the pipeline).</li>
 <li><strong>Project status as progress</strong>: the project status is assigned as a progress percentage (e.g. the progress of this project is 45%).</li>
 </ul></li>
-</ul></li>
 <li><strong>Email Bot</strong>: here you can insert the email addresses to which send invoices and orders;</li>
 <li><strong>Project Won/Lost Bot</strong>: here you can insert the email addresses to which send notifications each time someone of your teammates won or lost a project. A project is considered to be <em>lost</em> when its probability is 0 and <em>won</em> when its probability is 90;</li>
-<li><strong>Project Types</strong>: create and manage labels that you can assign to projects in <a href="http://support.wethod.com/pipeline/index/#projects">pipeline</a>. A project type is basically composed by a name, you can than aggregate it&rsquo;s values by using a group or use a short label to better identify a project type;</li>
+<li><strong>Project Types</strong>: create and manage labels that you can assign to projects in [pipeline](/pipeline/index/#projects). A project type is basically composed by a name, you can than aggregate it&rsquo;s values by using a group or use a short label to better identify a project type;</li>
 <li><strong>Timesheet</strong>: here you can choose to automate the timesheets creation process. This way, timesheets are automatically created each Friday based on planned hours. <em>Be careful: Anything can go wrong because planning is not often 100% accurate, this is why timesheet exists.</em></li>
 </ul>
 
 <h2 id="alerts-engine">Alerts Engine</h2>
 
-<p>Here you can manage the <a href="http://support.wethod.com/alerts/index/">alerts</a> for your company, for each alert you can: enable/disable it, change its priority and edit its parameters (if required).</p>
+<p>Here you can manage the [alerts](/alerts/index/) for your company, for each alert you can: enable/disable it, change its priority and edit its parameters (if required).</p>
 
 <img src="http://support.wethod.com/uploads/2018/03/27/alert-engine.png" class="figure--center"></img>
 
@@ -752,8 +749,8 @@
 <p>Here you can just edit your profile pic, for the other information please refer to the relative section:</p>
 
 <ul>
-<li>Your name can be edited from the <a href="http://support.wethod.com/settings/index/#account">account section</a></li>
-<li>Your tags and your level can be edited from from the <a href="http://support.wethod.com/settings/index/#team">team section</a> if you have the right permissions</li>
+<li>Your name can be edited from the [account section](/settings/index/#account)</li>
+<li>Your tags and your level can be edited from from the [team section](/settings/index/#team) if you have the right permissions</li>
 </ul>
 
 <h3 id="contact-information">Contact information</h3>
@@ -774,7 +771,7 @@
 
 <p>How many languages do you know? List them and choose a level for each one.</p>
 
-<p><em>Levels are based on the <a href="https://en.wikipedia.org/wiki/Common_European_Framework_of_Reference_for_Languages">Common European Framework of Reference for Languages (CEFR)</a></em></p>
+<p><em>Levels are based on the</em> <a href="https://en.wikipedia.org/wiki/Common_European_Framework_of_Reference_for_Languages"><em>Common European Framework of Reference for Languages (CEFR)</em></a></p>
 
 <h3 id="portfolio">Portfolio</h3>
 
@@ -795,6 +792,16 @@ technique for defining and tracking objectives used by companies like Google, Ub
 
 <img src="http://support.wethod.com/uploads/2019/02/06/okr.gif" class="figure--center"></img>
 
+<p>For every quarter you can set a <strong>status</strong> based on how the discussion about that quarter&rsquo;s OKR is going:</p>
+
+<ul>
+<li><em>Draft</em> if the OKR isn&rsquo;t completely defined yet</li>
+<li><em>Discussed</em> if all objectives has been discussed and approved by your sponsor. From this step on, you can just edit KR&rsquo;s progress</li>
+<li><em>Checked</em> if quarter ends and your sponsor positively evaluated your progress. In this step you are no more able to edit the quarter&rsquo;s OKR</li>
+</ul>
+
+<img src="http://support.wethod.com/uploads/2019/05/21/objective-quarter-status.png" class="figure--center"></img>
+
 <h3 id="trends">Trends</h3>
 
 <p>Here you can find some reports about the user&rsquo;s behaviour, each report is obtained by using a <a href="https://en.wikipedia.org/wiki/Moving_average">moving average</a> of the last 3 or 12 months&rsquo; available data.
@@ -807,7 +814,7 @@ For each report you can appreciate:</p>
 
 <h4 id="fridayness">Fridayness</h4>
 
-<p>The days of delay in compiling <a href="http://support.wethod.com/friday/index/#timesheet">timesheet</a> and <a href="http://support.wethod.com/friday/index/#project-status">project status</a>: the more you wait to compile them, the more your report goes up.</p>
+<p>The days of delay in compiling [timesheet](/friday/index/#timesheet) and [project status](/friday/index/#project-status): the more you wait to compile them, the more your report goes up.</p>
 
 <p>Timesheet and project status are meant to be compiled on Friday (this is why they are placed under the Friday section 😉); if you compile them on Saturday you get a +1 day on the report, if you compile them on Sunday you get a +2 days on the report and so on.</p>
 
@@ -821,7 +828,7 @@ For each report you can appreciate:</p>
 
 <h4 id="do-the-production-plan">Do The Production Plan</h4>
 
-<p>The percentage of <a href="http://support.wethod.com/planning/index/#production-plan">production plan</a>&rsquo;s correction accumulation: when you edit a project status in the past or when a new month starts, the production plan is recalculated in order to find possible mismatches between the production you planned and the actual production.</p>
+<p>The percentage of [production plan](/planning/index/#production-plan)&rsquo;s correction accumulation: when you edit a project status in the past or when a new month starts, the production plan is recalculated in order to find possible mismatches between the production you planned and the actual production.</p>
 
 <p>The adjustments (or accumulation) are reported as orange monthly apex and are used to compute the moving average for this chart. So, how accurate is your production planning?</p>
 
@@ -829,13 +836,13 @@ For each report you can appreciate:</p>
 
 <h4 id="keep-the-lights-off">Keep The Lights Off</h4>
 
-<p><a href="http://support.wethod.com/alerts/index/">Alerts</a> are made to be solved and this report shows how many days you take to solve yours (on average).</p>
+<p>[Alerts](/alerts/index/) are made to be solved and this report shows how many days you take to solve yours (on average).</p>
 
 <img src="http://support.wethod.com/uploads/2019/02/20/keep-the-lights-off.png" class="figure--center"></img>
 
 <h4 id="do-the-budget">Do The Budget</h4>
 
-<p>The difference, in terms of margin, between <a href="http://support.wethod.com/budget/index/">budget</a>&rsquo;s baseline and budget&rsquo;s last approved version. Only finished project (that is projects archived with probability equal to 100%) are taken into account.</p>
+<p>The difference, in terms of margin, between [budget](/budget/index/)&rsquo;s baseline and budget&rsquo;s last approved version. Only finished project (that is projects archived with probability equal to 100%) are taken into account.</p>
 
 <img src="http://support.wethod.com/uploads/2019/02/20/do-the-budget.png" class="figure--center"></img>
 
