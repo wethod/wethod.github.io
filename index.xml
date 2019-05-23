@@ -145,6 +145,18 @@ To create an order:
     </item>
     
     <item>
+      <title>Settings</title>
+      <link>http://support.wethod.com/settings/index/</link>
+      <pubDate>Wed, 24 May 2017 10:09:44 +0000</pubDate>
+      
+      <guid>http://support.wethod.com/settings/index/</guid>
+      <description>Tutorial From here you can access a quick and clear tutorial that will teach you all the secrets behind WETHOD, but remember: with great power comes great responsibility.
+Clicking on &amp;ldquo;let me try&amp;rdquo; will pause the tutorial and let you take a look around, to resume the tutorial just click on the bottom right button.
+Clicking on &amp;ldquo;skip tour&amp;rdquo; will close the tutorial.
+Account Here you set your name, surname and password.</description>
+    </item>
+    
+    <item>
       <title>Profit &amp; Loss</title>
       <link>http://support.wethod.com/profit-loss/index/</link>
       <pubDate>Tue, 29 Aug 2017 08:23:59 +0000</pubDate>
