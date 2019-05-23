@@ -62,6 +62,11 @@
   </url>
   
   <url>
+    <loc>http://support.wethod.com/settings/index/</loc>
+    <lastmod>2017-05-24T10:09:44+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://support.wethod.com/profit-loss/index/</loc>
     <lastmod>2017-08-29T08:23:59+00:00</lastmod>
   </url>
@@ -250,6 +255,12 @@
   <url>
     <loc>http://support.wethod.com/revenues/</loc>
     <lastmod>2017-08-29T08:24:15+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://support.wethod.com/settings/</loc>
+    <lastmod>2017-05-24T10:09:44+00:00</lastmod>
     <priority>0</priority>
   </url>
   
