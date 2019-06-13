@@ -665,7 +665,6 @@
 
 <ul>
 <li><strong>Project</strong>: the target Project</li>
-<li><strong>Job Order</strong>: the Job Order of the target Project of this Order, this field is auto compiled</li>
 <li><strong>Supplier</strong>: the target Supplier for this Order</li>
 <li><strong>Purchase Code</strong>: an identifier for the Order</li>
 <li><strong>Date</strong>: the issue date of this Order</li>
@@ -673,7 +672,10 @@
 <li><strong>Note</strong>: a brief text about the order. This is attached to the order&rsquo;s email and can be seen by your colleagues</li>
 </ul>
 
-<img src="http://support.wethod.com/uploads/2018/05/14/orders.png" class="figure--center"></img>
+<h3 id="currency">Currency</h3>
+
+<p>Orders belonging to a <a href="http://support.wethod.com/budget/index/#multicurrency-budget">multicurrency budget</a>
+are displayed with their currency. Currency can be picked between those used in the budget&rsquo;s external costs. The exchange rate for the currency is aligned with the last approved budget version but you can change it in any moment by editing it manually.</p>
 
 <div class="admonition note">
 <p class="admonition-title">Note</p>
@@ -681,6 +683,8 @@
 
 <p><strong>Order&rsquo;s value must be lower or equal then the external costs provided in the budget.</strong></p>
 </div>
+
+<img src="http://support.wethod.com/uploads/2019/06/13/orders.gif" class="figure--center"></img>
 
 <h2 id="invoices">Invoices</h2>
 
@@ -694,10 +698,17 @@
 <li>Click on the &ldquo;<strong>create</strong>&rdquo; button.</li>
 </ol>
 
+<h3 id="currency-1">Currency</h3>
+
+<p>Invoices belonging to a <a href="http://support.wethod.com/budget/index/#multicurrency-budget">multicurrency budget</a>
+are displayed with the final net&rsquo;s currency. The exchange rate is aligned with the last approved budget version but you can change it in any moment by editing it manually.</p>
+
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p><strong>You can create invoices only for projects you have already provided with job order and budget</strong></p>
 </div>
+
+<img src="http://support.wethod.com/uploads/2019/06/13/invoices.gif" class="figure--center"></img>
 
 <h2 id="clients">Clients</h2>
 
