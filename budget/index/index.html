@@ -756,7 +756,7 @@
 
 <p>Once you have created an intercompany task, you can invite a person (that is an employee belonging to the task&rsquo;s supplier) to connect one of their projects to the task itself. The invited person will receive an email containing a link to <a href="http://support.wethod.com/pipeline/index/#intercompany-projects">connect the project</a>.</p>
 
-<p>When a project is successfully connected to an intercompany task, it becames an <em>intercompany project</em>: its <strong>final net price</strong> and <strong>probability</strong> are updated to reflect the intercompany task&rsquo;s external costs and intercompany task&rsquo;s project&rsquo;s probability.</p>
+<p>When a project is successfully connected to an intercompany task, it becames an <em>intercompany project</em>: its <strong>final net price</strong>, <a href="http://support.wethod.com/budget/index/#multicurrency-budget">currency</a> and <strong>probability</strong> are updated to reflect the intercompany task&rsquo;s external costs and intercompany task&rsquo;s project&rsquo;s probability.</p>
 
 <div class="admonition note">
 <p class="admonition-title">Note</p>
@@ -766,6 +766,25 @@
 <p>You can send as many invitations as you want, but remember that just a project can be linked to an intercompany task.</p>
 
 <p>If you delete an intercompany task, any connected project will be disconnected (they will not be automatically deleted).</p>
+
+<h2 id="multicurrency-budget">Multicurrency budget</h2>
+
+<p>Sometimes may be useful to use currencies in your budget, expecially when you work with clients or suppliers that use curencies different from yours.</p>
+
+<p>Once you enable muticurrency for one of your budget, you will be able to set final net price and external costs in currencies other than the <strong>company currency</strong> you&rsquo;ve defined in your <a href="http://support.wethod.com/settings/index/#company">company settings</a>.</p>
+
+<p>Expressing a final net using a currency different from yours let you emit invoices using the same currency for that project.</p>
+
+<p>Expressing an external cost using a currency different from yours let you emit orders using the same currency for that project.</p>
+
+<p>Currencies&rsquo; exchange rates are updated daily and, for a budget, they are coherent with the last approved version. This means that while your budget is in draft its exchange rates keep being updated every day but, once you get your budget approved, rates are freezed until you take the budget back to draft again.</p>
+
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p><strong>Be aware that you can always disable multicurrency for a budget, but if you have created orders using currencies you need to manually update them. Invoices are automatically updated instead.</strong></p>
+</div>
+
+<img src="http://support.wethod.com/uploads/2019/06/12/budget-multicurrency.gif" class="figure--center"></img>
 
 			
 			<aside class="copyright" role="note"></aside>
