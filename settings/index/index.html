@@ -711,10 +711,13 @@
 <li><strong>Must be in program</strong>: the projects in this category must be added to a [Program](/pipeline/index/#programs)</li>
 <li><strong>Invoice driven budget</strong>: the value of the projects on this category changes based on the total invoiced for that project. This logic also updates the Invoice Plan and the Production value. You can use this flag on all the project categories in which you are not sure of the final price because it can vary slightly based on external factors. You can then set a budget with an approximate price and let the issued invoices adjust the final price as a result of the delta between the ‘invoice plan’ and the real invoice.</li>
 <li><strong>Capex</strong>: the projects in this category must be treated as investments</li>
-<li><strong>Project status</strong></li>
-<li><strong>Estimate to complete</strong>: the project status is assigned as estimated days to complete (e.g. in order to complete we need 12 more days of work)</li>
-<li><strong>Time based progress</strong>: the &lsquo;progress&rsquo; of the projects in this category are not based on their &lsquo;projects status&rsquo;, but based on their duration (equally distributed on their lifespam indicated by date start and duration on the pipeline)</li>
-<li><strong>Project status as progress</strong>: the project status is assigned as a progress percentage (e.g. the progress of this project is 45%)</li>
+<li><strong>Project status</strong>:
+
+<ul>
+<li><strong>Work days to complete</strong>: the project status is assigned as estimated days to complete (e.g. in order to complete we need 12 more days of work)</li>
+<li><strong>Auto</strong>: the progress of the projects in this category are not based on their projects status, but based on their duration (equally distributed on their lifespam indicated by date start and duration on the pipeline)</li>
+<li><strong>Completed percentage</strong>: the project status is assigned as a progress percentage (e.g. the progress of this project is 45%)</li>
+</ul></li>
 </ul></li>
 <li><strong>Email Bot</strong>: here you can insert the email addresses to which send invoices and orders;</li>
 <li><strong>Project Won/Lost Bot</strong>: here you can insert the email addresses to which send notifications each time someone of your teammates won or lost a project. A project is considered to be <em>lost</em> when its probability is 0 and <em>won</em> when its probability is 90</li>
