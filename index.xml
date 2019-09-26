@@ -183,7 +183,9 @@ The monthly distribution is achieved by looking at the production plan of every 
       
       <guid>http://support.wethod.com/external-costs/index/</guid>
       <description>Overview Here you can see the external costs listed in your projects&amp;rsquo; budget for each month of the current year.
-The monthly distribution is achieved by looking at the production plan of every project, for example: if a project has a value of 10 K with 3 K planned to be produced in January and 7 K planned to be produced in February, we can also say that you planned to invoice 30% in January and 70% in February.</description>
+Note
+For a completed project (that is a project with last project status equal to 0) orders&amp;rsquo; value is used instead of external costs. This way you can have a more accurate look at the costs implied in your projects.
+ The monthly distribution is achieved by looking at the production plan of every project, for example: if a project has a value of 10 K with 3 K planned to be produced in January and 7 K planned to be produced in February, we can also say that you planned to invoice 30% in January and 70% in February.</description>
     </item>
     
     <item>
