@@ -6,7 +6,7 @@
     <description>Recent content in Marketings on WETHOD / Learning Center</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 29 Aug 2017 10:24:54 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 29 Aug 2017 08:24:54 +0000</lastBuildDate>
     
 	<atom:link href="http://support.wethod.com/marketing/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>Marketing</title>
       <link>http://support.wethod.com/marketing/index/</link>
-      <pubDate>Tue, 29 Aug 2017 10:24:54 +0200</pubDate>
+      <pubDate>Tue, 29 Aug 2017 08:24:54 +0000</pubDate>
       
       <guid>http://support.wethod.com/marketing/index/</guid>
       <description> Overview This is the right place to put all that costs related to the promotion of your products or services.
@@ -22,7 +22,8 @@ Each cost has:
  Start month
  End month
  Net month
-   </description>
+  Use the Import costs button to copy all the G &amp;amp; A&amp;rsquo;s rows from the previous year.
+ </description>
     </item>
     
   </channel>
