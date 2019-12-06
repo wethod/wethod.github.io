@@ -730,14 +730,14 @@ are displayed with the final net&rsquo;s currency. The exchange rate is aligned 
 
 <h2 id="clients">Clients</h2>
 
-<p>In this section you can see all your contacts, divided into contacts and companies.</p>
+<p>In this section you can see all your clients, divided into contacts and companies.</p>
 
 <img src="http://support.wethod.com/uploads/2019/11/29/clients.gif" class="figure--center"></img>
 
 <p><strong>To add a Contact</strong>:</p>
 
 <ol>
-<li>Go to “People” section, on the top right corner</li>
+<li>Go to “Contact” section, on the top right corner</li>
 <li>Click the &ldquo;<strong>Add</strong>&rdquo; button</li>
 <li>Fill in all the required fields</li>
 <li>Click on the &ldquo;<strong>save</strong>&rdquo; button</li>
@@ -767,18 +767,41 @@ A resource is just a link with a name to something external to WETHOD (like a do
 
 <p>Click on the arrow to open a sidebar containing all the info about a company, if you want even more details you can reach the company page by using the button placed at the bottom of the sidebar.</p>
 
-<p>In the company page you can find:</p>
+<p><strong>Client Details</strong>:</p>
+
+<img src="http://support.wethod.com/uploads/2019/12/06/client-details.gif" class="figure--center"></img>
+
+<p>Here you can find details and insights about a client, like:</p>
 
 <ul>
 <li>The <strong>invoices widget</strong> showing all the invoices that need to be sent for that client</li>
 <li>The <strong>revenues chart</strong> showing all the revenues for the client in the current year or in the last three ones</li>
+<li><strong>Sparklines</strong> see dedicated section for more details</li>
 <li>The <strong>won projects</strong> that are all the projects with a 1oo% probability for this client</li>
 <li>The <strong>lost projects</strong> that are all the projects with a o% probability for this client</li>
 <li>The <strong>outstanding projects</strong> that are all the projects with a 1oo% probability between 10% and 90% for this client</li>
 <li>The <strong>contacts</strong> for this client</li>
 </ul>
 
-<img src="http://support.wethod.com/uploads/2019/11/29/client-details.gif" class="figure--center"></img>
+<p><strong>Sparklines</strong></p>
+
+<p>Each sperkline shows unique trands and helpful insights abount the client (shown data are related to the selected time range), here a detailed list:</p>
+
+<ul>
+<li><strong>Closed Projects</strong>: shows the number of projects that reached 90% (won) of probability in the selected time range</li>
+<li><strong>Closed Proposal</strong>: shows the number of project that reached 90% (won) or that went down to 0% (lost) in the selected time range</li>
+<li><strong>Avg. Project Value</strong>: sparkline shows the average value of all won Projects (probability &gt;= 90%) in the selected time range</li>
+<li><strong>Conversion Rate</strong>: shows the ratio between won projects (probability &gt;= 90%) and closed Projects (probability &gt;= 90% or 0) in the selected time range</li>
+<li><strong>Avg. Profitabilty</strong>: shows the average margin of all won projects (probability &gt;= 90%) in the selected time range</li>
+</ul>
+
+<p>Color legend:</p>
+
+<ul>
+<li>Red: The last shown value in the selected time range is worse than the first one</li>
+<li>Blue: The last shown value in the selected time range is the same as the first one</li>
+<li>Green: The last shown value in the selected time range is better than the first one</li>
+</ul>
 
 <h2 id="suppliers">Suppliers</h2>
 
