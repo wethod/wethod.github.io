@@ -51,3 +51,11 @@
 .button-reset {
 	display: none;
 }
+.external-link span {
+	margin-right: 4px;
+}
+
+.external-link svg {
+	top: 1px;
+    position: relative;
+}
