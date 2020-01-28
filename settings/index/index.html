@@ -715,9 +715,11 @@
 <li><strong>Chargeable</strong>: the projects in this category are billable</li>
 <li><strong>Everybody can plan</strong>: the projects in this category can be planned by everybody, not only by its pm or account</li>
 <li><strong>Unlimited planning</strong>: the projects in this category can be planned regardless budget availability</li>
-<li><strong>Must be in program</strong>: the projects in this category must be added to a [Program](/pipeline/index/#programs)</li>
+<li><strong>Must be in program</strong>: the projects in this category must be added to a <a href="http://support.wethod.com/pipeline/index/#programs">Program</a></li>
 <li><strong>Invoice driven budget</strong>: the value of the projects on this category changes based on the total invoiced for that project. This logic also updates the Invoice Plan and the Production value. You can use this flag on all the project categories in which you are not sure of the final price because it can vary slightly based on external factors. You can then set a budget with an approximate price and let the issued invoices adjust the final price as a result of the delta between the ‘invoice plan’ and the real invoice.</li>
 <li><strong>Capex</strong>: the projects in this category must be treated as investments</li>
+<li><strong>Workable</strong>: you can switch off this option for projects used to track holidays or permits, this way timesheets done on them are not used to calculare chargeability</li>
+<li><strong>Intercompany supplier</strong>: an invoice for a project in this category cannot be sent if the project is not an <a href="http://support.wethod.com/pipeline/index/#intercompany-projects">intercompany project</a> or if its intercompany client does not [appear as an actual company client]()</li>
 <li><strong>Project status</strong>:
 
 <ul>
@@ -728,14 +730,14 @@
 </ul></li>
 <li><strong>Email Bot</strong>: here you can insert the email addresses to which send invoices and orders;</li>
 <li><strong>Project Won/Lost Bot</strong>: here you can insert the email addresses to which send notifications each time someone of your teammates won or lost a project. A project is considered to be <em>lost</em> when its probability is 0 and <em>won</em> when its probability is 90</li>
-<li><strong>Project Types</strong>: create and manage labels that you can assign to projects in [pipeline](/pipeline/index/#projects). A project type is basically composed by a name, you can than aggregate it&rsquo;s values by using a group or use a short label to better identify a project type;</li>
+<li><strong>Project Types</strong>: create and manage labels that you can assign to projects in <a href="http://support.wethod.com/pipeline/index/#projects">pipeline</a>. A project type is basically composed by a name, you can than aggregate it&rsquo;s values by using a group or use a short label to better identify a project type;</li>
 <li><strong>Timesheet</strong>: here you can choose to automate the timesheets creation process. This way, timesheets are automatically created each Friday based on planned hours. <em>Be careful: Anything can go wrong because planning is not often 100% accurate, this is why timesheet exists.</em></li>
 <li><strong>Currencies</strong>: a list of all the known currencies, each one can be made available or set as <em>master</em> (a.k.a. the currency you currently use in your company)</li>
 </ul>
 
 <h2 id="alerts-engine">Alerts Engine</h2>
 
-<p>Here you can manage the [alerts](/alerts/index/) for your company, for each alert you can: enable/disable it, change its priority and edit its parameters (if required).</p>
+<p>Here you can manage the <a href="http://support.wethod.com/alerts/index/">alerts</a> for your company, for each alert you can: enable/disable it, change its priority and edit its parameters (if required).</p>
 
 <img src="http://support.wethod.com/uploads/2018/03/27/alert-engine.png" class="figure--center"></img>
 
@@ -778,8 +780,8 @@
 <p>Here you can just edit your profile pic, for the other information please refer to the relative section:</p>
 
 <ul>
-<li>Your name can be edited from the [account section](/settings/index/#account)</li>
-<li>Your tags and your level can be edited from from the [team section](/settings/index/#team) if you have the right permissions</li>
+<li>Your name can be edited from the <a href="http://support.wethod.com/settings/index/#account">account section</a></li>
+<li>Your tags and your level can be edited from from the <a href="http://support.wethod.com/settings/index/#team">team section</a> if you have the right permissions</li>
 </ul>
 
 <h3 id="contact-information">Contact information</h3>
@@ -843,7 +845,7 @@ For each report you can appreciate:</p>
 
 <h4 id="fridayness">Fridayness</h4>
 
-<p>The days of delay in compiling [timesheet](/friday/index/#timesheet) and [project status](/friday/index/#project-status): the more you wait to compile them, the more your report goes up.</p>
+<p>The days of delay in compiling <a href="http://support.wethod.com/friday/index/#timesheet">timesheet</a> and <a href="http://support.wethod.com/friday/index/#project-status">project status</a>: the more you wait to compile them, the more your report goes up.</p>
 
 <p>Timesheet and project status are meant to be compiled on Friday (this is why they are placed under the Friday section 😉); if you compile them on Saturday you get a +1 day on the report, if you compile them on Sunday you get a +2 days on the report and so on.</p>
 
@@ -857,7 +859,7 @@ For each report you can appreciate:</p>
 
 <h4 id="do-the-production-plan">Do The Production Plan</h4>
 
-<p>The percentage of [production plan](/planning/index/#production-plan)&rsquo;s correction accumulation: when you edit a project status in the past or when a new month starts, the production plan is recalculated in order to find possible mismatches between the production you planned and the actual production.</p>
+<p>The percentage of <a href="http://support.wethod.com/planning/index/#production-plan">production plan</a>&rsquo;s correction accumulation: when you edit a project status in the past or when a new month starts, the production plan is recalculated in order to find possible mismatches between the production you planned and the actual production.</p>
 
 <p>The adjustments (or accumulation) are reported as orange monthly apex and are used to compute the moving average for this chart. So, how accurate is your production planning?</p>
 
@@ -865,13 +867,13 @@ For each report you can appreciate:</p>
 
 <h4 id="keep-the-lights-off">Keep The Lights Off</h4>
 
-<p>[Alerts](/alerts/index/) are made to be solved and this report shows how many days you take to solve yours (on average).</p>
+<p><a href="http://support.wethod.com/alerts/index/">Alerts</a> are made to be solved and this report shows how many days you take to solve yours (on average).</p>
 
 <img src="http://support.wethod.com/uploads/2019/02/20/keep-the-lights-off.png" class="figure--center"></img>
 
 <h4 id="do-the-budget">Do The Budget</h4>
 
-<p>The difference, in terms of margin, between [budget](/budget/index/)&rsquo;s baseline and budget&rsquo;s last approved version. Only finished project (that is projects archived with probability equal to 100%) are taken into account.</p>
+<p>The difference, in terms of margin, between <a href="http://support.wethod.com/budget/index/">budget</a>&rsquo;s baseline and budget&rsquo;s last approved version. Only finished project (that is projects archived with probability equal to 100%) are taken into account.</p>
 
 <img src="http://support.wethod.com/uploads/2019/02/20/do-the-budget.png" class="figure--center"></img>
 
