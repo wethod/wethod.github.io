@@ -9,18 +9,18 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=10" />
-    <title>Profit &amp; Loss - WETHOD / Learning Center</title>
+    <title>Dashboard - WETHOD / Learning Center</title>
     <meta name="generator" content="Hugo 0.20.2" />
 
     
     <meta name="description" content="A lean multi-project management platform that fosters the autonomy and ownership of every team member at any level.">
     
-    <link rel="canonical" href="http://support.wethod.com/profit-loss/index/">
+    <link rel="canonical" href="http://support.wethod.com/dashboard/index/">
     
     <meta name="author" content="Andrea Tombolato">
     
 
-    <meta property="og:url" content="http://support.wethod.com/profit-loss/index/">
+    <meta property="og:url" content="http://support.wethod.com/dashboard/index/">
     <meta property="og:title" content="WETHOD / Learning Center">
     <meta property="og:image" content="http://support.wethod.com/images/logo.png">
     <meta name="apple-mobile-web-app-title" content="WETHOD / Learning Center">
@@ -107,7 +107,7 @@
     </div>
     <div class="stretch">
       <div class="title">
-        Profit &amp; Loss
+        Dashboard
       </div>
     </div>
 
@@ -215,11 +215,14 @@
 
 
 
-<a  title="Dashboard" href="http://support.wethod.com/dashboard/index/">
+<a class="current" title="Dashboard" href="http://support.wethod.com/dashboard/index/">
 	
 	Dashboard
 </a>
 
+
+<ul id="scrollspy">
+</ul>
 
 
   
@@ -389,14 +392,11 @@
 
 
 
-<a class="current" title="Profit &amp; Loss" href="http://support.wethod.com/profit-loss/index/">
+<a  title="Profit &amp; Loss" href="http://support.wethod.com/profit-loss/index/">
 	
 	Profit &amp; Loss
 </a>
 
-
-<ul id="scrollspy">
-</ul>
 
 
   
@@ -682,55 +682,86 @@
 
 	<article class="article">
 		<div class="wrapper">
-			<h1>Profit &amp; Loss </h1>
+			<h1>Dashboard </h1>
 			
 			
 
 <h2 id="overview">Overview</h2>
 
-<p>This page provides an overview of the budgetary slippages between a company&rsquo;s projected revenues and  its expenses, as well as its budget target over a given period of time. The three columns <strong>budget</strong>, <strong>forecast 1</strong> and <strong>forecast 2</strong> can be used to set the company&rsquo;s financial goals for each quarter of the year.</p>
+<p>The Dashboard is basically a set of widgets, any one of which can be added or removed and customized by the user.</p>
 
-<p>The column <strong>budget</strong> in the <strong>revenues</strong> row is used to set the revenues&rsquo; target for the company, which is used in the widget <a href="http://support.wethod.com/dashboard/index/#revenue-clock">Revenue Clock</a> and in the report <a href="http://support.wethod.com/reports/index/#production-value">Production Value</a>.</p>
+<img src="http://support.wethod.com/uploads/2017/06/09/dashboard.png" class="figure--center"></img>
 
-<img src="http://support.wethod.com/uploads/2018/11/23/support_target.png" class="figure--center"></img>
+<h2 id="widgets">Widgets</h2>
 
-<p>Below, you can see how much your company has earned or has lost during each month of the current year.</p>
+<p>Adding a new widget to your dashboard is very easy: just click on the “+” sign and pick one from the list of the available widgets.</p>
 
-<p>This data is obtained by subtracting from the <a href="http://support.wethod.com/revenues/index/#">revenues</a> of all the costs faced by the company. The costs can be of various kinds:</p>
+<img src="http://support.wethod.com/uploads/2017/05/22/add-widget.gif" class="figure--center"></img>
 
-<ul>
-<li><p><a href="http://support.wethod.com/external-costs/index/#">External costs</a></p></li>
+<h3 id="alerts">Alerts</h3>
 
-<li><p><a href="http://support.wethod.com/payroll/index/#">Payroll</a></p></li>
-
-<li><p><a href="http://support.wethod.com/general-admin/index/#">G &amp; A</a></p></li>
-
-<li><p><a href="http://support.wethod.com/marketing/index/#">Marketing</a></p></li>
-
-<li><p><a href="http://support.wethod.com/capex/index/">CapEx</a></p></li>
-</ul>
-
-<p>We provide you with two <em>subtotal</em> in order to better understand the final value of profit &amp; loss for the company:</p>
+<p>This widget shows all the inconsistencies regarding the user. Each alert has a priority (indicated by its color):</p>
 
 <ul>
-<li><p><strong>Gross margin</strong>: revenues without the external costs;</p></li>
-
-<li><p><strong>Net margin</strong>: gross margin without payroll.</p></li>
+<li><em>Red</em> alerts have a high priority and must be solved as soon as possible;</li>
+<li><em>Yellow</em> alerts have a low priority and can be seen as a advice then anything.</li>
 </ul>
 
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p><strong>A number in parenthesis represents a cost which is being subtracted from the number right above it.</strong></p>
+<p>Hovering the cursor over an alert will display a description of the problem.</p>
 
-<p><strong>All the numbers here are provided in thousands (K).</strong></p>
-</div>
+<img src="http://support.wethod.com/uploads/2017/08/28/alerts.png" class="figure--center"></img>
 
-<img src="http://support.wethod.com/uploads/2018/11/23/support_monthlydistribution.png" class="figure--center"></img>
+<p><a href="http://support.wethod.com/alerts/index/">Learn more about alerts</a></p>
 
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p><strong>If your company is part of a group, intercompany revenues and external costs are automatically removed from this view.</strong></p>
-</div>
+<h3 id="revenue-clock">Revenue Clock</h3>
+
+<p>This widget lets you quickly compare the <a href="http://support.wethod.com/glossary/index/#revenue-pipeline">revenue pipeline</a> (blue) with the <a href="http://support.wethod.com/glossary/index/#production-value">production value</a> (green). When you create the widget, you must set the production target you want to hit by the end of the year.</p>
+
+<p>When the filter is set to <strong>company overview</strong> the target will automatically be set as the <a href="http://support.wethod.com/profit-loss/index/#overview">profit &amp; loss budget target</a> for the current year.</p>
+
+<p>When the filter is set to <strong>client</strong> the target will automatically be set as the <a href="http://support.wethod.com/revenues/index/#revenues-target">revenues target</a> for the current year.</p>
+
+<p>The grey area shows the percentage of the year gone or, by another point of view, how much time you still have to hit your annual target.</p>
+
+<img src="http://support.wethod.com/uploads/2017/06/12/revenue-clock.png" class="figure--center"></img>
+
+<h3 id="invoices">Invoices</h3>
+
+<p>This widget shows all the invoices that must be sent. The invoice list is based on the pipeline&rsquo;s <a href="http://support.wethod.com/pipeline/index/#invoice-plan">invoice plan</a> and each invoice has a priority (indicated by its color):</p>
+
+<ul>
+<li>Red invoices have an high priority because they had to be sent in a past date;</li>
+<li>Yellow invoices have a low priority because they have to be send in a future date.</li>
+</ul>
+
+<img src="http://support.wethod.com/uploads/2017/08/28/invoices.png" class="figure--center"></img>
+
+<p>Hovering on an invoice will shows you the buttons to:</p>
+
+<ul>
+<li>Go to the project&rsquo;s budget;</li>
+<li>Create the invoice.</li>
+</ul>
+
+<p>By clicking on an invoice you can select it, plus others and create multiple invoice at once. The created invoices will be automatically filled with the right project&rsquo;s name, client, job order, value and due date. You still can edit your invoices before sending them.</p>
+
+<h3 id="budget-consumption">Budget Consumption</h3>
+
+<p>This widget is a resume of the <a href="http://support.wethod.com/reports/index/#budget-consumption">Budget Consumption report</a> .</p>
+
+<h3 id="revenue-progress">Revenue Progress</h3>
+
+<p>This widget is a resume of the <a href="http://support.wethod.com/reports/index/#revenue-progress">Revenue Progress report</a> .</p>
+
+<img src="http://support.wethod.com/uploads/2017/06/12/revenue-progress-widget.png" class="figure--center"></img>
+
+<h3 id="roadrunner-index">Roadrunner Index</h3>
+
+<p>This widget shows the <a href="http://support.wethod.com/glossary/index/#roardunner-index-rri">Roadrunner Index</a> for each of your projects.</p>
+
+<p>Clicking on a project will take you to its <a href="http://support.wethod.com/reports/index/#project-report">detailed report</a>.</p>
+
+<img src="http://support.wethod.com/uploads/2017/06/12/rri-widget.png" class="figure--center"></img>
 
 			
 			<aside class="copyright" role="note"></aside>
@@ -740,7 +771,7 @@
 <nav class="pagination" aria-label="Footer">
   <div class="previous">
   
-      <a href="http://support.wethod.com/settings/index/" title="Settings">
+      <a href="http://support.wethod.com/reports/index/" title="Reports">
         <span class="direction">
           Previous
         </span>
@@ -750,7 +781,7 @@
           </div>
           <div class="stretch">
             <div class="title">
-              Settings
+              Reports
             </div>
           </div>
         </div>
@@ -760,14 +791,14 @@
 
   <div class="next">
   
-      <a href="http://support.wethod.com/revenues/index/" title="Revenues">
+      <a href="http://support.wethod.com/finance/index/" title="Finance">
         <span class="direction">
           Next
         </span>
         <div class="page">
           <div class="stretch">
             <div class="title">
-              Revenues
+              Finance
             </div>
           </div>
           <div class="button button-next" role="button" aria-label="Next">
