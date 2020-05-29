@@ -13,10 +13,10 @@
     
     <item>
       <title>Profit &amp; Loss</title>
-      <link>http://support.wethod.com/group-profit-loss/</link>
+      <link>http://support.wethod.com/group-profit-loss/index/</link>
       <pubDate>Fri, 29 Mar 2019 10:01:45 +0000</pubDate>
       
-      <guid>http://support.wethod.com/group-profit-loss/</guid>
+      <guid>http://support.wethod.com/group-profit-loss/index/</guid>
       <description> Overview An aggregated view for the profit &amp;amp; loss report
 Note
 Data in this section use a daily cache to keep things fast. If you need something more updated please use the &amp;ldquo;Refresh data&amp;rdquo; button.
@@ -25,10 +25,10 @@ Data in this section use a daily cache to keep things fast. If you need somethin
     
     <item>
       <title>Getting Started</title>
-      <link>http://support.wethod.com/getting-started/</link>
+      <link>http://support.wethod.com/getting-started/index/</link>
       <pubDate>Wed, 09 Mar 2016 00:11:02 +0100</pubDate>
       
-      <guid>http://support.wethod.com/getting-started/</guid>
+      <guid>http://support.wethod.com/getting-started/index/</guid>
       <description>Warm Up Visit app.wethod.com/registration to create your team and get a 14 days free trial, we don&amp;rsquo;t force you to insert a credit card and you can take advantage of our tutorial.
 Setup Your Company By clicking on your initials (in the top right corner), the Settings menu will be shown and you can select the Company section to configure your team.
 Now you can invite your team members by visiting the Team section.</description>
@@ -36,20 +36,20 @@ Now you can invite your team members by visiting the Team section.</description>
     
     <item>
       <title>Desk</title>
-      <link>http://support.wethod.com/desk/</link>
+      <link>http://support.wethod.com/desk/index/</link>
       <pubDate>Tue, 31 Mar 2020 22:00:00 +0000</pubDate>
       
-      <guid>http://support.wethod.com/desk/</guid>
+      <guid>http://support.wethod.com/desk/index/</guid>
       <description>Overview The Desk is your private space and your favorite place. Here you can find a set of utilities and widgets all for you.
  Activities This box collects all the items that were assigned to you in any boards. You can scroll through them, search by item name and mark them as completed without going to the dedicated page. If this box is empty try to add a column &amp;ldquo;Member&amp;rdquo; in a board and set yourself as &amp;ldquo;Activity&amp;rsquo;s assignee&amp;rdquo;</description>
     </item>
     
     <item>
       <title>Revenues</title>
-      <link>http://support.wethod.com/group-revenues/</link>
+      <link>http://support.wethod.com/group-revenues/index/</link>
       <pubDate>Fri, 29 Mar 2019 10:01:45 +0000</pubDate>
       
-      <guid>http://support.wethod.com/group-revenues/</guid>
+      <guid>http://support.wethod.com/group-revenues/index/</guid>
       <description>Overview An aggregated view for the revenues report
 Revenues by month Here you have the yearly revenues of your group, distributed on a monthly basis. As you can see in the legend, there are various notable things in the chart:
  Production based on companies&amp;rsquo; project status Production plan based on companies&amp;rsquo; production plan Bluesky based on companies&amp;rsquo; bluesky Monthly production value obtained by dividing the target (which you can edit from the company&amp;rsquo;s profit &amp;amp; loss and displayed inside the clock chart on the right) for 12 (the number of months per year) Production trend based on the production of the last three years   Revenues by client A table where you can appreciate how much production has been generated from each company of the group an towards each of their clients.</description>
@@ -57,10 +57,10 @@ Revenues by month Here you have the yearly revenues of your group, distributed o
     
     <item>
       <title>Setup</title>
-      <link>http://support.wethod.com/group-setup/</link>
+      <link>http://support.wethod.com/group-setup/index/</link>
       <pubDate>Fri, 29 Mar 2019 10:01:45 +0000</pubDate>
       
-      <guid>http://support.wethod.com/group-setup/</guid>
+      <guid>http://support.wethod.com/group-setup/index/</guid>
       <description>Overview If you need to manage various company belonging to the same holding, this is the right tool for you: enabling the group module lets you appreciate aggregates statistics about all of your companies and made possibile to track intercompany work.
 Hierarchy Once you have enabled the group module, you can start building the hierarchy of your group: drag companies inside the graph, create levels and name them.
  Clients normalizer From here you can map company-level clients onto group-wide clusters, this is useful for those reports which displays values related to clients.</description>
@@ -68,10 +68,10 @@ Hierarchy Once you have enabled the group module, you can start building the hie
     
     <item>
       <title>Alerts</title>
-      <link>http://support.wethod.com/alerts/</link>
+      <link>http://support.wethod.com/alerts/index/</link>
       <pubDate>Tue, 13 Jun 2017 16:08:29 +0000</pubDate>
       
-      <guid>http://support.wethod.com/alerts/</guid>
+      <guid>http://support.wethod.com/alerts/index/</guid>
       <description>Overview An alert is an inconsistency regarding the user. Each alert has a priority (indicated by its color):
  Red alerts have an high priority and must be solved as soon as possible; Yellow alerts have a low priority and can be seen more as advices.  Positioning the cursor over an alert will display a description of the problem.
 Some alerts depends on parameters that you can customize using the Alerts Engine.</description>
@@ -79,20 +79,20 @@ Some alerts depends on parameters that you can customize using the Alerts Engine
     
     <item>
       <title>Pipeline</title>
-      <link>http://support.wethod.com/pipeline/</link>
+      <link>http://support.wethod.com/pipeline/index/</link>
       <pubDate>Fri, 11 Mar 2016 19:10:46 +0000</pubDate>
       
-      <guid>http://support.wethod.com/pipeline/</guid>
+      <guid>http://support.wethod.com/pipeline/index/</guid>
       <description>Overview Everything starts from Pipeline, here is where opportunities and projects are listed, both of them are defined by a small amount of significant information:
  Name: how are you going to call it?; Client: for who are you going to work?; Value (in K): what&amp;rsquo;s the estimated price to the client?; Percentage of external costs; Category: which type of project is it?; Probability: how likely this project is going to start?</description>
     </item>
     
     <item>
       <title>Budget</title>
-      <link>http://support.wethod.com/budget/</link>
+      <link>http://support.wethod.com/budget/index/</link>
       <pubDate>Fri, 26 May 2017 11:04:19 +0000</pubDate>
       
-      <guid>http://support.wethod.com/budget/</guid>
+      <guid>http://support.wethod.com/budget/index/</guid>
       <description>Overview The budget is where you can list all the resources you think you&amp;rsquo;ll need for the project.
  Basically, this is the place where you define (for a project):
  How many people you need; Which experience levels you need; Which tasks are needed to get the job done; Who will do what; The external costs; The selling price.  Done? Now the budget must be approved by a supervisor and, once approved, the project manager can start planning and creating orders.</description>
@@ -100,20 +100,20 @@ Some alerts depends on parameters that you can customize using the Alerts Engine
     
     <item>
       <title>Planning</title>
-      <link>http://support.wethod.com/planning/</link>
+      <link>http://support.wethod.com/planning/index/</link>
       <pubDate>Sat, 12 Mar 2016 19:08:11 +0000</pubDate>
       
-      <guid>http://support.wethod.com/planning/</guid>
+      <guid>http://support.wethod.com/planning/index/</guid>
       <description>Overview The planning has two section:
  People Allocation helps you to look for teammates availability, resources allocation and check if the budget quota is respected. Projects&amp;rsquo; Heatmap shows the daily amount of people planned on each project. It also offers a milestone system that allows your team to have an overview on the scheduled events. Production Plan where you can express the percentage of the project&amp;rsquo;s total value you are going to produce in each month.</description>
     </item>
     
     <item>
       <title>Friday</title>
-      <link>http://support.wethod.com/friday/</link>
+      <link>http://support.wethod.com/friday/index/</link>
       <pubDate>Mon, 22 May 2017 13:51:35 +0000</pubDate>
       
-      <guid>http://support.wethod.com/friday/</guid>
+      <guid>http://support.wethod.com/friday/index/</guid>
       <description>Overview WETHOD follows a weekly cycle: we think that a week is a good trade-off between the need to control the project&amp;rsquo;s progress as much as possible and the need to not burden the control activities.
 Every Friday an e-mail will remind:
  Each project manager to compile the Project Status for its projects;
@@ -123,10 +123,10 @@ Every Friday an e-mail will remind:
     
     <item>
       <title>Reports</title>
-      <link>http://support.wethod.com/reports/</link>
+      <link>http://support.wethod.com/reports/index/</link>
       <pubDate>Wed, 24 May 2017 10:01:45 +0000</pubDate>
       
-      <guid>http://support.wethod.com/reports/</guid>
+      <guid>http://support.wethod.com/reports/index/</guid>
       <description>Overview All the data you insert in WETHOD are used to generate, weekly and automatically, a set of reports useful to monitoring the projects&amp;rsquo; progress.
 Project Report Each Monday, utilising data provided by Timesheet, Project Status and Budget, a Project Report is automatically created.
 Budget Consumption / Project Status This section shows the budget consumption of the project, compared to its progress:
@@ -135,10 +135,10 @@ Budget Consumption / Project Status This section shows the budget consumption of
     
     <item>
       <title>Dashboard</title>
-      <link>http://support.wethod.com/dashboard/</link>
+      <link>http://support.wethod.com/dashboard/index/</link>
       <pubDate>Thu, 10 Mar 2016 18:56:50 +0000</pubDate>
       
-      <guid>http://support.wethod.com/dashboard/</guid>
+      <guid>http://support.wethod.com/dashboard/index/</guid>
       <description>Overview The Dashboard is basically a set of widgets, any one of which can be added or removed and customized by the user.
  Widgets Adding a new widget to your dashboard is very easy: just click on the “+” sign and pick one from the list of the available widgets.
  Alerts This widget shows all the inconsistencies regarding the user. Each alert has a priority (indicated by its color):</description>
@@ -146,10 +146,10 @@ Budget Consumption / Project Status This section shows the budget consumption of
     
     <item>
       <title>Finance</title>
-      <link>http://support.wethod.com/finance/</link>
+      <link>http://support.wethod.com/finance/index/</link>
       <pubDate>Wed, 24 May 2017 10:06:54 +0000</pubDate>
       
-      <guid>http://support.wethod.com/finance/</guid>
+      <guid>http://support.wethod.com/finance/index/</guid>
       <description>Orders In this section you can see all your orders and create new ones.
 To create an order:
  Click on the top left &amp;ldquo;+ order&amp;rdquo; button and an empty order will be added to the list Compile the required fields Click on the &amp;ldquo;create&amp;rdquo; button  After creating an order you can send it and approve it. Once you click on the &amp;ldquo;send&amp;rdquo; button, an e-mail will be sent to the address provided in the settings&amp;rsquo; Email Bot section.</description>
@@ -157,10 +157,10 @@ To create an order:
     
     <item>
       <title>Settings</title>
-      <link>http://support.wethod.com/settings/</link>
+      <link>http://support.wethod.com/settings/index/</link>
       <pubDate>Wed, 24 May 2017 10:09:44 +0000</pubDate>
       
-      <guid>http://support.wethod.com/settings/</guid>
+      <guid>http://support.wethod.com/settings/index/</guid>
       <description>Tutorial From here you can access a quick and clear tutorial that will teach you all the secrets behind WETHOD, but remember: with great power comes great responsibility.
 Clicking on &amp;ldquo;let me try&amp;rdquo; will pause the tutorial and let you take a look around, to resume the tutorial just click on the bottom right button.
 Clicking on &amp;ldquo;skip tour&amp;rdquo; will close the tutorial.
@@ -169,30 +169,30 @@ Account Here you set your name, surname and password.</description>
     
     <item>
       <title>Profit &amp; Loss</title>
-      <link>http://support.wethod.com/profit-loss/</link>
+      <link>http://support.wethod.com/profit-loss/index/</link>
       <pubDate>Tue, 29 Aug 2017 08:23:59 +0000</pubDate>
       
-      <guid>http://support.wethod.com/profit-loss/</guid>
+      <guid>http://support.wethod.com/profit-loss/index/</guid>
       <description>Overview This page provides an overview of the budgetary slippages between a company&amp;rsquo;s projected revenues and its expenses, as well as its budget target over a given period of time. The three columns budget, forecast 1 and forecast 2 can be used to set the company&amp;rsquo;s financial goals for each quarter of the year.
 The column budget in the revenues row is used to set the revenues&amp;rsquo; target for the company, which is used in the widget Revenue Clock and in the report Production Value.</description>
     </item>
     
     <item>
       <title>Revenues</title>
-      <link>http://support.wethod.com/revenues/</link>
+      <link>http://support.wethod.com/revenues/index/</link>
       <pubDate>Tue, 29 Aug 2017 08:24:15 +0000</pubDate>
       
-      <guid>http://support.wethod.com/revenues/</guid>
+      <guid>http://support.wethod.com/revenues/index/</guid>
       <description>Overview Here you can see the value of your projects for each month of the current year.
 The monthly distribution is achieved by looking at the production plan of every project, for example: if a project is evaluated 10 K with 3 K planned to be produced in January and 7 K planned to be produced in February, the value of this project will contribute with 3 K to the January&amp;rsquo;s revenues and with 7 K to February&amp;rsquo;s revenues.</description>
     </item>
     
     <item>
       <title>External Costs</title>
-      <link>http://support.wethod.com/external-costs/</link>
+      <link>http://support.wethod.com/external-costs/index/</link>
       <pubDate>Tue, 29 Aug 2017 08:24:26 +0000</pubDate>
       
-      <guid>http://support.wethod.com/external-costs/</guid>
+      <guid>http://support.wethod.com/external-costs/index/</guid>
       <description>Overview Here you can see the external costs listed in your projects&amp;rsquo; budget for each month of the current year.
 Note
 For a completed project (that is a project with last project status equal to 0) orders&amp;rsquo; value is used instead of external costs. This way you can have a more accurate look at the costs implied in your projects.
@@ -201,10 +201,10 @@ For a completed project (that is a project with last project status equal to 0) 
     
     <item>
       <title>Payroll</title>
-      <link>http://support.wethod.com/payroll/</link>
+      <link>http://support.wethod.com/payroll/index/</link>
       <pubDate>Tue, 29 Aug 2017 08:41:03 +0000</pubDate>
       
-      <guid>http://support.wethod.com/payroll/</guid>
+      <guid>http://support.wethod.com/payroll/index/</guid>
       <description>Overview Here&amp;rsquo;s the list of all your employees&amp;rsquo; salary for the current year.
 Each Employee has at least a segment which represents a work contract between that employee and the company. Every segment has:
  Start month
@@ -216,10 +216,10 @@ Each Employee has at least a segment which represents a work contract between th
     
     <item>
       <title>G &amp; A</title>
-      <link>http://support.wethod.com/general-admin/</link>
+      <link>http://support.wethod.com/general-admin/index/</link>
       <pubDate>Tue, 29 Aug 2017 10:24:40 +0200</pubDate>
       
-      <guid>http://support.wethod.com/general-admin/</guid>
+      <guid>http://support.wethod.com/general-admin/index/</guid>
       <description> Overview Here you can list all your general and administratrion costs. This is the right place to put all that costs which aren&amp;rsquo;t about external costs, payroll or marketing.
 Each cost has:
  Start month
@@ -230,10 +230,10 @@ Each cost has:
     
     <item>
       <title>Marketing</title>
-      <link>http://support.wethod.com/marketing/</link>
+      <link>http://support.wethod.com/marketing/index/</link>
       <pubDate>Tue, 29 Aug 2017 08:24:54 +0000</pubDate>
       
-      <guid>http://support.wethod.com/marketing/</guid>
+      <guid>http://support.wethod.com/marketing/index/</guid>
       <description> Overview This is the right place to put all that costs related to the promotion of your products or services.
 Each cost has:
  Start month
@@ -245,10 +245,10 @@ Each cost has:
     
     <item>
       <title>Capex</title>
-      <link>http://support.wethod.com/capex/</link>
+      <link>http://support.wethod.com/capex/index/</link>
       <pubDate>Fri, 23 Nov 2018 08:24:15 +0000</pubDate>
       
-      <guid>http://support.wethod.com/capex/</guid>
+      <guid>http://support.wethod.com/capex/index/</guid>
       <description>Overview This section provides an overview of all investment project values meant as Capital Expenditures.
  Total CapEx costs for each project are divided into:
  Payroll costs: all the costs derived from employees’ levels’ rates External costs  You can edit the CapEx percentage field to tell Wethod the amount of investment to consider from the project.
@@ -257,10 +257,10 @@ To mark all costs in a project as CapEx, just assign that project a job order ca
     
     <item>
       <title>Invoice Plan</title>
-      <link>http://support.wethod.com/invoice-plan/</link>
+      <link>http://support.wethod.com/invoice-plan/index/</link>
       <pubDate>Mon, 11 Mar 2019 08:24:15 +0000</pubDate>
       
-      <guid>http://support.wethod.com/invoice-plan/</guid>
+      <guid>http://support.wethod.com/invoice-plan/index/</guid>
       <description> Overview From here you can see the invoice plans of all your company&amp;rsquo;s projects.
 This is basically a summary of the view you have from pipeline, where you can access each project&amp;rsquo;s invoice plan one by one.
 Each row in this view represents a project and carries with it a bunch of information:
@@ -269,10 +269,10 @@ Each row in this view represents a project and carries with it a bunch of inform
     
     <item>
       <title>Order Plan</title>
-      <link>http://support.wethod.com/order-plan/</link>
+      <link>http://support.wethod.com/order-plan/index/</link>
       <pubDate>Wed, 19 Jun 2019 08:24:15 +0000</pubDate>
       
-      <guid>http://support.wethod.com/order-plan/</guid>
+      <guid>http://support.wethod.com/order-plan/index/</guid>
       <description>Overview From here you can see the orders&amp;rsquo; amount grouped by projects.
 Each row in this view represents a project and carries with it a bunch of information:
  Name and client for the project The monthly distribution for the current year: for each month you can appreciate the planned orders&amp;rsquo; amount and the approved orders amount (colored with lower opacity) The total planned amount for the current year  If your company activated the multicurrency functionality, you can see all the currencies used for a project&amp;rsquo;s orders by clicking on that project&amp;rsquo;s row.</description>
@@ -280,19 +280,19 @@ Each row in this view represents a project and carries with it a bunch of inform
     
     <item>
       <title>FAQ</title>
-      <link>http://support.wethod.com/faq/</link>
+      <link>http://support.wethod.com/faq/index/</link>
       <pubDate>Mon, 22 May 2017 17:08:16 +0200</pubDate>
       
-      <guid>http://support.wethod.com/faq/</guid>
+      <guid>http://support.wethod.com/faq/index/</guid>
       <description>(function(q,u,e,s,t,i,o,n) { o=u.getElementsByTagName(e)[0]; n=u.createElement(s),n.async=1,n.defer=1,n.src=i; o.appendChild(n) })(window,document,&#34;head&#34;,&#34;script&#34;,&#34;res_pars&#34;, &#34;https://goresponsa.com/widgets/57a0713be0e2ee8a8c001270.js&#34;);  </description>
     </item>
     
     <item>
       <title>Glossary</title>
-      <link>http://support.wethod.com/glossary/</link>
+      <link>http://support.wethod.com/glossary/index/</link>
       <pubDate>Mon, 22 May 2017 15:31:29 +0000</pubDate>
       
-      <guid>http://support.wethod.com/glossary/</guid>
+      <guid>http://support.wethod.com/glossary/index/</guid>
       <description>Absolute Project Progress This value indicates how much a project is advanced since its beginning. For example, a project with:
  Budget days: 200; Last project status: 40;  Has an absolute project progress of: ( 200 - 40 ) / 200 * 100 = 80 % .
 Bluesky It represents the value you think is missing in order to reach an hypothetical overall value.
@@ -301,10 +301,10 @@ For example: if I have an actual value of 5 but I know that, in a particular mom
     
     <item>
       <title>Discover WETHOD</title>
-      <link>http://support.wethod.com/</link>
+      <link>http://support.wethod.com/index/</link>
       <pubDate>Tue, 08 Mar 2016 21:07:13 +0100</pubDate>
       
-      <guid>http://support.wethod.com/</guid>
+      <guid>http://support.wethod.com/index/</guid>
       <description>What It Is WETHOD is the online tool to manage people and projects in a collaborative way. We aim to make the project management simple, distributing the responsibilities among all the team members and reducing stress derived from projects organization.
 The result is a deeply integrated system that manages all the information which are essential for a project-oriented company: budget, planning, timesheet and activity report.
 This enables WETHOD to create a system where everybody collaborate and keep information up to date, a system that rewards who done well and warns the others.</description>

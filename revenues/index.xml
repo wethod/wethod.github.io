@@ -13,10 +13,10 @@
     
     <item>
       <title>Revenues</title>
-      <link>http://support.wethod.com/revenues/</link>
+      <link>http://support.wethod.com/revenues/index/</link>
       <pubDate>Tue, 29 Aug 2017 08:24:15 +0000</pubDate>
       
-      <guid>http://support.wethod.com/revenues/</guid>
+      <guid>http://support.wethod.com/revenues/index/</guid>
       <description>Overview Here you can see the value of your projects for each month of the current year.
 The monthly distribution is achieved by looking at the production plan of every project, for example: if a project is evaluated 10 K with 3 K planned to be produced in January and 7 K planned to be produced in February, the value of this project will contribute with 3 K to the January&amp;rsquo;s revenues and with 7 K to February&amp;rsquo;s revenues.</description>
     </item>

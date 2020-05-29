@@ -13,10 +13,10 @@
     
     <item>
       <title>Payroll</title>
-      <link>http://support.wethod.com/payroll/</link>
+      <link>http://support.wethod.com/payroll/index/</link>
       <pubDate>Tue, 29 Aug 2017 08:41:03 +0000</pubDate>
       
-      <guid>http://support.wethod.com/payroll/</guid>
+      <guid>http://support.wethod.com/payroll/index/</guid>
       <description>Overview Here&amp;rsquo;s the list of all your employees&amp;rsquo; salary for the current year.
 Each Employee has at least a segment which represents a work contract between that employee and the company. Every segment has:
  Start month
