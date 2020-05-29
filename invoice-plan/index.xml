@@ -13,10 +13,10 @@
     
     <item>
       <title>Invoice Plan</title>
-      <link>http://support.wethod.com/invoice-plan/index/</link>
+      <link>http://support.wethod.com/invoice-plan/</link>
       <pubDate>Mon, 11 Mar 2019 08:24:15 +0000</pubDate>
       
-      <guid>http://support.wethod.com/invoice-plan/index/</guid>
+      <guid>http://support.wethod.com/invoice-plan/</guid>
       <description> Overview From here you can see the invoice plans of all your company&amp;rsquo;s projects.
 This is basically a summary of the view you have from pipeline, where you can access each project&amp;rsquo;s invoice plan one by one.
 Each row in this view represents a project and carries with it a bunch of information:

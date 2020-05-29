@@ -13,10 +13,10 @@
     
     <item>
       <title>FAQ</title>
-      <link>http://support.wethod.com/faq/index/</link>
+      <link>http://support.wethod.com/faq/</link>
       <pubDate>Mon, 22 May 2017 17:08:16 +0200</pubDate>
       
-      <guid>http://support.wethod.com/faq/index/</guid>
+      <guid>http://support.wethod.com/faq/</guid>
       <description>(function(q,u,e,s,t,i,o,n) { o=u.getElementsByTagName(e)[0]; n=u.createElement(s),n.async=1,n.defer=1,n.src=i; o.appendChild(n) })(window,document,&#34;head&#34;,&#34;script&#34;,&#34;res_pars&#34;, &#34;https://goresponsa.com/widgets/57a0713be0e2ee8a8c001270.js&#34;);  </description>
     </item>
     

@@ -1,133 +1,134 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://support.wethod.com/group-profit-loss/index/</loc>
+    <loc>http://support.wethod.com/group-profit-loss/</loc>
     <lastmod>2019-03-29T10:01:45+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://support.wethod.com/getting-started/index/</loc>
+    <loc>http://support.wethod.com/getting-started/</loc>
     <lastmod>2016-03-09T00:11:02+01:00</lastmod>
   </url>
   
   <url>
-    <loc>http://support.wethod.com/desk/index/</loc>
+    <loc>http://support.wethod.com/desk/</loc>
     <lastmod>2020-03-31T22:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://support.wethod.com/group-revenues/index/</loc>
+    <loc>http://support.wethod.com/group-revenues/</loc>
     <lastmod>2019-03-29T10:01:45+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://support.wethod.com/group-setup/index/</loc>
+    <loc>http://support.wethod.com/group-setup/</loc>
     <lastmod>2019-03-29T10:01:45+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://support.wethod.com/alerts/index/</loc>
+    <loc>http://support.wethod.com/alerts/</loc>
     <lastmod>2017-06-13T16:08:29+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://support.wethod.com/pipeline/index/</loc>
+    <loc>http://support.wethod.com/pipeline/</loc>
     <lastmod>2016-03-11T19:10:46+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://support.wethod.com/budget/index/</loc>
+    <loc>http://support.wethod.com/budget/</loc>
     <lastmod>2017-05-26T11:04:19+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://support.wethod.com/planning/index/</loc>
+    <loc>http://support.wethod.com/planning/</loc>
     <lastmod>2016-03-12T19:08:11+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://support.wethod.com/friday/index/</loc>
+    <loc>http://support.wethod.com/friday/</loc>
     <lastmod>2017-05-22T13:51:35+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://support.wethod.com/reports/index/</loc>
+    <loc>http://support.wethod.com/reports/</loc>
     <lastmod>2017-05-24T10:01:45+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://support.wethod.com/dashboard/index/</loc>
+    <loc>http://support.wethod.com/dashboard/</loc>
     <lastmod>2016-03-10T18:56:50+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://support.wethod.com/finance/index/</loc>
+    <loc>http://support.wethod.com/finance/</loc>
     <lastmod>2017-05-24T10:06:54+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://support.wethod.com/settings/index/</loc>
+    <loc>http://support.wethod.com/settings/</loc>
     <lastmod>2017-05-24T10:09:44+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://support.wethod.com/profit-loss/index/</loc>
+    <loc>http://support.wethod.com/profit-loss/</loc>
     <lastmod>2017-08-29T08:23:59+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://support.wethod.com/revenues/index/</loc>
+    <loc>http://support.wethod.com/revenues/</loc>
     <lastmod>2017-08-29T08:24:15+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://support.wethod.com/external-costs/index/</loc>
+    <loc>http://support.wethod.com/external-costs/</loc>
     <lastmod>2017-08-29T08:24:26+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://support.wethod.com/payroll/index/</loc>
+    <loc>http://support.wethod.com/payroll/</loc>
     <lastmod>2017-08-29T08:41:03+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://support.wethod.com/general-admin/index/</loc>
+    <loc>http://support.wethod.com/general-admin/</loc>
     <lastmod>2017-08-29T10:24:40+02:00</lastmod>
   </url>
   
   <url>
-    <loc>http://support.wethod.com/marketing/index/</loc>
+    <loc>http://support.wethod.com/marketing/</loc>
     <lastmod>2017-08-29T08:24:54+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://support.wethod.com/capex/index/</loc>
+    <loc>http://support.wethod.com/capex/</loc>
     <lastmod>2018-11-23T08:24:15+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://support.wethod.com/invoice-plan/index/</loc>
+    <loc>http://support.wethod.com/invoice-plan/</loc>
     <lastmod>2019-03-11T08:24:15+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://support.wethod.com/order-plan/index/</loc>
+    <loc>http://support.wethod.com/order-plan/</loc>
     <lastmod>2019-06-19T08:24:15+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://support.wethod.com/faq/index/</loc>
+    <loc>http://support.wethod.com/faq/</loc>
     <lastmod>2017-05-22T17:08:16+02:00</lastmod>
   </url>
   
   <url>
-    <loc>http://support.wethod.com/glossary/index/</loc>
+    <loc>http://support.wethod.com/glossary/</loc>
     <lastmod>2017-05-22T15:31:29+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://support.wethod.com/index/</loc>
+    <loc>http://support.wethod.com/</loc>
     <lastmod>2016-03-08T21:07:13+01:00</lastmod>
   </url>
   

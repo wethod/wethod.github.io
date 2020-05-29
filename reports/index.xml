@@ -13,10 +13,10 @@
     
     <item>
       <title>Reports</title>
-      <link>http://support.wethod.com/reports/index/</link>
+      <link>http://support.wethod.com/reports/</link>
       <pubDate>Wed, 24 May 2017 10:01:45 +0000</pubDate>
       
-      <guid>http://support.wethod.com/reports/index/</guid>
+      <guid>http://support.wethod.com/reports/</guid>
       <description>Overview All the data you insert in WETHOD are used to generate, weekly and automatically, a set of reports useful to monitoring the projects&amp;rsquo; progress.
 Project Report Each Monday, utilising data provided by Timesheet, Project Status and Budget, a Project Report is automatically created.
 Budget Consumption / Project Status This section shows the budget consumption of the project, compared to its progress:
