@@ -707,14 +707,35 @@
 
 <h3 id="budget-consumption">Budget Consumption</h3>
 
-<p>This value indicates, for a project, the percentage of the budget days already used. This is calculated by comparing timesheet hours and budget days. For example, a project with:</p>
+<p>This value indicates, for a project, the percentage of the budget already used.
+For a project with status compiled as <strong>completed percentage</strong>, budget consumption is calculated by comparing budget costs to timesheet costs (derived from employees&rsquo; level cost).</p>
+
+<p>For instance, a project with:</p>
+
+<ul>
+<li>Budget days: <strong>200</strong></li>
+<li>Junior budget days: <strong>160</strong></li>
+<li>Senior budget days: <strong>40</strong></li>
+<li>Last week timesheet: <strong>10</strong> junior hours and <strong>20</strong> senior hours</li>
+<li>Junior cost per hour: <strong>100</strong></li>
+<li>Senior cost per hour: <strong>150</strong></li>
+</ul>
+
+<p>Has budget costs of <strong>160 * 100 + 40 * 150 = 22.000</strong> and timesheet costs of <strong>10 * 100 + 20 * 150 = 4.000</strong>.
+This leads to a budget consumption of <strong>4.000 / 22.000 * 100 = 18 %</strong>.</p>
+
+<p>The situation is different for projects with status <strong>auto</strong> or compiled as <strong>work days to complete</strong>. In this case budget consumption is calculated by comparing timesheet hours and budget days.</p>
+
+<p>For instance, a project with:</p>
 
 <ul>
 <li>Budget days: <strong>200</strong>;</li>
 <li>Last week timesheet hours: <strong>80</strong>;</li>
 </ul>
 
-<p>Has a budget consumption of: <strong>80 / 200 * 100 = 40 % .</strong></p>
+<p>Has a budget consumption of: <strong>80 / 200 * 100 = 40 %</strong>.</p>
+
+<p>Project status compile mode can be assigned for single job order category in <a href="http://support.wethod.com/settings/index/#company">company settings</a>.</p>
 
 <h3 id="expected-value">Expected Value</h3>
 
