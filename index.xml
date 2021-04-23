@@ -151,8 +151,7 @@ Budget Consumption / Project Status This section shows the budget consumption of
       
       <guid>http://support.wethod.com/finance/index/</guid>
       <description>Orders In this section you can see all your orders and create new ones.
-To create an order:
- Click on the top left &amp;ldquo;+ order&amp;rdquo; button and an empty order will be added to the list Compile the required fields Click on the &amp;ldquo;create&amp;rdquo; button  After creating an order you can send it and approve it. Once you click on the &amp;ldquo;send&amp;rdquo; button, an e-mail will be sent to the address provided in the settings&amp;rsquo; Email Bot section.</description>
+ Create a new order:  Click button New Order and a sidebar will open.    Insert project name. The job order will be automatically filled by the system. Compile all the required fields Click on the &amp;ldquo;save&amp;rdquo; button Your order will be added to the list  Order&amp;rsquo;s fields description:  Project: the target Project Job Order: automatically filled selecting the project Supplier: the target Supplier for this Order Purchase Code: an identifier for the Order Value: the total cost of this Order Area: the area of the budget this Order is about Date: the issue date of this Order Duration: answers to the question &amp;ldquo;when this order will used for the project?</description>
     </item>
     
     <item>

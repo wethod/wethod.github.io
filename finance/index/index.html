@@ -708,35 +708,74 @@
 
 <p>In this section you can see all your orders and create new ones.</p>
 
-<p>To create an order:</p>
+<img src="http://support.wethod.com/uploads/2021/04/23/orders-list.png" class="figure--center"></img>
+
+<h3 id="create-a-new-order">Create a new order:</h3>
 
 <ol>
-<li>Click on the top left &ldquo;<strong>+ order</strong>&rdquo; button and an empty order will be added to the list</li>
-<li>Compile the required fields</li>
-<li>Click on the &ldquo;<strong>create</strong>&rdquo; button</li>
+<li>Click button <em>New Order</em> and a sidebar will open.</li>
 </ol>
 
-<p>After creating an order you can send it and approve it. Once you click on the &ldquo;<strong>send</strong>&rdquo; button, an e-mail will be sent to the address provided in the settings&rsquo; <a href="http://support.wethod.com/settings/index/#company">Email Bot</a> section.</p>
+<img src="http://support.wethod.com/uploads/2021/04/23/order-sidebar.png" class="figure--center"></img>
 
-<p>When an order is sent, you still have the ability to edit it or approve it by clicking on the &ldquo;<strong>approve</strong>&rdquo; button. Approving an order isn&rsquo;t mandatory but can be useful if you want to keep track of what orders can be actually issued.</p>
+<ol>
+<li>Insert project name. The job order will be automatically filled by the system.</li>
+<li>Compile all the required fields</li>
+<li>Click on the &ldquo;<strong>save</strong>&rdquo; button</li>
+<li>Your order will be added to the list</li>
+</ol>
 
-<p>An approved order cannot be edited.</p>
-
-<p>Order&rsquo;s fields description:</p>
+<h3 id="order-s-fields-description">Order&rsquo;s fields description:</h3>
 
 <ul>
 <li><strong>Project</strong>: the target Project</li>
+<li><strong>Job Order</strong>: automatically filled selecting the project</li>
 <li><strong>Supplier</strong>: the target Supplier for this Order</li>
 <li><strong>Purchase Code</strong>: an identifier for the Order</li>
+<li><strong>Value</strong>: the total cost of this Order</li>
+<li><strong>Area</strong>: the area of the <a href="http://support.wethod.com/budget/index/">budget</a> this Order is about</li>
 <li><strong>Date</strong>: the issue date of this Order</li>
 <li><strong>Duration</strong>: answers to the question &ldquo;when this order will used for the project?&rdquo;, by default uses the project&rsquo;s start month and duration. For example: some external employees works for you on April and May so you should set start month to April and duration of 2 months.</li>
-<li><strong>Note</strong>: a brief text about the order. This is attached to the order&rsquo;s email and can be seen by your colleagues</li>
+<li><strong>Notes</strong>: a brief text about the order. This is attached to the order&rsquo;s email and can be seen by your colleagues</li>
 </ul>
+
+<h3 id="send-an-order">Send an order:</h3>
+
+<ol>
+<li><p>Click the button <em>Send</em>.</p></li>
+
+<li><p>Choose a recipient for the order. To insert one or more email addresses as recipients head to the settings <a href="http://support.wethod.com/settings/index/#company">Email Bot</a> section.</p></li>
+
+<li><p>The recipient will receive an email.</p></li>
+</ol>
+
+<p>When an order is sent, you will need specific permissions to edit or approve it.
+You can approve an order by clicking on the &ldquo;<strong>approve</strong>&rdquo; button. Approving an order isn&rsquo;t mandatory but can be useful if you want to keep track of what orders can be actually issued.</p>
+
+<p>Role based permissions for Orders can be managed from the <a href="http://support.wethod.com/settings/index/#permissions">permissions section</a>.</p>
 
 <h3 id="currency">Currency</h3>
 
 <p>Orders belonging to a <a href="http://support.wethod.com/budget/index/#multicurrency-budget">multicurrency budget</a>
 are displayed with their currency. Currency can be picked between those used in the budget&rsquo;s external costs. The exchange rate for the currency refers to the budget&rsquo;s creation date, but you can change it in any moment by editing it manually.</p>
+
+<p>Order&rsquo;s value must be lower or equal then the external costs provided in the budget for the currency picked for the order.</p>
+
+<img src="http://support.wethod.com/uploads/2021/04/23/order-multicurrency.gif" class="figure--center"></img>
+
+<h3 id="export-a-spreadsheet-with-the-list-of-orders">Export a spreadsheet with the list of orders:</h3>
+
+<ol>
+<li><p>Click on &ldquo;Export data&rdquo;.</p></li>
+
+<li><p>Choose if you want to download all data or just a list of orders belonging to a time range.</p></li>
+
+<li><p>(Segment) Select the time range you want collect data from.</p></li>
+
+<li><p>Click on &ldquo;Email me&rdquo;.</p></li>
+
+<li><p>You will receive an email with the spreadsheet with requested data.</p></li>
+</ol>
 
 <div class="admonition note">
 <p class="admonition-title">Note</p>
@@ -744,8 +783,6 @@ are displayed with their currency. Currency can be picked between those used in 
 
 <p><strong>Order&rsquo;s value must be lower or equal then the external costs provided in the budget.</strong></p>
 </div>
-
-<img src="http://support.wethod.com/uploads/2019/06/13/orders.gif" class="figure--center"></img>
 
 <h2 id="invoices">Invoices</h2>
 
