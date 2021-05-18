@@ -706,26 +706,35 @@
 
 <h2 id="overview">Overview</h2>
 
-<p>Here you can see the external costs listed in your projects&rsquo; <a href="http://support.wethod.com/budget/index/">budget</a> for each month of the current year.</p>
+<p>In this section, you can see the yearly external cost distribution of all your projects. The monthly external cost is calculated as follow:</p>
+
+<p>Ordered value is distributed on each month based on the period they cover, in particular:</p>
+
+<ul>
+<li>Orders value follow the &ldquo;Period of Supply&rdquo;, for example: an Order of 3k with the period from January to June will weigh 500 each month from January to June.</li>
+<li>Travels value follows the departure and return date of each Travel (if the travel is a one-way trip all costs will go on the departure date).</li>
+</ul>
+
+<p><a href="http://support.wethod.com/budget/index/">External costs</a> that are not covered by Orders or Travels are distributed follows the <a href="http://support.wethod.com/finance/index/#production-plan">production plan</a> of each project, for example: if a project has a value of 10K with 3K planned to be produced in January and 7K planned to be produced in February, we can also say that you planned to order 30% in January and 70% in February. So the remaining external costs will contribute by 30% to January’s external costs and by 70% to February’s external costs.</p>
 
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p><strong>For a completed project (that is a project with last project status equal to 0) orders&rsquo; value is used instead of external costs. This way you can have a more accurate look at the costs implied in your projects.</strong></p>
+<p><strong>For a completed project (that is a project with last project status equal to 0) only ordered value is considered. This way you can have a more accurate look at the costs implied in your projects.</strong></p>
 </div>
-
-<p>The monthly distribution is achieved by looking at the <a href="http://support.wethod.com/finance/index/#production-plan">production plan</a> of every project, for example: if a project has a value of 10 K with 3 K planned to be produced in January and 7 K planned to be produced in February, we can also say that you planned to invoice 30% in January and 70% in February. So the external costs of this project will contribute by 30% to the January&rsquo;s external costs and by 70% to February&rsquo;s external costs.</p>
 
 <p>Three important indicators are given in the first three rows:</p>
 
 <ul>
-<li><p><strong>Total</strong>: the sum of all your projects&rsquo; external costs, per month;</p></li>
+<li><p><strong>Total External Cost</strong>: the sum of all your projects&rsquo; external costs, per month;</p></li>
 
 <li><p><strong><a href="http://support.wethod.com/glossary/index/#bluesky">Bluesky</a></strong>: here you can insert only one percentage. This indicates, for each month of the current year, the percentage of that month&rsquo;s revenues&rsquo; bluesky to see as external costs&rsquo; bluesky. If you know that, for your projects, the external costs are always around the 25% of the project&rsquo;s revenues so you can insert 25% in the External Costs&rsquo; bluesky. This way the 25% of the Revenues&rsquo; bluesky will be added as External Costs&rsquo; bluesky, helping balancing <a href="http://support.wethod.com/profit-loss/index/">Profit &amp; Loss</a>. For example: if January&rsquo;s revenues&rsquo; bluesky is 4 K and external costs&rsquo; bluesky is 25%, then a 1 K external costs&rsquo; bluesky will be automatically added to January;</p></li>
 
-<li><p><strong>Values</strong>: external costs without bluesky, per month.</p></li>
+<li><p><strong>Delta Revenues Target</strong>: similarly to Bluesky, here you can set the percentages of <a href="http://support.wethod.com/revenues/index/">delta revenue target</a> that needs to be considered as external cost each month.</p></li>
+
+<li><p><strong>Total From Pipeline</strong>: external costs without bluesky, per month.</p></li>
 </ul>
 
-<p><img src="http://support.wethod.com/uploads/2017/08/29/External%20Cost.png" class="figure--center"></img></p>
+<img src="http://support.wethod.com/uploads/2021/05/18/new_external_costs.png" class="figure--center"></img>
 
 <div class="admonition note">
 <p class="admonition-title">Note</p>
