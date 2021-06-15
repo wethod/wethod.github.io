@@ -899,30 +899,114 @@ are displayed with the final net&rsquo;s currency. The exchange rate for the cur
 
 <p>Find this section in Projects &gt; Wallet &gt; Suppliers</p>
 
-<p>In this section you can view all your suppliers, create new ones or browse by name, email, status or tags.</p>
+<p>In this section you can view all your suppliers and create new ones.</p>
 
-<img src="http://support.wethod.com/uploads/2020/10/09/supplier_list.png" class="figure--center"></img>
-
-<img src="http://support.wethod.com/uploads/2020/10/09/supplier_list_cassetto.png" class="figure--center"></img>
+<img src="http://support.wethod.com/uploads/2021/06/15/supplier-list.png" class="figure--center"></img>
 
 <p>To add a new supplier:</p>
 
 <ol>
-<li>Click on the top left &ldquo;<strong>New supplier</strong>&rdquo; button and a sidebar will open;</li>
-<li>Compile the supplier&rsquo;s empty fields inside the sidebar;</li>
-<li>Assign tags to catalogue the supplier with keywords (i.e. expertise, industry or geography) by selecting them from the list in the field &ldquo;Tag&rdquo;. To add tags to the list go to the  <a href="http://support.wethod.com/settings/index/#suppliers-settings">&ldquo;Supplier Settings&rdquo;</a> page or go from the navigation menu to Settings &gt; Company &gt; Suppliers.</li>
-<li>Click on the &ldquo;<strong>save</strong>&rdquo; button.</li>
+<li>Click on the top left &ldquo;<strong>New supplier</strong>&rdquo; button and a sidebar will open</li>
+<li>Compile the supplier&rsquo;s empty fields inside the sidebar</li>
+<li>Click on the &ldquo;<strong>save</strong>&rdquo; button</li>
 </ol>
 
-<p>To filter the list with multiple search queries, insert the keywords between commas:</p>
-
-<img src="http://support.wethod.com/uploads/2020/10/09/tag_search_supplier.gif" class="figure--center"></img>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p><strong>You can only assign tags which was previously created in the <a href="http://support.wethod.com/settings/index/#suppliers-settings">&ldquo;Supplier Settings&rdquo;</a>. Tags can be useful to catalogue the supplier with keywords (i.e. expertise, industry or geography)</strong></p>
+</div>
 
 <h3 id="supplier-s-status">Supplier&rsquo;s status</h3>
 
-<p>It is possible to add a status that determines whether a supplier is eligible for contracts or not. To enable this feature and set your preferences on supplier&rsquo;s status, head to Settings &gt; Company &gt; Suppliers or learn more from <a href="http://support.wethod.com/settings/index/#suppliers-settings">&ldquo;Supplier Settings&rdquo;</a>.</p>
+<p>It is possible to add a status that determines whether a supplier is available for contracts or not. To enable this feature and set your preferences on supplier&rsquo;s status, head to Settings &gt; Company &gt; Suppliers or learn more from <a href="http://support.wethod.com/settings/index/#suppliers-settings">&ldquo;Supplier Settings&rdquo;</a>.</p>
 
-<p><strong>Remember: Orders can be sent to suppliers that are eligible for contract only.</strong></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p><strong>Orders can be sent to suppliers that are eligible for contract only.</strong></p>
+</div>
+
+<h3 id="advanced-search">Advanced Search</h3>
+
+<p>By default you can search suppliers by name, email, status or tags just by typing in the search bar.</p>
+
+<p>If you need something more, you can use these <em>search query</em>:</p>
+
+<table>
+    <thead>
+        <tr>
+            <th>Description</th>
+            <th>Query</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Suppliers which get at least one order for a project with client's name containing "acme"</td>
+            <td><i>client:acme</i></td>
+        </tr>
+        <tr>
+            <td>Suppliers which get at least one order for a project which name contains "new site"</td>
+            <td><i>project:new site</i></td>
+        </tr>
+        <tr>
+            <td>Suppliers with rating greater than 2</td>
+            <td><i>rating:2+</i></td>
+        </tr>
+        <tr>
+            <td>Suppliers with rating lower than 3</td>
+            <td><i>rating:3-</i></td>
+        <tr>
+            <td>Suppliers with rating equal to 4</td>
+            <td><i>rating:4</i></td>
+        </tr>
+    </tbody>
+</table>
+
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p><strong>You can search by status only if it&rsquo;s enabled.</strong></p>
+
+<p><strong>You can search by rating only if you have permissions to see it.</strong></p>
+</div>
+
+<img src="http://support.wethod.com/uploads/2021/06/15/supplier-special-search.png" class="figure--center"></img>
+
+<h3 id="supplier-details">Supplier details</h3>
+
+<p>Each supplier&rsquo;s row has got an arrow button which you can click to see supplier details.</p>
+
+<p>Here you can:</p>
+
+<ul>
+<li>Edit details (from the sidebar)</li>
+<li>See all projects for which supplier get at least one order</li>
+<li>See, add and edit <strong>supplier ratings</strong></li>
+</ul>
+
+<p>A rating is composed by:</p>
+
+<ul>
+<li>A 1 to 5 numberical value, expressed as an amount of stars (required)</li>
+<li>A project to which rating refers (required)</li>
+<li>A comment to explain the rating value (not required)</li>
+</ul>
+
+<p>Rating permissions can be managed from the <a href="http://support.wethod.com/settings/index/#permissions">permissions section</a>, here you can express:</p>
+
+<ul>
+<li>Which roles can see rating related thing</li>
+<li>Which roles can create and manage their own ratings</li>
+<li>Which roles can delete others ratings</li>
+</ul>
+
+<img src="http://support.wethod.com/uploads/2021/06/15/supplier-detail.png" class="figure--center"></img>
+
+<img src="http://support.wethod.com/uploads/2021/06/15/supplier-sidebar.png" class="figure--center"></img>
+
+<img src="http://support.wethod.com/uploads/2021/06/15/supplier-rating.png" class="figure--center"></img>
+
+<p>From sidebar you can try to delete a supplier but, if at least an order exist for it, you need to transfer all its orders to another supplier available for contract. This process is simplified by a modal that shows you all the orders linked to the supplier you&rsquo;re deleting and let you pick another supplier.</p>
+
+<img src="http://support.wethod.com/uploads/2021/06/15/supplier-move-orders.png" class="figure--center"></img>
 
 <h2 id="travels">Travels</h2>
 
