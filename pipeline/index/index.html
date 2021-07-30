@@ -958,26 +958,38 @@ An error with additional information appears beneath it if the two mismatch.</p>
 
 <h3 id="billing-group">Billing group</h3>
 
-<p><img src="http://support.wethod.com/uploads/2021/07/30/screen-shot-2021-07-30-at-12-14-34.png" class="figure--center"></img>
-Sometimes you want to link several projects together and handle the invoice plan from a single central project.<br />
+<img src="http://support.wethod.com/uploads/2021/07/30/screen-shot-2021-07-30-at-12-14-34.png" class="figure--center"></img>
+
+<p>Sometimes you want to link several projects together and handle the invoice plan from a single central project.<br />
 This can be done using a billing group.</p>
 
 <p>To create a new billing group visit the invoice plan of a project you wish to link and click on the &ldquo;Delegate invoice plan&rdquo; button.<br />
 Now select a project that will be used as the billing group master.
-Please mind that not all projects can be added to a billing group, in fact to be part of a billing group a project must:<br />
-* <strong>Not be &ldquo;Invoice Driven&rdquo;</strong>: The project job order category should not be marked as &ldquo;Invoice driven budget&rdquo;.
-* <strong>Not have any invoices</strong>.
-* <strong>Not have a multicurrency budget</strong>. At the moment we only support projects using the master currency.
-* <strong>Not be archived</strong>.
-Once your new billing group is created you can access the group invoice plan from the master project invoice plan page.<br />
-The invoice plan total it&rsquo;s made by the sum of all projects totals and you should plan accordingly.<br />
+Please mind that not all projects can be added to a billing group, in fact to be part of a billing group a project must:</p>
+
+<ul>
+<li><strong>Not be &ldquo;Invoice Driven&rdquo;</strong>: The project job order category should not be marked as &ldquo;Invoice driven budget&rdquo;.</li>
+<li><strong>Not have any invoices</strong>.</li>
+<li><strong>Not have a multicurrency budget</strong>. At the moment we only support projects using the master currency.</li>
+<li><strong>Not be archived</strong>.</li>
+</ul>
+
+<p>Once your new billing group is created you can access the group invoice plan from the master project invoice plan page.<br />
+The invoice plan total it&rsquo;s made by the sum of all projects totals and you should plan accordingly.</p>
+
 <img src="http://support.wethod.com/uploads/2021/07/30/screen-shot-2021-07-30-at-12-15-06.png" class="figure--center"></img>
-Trying to access the invoice plan of a linked project will result in an error since now every operations should be performed from the master project.
+
+<p>Trying to access the invoice plan of a linked project will result in an error since now every operations should be performed from the master project.<br />
 For example if you wish to generate a new invoice for a project that is part of a group you have to assign the invoice to the master project.<br />
-If you wish to unlink a project from a group you can either:
- * Access the master project invoice plan -&gt; click on the &ldquo;Show linked projects&rdquo; button -&gt; Click on the &ldquo;unlink&rdquo; button next to the name of the project you wish to unlink.
- * Access the linked project invoice plan -&gt; Click on the &ldquo;Revoke delagation&rdquo; button.
-Beware that since you have removed a project from the group the total will change. If you master invoice plan was set on &ldquo;manual&rdquo; mode you will have to adjust your plan to reflect the changes.</p>
+If you wish to unlink a project from a group you can either:</p>
+
+<ul>
+<li>Access the master project invoice plan -&gt; click on the &ldquo;Show linked projects&rdquo; button -&gt; Click on the &ldquo;unlink&rdquo; button next to the name of the project you wish to unlink.</li>
+<li>Access the linked project invoice plan -&gt; Click on the &ldquo;Revoke delegation&rdquo; button.</li>
+</ul>
+
+<p>Beware that since you have removed a project from the group the total will change.<br />
+If you master invoice plan was set on &ldquo;manual&rdquo; mode you will have to adjust your plan to reflect the changes.</p>
 
 <h3 id="intercompany-projects">Intercompany Projects</h3>
 
