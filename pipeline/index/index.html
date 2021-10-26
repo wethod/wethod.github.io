@@ -706,20 +706,15 @@
 
 <h2 id="overview">Overview</h2>
 
-<p>Everything starts from Pipeline, here is where opportunities and projects are listed, both of them are defined by a small amount of <strong>significant information</strong>:</p>
+<p>The pipeline is the core of Wethod. Here is where you can find and manage all the opportunities and projects of your company.</p>
+
+<p>The different steps and phases of a project can be managed in different sections:</p>
 
 <ul>
-<li>Name: how are you going to call it?;</li>
-<li>Client: for who are you going to work?;</li>
-<li>Value (in K): what&rsquo;s the estimated price to the client?;</li>
-<li>Percentage of external costs;</li>
-<li>Category: which type of project is it?;</li>
-<li>Probability: how likely this project is going to start?.</li>
+<li>Basket</li>
+<li>Pipeline Opportunities</li>
+<li>Projects</li>
 </ul>
-
-<p>Pipeline has three subsections: Basket, Projects and Programs.</p>
-
-<img src="http://support.wethod.com/uploads/2017/05/25/nav-pipeline.png" class="figure--center"></img>
 
 <h2 id="basket">Basket</h2>
 
@@ -731,17 +726,17 @@
 
 <img src="http://support.wethod.com/uploads/2019/12/11/basket.png" class="figure--center"></img>
 
-<h2 id="projects">Projects</h2>
+<h2 id="projects-and-opportunities">Projects and opportunities</h2>
 
-<p>Here you can find all the projects of the company, each project has significant information you can check and edit. Clicking on a project lets you see it in more details and actions about it.</p>
+<p>Here you can find all the activities of the company. At first glance, you can see all the significant data of each one. You can customize the visible info by selecting the columns you need the most. See the selectable columns for further details.</p>
+
+<p>To see all information about an activity, just click on the arrow button to open the sidebar details.</p>
 
 <p>An opportunity evolves into a Project when things get serious, in order to take this step you must have an idea about the significant information listed above.</p>
 
 <p>A Project can furthermore have an invoice plan and a budget.</p>
 
 <p>A project is considered <strong>started</strong> if it has a start date in the past or if someone has submitted timesheets for it.</p>
-
-<p>When you move the start or end date of a project with a probability lower than 90%, its production plan will reflect the changes, adapting the duration and distributing the production accordingly.</p>
 
 <p>A project is considered <strong>active</strong> when its probability reaches 90%, only when this happens it makes sense to plan for people or to do a timeheets for this project. An active project must have a job order.</p>
 
@@ -754,11 +749,29 @@
 <p><strong>When a project reach 50% of probability, it&rsquo;s a good practice to make a budget for it.</strong></p>
 </div>
 
-<p>By clicking on a project you can edit its details or open its: <a href="http://support.wethod.com/budget/index">budget</a>, <a href="http://support.wethod.com/planning/index/">planning</a>, <a href="http://support.wethod.com/reports/index/">reports</a>, <a href="http://support.wethod.com/pipeline/index/#invoice-plan">invoice plan</a>.</p>
+<h3 id="available-fields">Available fields</h3>
 
-<img src="http://support.wethod.com/uploads/2017/05/25/projects.png" class="figure--center"></img>
+<p>An activity is defined by some basic information, that are always required.</p>
 
-<h3 id="project-probability">Project probability</h3>
+<p>This includes:</p>
+
+<ul>
+<li>Name: choose a name that represents your activity;</li>
+<li>Client: the company you are going to work for;</li>
+<li>Value (in K): estimated price you will sell the project;</li>
+<li>Percentage of external costs;</li>
+<li>Category: type of the project;</li>
+<li>Probability: how likely this project is going to start;</li>
+<li>Start and duration.</li>
+</ul>
+
+<p>You can find more information about some key fields below.</p>
+
+<h5 id="project-probability">Project probability</h5>
+
+<p>The probability defines how likely your activity is going to actually start.</p>
+
+<p>This is a key information, so choose it carefully!</p>
 
 <p>Here is a list of probabilities and their meaning:</p>
 
@@ -766,159 +779,262 @@
 <li>0% - We lost it! Project is not going to be done</li>
 <li>10% - The chances are low but maybe we can do something</li>
 <li>25% - We can try it!</li>
-<li>50% - I&rsquo;m pretty confident we can do it!</li>
+<li>50% - I’m pretty confident we can do it!</li>
 <li>75% - We are going to do it!</li>
-<li>90% - We are going to do it and we now have the &lsquo;job order&rsquo;</li>
-<li>100% - It&rsquo;s all ready, we also have the &lsquo;client PO&rsquo;</li>
+<li>90% - We are going to do it and we now have the ‘job order’</li>
+<li>100% - It’s all ready, we also have the ‘client PO’</li>
 </ul>
 
-<h3 id="client-contact">Client contact</h3>
+<h5 id="client">Client</h5>
 
-<p>If Alice works for ACME and you&rsquo;re are talking with her about a possible new project, ACME is your client and Alice is your actual contact with that client. As simple as it sounds!</p>
+<p>Enter the client you are going to work for.</p>
 
-<p>You can add a new contact for a client from <a href="http://support.wethod.com/finance/index/#clients">Clients</a> or straight from pipeline, during the project creation.</p>
+<p>You can choose from all the companies available from the <a href="http://support.wethod.com/finance/index/#client-list">Client list section</a>.</p>
+
+<p>If the client you are looking for hasn&rsquo;t been added yet, you can create a new one directly from the form that shows up.</p>
+
+<p>Just type in the name and the acronym and click on the <em>Create</em> button.</p>
+
+<h5 id="client-contact">Client contact</h5>
+
+<p>When you chose the client you are working for, pick the main contact you are talking with about the possible new project.</p>
+
+<p>You cannot choose a contact before having selected the company.</p>
+
+<p>As for the client company, you can create a new contact straight from the form that shows up, and see the complete list in the <a href="http://support.wethod.com/finance/index/#contacts">Contacts section</a> [link to contact support].</p>
 
 <p>You can make the client contact a required field in your <a href="http://support.wethod.com/settings/index/#company">company settings</a>.</p>
 
-<h3 id="advanced-search">Advanced Search</h3>
+<h5 id="value">Value</h5>
 
-<p>If you need to search for a project, you just need to type some keywords on the search input.</p>
+<p>When creating a new activity, you will be asked to fill the value field. This represent the estimated selling price of your project, expressed in thousands.</p>
 
-<p>If you need a more specific and advanced search, we offer you some <em>search query</em> that can help you:</p>
+<p>Once you create the first budget for an activity, the amount displayed will always refer to the final net price you defined in the budget.</p>
 
-<table>
-<thead>
-<tr>
-<th>If you are looking for a project where:</th>
-<th>Type in:</th>
-<th>Note</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>the Name is project1</td>
-<td><i>project:project1</i></td>
-<td></td>
-</tr>
-<tr>
-<td>the ID is 8</td>
-<td><i>id:8</i></td>
-<td></td>
-</tr>
-<tr>
-<td>the Value is 25</td>
-<td><i>value:25</i></td>
-<td></td>
-</tr>
-<tr>
-<td>the Job Order Category is Internal</td>
-<td><i>joc:internal</i></td>
-<td></td>
-<tr>
-<td>the Project Type is innovation</td>
-<td><i>type:innovation</i></td>
-<td>Use <i>type:null</i> to search for projects whitout a Project Type</td>
-</tr>
-<tr>
-<td>the Probability is 50</td>
-<td><i>prob:50</i></td>
-<td></td>
-</tr>
-<tr>
-<td>the Start Date is January 2016</td>
-<td><i>start:0116</i></td>
-<td>Month first</td>
-</tr>
-<tr>
-<td>the End Date is December 2017</td>
-<td><i>end:1217</i></td>
-<td>Month first</td>
-</tr>
-<tr>
-<td>the Budget Status is Draft</td>
-<td><i>status:0</i></td>
-<td>Available values: <b>0(draft)</b>, <b>1(approval)</b>, <b>2(approved)</b></td>
-</tr>
-<tr>
-<td>the Invoice Plan Status is manual</td>
-<td><i>plan:1</i></td>
-<td>Available values: <b>0(auto)</b>, <b>1(manual)</b></td>
-</tr>
-<tr>
-<td>the Client Name is wethodspa</td>
-<td><i>client:wethodspa</i></td>
-<td></td>
-</tr>
-<tr>
-<td>the Client PO is 30</td>
-<td><i>po:30</i></td>
-<td>Use <i>po:null</i> to search for projects whitout a Client PO</td>
-</tr>
-<tr>
-<td>the PM Name or Surname is Luca</td>
-<td><i>pm:luca</i></td>
-<td></td>
-</tr>
-<tr>
-<td>the Account Name or Surname is gb</td>
-<td><i>account:gb</i></td>
-<td></td>
-</tr>
-<tr>
-<td>the Program Name is wethod</td>
-<td><i>program:wethod</i></td>
-<td></td>
-</tr>
-<tr>
-<td>the Metadata <i>tag</i> is dev or des </td>
-<td><i>metadata:tag=dev,des</i></td>
-<td></td>
-</tr>
-</tbody>
-</table>
+<p>For this reason, the value cannot be edited after a budget has been created.</p>
 
-<p>There are also some <em>search operators</em>, let’s have a look on them:</p>
+<h5 id="external-costs">External costs</h5>
+
+<p>This is an estimate of the percentage of external costs regarding this specific activity.</p>
+
+<p>As for the value, once you create a budget, the external costs will refer to the ones specified in the budget, and will therefore not be editable from the activity details.</p>
+
+<h5 id="start-and-duration">Start and duration</h5>
+
+<p>Choose when your activity will start and how long it will last.</p>
+
+<p>When you move the start or end date of an opportunity (with a probability lower than 90%), its production plan will reflect the changes, adapting the duration and distributing the production accordingly.</p>
+
+<h5 id="risk">Risk</h5>
+
+<p>You can track the risk of a project directly from the Project list section.</p>
+
+<p>This information is also available from the <a href="http://support.wethod.com/friday/index/#status-of-the-project-s-risk">Project Status section</a>.</p>
+
+<p>For this reason, you cannot edit the risk of a project before you filled out its first project status.</p>
+
+<h5 id="status">Status</h5>
+
+<p>A stage represents the status of an opportunity.</p>
+
+<p>When dealing with opportunities it&rsquo;s useful to track their status to quickly have a grasp of what&rsquo;s going on. This also helps to filter and order the opportunities by their status. However for some opportunities we don&rsquo;t need or don&rsquo;t want to keep an eye on their stage. For this reason users can select if a Job Order Category should track or not its opportunities stage.</p>
+
+<p>A default <code>blank</code> status is available for all opportunities whether we are tracking its stage or not. Additionally at least 2 others statuses are available if the tracking option is turned on. These two are the <code>Won</code> and <code>Lost</code> stages.</p>
+
+<p>Stage and probability are tightly coupled if your opportunity&rsquo;s Job Order Category is tracking the opportunity stage. When the probability of an opportunity is updated its status changes and viceversa. This is true only for specific thresholds and is reflected only on the default statuses (<code>blank</code>, <code>Won</code> and <code>Lost</code>).</p>
+
+<p>Visit the <a href="http://support.wethod.com/settings/index/#company">company settings page</a> if you wish to create a new status or edit the existing ones.</p>
+
+<h3 id="create-a-new-activity">Create a new activity</h3>
+
+<p>Go to the appropriate section to create the desired activity:</p>
 
 <ul>
-<li>If you want to search a project from <strong>values greater than or equal</strong> to x:    <strong>“ x+ ”</strong></li>
-<li>If you want to search a project from <strong>values less than or equal</strong> to x:    <strong>“ x- ”</strong></li>
-<li>If you want to search a project from <strong>values greater or equal</strong> to x <strong>and less or equal</strong> to y:  <strong>“ x…y ”</strong></li>
-<li>If you want to search a project from <strong>values not equal</strong> to x: <strong>“ !x ”</strong></li>
+<li>Opportunities: create a new opportunity with a probability ≤ 75%</li>
+<li>Projects: create a new project with probability ≥ 90%</li>
 </ul>
 
-<p>You can also combine query and operators:</p>
+<p><strong>Opportunities</strong></p>
+
+<p>Click on the &lsquo;Add opportunity&rsquo; button in order to show the project sidebar.</p>
+
+<p>Here you can enter all the available project informations.</p>
+
+<p>The suggested probability is 10%, and you can only choose a value between 0% and 75%.</p>
+
+<p>When you filled in all the required info, you can click on the &lsquo;Save&rsquo; button. Your new opportunity will then be visible in the opportunities list.</p>
+
+<p><strong>Projects</strong></p>
+
+<p>Click on the &lsquo;Add project&rsquo; button in order to show the project sidebar.</p>
+
+<p>Here you can enter all the available project informations.</p>
+
+<p>The suggested probability is 90%, and you can only choose a value between 90% and 100%.</p>
+
+<p>When you filled in all the required info, you can click on the &lsquo;Save&rsquo; button. Your new project will then be visible in the projects list.</p>
+
+<h3 id="edit-an-activity">Edit an activity</h3>
+
+<p>You can easily edit the visibile information of an activity straight from the list. Just hover over the row you want to update, and click on the desired field. You can save the changes by clicking outside the field.</p>
+
+<p>To edit all the informations not visible at first sight, you can click on the activity details button.</p>
+
+<p>From the sidebar, you can edit all the details at once, just remember to click the Save button when you&rsquo;re done!</p>
+
+<h3 id="useful-links">Useful links</h3>
+
+<p>You can browse all the main pages to quickly manage your project.</p>
+
+<p>Just open the sidebar with the activity details, you will find a useful set of actions. All in one place!</p>
+
+<p>This includes:</p>
 
 <ul>
-<li>Operator1 <strong>OR</strong> Operator2:   <strong>“ , ”</strong></li>
-<li>Operator1 <strong>AND</strong> Operator2:   <strong>“ ; ”</strong></li>
+<li>Link to project sections (Project timeline, Budget, Project canvas, Project report, Invoice plan, Project status, Production plan)</li>
+<li>Share project to a colleague</li>
+<li>Request a review on the project</li>
+<li>Edit won/lost feedback</li>
 </ul>
 
-<p>For example:</p>
+<h3 id="archive">Archive</h3>
+
+<p>When a project has ended, for example because the progress reaches 100%, or if you are sure you can no longer sell it (so you set the probability to 0%) you can consider to archive it.</p>
+
+<p>An archived project is considered no longer active. This prevent the users from doing a series of actions on it.</p>
+
+<p>For example, you cannot add timesheet or edit the project status after you archive the project.</p>
+
+<p>You also cannot edit some informations, like its probability, risk or job order category.</p>
+
+<p>In order to make this actions available again on an archived project, you can unarchive it any time.</p>
+
+<p>To archive or unarchive a project, just open the sidebar with the activity details and click on the edit button. You will find the archiving button on the bottom of the details.</p>
+
+<p>Please note that, in order to archive a project, this must comply to all the rules defined in the Rules section of your company.</p>
+
+<h3 id="delete">Delete</h3>
+
+<p>If a project was added by mistake, you can choose to delete it.</p>
+
+<p>To delete a project, just open the sidebar with the activity details and click on the edit button. You will find the delete button on the bottom of the details.</p>
+
+<p>Please note that a project cannot be deleted if it already started producing value in your company. This means that if you already added timesheet or edited its project status, you will be no longer able to delete it. In that case, you can easily archive the project instead.</p>
+
+<h3 id="segments">Segments</h3>
+
+<p>Users can save a custom group of filters to retrieve a specific set of data. A group of filters can be saved with a name and it&rsquo;s called a segment. In practice, segments are &ldquo;advanced searches&rdquo; saved with a name that you can use whenever you want. Let&rsquo;s say each Monday you want to see all opportunities of your main client &ldquo;Acme&rdquo;. You can filter all opportunities with client=Acme and save the search as a segment called &ldquo;Acme opportunities&rdquo;. Segments are unique per each section, that means for example they are not shared between pipeline opportunities and project list.</p>
+
+<p>To <strong>create a segment</strong>:</p>
+
+<ol>
+<li>Click on &ldquo;Create segment&rdquo; inside segment select, a sidebar containing all the filters will open</li>
+<li>In sidebar, give a name to the new segment. This name must be unique between all your segments for this section.</li>
+<li>Choose all filters to combine in order to create the segment</li>
+<li>Click on save</li>
+<li>Once the segment is saved, the sidebar is automatically closed and the segment is applied</li>
+</ol>
+
+<p>To <strong>edit a segment</strong>:</p>
+
+<ol>
+<li>Open segment select</li>
+<li>Click on the edit button that appear when you put the cursor over a segment name</li>
+</ol>
+
+<p>To <strong>delete a segment</strong>:</p>
+
+<ol>
+<li>Open segment select</li>
+<li>Click on the delete button that appear when you put the cursor over a segment name</li>
+</ol>
+
+<p>There are some default segments:</p>
 
 <ul>
-<li><strong>project:wethod, php ; start:0116+ ; prob:50…75</strong></li>
+<li><strong>All</strong>: no filter applied</li>
+<li><strong>Current</strong>: activities not archived</li>
+<li><strong>Archived</strong>: activities archived</li>
+<li><strong>Mine</strong>: activities where the user is PM</li>
+<li><strong>Others</strong>: activities where the user is not PM</li>
 </ul>
 
-<p>This search operator will find all the projects with name “wethod&rdquo; or “php”, with a date start greater than January 2016 and a probability between 50% and 75%.</p>
+<p>If a segment is applied and you open the advanced search, the sidebar will be populated with the filters enabled in the active segment. When this filters are changed, the segment is disabled.</p>
+
+<p>Default segments can be edited and deleted.</p>
+
+<h3 id="selectable-columns-and-ordering">Selectable columns and ordering</h3>
+
+<p>You can select which columns should be shown and which have to be hidden using the column selector button.</p>
+
+<p>The set of columns is unique per user and per device. Each user on your company can choose to see a huge range of columns when browsing from their laptop and only focus on core information while checking Wethod on the go from their smartphones.</p>
+
+<p>Almost all columns are sortable, exception made for Risk and Client Contact. Just click on the name of the attribute you wish to order your results by and Wethod will take care of rearranging your list.</p>
+
+<p>A small arrow is shown beside the attribute&rsquo;s name to show which columns is currently ordering the results and the ordering type (ascending or descending).</p>
+
+<h3 id="search">Search</h3>
+
+<p>Wethod offers you two ways to find your desired project or opportunity: the simple quick search and the advanced search. You can use just one of them or both together. A classic example of using the two search modes together is when you apply a segment to trim your list of results and then decide to further narrow down the list with a quick search on a specific client name.</p>
+
+<h4 id="simple-search">Simple search</h4>
+
+<p>This is done straight from the main table, and you can just type something and we will show all results matching the search.</p>
+
+<p>For example, the search &ldquo;new pipeline rules&rdquo; will return all projects/opportunities where one of the base search fields contains the word &ldquo;new&rdquo;, &ldquo;pipeline&rdquo; and &ldquo;rules&rdquo; so a project called &ldquo;old pipeline&rdquo; will not match but a project called &ldquo;new rules&rdquo; for a client named &ldquo;pipeline&rdquo; will match. Below you can find the list of attributes used by the simple search. Your keyword will be matched against the following:</p>
+
+<ol>
+<li>PM name and surname</li>
+<li>Account name and surname</li>
+<li>Client name</li>
+<li>Project name</li>
+<li>Project job order</li>
+<li>Job order category name</li>
+</ol>
+
+<p>The search bar used for <strong>basic search</strong> also shows other three actions:</p>
 
 <ul>
-<li><strong>client:luca; value: 25- ; end:1217+</strong></li>
+<li><strong>Export</strong>: A complete list of all projects/opportunities is sent to your mailbox. This export is going to ignore all filters and</li>
+<li><strong>Share</strong>: share the current search by sending it by email to a teammate or by copying it. The current search is available as a URL containing all the applied filters and simple search terms.</li>
+<li><strong>Save</strong>: save the current search in your <a href="http://support.wethod.com/desk/index/#pinboard">Desk pinboard</a>. The current search is available as a URL containing all the applied filters and simple search terms.</li>
 </ul>
 
-<p>This search operator will find all the projects of the client Luca, with value less or equal to 25 and with an end date in or after December 2017</p>
+<h4 id="advanced-search">Advanced Search</h4>
 
-<ul>
-<li><strong>pm:tomas, luca; prob:30…50; status:2</strong></li>
-</ul>
+<p>The advanced search sidebar can be accessed clicking on the &ldquo;Show filters&rdquo; button in the simple search bar.</p>
 
-<p>This search operator will find all the project whose PM is Tomas or Luca, with a probability between 30 and 50 and a budget status which is approved.</p>
+<p>Filters are combined using AND logic which means the results consider all of them at the same time. Selections belonging to each filter are combined using OR logic. For example if you filter all projects with budget status <code>missing</code>, <code>draft</code> you obtain all activities with a budget that is either missing or in draft status.</p>
 
-<h3 id="invoice-plan">Invoice Plan</h3>
+<p>You can search for a specific filter using the filters search bar at the top. Additionally you can clear all applied filters by pressing the &ldquo;clear all filters&rdquo; button above it. If you have a segment applied, all filters that are part of the segment will be shown when you open the advanced search sidebar. Please mind that changing the list of filters is not going to be saved to the segment unless you had clicked on the &ldquo;edit segment&rdquo; button. Visit the segment support section for further information.</p>
+
+<h3 id="intercompany-projects">Intercompany Projects</h3>
+
+<p>If your company is part of a <a href="http://support.wethod.com/budget/index/#make-a-task-intercompany">group](/group-setup/index/) you have the possibility to connect a project to an [intercompany task</a>, this makes it an <em>intercompany project</em>: its final net price and probability are updated to reflect the intercompany task’s external costs and intercompany task’s project’s probability.</p>
+
+<p>To connect a project you firsty need to be invited, this can be done from inside a budget as <a href="http://support.wethod.com/budget/index/#make-a-task-intercompany">explained here</a>. When you receive the invitation, just follow the link and select from the dropdown the project you want to connect.</p>
+
+<img src="http://support.wethod.com/uploads/connect-project.png" class="figure--center"></img>
+
+<p>Successfully connected projects are identified by a label below their names.</p>
+
+<img src="http://support.wethod.com/uploads/connected-project.png" class="figure--center"></img>
+
+<h3 id="won-lost-feedback">Won/lost feedback</h3>
+
+<p>Wouldn&rsquo;t be great to be able to collect feedback about the reasons that led to win or lose a project?</p>
+
+<p>In the <a href="http://support.wethod.com/settings/index/#company">company section</a> you can configure a set of reasons that project managers can use to describe why a project&rsquo;s probability went up to 90 (so the project was <strong>won</strong>) or down to 0 (so the project was <strong>lost</strong>).</p>
+
+<p>When you enable the related flag for a job order category, the user will be asked for a feedback each time a project in that category gets won or lost.</p>
+
+<img src="http://support.wethod.com/uploads/2020/01/31/won-lost-feedback.gif" class="figure--center"></img>
+
+<h2 id="invoice-plan">Invoice Plan</h2>
 
 <img src="http://support.wethod.com/uploads/2021/07/19/invoice-plan.png" class="figure--center"></img>
 
-<p>Here you can set a plan to emit invoices for the project.
-An invoice plan can be:</p>
+<p>Here you can set a plan to emit invoices for the project. An invoice plan can be:</p>
 
 <ul>
 <li><strong>Automatic</strong>: an invoice is automatically planned for each project&rsquo;s duration month, the invoice amount is obtained by dividing project&rsquo;s estimate by project&rsquo;s duration;</li>
@@ -964,8 +1080,7 @@ An error with additional information appears beneath it if the two mismatch.</p>
 This can be done using a billing group.</p>
 
 <p>To create a new billing group visit the invoice plan of a project you wish to link and click on the &ldquo;Delegate invoice plan&rdquo; button.<br />
-Now select a project that will be used as the billing group master.
-Please mind that not all projects can be added to a billing group, in fact to be part of a billing group a project must:</p>
+Now select a project that will be used as the billing group master. Please mind that not all projects can be added to a billing group, in fact to be part of a billing group a project must:</p>
 
 <ul>
 <li><strong>Not be &ldquo;Invoice Driven&rdquo;</strong>: The project job order category should not be marked as &ldquo;Invoice driven budget&rdquo;.</li>
@@ -990,28 +1105,6 @@ If you wish to unlink a project from a group you can either:</p>
 
 <p>Beware that since you have removed a project from the group the total will change.<br />
 If you master invoice plan was set on &ldquo;manual&rdquo; mode you will have to adjust your plan to reflect the changes.</p>
-
-<h3 id="intercompany-projects">Intercompany Projects</h3>
-
-<p>If your company is part of a <a href="http://support.wethod.com/budget/index/#make-a-task-intercompany">group](/group-setup/index/) you have the possibility to connect a project to an [intercompany task</a>, this makes it an <em>intercompany project</em>: its final net price and probability are updated to reflect the intercompany task’s external costs and intercompany task’s project’s probability.</p>
-
-<p>To connect a project you firsty need to be invited, this can be done from inside a budget as <a href="http://support.wethod.com/budget/index/#make-a-task-intercompany">explained here</a>. When you receive the invitation, just follow the link and select from the dropdown the project you want to connect.</p>
-
-<img src="http://support.wethod.com/uploads/connect-project.png" class="figure--center"></img>
-
-<p>Successfully connected projects are identified by a label below their names.</p>
-
-<img src="http://support.wethod.com/uploads/connected-project.png" class="figure--center"></img>
-
-<h3 id="won-lost-feedback">Won/lost feedback</h3>
-
-<p>Wouldn&rsquo;t be great to be able to collect feedback about the reasons that led to win or lose a project?</p>
-
-<p>In the <a href="http://support.wethod.com/settings/index/#company">company section</a> you can configure a set of reasons that project managers can use to describe why a project&rsquo;s probability went up to 90 (so the project was <strong>won</strong>) or down to 0 (so the project was <strong>lost</strong>).</p>
-
-<p>When you enable the related flag for a job order category, the user will be asked for a feedback each time a project in that category gets won or lost.</p>
-
-<img src="http://support.wethod.com/uploads/2020/01/31/won-lost-feedback.gif" class="figure--center"></img>
 
 <h2 id="programs">Programs</h2>
 
