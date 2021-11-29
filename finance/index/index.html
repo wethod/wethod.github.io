@@ -913,7 +913,7 @@ are displayed with the final net&rsquo;s currency. The exchange rate for the cur
 
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p><strong>You can only assign tags which was previously created in the <a href="http://support.wethod.com/settings/index/#suppliers-settings">&ldquo;Supplier Settings&rdquo;</a>. Tags can be useful to catalogue the supplier with keywords (i.e. expertise, industry or geography)</strong></p>
+<p><strong>You can only assign tags which was previously created in the</strong> <a href="http://support.wethod.com/settings/index/#suppliers-settings"><strong>&ldquo;Supplier Settings&rdquo;</strong></a><strong>. Tags can be useful to catalogue the supplier with keywords (i.e. expertise, industry or geography)</strong></p>
 </div>
 
 <h3 id="supplier-s-status">Supplier&rsquo;s status</h3>
@@ -932,33 +932,33 @@ are displayed with the final net&rsquo;s currency. The exchange rate for the cur
 <p>If you need something more, you can use these <em>search query</em>:</p>
 
 <table>
-    <thead>
-        <tr>
-            <th>Description</th>
-            <th>Query</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>Suppliers which get at least one order for a project with client's name containing "acme"</td>
-            <td><i>client:acme</i></td>
-        </tr>
-        <tr>
-            <td>Suppliers which get at least one order for a project which name contains "new site"</td>
-            <td><i>project:new site</i></td>
-        </tr>
-        <tr>
-            <td>Suppliers with rating greater than 2</td>
-            <td><i>rating:2+</i></td>
-        </tr>
-        <tr>
-            <td>Suppliers with rating lower than 3</td>
-            <td><i>rating:3-</i></td>
-        <tr>
-            <td>Suppliers with rating equal to 4</td>
-            <td><i>rating:4</i></td>
-        </tr>
-    </tbody>
+<thead>
+<tr>
+<th>Description</th>
+<th>Query</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Suppliers which get at least one order for a project with client's name containing "acme"</td>
+<td><i>client:acme</i></td>
+</tr>
+<tr>
+<td>Suppliers which get at least one order for a project which name contains "new site"</td>
+<td><i>project:new site</i></td>
+</tr>
+<tr>
+<td>Suppliers with rating greater than 2</td>
+<td><i>rating:2+</i></td>
+</tr>
+<tr>
+<td>Suppliers with rating lower than 3</td>
+<td><i>rating:3-</i></td>
+<tr>
+<td>Suppliers with rating equal to 4</td>
+<td><i>rating:4</i></td>
+</tr>
+</tbody>
 </table>
 
 <div class="admonition note">
@@ -1130,6 +1130,78 @@ edit and view requests made by other users in the company. Find these requests i
 <p>Permission &ldquo;edit sent&rdquo; enables the user to insert costs, edit and reservation files to requests that have been already sent to a travel office.</p>
 
 <p>Due to privacy concerns, it is not possible to download booking and reservation files from requests made by other people.</p>
+
+<h2 id="expenses">Expenses</h2>
+
+<p><em>Projects &gt; Wallet &gt; Expenses</em></p>
+
+<p>The expense reimbursement process allows employers to pay back employees who have spent their own money for business-related expenses. These types of reimbursable expenses tend to occur when employees travel for work, but can be associated with other activities related to their employment, including, for example, certain purchases of work-related supplies or tools.</p>
+
+<img src="http://support.wethod.com/uploads/2021/11/29/expenses-list.png" class="figure--center"></img>
+
+<p>All expenses are listed with the following information at display.
+- Job order category badge
+- Category of expense
+- Requested by
+- Project
+- Date
+- Notes
+- Reimbursement value (always expressed in master currency)</p>
+
+<p>Based on permission roles, users can view, edit, delete their own expenses and/or others&rsquo;s expenses.</p>
+
+<p>All expenses linked to a project are listed in the widget &ldquo;Orders&rdquo; in the project report with a general &ldquo;Expense&rdquo; name, its date and value.</p>
+
+<h3 id="type-of-reimbursement">Type of reimbursement</h3>
+
+<ul>
+<li><strong>Flat-rate</strong>: whether the type of reimbursement is a fixed value (expressed in the reimbursement <em>value</em> field, required), regardless the value of the expense. <em>i.e. Acme Inc. refunds 12 for. Mario, who works for Acme, had a business lunch and spent 24,65. Mario will be refunded 12 by Acme Inc.</em></li>
+<li><strong>Mileage/Km</strong>: whether the type of reimbursement is a fixed value (expressed in the reimbursement <em>value</em> field, required) per mile or kilometer declared by the employee. <em>i.e. Acme Inc. refunds 0,40 for each km travelled. Mario, who works for Acme, made a business trip with his own car and travelled a total of 260km. Mario will be refunded 140 (260x0,40=140).</em></li>
+<li><strong>Total</strong>: whether the employer refunds the whole expense declared by the employee. <em>i.e. Acme Inc. refunds the total cost of a taxi trip. Wendy, in her business travel for Acme,took a taxi from London Victoria train station to the City and spent 30. Wendy will be refunded 30.</em></li>
+<li><strong>Total (max value)</strong>: whether the employer refunds the whole expense until a maximum refund value (expressed in the <em>reimbursement value</em> field, required) is reached. <em>i.e. Acme Inc. refunds the total cost of a dinner up to 30. Britney, an account manager at Acme, had a business dinner with her clients  and spent 250. Britney will be refunded 30.</em></li>
+</ul>
+
+<h3 id="set-categories-of-expenses">Set categories of expenses</h3>
+
+<p>Learn how to insert the categories of expenses that require a reimbursement process to pay back employees who have spent their own money for business-related expenses.</p>
+
+<ol>
+<li>Head to Settings &gt; Company &gt; Expenses.</li>
+<li>Click button <em>Add expense category</em>.</li>
+<li>Choose a <em>name</em> for the category of expense.</li>
+<li>Select the check box if route details are needed.</li>
+<li>Select the <a href="#type-of-expense-s-reimbursement/index.md">type of reimbursement</a>.</li>
+<li>Insert the value of reimbursement (flat-rate, per mile/km or maximum).</li>
+<li>Press <em>Save</em>.</li>
+</ol>
+
+<img src="http://support.wethod.com/uploads/2021/11/29/expense-category.gif" class="figure--center"></img>
+
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p><strong>To avoid retroactive changes it is not permitted to edit or delete a category of expense. Archive a category to hide it from the list.</strong></p>
+</div>
+
+<h3 id="insert-a-new-expense">Insert a new expense</h3>
+
+<ol>
+<li>Click button <em>New Expense</em> and a sidebar will open.</li>
+<li>Insert the name of the project linked with your expense.</li>
+<li>Choose the <a href="#type-of-expense-s-reimbursement/index.md">category of expense</a> from the list.</li>
+<li>Insert the date in which this expense occurred.</li>
+</ol>
+
+<ul>
+<li>If required, insert the value of expense or the amount of miles/kilometres travelled.</li>
+<li>If required, insert location <em>From</em> - <em>To</em>.</li>
+</ul>
+
+<ol>
+<li>Add a note.</li>
+<li>If needed, upload a file that proofs your expense (i.e. a receipt)</li>
+<li>Click <em>Save</em>.</li>
+<li>Your expense will be added to the list.</li>
+</ol>
 
 			
 			<aside class="copyright" role="note"></aside>
