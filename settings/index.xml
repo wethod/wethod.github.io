@@ -17,10 +17,11 @@
       <pubDate>Wed, 24 May 2017 10:09:44 +0000</pubDate>
       
       <guid>http://support.wethod.com/settings/index/</guid>
-      <description>Tutorial From here you can access a quick and clear tutorial that will teach you all the secrets behind WETHOD, but remember: with great power comes great responsibility.
-Clicking on &amp;ldquo;let me try&amp;rdquo; will pause the tutorial and let you take a look around, to resume the tutorial just click on the bottom right button.
-Clicking on &amp;ldquo;skip tour&amp;rdquo; will close the tutorial.
-Account Here you set your name, surname and password.</description>
+      <description>Account Here you set your name, surname and password.
+If you have the right permissions, you can:
+ Change your invoice details; Import existing projects.  Team Since you have the right permissions, you can: invite people, assign specific roles and allow special permissions.
+To invite a new teammate:
+ Click on the top left &amp;ldquo;+ new user&amp;rdquo; button; Assign a user level, a *role *and the email address of the person you want to invite; Click the &amp;ldquo;invite&amp;rdquo; button.</description>
     </item>
     
   </channel>
