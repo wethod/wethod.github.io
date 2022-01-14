@@ -828,6 +828,72 @@
 <p><strong>You need to use all the available contingency to be able to convert days between levels.</strong></p>
 </div>
 
+<h3 id="allocation-requests">Allocation requests</h3>
+
+<p>Projects with job order category of type &ldquo;plan upon request&rdquo; cannot be planned the usual way: user needs to visit Allocation Requests and ask to be allocated.</p>
+
+<p>An allocation request can have various status, including <strong>approved</strong> and <strong>pending</strong>: the latter  is a request waiting to be approved or rejected and appears in planning with a particular pattern, so it can be easily spotted.</p>
+
+<h2 id="allocation-requests-1">Allocation Requests</h2>
+
+<p>Particular job order categories may expect people to ask to be planned on them, this can be the case of job order categories representing holidays, leaves or - why not - R&amp;D projects.</p>
+
+<p>&ldquo;Allocation requests&rdquo; section is where all this requests can be created and managed.</p>
+
+<p>To create a request:</p>
+
+<ol>
+<li>Click on &ldquo;Add request&rdquo; button to open related sidebar</li>
+<li>Select the project to request (required)</li>
+<li>Select start date and end date (required). Once both selected, for each day in the period you can express how many hours to request (1 - 8), by default each day is an 8 hours request</li>
+<li>Add notes if needed</li>
+</ol>
+
+<p>Once created, a request acquires the &ldquo;Pending&rdquo; status and:</p>
+
+<ul>
+<li>If the selected from-to is within 14 days an “urgent” mail notification is sent to the user allocation manager, if exists</li>
+<li>Request is displayed in people allocation using a particular pattern</li>
+</ul>
+
+<p>Now users with <strong>approve permission</strong> can see &ldquo;Approve/reject&rdquo; button and:</p>
+
+<ul>
+<li><strong>Approve</strong> request: it gets &ldquo;Approved&rdquo; status and a mail notification is sent to the user who made the request</li>
+<li><strong>Reject</strong> request: it gets &ldquo;Rejected&rdquo; status and a mail notification is sent to the user who made the request</li>
+</ul>
+
+<p>Once approved, a request is shown in planning as a &ldquo;normal&rdquo; project. It still cannot be planned straight from here.</p>
+
+<p>Users with <strong>edit permission</strong> can edit a request like this:
+1. Click on the request arrow button to open its sidebar
+2. Click on the edit button</p>
+
+<p>A special <strong>edit permission</strong> is needed to edit and see others requests.</p>
+
+<p>Approved and rejected requests cannot be edited but can be deleted.</p>
+
+<p>When a request is deleted, it disappears from People Allocation.</p>
+
+<p>Creating or editing a pending request can create <strong>conflicts</strong> if:</p>
+
+<ol>
+<li>In the requested period there is <strong>at least one hour already planned</strong></li>
+<li>In the requested period there is <strong>at</strong> <strong>least one hour belonging to another request</strong></li>
+</ol>
+
+<p>Requests with conflicts:</p>
+
+<ul>
+<li>Get a particular status</li>
+<li>Does not appear in people allocation</li>
+<li>Cannot be approved: they can just be edited, deleted or rejected</li>
+</ul>
+
+<p>If a request has conflict with another pending request only the last created request will be marked as “conflict”, the existing one keeps its status.</p>
+
+<p>Once a week an email containing the recap of all pending planning requests is sent to all allocation managers (excluding “urgent” emails).</p>
+
 <h2 id="projects-heatmap">Projects&rsquo; Heatmap</h2>
 
 <p>This is useful to show the <em>weight</em> of planned people on each project: the darker is the color of a cell, the more people are planned on the project that day.</p>
