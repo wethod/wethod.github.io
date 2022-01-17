@@ -828,23 +828,25 @@
 <p><strong>You need to use all the available contingency to be able to convert days between levels.</strong></p>
 </div>
 
-<h3 id="allocation-requests">Allocation requests</h3>
+<h3 id="dealing-with-allocation-requests">Dealing with allocation requests</h3>
 
-<p>Projects with job order category of type &ldquo;plan upon request&rdquo; cannot be planned the usual way: user needs to visit Allocation Requests and ask to be allocated.</p>
+<p>Projects with job order category of type &ldquo;plan upon request&rdquo; cannot be planned the usual way: user needs to visit <a href="http://support.wethod.com/planning/index/#allocation-requests">Allocation Requests</a> and ask to be allocated.</p>
 
-<p>An allocation request can have various status, including <strong>approved</strong> and <strong>pending</strong>: the latter  is a request waiting to be approved or rejected and appears in planning with a particular pattern, so it can be easily spotted.</p>
+<h2 id="allocation-requests">Allocation Requests 🔜</h2>
 
-<h2 id="allocation-requests-1">Allocation Requests</h2>
+<p>(Coming soon)</p>
 
 <p>Particular job order categories may expect people to ask to be planned on them, this can be the case of job order categories representing holidays, leaves or - why not - R&amp;D projects.</p>
 
 <p>&ldquo;Allocation requests&rdquo; section is where all this requests can be created and managed.</p>
 
+<img src="http://support.wethod.com/uploads/2022/01/17/allocation-requests.png" class="figure--center"></img>
+
 <p>To create a request:</p>
 
 <ol>
 <li>Click on &ldquo;Add request&rdquo; button to open related sidebar</li>
-<li>Select the project to request (required)</li>
+<li>Select the project to request (required). You can only use a project which job order category has the &ldquo;plan upon approval&rdquo; flag enabled. To enable this flag just head to the <a href="http://support.wethod.com/settings/index/#company">company settings</a> section</li>
 <li>Select start date and end date (required). Once both selected, for each day in the period you can express how many hours to request (1 - 8), by default each day is an 8 hours request</li>
 <li>Add notes if needed</li>
 </ol>
@@ -852,9 +854,11 @@
 <p>Once created, a request acquires the &ldquo;Pending&rdquo; status and:</p>
 
 <ul>
-<li>If the selected from-to is within 14 days an “urgent” mail notification is sent to the user allocation manager, if exists</li>
+<li>If the selected from-to is within 14 days an “urgent” mail notification is sent to the user allocation manager, if exists. Allocation manager for a user can be set from the <a href="http://support.wethod.com/settings/index/#team">team settings</a> section</li>
 <li>Request is displayed in people allocation using a particular pattern</li>
 </ul>
+
+<img src="http://support.wethod.com/uploads/2022/01/17/planning_allocation-request.png" class="figure--center"></img>
 
 <p>Now users with <strong>approve permission</strong> can see &ldquo;Approve/reject&rdquo; button and:</p>
 
@@ -873,7 +877,7 @@
 
 <p>Approved and rejected requests cannot be edited but can be deleted.</p>
 
-<p>When a request is deleted, it disappears from People Allocation.</p>
+<p>When a request is deleted, it disappears from <a href="http://support.wethod.com/planning/index/#people-allocation">people allocation</a>.</p>
 
 <p>Creating or editing a pending request can create <strong>conflicts</strong> if:</p>
 
@@ -887,8 +891,11 @@
 <ul>
 <li>Get a particular status</li>
 <li>Does not appear in people allocation</li>
+<li>Shows conflict days inside details sidebar</li>
 <li>Cannot be approved: they can just be edited, deleted or rejected</li>
 </ul>
+
+<img src="http://support.wethod.com/uploads/2022/01/17/allocation-requests_sidebar-conflict.png" class="figure--center"></img>
 
 <p>If a request has conflict with another pending request only the last created request will be marked as “conflict”, the existing one keeps its status.</p>
 
