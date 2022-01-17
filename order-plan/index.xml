@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Order-plans on WETHOD / Learning Center</title>
-    <link>http://support.wethod.com/order-plan/</link>
+    <link>https://support.wethod.com/order-plan/</link>
     <description>Recent content in Order-plans on WETHOD / Learning Center</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 19 Jun 2019 08:24:15 +0000</lastBuildDate>
     
-	<atom:link href="http://support.wethod.com/order-plan/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://support.wethod.com/order-plan/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Order Plan</title>
-      <link>http://support.wethod.com/order-plan/index/</link>
+      <link>https://support.wethod.com/order-plan/index/</link>
       <pubDate>Wed, 19 Jun 2019 08:24:15 +0000</pubDate>
       
-      <guid>http://support.wethod.com/order-plan/index/</guid>
+      <guid>https://support.wethod.com/order-plan/index/</guid>
       <description>Overview From here you can see the orders&amp;rsquo; amount grouped by projects.
 Each row in this view represents a project and carries with it a bunch of information:
  Name and client for the project The monthly distribution for the current year: for each month you can appreciate the planned orders&amp;rsquo; amount and the approved orders amount (colored with lower opacity) The total planned amount for the current year  If your company activated the multicurrency functionality, you can see all the currencies used for a project&amp;rsquo;s orders by clicking on that project&amp;rsquo;s row.</description>

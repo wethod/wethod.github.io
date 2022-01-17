@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Alerts on WETHOD / Learning Center</title>
-    <link>http://support.wethod.com/alerts/</link>
+    <link>https://support.wethod.com/alerts/</link>
     <description>Recent content in Alerts on WETHOD / Learning Center</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 13 Jun 2017 16:08:29 +0000</lastBuildDate>
     
-	<atom:link href="http://support.wethod.com/alerts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://support.wethod.com/alerts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Alerts</title>
-      <link>http://support.wethod.com/alerts/index/</link>
+      <link>https://support.wethod.com/alerts/index/</link>
       <pubDate>Tue, 13 Jun 2017 16:08:29 +0000</pubDate>
       
-      <guid>http://support.wethod.com/alerts/index/</guid>
+      <guid>https://support.wethod.com/alerts/index/</guid>
       <description>Overview An alert is an inconsistency regarding the user. Each alert has a priority (indicated by its color):
  Red alerts have an high priority and must be solved as soon as possible; Yellow alerts have a low priority and can be seen more as advices; Blue alerts are reminders of minor fixes.  Positioning the cursor over an alert will display a description of the problem.
 Some alerts depends on parameters that you can customize using the Alerts Engine.</description>
