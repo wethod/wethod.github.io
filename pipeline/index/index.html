@@ -1186,7 +1186,41 @@ If you master invoice plan was set on &ldquo;manual&rdquo; mode you will have to
 
 <h4 id="sync-with-google-drive">Sync with Google Drive 🔜</h4>
 
-<p>Coming soon.</p>
+<p>You can create a bridge between a project canvas and a Google Drive folder containing files related to that project.</p>
+
+<p>This allow you to use canvas Files widget to:</p>
+
+<ul>
+<li>Upload files to the related Google Drive project folder. Files are uploaded inside the folder you are in</li>
+<li>See files inside the Google Drive project folder</li>
+<li>Delete files inside the Google Drive project folder</li>
+<li>Search files inside the Google Drive project folder. Search is done only inside the folder you are in</li>
+</ul>
+
+<p>Once this functionality is enabled you will only be able to upload files to Google Drive, other files uploaded to wethod in the past will still be visible.</p>
+
+<p>You can enable this functionality in your <a href="https://support.wethod.com/settings/index/#company">company settings</a>.</p>
+
+<p>Once this functionality is enabled, different thing are automatically kept in sync:</p>
+
+<ul>
+<li>When a project with a job order category in sync is created, the related Google Drive folder is created in the canonical path</li>
+<li>If a project client is changed, its Google Drive folder is moved under the new Google Drive client folder</li>
+<li>If a project client name changes, the Google Drive folder related to this client has its name changed accordingly</li>
+<li>If a project name changes, its Google Drive folder name is updated accordingly</li>
+<li>If a project client is deleted - and it gets replaced with another one for the active projects - all its Google project folders are moved under the new Google Drive client folder</li>
+</ul>
+
+<p>A project may not be associated with a Google Drive folder, even if is the integration is enabled for its job order category. This can happen if:</p>
+
+<ol>
+<li>The project was created before enabling the integration</li>
+<li>Something in the canonical path has been deleted or moved</li>
+</ol>
+
+<p>In these cases you get an error status but don&rsquo;t worry, you can easily solve the issue by hitting the &ldquo;Sync folder&rdquo; button: wethod will try to find the Google project folder in the canonical path. If the folder cannot be found, a modal will ask if you want to create it.</p>
+
+<img src="https://support.wethod.com/uploads/2022/03/09/drive-canvas-sync.gif" class="figure--center"></img>
 
 <h3 id="boards">Boards</h3>
 
