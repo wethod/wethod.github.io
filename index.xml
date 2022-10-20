@@ -130,7 +130,7 @@ Every Friday an e-mail will remind:
       <guid>https://support.wethod.com/reports/index/</guid>
       <description>Overview All the data you insert in WETHOD are used to generate, weekly and automatically, a set of reports useful to monitor the projects&amp;rsquo; progress.
 Project Report Each Monday, utilising data provided by Timesheet, Project Status and Budget, a Project Report is automatically created.
-Budget Consumption / Project Status This section shows the budget consumption](/glossary/index/#budget-consumption) of the project, compared to its [progress:
+Budget Consumption / Project Status This section shows the budget consumption of the project, compared to its progress:
  If the project is above the diagonal: it&amp;rsquo;s using a lot of days but it&amp;rsquo;s progressing slowly than predictions based on budget; If the project is under the diagonal: it&amp;rsquo;s using few days but it&amp;rsquo;s progressing faster than predictions based on budget; If the project is on the diagonal: it&amp;rsquo;s planned and managed correctly.</description>
     </item>
     
