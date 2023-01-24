@@ -748,12 +748,7 @@
 
 <h3 id="project-details"><strong>Project details</strong></h3>
 
-<p>Positioned in the top left, this part shows project information details such as the client, project name, project type, PM name, duration and probability. In this section, you can also:</p>
-
-<ul>
-<li>see the <strong>budget consumption/project status graph</strong></li>
-<li>add <strong>notes</strong></li>
-</ul>
+<p>Positioned in the top left, this part shows project information details such as the client, project name, PM name and duration.</p>
 
 <img src="https://support.wethod.com/uploads/2023/01/23/budget-project-info.png" class="figure--center"></img>
 
@@ -762,11 +757,12 @@
 <p>Positioned in the top right, this part shows some details about the project’s price:</p>
 
 <ul>
-<li><strong>Suggested net price</strong>: the price we think is good to sell your project, calculated by the costs;</li>
-<li><strong>Final net price</strong>: regardless of the suggested net price, you can decide on your own what you think is the best price for the project;</li>
-<li><strong>Margin</strong>: the difference between suggested net price and the costs;</li>
-<li><strong>Contingency</strong>: life is unpredictable and the unexpected is behind every corner, so why not be prepared for it? A percentage of contingency means that you know your budget isn’t perfect so you’re estimating using more days, just in case. The contingency gives you more days which you can use at every user level but, on the other hand, the suggested net price will grow;</li>
-<li><strong>Discount</strong>: the percentage of discount you want to apply to the suggested price;</li>
+<li><strong>Suggested price</strong>: budget total price minus applied discount</li>
+<li><strong>Suggested price gross margin</strong>: suggested price minus budget total external costs</li>
+<li><strong>Suggested price contribution margin</strong>: suggested price minus budget total costs</li>
+<li><strong>Final net price</strong>: regardless of the suggested net price, you can decide on your own what you think is the best price for the project</li>
+<li><strong>Final net price gross margin</strong>: Final net price minus budget total external costs</li>
+<li><strong>Final net price contribution margin</strong>: Final net price minus budget total costs</li>
 </ul>
 
 <img src="https://support.wethod.com/uploads/2023/01/23/budget-price.png" class="figure--center"></img>
@@ -775,7 +771,17 @@
 
 <p>This is basically a table where you can assign days to a given user level of a <em>task</em>. A <em>task</em> is a macro activity needed to complete the project, related tasks can be grouped into <em>areas</em>.</p>
 
-<p>You can add new <em>areas</em> by using the &ldquo;<strong>+ AREA</strong>&rdquo; button: type in a meaningful name and hit enter.</p>
+<p>You can add new <em>areas</em> by using the &ldquo;<strong>+ New Area</strong>&rdquo; button: type in a meaningful name and hit enter.</p>
+
+<p>An area can be minimized by clicking on it, this let you appreciate more areas all together on the screen.</p>
+
+<p>Areas are grouped in order to show subtotals:
+* <strong>Areas &amp; Tasks</strong> contains all areas created by the user plus &ldquo;PM &amp; Travels&rdquo; which is a special area that&rsquo;s automaticcally added on each budget creation. This area contains two special tasks:
+        * <strong>Travels</strong>: external costs in this task appear as special cost row in <a href="https://support.wethod.com/reports/index/#economics">Project Report economics</a> where it is used to compare expected travel costs (coming from budget) and effective travels (created in <a href="https://support.wethod.com/finance/index/#travels">Travels section</a>)
+        * <strong>Expenses</strong>: external costs in this task appear as special cost row in <a href="https://support.wethod.com/reports/index/#economics">Project Report economics</a> where it is used to compare expected expenses (coming from budget) and effective expenses (created in <a href="https://support.wethod.com/finance/index/#expenses">Expenses section</a>)
+* <strong>Total</strong> contains:
+        * <strong>Contingency</strong>: life is unpredictable and the unexpected is behind every corner, so why not be prepared for it? A percentage of contingency means that you know your budget isn’t perfect so you’re estimating using more days, just in case. The contingency gives you more days and which you can use at every user level but, on the other hand, the suggested net price will grow
+        * <strong>Discount</strong>: the percentage of discount you want to apply to the Areas &amp; Tasks total price</p>
 
 <p>For each external cost you can assign a <strong>markup</strong>: a percentage that indicates how much you want to earn on that external cost.</p>
 
@@ -803,7 +809,7 @@
 
 <p>When a budget is submitted, a supervisor can appreciate all the changes by looking at the orange labels. This makes the approval process easier and faster.</p>
 
-<img src="https://support.wethod.com/uploads/2018/10/19/budget-approving.png" class="figure--center"></img>
+<img src="https://support.wethod.com/uploads/2023/01/24/budget-approving.png" class="figure--center"></img>
 
 <p>Not sure if a budget’s area will fit? Just switch it off! 
 <strong>Switching off an area</strong> will remove it from the budget estimate. You can always switch an area back at a later date whenever you wish.</p>
@@ -875,7 +881,7 @@
 
 <p>All the templates can be found in <strong>Projects &gt; Toolbox &gt; Budget Templates</strong>, here you can edit or delete them.</p>
 
-<img src="https://support.wethod.com/uploads/2020/06/29/budget-templates.png" class="figure--center"></img>
+<img src="https://support.wethod.com/uploads/2023/01/23/budget-template-list.png" class="figure--center"></img>
 
 			
 			<aside class="copyright" role="note"></aside>
