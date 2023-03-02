@@ -117,6 +117,11 @@
   </url>
   
   <url>
+    <loc>https://support.wethod.com/order-plan/index/</loc>
+    <lastmod>2019-06-19T08:24:15+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://support.wethod.com/faq/index/</loc>
     <lastmod>2017-05-22T17:08:16+02:00</lastmod>
   </url>
@@ -235,6 +240,12 @@
   <url>
     <loc>https://support.wethod.com/marketing/</loc>
     <lastmod>2017-08-29T08:24:54+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://support.wethod.com/order-plan/</loc>
+    <lastmod>2019-06-19T08:24:15+00:00</lastmod>
     <priority>0</priority>
   </url>
   
