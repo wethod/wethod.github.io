@@ -19,7 +19,7 @@
       <guid>https://support.wethod.com/order-plan/index/</guid>
       <description>Overview From here you can see the orders&amp;rsquo; amount grouped by projects.
 Each row in this view represents a project and carries with it a bunch of information:
- Name and client for the project The monthly distribution for the current year: for each month you can appreciate the planned orders&amp;rsquo; amount and the approved orders amount (colored with lower opacity) The total planned amount for the current year  If your company activated the multicurrency functionality, you can see all the currencies used for a project&amp;rsquo;s orders by clicking on that project&amp;rsquo;s row.</description>
+ Name and client for the project The monthly distribution for the current year: for each month you can appreciate the planned orders&amp;rsquo; amount and the approved orders amount (colored with lower opacity) The total planned amount for the current year  If your company activated the multicurrency functionality, you can see all the currencies used for a project&amp;rsquo;s orders by clicking on that project&amp;rsquo;s row!</description>
     </item>
     
   </channel>
