@@ -708,6 +708,8 @@
 
 <p>From here you can see the orders&rsquo; amount grouped by projects.</p>
 
+<p>The way you will visualise your orders depends on the preference you have specified in the <a href="https://support.wethod.com/settings/index/#company">Company Settings page</a>.</p>
+
 <p>Each row in this view represents a project and carries with it the following information:</p>
 
 <ul>
@@ -726,7 +728,9 @@
 
 <p>If your company activated the <a href="https://support.wethod.com/finance/index/#currency">multicurrency functionality</a>, you can see all the currencies used for a project&rsquo;s orders by clicking on that project&rsquo;s row.</p>
 
-<p>The visualisation logic is the following:</p>
+<h2 id="order-plan-based-on-period-of-supply">Order Plan based on Period of Supply</h2>
+
+<p>If in your preferences you have <strong>Period of Supply</strong> the visualisation logic is the following:</p>
 
 <ul>
 <li>the order start month is based on the start specified when creating a new order and its end is based on  its start date + duration</li>
@@ -736,6 +740,16 @@
 </ul>
 
 <img src="https://support.wethod.com/uploads/2023/03/02/company-order-plan-gif.gif" class="figure--center"></img>
+
+<h2 id="order-plan-based-on-issue-date">Order Plan based on Issue Date</h2>
+
+<p>If in your preferences you have <strong>Issue Date</strong> the visualisation logic is the following:</p>
+
+<ul>
+<li>the order&rsquo;s cost will NOT be divided by the period of supply, it will be visualised in its totality under the month corresponding to the issue date (date of when you have uploaded the order)</li>
+</ul>
+
+<p>Passing from one visualisation to an other may result in a drastic chage in the yearly total, especially if you have a lot of orders that span from one year to an other. However, the way these orders are saved is always the same, only the visualisation is different, so changing between these two configurations will not result in any kind of data loss.</p>
 
 			
 			<aside class="copyright" role="note"></aside>
