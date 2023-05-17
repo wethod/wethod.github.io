@@ -18,7 +18,7 @@
       
       <guid>https://support.wethod.com/capex/index/</guid>
       <description>Overview This section provides an overview of all investment project values meant as Capital Expenditures.
- Total CapEx costs for each project are divided into:
+Total CapEx costs for each project are divided into:
  Payroll costs: all the costs derived from employees’ levels’ rates External costs  You can edit the CapEx percentage field to tell Wethod the amount of investment to consider from the project.
 To mark all costs in a project as CapEx, just assign that project a job order category where &amp;ldquo;CapEx&amp;rdquo; is flagged</description>
     </item>

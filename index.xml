@@ -29,7 +29,7 @@ Data in this section use a daily cache to keep things fast. If you need somethin
       <pubDate>Wed, 09 Mar 2016 00:11:02 +0100</pubDate>
       
       <guid>https://support.wethod.com/getting-started/index/</guid>
-      <description>Warm Up Visit app.wethod.com/registration to create your team and get a 14 days free trial, we don&amp;rsquo;t force you to insert a credit card and you can take advantage of our tutorial.
+      <description>Warm Up Visit app.wethod.com/registration to create your team and get a 14 days free trial, we don&amp;rsquo;t force you to insert a credit card and you can take advantage of our tutorial.
 Setup Your Company By clicking on your initials (in the top right corner), the Settings menu will be shown and you can select the Company section to configure your team.
 Now you can invite your team members by visiting the Team section.</description>
     </item>
@@ -41,7 +41,7 @@ Now you can invite your team members by visiting the Team section.</description>
       
       <guid>https://support.wethod.com/desk/index/</guid>
       <description>Overview The Desk is your private space and your favorite place. Here you can find a set of utilities and widgets all for you.
- Activities This box collects all the items that were assigned to you in any boards. You can scroll through them, search by item name and mark them as completed without going to the dedicated page. If this box is empty try to add a column &amp;ldquo;Member&amp;rdquo; in a board and set yourself as &amp;ldquo;Activity&amp;rsquo;s assignee&amp;rdquo;</description>
+Activities This box collects all the items that were assigned to you in any boards. You can scroll through them, search by item name and mark them as completed without going to the dedicated page. If this box is empty try to add a column &amp;ldquo;Member&amp;rdquo; in a board and set yourself as &amp;ldquo;Activity&amp;rsquo;s assignee&amp;rdquo;</description>
     </item>
     
     <item>
@@ -52,7 +52,7 @@ Now you can invite your team members by visiting the Team section.</description>
       <guid>https://support.wethod.com/group-revenues/index/</guid>
       <description>Overview An aggregated view for the revenues report
 Revenues by month Here you have the yearly revenues of your group, distributed on a monthly basis. As you can see in the legend, there are various notable things in the chart:
- Production based on companies&amp;rsquo; project status Production plan based on companies&amp;rsquo; production plan Bluesky based on companies&amp;rsquo; bluesky Monthly production value obtained by dividing the target (which you can edit from the company&amp;rsquo;s profit &amp;amp; loss and displayed inside the clock chart on the right) for 12 (the number of months per year) Production trend based on the production of the last three years   Revenues by client A table where you can appreciate how much production has been generated from each company of the group an towards each of their clients.</description>
+ Production based on companies&amp;rsquo; project status Production plan based on companies&amp;rsquo; production plan Bluesky based on companies&amp;rsquo; bluesky Monthly production value obtained by dividing the target (which you can edit from the company&amp;rsquo;s profit &amp;amp; loss and displayed inside the clock chart on the right) for 12 (the number of months per year) Production trend based on the production of the last three years  Revenues by client A table where you can appreciate how much production has been generated from each company of the group an towards each of their clients.</description>
     </item>
     
     <item>
@@ -61,9 +61,9 @@ Revenues by month Here you have the yearly revenues of your group, distributed o
       <pubDate>Fri, 29 Mar 2019 10:01:45 +0000</pubDate>
       
       <guid>https://support.wethod.com/group-setup/index/</guid>
-      <description>Overview If you need to manage various company belonging to the same holding, this is the right tool for you: enabling the group module lets you appreciate aggregates statistics about all of your companies and made possibile to track intercompany work.
+      <description>Overview If you need to manage various company belonging to the same holding, this is the right tool for you: enabling the group module lets you appreciate aggregates statistics about all of your companies and made possible to track intercompany work.
 Hierarchy Once you have enabled the group module, you can start building the hierarchy of your group: drag companies inside the graph, create levels and name them.
- Clients normalizer From here you can map company-level clients onto group-wide clusters, this is useful for those reports which displays values related to clients.</description>
+Clients normalizer From here you can map company-level clients onto group-wide clusters, this is useful for those reports which displays values related to clients.</description>
     </item>
     
     <item>
@@ -95,8 +95,8 @@ The different steps and phases of a project can be managed in different sections
       
       <guid>https://support.wethod.com/budget/index/</guid>
       <description>Overview The budget is where you can list all the resources you think you&amp;rsquo;ll need for the project.
- Basically, this is the place where you define (for a project):
- How many people you need; Which experience levels you need; Which tasks are needed to get the job done; Who will do what; The external costs; The selling price.  Done? Now the budget must be approved by a supervisor and, once approved, the project manager can start planning and creating orders.</description>
+Basically, this is the place where you define (for a project):
+ How many people you need; Which experience levels you need; Which tasks are needed to get the job done; Who will do what; The external costs; The selling price.  Done? Now the budget must be approved by a supervisor and, once approved, the project manager can start planning and creating orders.</description>
     </item>
     
     <item>
@@ -141,8 +141,8 @@ Budget Consumption / Project Status This section shows the budget consumption of
       
       <guid>https://support.wethod.com/dashboard/index/</guid>
       <description>Overview The Dashboard is basically a set of widgets, any one of which can be added or removed and customized by the user.
- Widgets Adding a new widget to your dashboard is very easy: just click on the “+” sign and pick one from the list of the available widgets.
- Alerts This widget shows all the inconsistencies regarding the user. Each alert has a priority (indicated by its color):</description>
+Widgets Adding a new widget to your dashboard is very easy: just click on the “+” sign and pick one from the list of the available widgets.
+Alerts This widget shows all the inconsistencies regarding the user. Each alert has a priority (indicated by its color):</description>
     </item>
     
     <item>
@@ -152,7 +152,7 @@ Budget Consumption / Project Status This section shows the budget consumption of
       
       <guid>https://support.wethod.com/finance/index/</guid>
       <description>Orders In this section you can see all your orders and create new ones.
- Create a new order  Click button New Order and a sidebar will open.    Insert project name. The job order will be automatically filled by the system. Compile all the required fields Click on the &amp;ldquo;save&amp;rdquo; button Your order will be added to the list  Order&amp;rsquo;s fields description  Project: the target Project Job Order: automatically filled selecting the project Supplier: the target Supplier for this Order Purchase Code: an identifier for the Order Value: the total cost of this Order Area: the area of the budget this Order is about Date: the issue date of this Order Duration: answers to the question &amp;ldquo;when this order will used for the project?</description>
+Create a new order  Click button New Order and a sidebar will open.   Insert project name. The job order will be automatically filled by the system. Compile all the required fields Click on the &amp;ldquo;save&amp;rdquo; button Your order will be added to the list  Order&amp;rsquo;s fields description  Project: the target Project Job Order: automatically filled selecting the project Supplier: the target Supplier for this Order Purchase Code: an identifier for the Order Value: the total cost of this Order Area: the area of the budget this Order is about Date: the issue date of this Order Duration: answers to the question &amp;ldquo;when this order will used for the project?</description>
     </item>
     
     <item>
@@ -161,7 +161,7 @@ Budget Consumption / Project Status This section shows the budget consumption of
       <pubDate>Wed, 24 May 2017 10:09:44 +0000</pubDate>
       
       <guid>https://support.wethod.com/settings/index/</guid>
-      <description>Account Here you set your name, surname and password.
+      <description>Account Here you set your name, surname and password.
 If you have the right permissions, you can:
  Change your invoice details; Import existing projects.  Team Since you have the right permissions, you can: invite people, assign specific roles and allow special permissions.
 To invite a new teammate:
@@ -194,22 +194,8 @@ The monthly distribution is achieved by looking at the production plan of every 
       <pubDate>Tue, 29 Aug 2017 08:24:26 +0000</pubDate>
       
       <guid>https://support.wethod.com/external-costs/index/</guid>
-      <description>Overview In this section you can see the yearly distribution for all your projects&amp;rsquo; external costs. The amount ordered by projects is dispalyed month by month based on the period they cover, in particular:
+      <description>Overview In this section you can see the yearly distribution for all your projects&amp;rsquo; external costs. The amount ordered by projects is displayed month by month based on the period they cover, in particular:
  Orders&amp;rsquo; value follows the orders&amp;rsquo; &amp;ldquo;Period of Supply&amp;rdquo;, for example: an order of 3.000 with a period from January to June will weigh 500 on each month from January to June Travels&amp;rsquo; value follows the departure and return date of each Travel (if the travel is a one-way trip then all costs will weigh on the departure date).</description>
-    </item>
-    
-    <item>
-      <title>Gross Margin</title>
-      <link>https://support.wethod.com/gross-margin/</link>
-      <pubDate>Mon, 22 Mar 2021 23:00:00 +0000</pubDate>
-      
-      <guid>https://support.wethod.com/gross-margin/</guid>
-      <description>Overview Here you can see the details about Profit &amp;amp; Loss&amp;rsquo; gross margin for each month of the current year.
-A project&amp;rsquo;s gross margin is the difference between its revenues and its external costs.
-Three important indicators are given in the first rows:
- Total: the sum of all your projects&amp;rsquo; gross margin, per month
- Bluesky: the dfference between revenues&amp;rsquo; bluesky and external costs&amp;rsquo; bluesky
- Delta revenues target: the dfference between revenues&amp;rsquo; delta revenues target and external costs&amp;rsquo; delta revenues target</description>
     </item>
     
     <item>
@@ -230,12 +216,12 @@ The Headcount shows the amount of employees and placeholders with costs that imp
       <pubDate>Tue, 29 Aug 2017 10:24:40 +0200</pubDate>
       
       <guid>https://support.wethod.com/general-admin/index/</guid>
-      <description> Overview Here you can list all your general and administratrion costs. This is the right place to put all that costs which aren&amp;rsquo;t about external costs, payroll or marketing.
+      <description> Overview Here you can list all your general and administration costs. This is the right place to put all that costs which aren&amp;rsquo;t about external costs, payroll or marketing.
 Each cost has:
  Start month
  End month
  Net month
-   </description>
+  </description>
     </item>
     
     <item>
@@ -244,13 +230,12 @@ Each cost has:
       <pubDate>Tue, 29 Aug 2017 08:24:54 +0000</pubDate>
       
       <guid>https://support.wethod.com/marketing/index/</guid>
-      <description> Overview This is the right place to put all that costs related to the promotion of your products or services.
+      <description>Overview This is the right place to put all that costs related to the promotion of your products or services.
 Each cost has:
  Start month
  End month
  Net month
-  Use the Import costs button to copy all the marketing costs&amp;rsquo; rows from the previous year.
- </description>
+  Use the Import costs button to copy all the marketing costs&amp;rsquo; rows from the previous year.</description>
     </item>
     
     <item>
@@ -260,7 +245,7 @@ Each cost has:
       
       <guid>https://support.wethod.com/capex/index/</guid>
       <description>Overview This section provides an overview of all investment project values meant as Capital Expenditures.
- Total CapEx costs for each project are divided into:
+Total CapEx costs for each project are divided into:
  Payroll costs: all the costs derived from employees’ levels’ rates External costs  You can edit the CapEx percentage field to tell Wethod the amount of investment to consider from the project.
 To mark all costs in a project as CapEx, just assign that project a job order category where &amp;ldquo;CapEx&amp;rdquo; is flagged</description>
     </item>
@@ -274,7 +259,7 @@ To mark all costs in a project as CapEx, just assign that project a job order ca
       <description> Overview From here you can see the invoice plans of all your company&amp;rsquo;s projects.
 This is basically a summary of the view you have from pipeline, where you can access each project&amp;rsquo;s invoice plan one by one.
 Each row in this view represents a project and carries with it a bunch of information:
- Whether the plan is automatically or manually distributed Name and client for the project The monthly plan&amp;rsquo;s distribution for the current year: for each month you can appreciate the plan&amp;rsquo;s value and the actual invoices amount (colored with lower opacity) The total plan&amp;rsquo;s amount for the current year   </description>
+ Whether the plan is automatically or manually distributed Name and client for the project The monthly plan&amp;rsquo;s distribution for the current year: for each month you can appreciate the plan&amp;rsquo;s value and the actual invoices amount (colored with lower opacity) The total plan&amp;rsquo;s amount for the current year  </description>
     </item>
     
     <item>
@@ -286,7 +271,7 @@ Each row in this view represents a project and carries with it a bunch of inform
       <description>Overview From here you can see the orders&amp;rsquo; amount grouped by projects.
 The way you will visualise your orders depends on the preference you have specified in the Company Settings page.
 Each row in this view represents a project and carries with it the following information:
- Name, PM and client for the project The order&amp;rsquo;s costs for the current year For each month you can see the planned orders&amp;rsquo; amount and the approved orders amount (coloured in grey or in red if lower than planned) The total planned amount for the current year   Note</description>
+ Name, PM and client for the project The order&amp;rsquo;s costs for the current year For each month you can see the planned orders&amp;rsquo; amount and the approved orders amount (coloured in grey or in red if lower than planned) The total planned amount for the current year  Note</description>
     </item>
     
     <item>
@@ -319,6 +304,20 @@ For example: if I have an actual value of 5 but I know that, in a particular mom
       <description>What It Is WETHOD is the online tool to manage people and projects in a collaborative way. We aim to make the project management simple, distributing the responsibilities among all the team members and reducing stress derived from projects organization.
 The result is a deeply integrated system that manages all the information which are essential for a project-oriented company: budget, planning, timesheet and activity report.
 This enables WETHOD to create a system where everybody collaborate and keep information up to date, a system that rewards who done well and warns the others.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://support.wethod.com/gross-margin/index/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://support.wethod.com/gross-margin/index/</guid>
+      <description>weight: &amp;ldquo;93&amp;rdquo; date: 2021-03-22T23:00:00+00:00 title: Gross Margin type: &amp;ldquo; menu: company: weight: 4
+Overview Here you can see the details about Profit &amp;amp; Loss&amp;rsquo; gross margin for each month of the current year.
+A project&amp;rsquo;s gross margin is the difference between its revenues and its external costs.
+Three important indicators are given in the first rows:
+ Total: the sum of all your projects&amp;rsquo; gross margin, per month
+ Bluesky: the difference between revenues&amp;rsquo; bluesky and external costs&amp;rsquo; bluesky</description>
     </item>
     
   </channel>
