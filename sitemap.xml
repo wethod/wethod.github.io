@@ -13,7 +13,7 @@
   
   <url>
     <loc>https://support.wethod.com/getting-started/index/</loc>
-    <lastmod>2016-03-09T00:11:02+01:00</lastmod>
+    <lastmod>2016-03-09T22:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -22,12 +22,12 @@
   </url>
   
   <url>
-    <loc>https://support.wethod.com/group-revenues/index/</loc>
-    <lastmod>2019-03-29T10:01:45+00:00</lastmod>
+    <loc>https://support.wethod.com/group-setup/index/</loc>
+    <lastmod>2019-03-29T22:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://support.wethod.com/group-setup/index/</loc>
+    <loc>https://support.wethod.com/group-revenues/index/</loc>
     <lastmod>2019-03-29T10:01:45+00:00</lastmod>
   </url>
   
@@ -92,13 +92,13 @@
   </url>
   
   <url>
-    <loc>https://support.wethod.com/payroll/index/</loc>
-    <lastmod>2017-08-29T08:41:03+00:00</lastmod>
+    <loc>https://support.wethod.com/general-admin/index/</loc>
+    <lastmod>2017-08-29T22:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://support.wethod.com/general-admin/index/</loc>
-    <lastmod>2017-08-29T10:24:40+02:00</lastmod>
+    <loc>https://support.wethod.com/payroll/index/</loc>
+    <lastmod>2017-08-29T08:41:03+00:00</lastmod>
   </url>
   
   <url>
@@ -108,12 +108,12 @@
   
   <url>
     <loc>https://support.wethod.com/capex/index/</loc>
-    <lastmod>2018-11-23T08:24:15+00:00</lastmod>
+    <lastmod>2018-11-23T22:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://support.wethod.com/invoice-plan/index/</loc>
-    <lastmod>2019-03-11T08:24:15+00:00</lastmod>
+    <lastmod>2019-03-11T22:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -123,7 +123,7 @@
   
   <url>
     <loc>https://support.wethod.com/faq/index/</loc>
-    <lastmod>2017-05-22T17:08:16+02:00</lastmod>
+    <lastmod>2017-05-22T22:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -133,7 +133,7 @@
   
   <url>
     <loc>https://support.wethod.com/index/</loc>
-    <lastmod>2016-03-08T21:07:13+01:00</lastmod>
+    <lastmod>2016-03-08T22:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -150,7 +150,7 @@
   
   <url>
     <loc>https://support.wethod.com/capex/</loc>
-    <lastmod>2018-11-23T08:24:15+00:00</lastmod>
+    <lastmod>2018-11-23T22:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -179,7 +179,7 @@
   
   <url>
     <loc>https://support.wethod.com/faq/</loc>
-    <lastmod>2017-05-22T17:08:16+02:00</lastmod>
+    <lastmod>2017-05-22T22:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -197,13 +197,13 @@
   
   <url>
     <loc>https://support.wethod.com/general-admin/</loc>
-    <lastmod>2017-08-29T10:24:40+02:00</lastmod>
+    <lastmod>2017-08-29T22:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://support.wethod.com/getting-started/</loc>
-    <lastmod>2016-03-09T00:11:02+01:00</lastmod>
+    <lastmod>2016-03-09T22:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -233,13 +233,13 @@
   
   <url>
     <loc>https://support.wethod.com/group-setup/</loc>
-    <lastmod>2019-03-29T10:01:45+00:00</lastmod>
+    <lastmod>2019-03-29T22:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://support.wethod.com/invoice-plan/</loc>
-    <lastmod>2019-03-11T08:24:15+00:00</lastmod>
+    <lastmod>2019-03-11T22:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
