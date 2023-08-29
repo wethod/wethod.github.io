@@ -59,3 +59,43 @@
 	top: 1px;
     position: relative;
 }
+
+.tabs {
+	display: flex;
+}
+
+.tab {
+	width: 62px;
+	padding: 4px;
+	text-align: center;
+	background-color: white;
+	border: 1px solid #363636;
+}
+
+.tab:first-child {
+	border-radius: 16px 0 0 16px;
+}
+
+.tab:last-child {
+	border-radius: 0 16px 16px 0;
+}
+
+.tab--selected {
+	background-color: #363636;
+}
+
+.tab a {
+	color: black !important;
+	font-weight: bold;
+	text-decoration: none;
+	border: none;
+}
+
+.tab--selected a {
+	color: white !important;
+}
+
+.actions-right {
+	display: flex;
+	justify-content: flex-end;
+}
