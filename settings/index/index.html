@@ -1074,6 +1074,70 @@ For each report you can appreciate:</p>
 <li><strong>inter-bu people</strong>: whether you can plan people of other business unit (to projects of all business units).</li>
 </ul>
 
+<h2 id="products">Products</h2>
+
+<p>You can find this section in the app menu under Projects &gt; Toolbox &gt; Products.</p>
+
+<p><img src="https://support.wethod.com/uploads/product-creation.png" alt="" /></p>
+
+<p>A product is a special kind of <a href="https://support.wethod.com/budget/index/#products">pre-compiled budget task</a>, representing an activity with well-known man-days and costs.</p>
+
+<p>For example let’s say that a digital agency knows that its best-selling event needs 2 days and 1000 € to be organized and delivered, instead o recreating this task for each client, the agency can create a single product and add it to different budgets when needed.</p>
+
+<p>A product has:</p>
+
+<ul>
+<li>Name: (required)</li>
+<li>Description [max 50 char]</li>
+<li>From - To: specify a period of time during which product is available to be added to a budget.
+
+<ul>
+<li>If only “From” is compiled then product is available starting from “From”</li>
+<li>If only “To” is compiled then product is available from its creation until the date specified by “To”</li>
+<li>If “From” and “To” are not specified then product is available from its creation</li>
+</ul></li>
+<li>Days: man-days needed for every user level in order to ship the product.
+
+<ul>
+<li>Man-days for a level are set to 0 by default</li>
+</ul></li>
+<li>External costs: costs needed to ship the product</li>
+<li>Markup: percentage of markup applied on external cost to calculate the price</li>
+<li>Price: price of a single instance of the product.
+
+<ul>
+<li>If price is not defined then <a href="https://www.notion.so/Budget-eb36fe489e4a4c7a891ed44b5c76c7f5?pvs=21">it’s calculated the usual way</a> once product is added to a budget</li>
+</ul></li>
+</ul>
+
+<p>If a product has non price defined, a tooltip must inform user that it will be calculated with current rates when adding product in a budget. This tooltip must be visible when user puts the cursor over “Price” cell on a product in the list.</p>
+
+<p>A product is considered available if the current date falls in the From - To period or if there’s no From - To period defined.</p>
+
+<p>The From date cannot be greater than the To date.</p>
+
+<p>User must be able to filter available and not available products.</p>
+
+<p>User must be able to sort product list by all columns and in both direction.</p>
+
+<p>Products must be “searchable” by a space separated list of values to search among products name, each values is a AND clause.</p>
+
+<p>Only available products appear in <a href="https://www.notion.so/Budget-eb36fe489e4a4c7a891ed44b5c76c7f5?pvs=21">the budget pick list</a>.</p>
+
+<p>Only users with products.view permission must be able to see Products section.</p>
+
+<p>Only users with products.edit permission must be able to create and edit products.</p>
+
+<p>Only “From” and “To” attributes can be edited. See the <a href="https://www.notion.so/Products-86d11b7e0262490bb7e1e8056dc43cc0?pvs=21">implementation details</a> section to see why and how we can improve this behavior in an upcoming release.</p>
+
+<p>There is no way to archive a Product, it can only be made unavailable by editing its “From” or “To”.</p>
+
+<p>By default all roles can view and edit products.</p>
+
+<p>A company level cannot be deleted if there are product man-days associated to it.</p>
+
+<p>If a user creates a product with a markup and a price, the markup is not used to calculate the price because the user-specified price is used instead. This may be handled better in a future release by disabling the markup input when the price input is populated.</p>
+
 			
 			<aside class="copyright" role="note"></aside>
 			<footer class="footer">
