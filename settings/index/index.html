@@ -1080,49 +1080,29 @@ For each report you can appreciate:</p>
 
 <p><img src="https://support.wethod.com/uploads/product-creation.png" alt="" /></p>
 
-<p>A product is a special kind of <a href="https://support.wethod.com/budget/index/#products">pre-compiled budget task</a>, representing an activity with well-known man-days and costs.</p>
+<p>A product is a special kind of <a href="https://support.wethod.com/budget/index/#products">pre-compiled budget task</a>, representing an activity requiring well-known man-days and costs.</p>
 
-<p>For example let’s say that a digital agency knows that its best-selling event needs 2 days and 1000 € to be organized and delivered, instead o recreating this task for each client, the agency can create a single product and add it to different budgets when needed.</p>
+<p>For example let’s say that a digital agency knows that its best-selling event needs 2 days and 1000 € to be organized and delivered, instead of recreating this task for each client, the agency can create a single product and add it to different budgets when needed.</p>
 
 <p>A product has:</p>
 
 <ul>
-<li>Name: (required)</li>
-<li>Description [max 50 char]</li>
+<li>Name</li>
+<li>Description</li>
 <li>From - To: specify a period of time during which product is available to be added to a budget.
 
 <ul>
-<li>If only “From” is compiled then product is available starting from “From”</li>
-<li>If only “To” is compiled then product is available from its creation until the date specified by “To”</li>
-<li>If “From” and “To” are not specified then product is available from its creation</li>
+<li>If only “From” is specified then product is available starting from that date</li>
+<li>If only “To” is specified then product is available from its creation until the date specified by “To”</li>
+<li>If “From” and “To” are not specified then product is always available</li>
 </ul></li>
-<li>Days: man-days needed for every user level in order to ship the product.
-
-<ul>
-<li>Man-days for a level are set to 0 by default</li>
-</ul></li>
+<li>Days: man-days needed for every user level in order to ship the product</li>
 <li>External costs: costs needed to ship the product</li>
 <li>Markup: percentage of markup applied on external cost to calculate the price</li>
-<li>Price: price of a single instance of the product.
-
-<ul>
-<li>If price is not defined then <a href="https://www.notion.so/Budget-eb36fe489e4a4c7a891ed44b5c76c7f5?pvs=21">it’s calculated the usual way</a> once product is added to a budget</li>
-</ul></li>
+<li>Price: price of a single instance of the product. If not defined it&rsquo;s calculated  based on man days cost, external cost, markup and quantity</li>
 </ul>
 
-<p>If a product has non price defined, a tooltip must inform user that it will be calculated with current rates when adding product in a budget. This tooltip must be visible when user puts the cursor over “Price” cell on a product in the list.</p>
-
-<p>A product is considered available if the current date falls in the From - To period or if there’s no From - To period defined.</p>
-
-<p>The From date cannot be greater than the To date.</p>
-
-<p>User must be able to filter available and not available products.</p>
-
-<p>User must be able to sort product list by all columns and in both direction.</p>
-
-<p>Products must be “searchable” by a space separated list of values to search among products name, each values is a AND clause.</p>
-
-<p>Only available products appear in <a href="https://www.notion.so/Budget-eb36fe489e4a4c7a891ed44b5c76c7f5?pvs=21">the budget pick list</a>.</p>
+<p>Specific <a href="https://support.wethod.com/settings/index/#permissions">permissions</a> let you control who can view or edit this section.</p>
 
 <p>Only users with products.view permission must be able to see Products section.</p>
 
