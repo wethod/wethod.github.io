@@ -1109,6 +1109,52 @@ For each report you can appreciate:</p>
 
 <p>If a user creates a product with a markup and a price, the markup is not used to calculate the price because the user-specified price is used instead.</p>
 
+<h2 id="pricelists">Pricelists</h2>
+
+<p>You can find this section in the app menu under <em>CRM &gt; Toolbox &gt; Pricelists</em>.</p>
+
+<p><img src="https://support.wethod.com/uploads/pricelists-create.png" alt="" /></p>
+
+<p>A pricelist defines a group of level daily rates that can be used to <a href="https://support.wethod.com/budget/index/#pricelists">adapt a project price in a budget</a>.</p>
+
+<p>For example, you can define a pricelist named “USA” and a pricelist named “Europe”: the first will specify level rates to use for project based in the United States and the other will do the same for projects based in Europe.</p>
+
+<p>Each company has a company default pricelist which defines company levels default daily rates. This pricelist is marked with a &ldquo;default&rdquo; label and has a light blue background.</p>
+
+<p>You can&rsquo;t choose the company default pricelist, you can only edit its attributes.</p>
+
+<p>A pricelist might be reserved to a client, this means that it can be associated only to budgets related to that specific client.</p>
+
+<p>Each client can have several pricelists related to it.</p>
+
+<p>For all pricelists associated to a specific client, at most one can be elected as default pricelist for that client: this is the special pricelist automatically associated to new created budgets for the specific client. Default client pricelists are marked with a &ldquo;default&rdquo; label.</p>
+
+<p>If no client default pricelists exist for a project client, the company default pricelist will be used.</p>
+
+<p>A company default pricelist cannot be used as client pricelist.</p>
+
+<p>If you edit a pricelist used in a budget, changes become effective the next time that budget will be taken back to draft.</p>
+
+<p>When a client is deleted, all pricelists related to it become &ldquo;normal&rdquo; pricelists and therefore can be used in any budget.</p>
+
+<p>A pricelist has:</p>
+
+<ul>
+<li>Name</li>
+<li>Description</li>
+<li>From - To: specify a period of time during which pricelist can be used in a budget
+
+<ul>
+<li>If only “From” is compiled then product is available starting from “From”</li>
+<li>If only “To” is compiled then product is available from its creation until the date specified by “To”</li>
+<li>If “From” and “To” are not specified then product is available from its creation</li>
+</ul></li>
+<li>Rates: daily rates for every user level</li>
+<li>Client</li>
+</ul>
+
+<p>Specific <a href="https://support.wethod.com/settings/index/#permissions">permissions</a> let you control who can view or edit this section.</p>
+
 			
 			<aside class="copyright" role="note"></aside>
 			<footer class="footer">
