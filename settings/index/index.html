@@ -775,11 +775,42 @@
 
 <h2 id="company">Company</h2>
 
-<p>Here you can configure your company by setting:</p>
+<p>Here you can configure your company by setting.</p>
+
+<h3 id="employee-capacity-groups">Employee Capacity Groups</h3>
+
+<p>A capacity group can be used to define daily expected timesheet for a group of users. For example, user can add a capacity group called “Capacity London” to express that London office follows a 7-hours Monday to Friday working hours policy:</p>
+
+<p>&lt;IMAGE&gt;</p>
+
+<p>Another use case is to be able to model different types of contracts, i.e. user can add a capacity group called “Part-time capacity” to express that some users are expected to work only 4 hours a day from Monday to Friday.</p>
+
+<p>Every company has a default capacity group:</p>
 
 <ul>
-<li><strong>User levels</strong>: each one of your collaborators has a level which defines his daily cost to the company and the price you want to sell a day of his work to the clients. This way you can define clusters of employees like intern, junior, senior and so on. For each user level you can set a <strong>chargeability target</strong> – expressed in percentage – meaning as the amount of hours people belonging to a specific user level should work on profitable projects.</li>
-<li><strong>Job Order Categories</strong>: here you can add the categories for your projects, each category needs at least a name and a color. You can change the categories&rsquo; sort order by simply drag and dropping them. For each category you can set some options:
+<li>It cannot be deleted</li>
+<li>It can be edited</li>
+<li>By default it has 8 hours per day, from Monday to Friday</li>
+</ul>
+
+<p>Once defined, capacity groups can be associated to company employee using the Team metadata import.</p>
+
+<p>When applying</p>
+
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Changes to a capacity group are applied to the past too.</p>
+</div>
+
+<p>changes to a capacity group, an alert must tell the user that by proceeding he is applying the new capacity value even to past timesheets.</p>
+
+<h3 id="user-levels">User levels</h3>
+
+<p>Each one of your collaborators has a level which defines his daily cost to the company and the price you want to sell a day of his work to the clients. This way you can define clusters of employees like intern, junior, senior and so on. For each user level you can set a <strong>chargeability target</strong> – expressed in percentage – meaning as the amount of hours people belonging to a specific user level should work on profitable projects.</p>
+
+<h3 id="job-order-categories">Job Order Categories</h3>
+
+<p>Here you can add the categories for your projects, each category needs at least a name and a color. You can change the categories&rsquo; sort order by simply drag and dropping them. For each category you can set some options:</p>
 
 <ul>
 <li><strong>Chargeable</strong>: the projects in this category are billable</li>
@@ -799,46 +830,88 @@
 <li><strong>Track opportunity stage</strong>: Whether you can assign a custom stage to an opportunity or not. Please mind tracking and opportunity stage will tightly couple stage and probability attributes.
 Check the stage section for further information.</li>
 <li><strong>Intercompany supplier</strong>: an invoice for a project in this category cannot be sent if the project is not an <a href="https://support.wethod.com/pipeline/index/#intercompany-projects">intercompany project</a> or if its intercompany client does not <a href="https://support.wethod.com/finance/index/#intercompany-client">appear as an actual company client</a></li>
-<li><strong>Project status</strong>:</li>
+<li><strong>Project status</strong>:
+
+<ul>
 <li><strong>Work days to complete</strong>: the project status is assigned as estimated days to complete (e.g. in order to complete we need 12 more days of work)</li>
 <li><strong>Auto</strong>: the progress of the projects in this category are not based on their projects status, but based on their duration (equally distributed on their lifespan indicated by date start and duration on the pipeline)</li>
 <li><strong>Completed percentage</strong>: the project status is assigned as a progress percentage (e.g. the progress of this project is 45%)</li>
-<li><strong>Automatic timesheet</strong>: here you can choose to automate the timesheets creation process for this kind of projects. This way, timesheets are automatically created each weekend based on planned hours. <em>Be careful: Anything can go wrong because planning is not often 100% accurate, this is why timesheet exists.</em> See the <a href="https://support.wethod.com/friday/index/#automatic">timesheet section</a> for further details.</li>
 </ul></li>
-<li><strong>Job order</strong>: Here you can add and edit the templates used to generate new job orders.  Remember to choose which job order categories your template will be valid for, and click &ldquo;Apply.&rdquo;  This way, when you want to add the job order to one of your projects, you will see the &ldquo;Generate&rdquo; button, which will automatically provide you with a job order based on this template, with a unique, sequentially created number.  A category can only be associated with one template; therefore, you will not find it available among those that can be selected in other templates.  When you add a new template, by default, it will contain a sequential number, starting with 1.  You can add as many blocks as you want by dragging and dropping them from the list at the top: enter the text you want, or the current year indication, formatted to 2 digits or 4. Once you have added the blocks, you can put them in any order you like, again by dragging them to the appropriate area of your template.  If you want the starting number not to be one (this can happen to you, for example, if you activate this automatism after you have already created some projects that follow the template you are interested in) just change the value in the block, which by default shows &ldquo;1.&rdquo; The value you choose will be the first one suggested when a job order is generated.  If you want the job order number to restart at &ldquo;1&rdquo; each new year, click on &ldquo;Yearly reset.&rdquo; In order to do this, however, you will need to have a &ldquo;year&rdquo; block in your template.  This value, of course, is unique to each template, and is incremented by 1 for each new job order generated. Each project will benefit from automatic job order generation depending on its job order category: if there is a template associated with its category, that will be the one used to create the job order.  To choose the number formatting, change the &ldquo;Min digit padding&rdquo;: this is the (minimum) length that the sequential number of your job order will have.  When you have finished customizing the template, remember to save to make the changes effective and usable for your projects! Learn more about how to use this feature for your <a href="https://support.wethod.com/pipeline/index/#projects">projects</a>.
-<img src="https://support.wethod.com/uploads/2023/02/06/job-order-template-settings.gif" alt="" /></li>
-<li><strong>Project Metadata</strong>:  Add a detail depth to a project in pipeline with metadata tags. Add a new tag, specify its values and check the box if required. Metadata tags are useful to reach a better insight within a single cluster of data, i.e. in the report Sales Pipeline.</li>
-<li><strong>Team Metadata</strong>
+<li><strong>Automatic timesheet</strong>: here you can choose to automate the timesheets creation process for this kind of projects. This way, timesheets are automatically created each weekend based on planned hours. <em>Be careful: Anything can go wrong because planning is not often 100% accurate, this is why timesheet exists.</em> See the <a href="https://support.wethod.com/friday/index/#automatic">timesheet section</a> for further details.</li>
+</ul>
+
+<h3 id="job-order">Job Order</h3>
+
+<p>Here you can add and edit the templates used to generate new job orders.  Remember to choose which job order categories your template will be valid for, and click &ldquo;Apply.&rdquo;  This way, when you want to add the job order to one of your projects, you will see the &ldquo;Generate&rdquo; button, which will automatically provide you with a job order based on this template, with a unique, sequentially created number.  A category can only be associated with one template; therefore, you will not find it available among those that can be selected in other templates.  When you add a new template, by default, it will contain a sequential number, starting with 1.  You can add as many blocks as you want by dragging and dropping them from the list at the top: enter the text you want, or the current year indication, formatted to 2 digits or 4. Once you have added the blocks, you can put them in any order you like, again by dragging them to the appropriate area of your template.  If you want the starting number not to be one (this can happen to you, for example, if you activate this automatism after you have already created some projects that follow the template you are interested in) just change the value in the block, which by default shows &ldquo;1.&rdquo; The value you choose will be the first one suggested when a job order is generated.  If you want the job order number to restart at &ldquo;1&rdquo; each new year, click on &ldquo;Yearly reset.&rdquo; In order to do this, however, you will need to have a &ldquo;year&rdquo; block in your template.  This value, of course, is unique to each template, and is incremented by 1 for each new job order generated. Each project will benefit from automatic job order generation depending on its job order category: if there is a template associated with its category, that will be the one used to create the job order.  To choose the number formatting, change the &ldquo;Min digit padding&rdquo;: this is the (minimum) length that the sequential number of your job order will have.  When you have finished customizing the template, remember to save to make the changes effective and usable for your projects! Learn more about how to use this feature for your <a href="https://support.wethod.com/pipeline/index/#projects">projects</a>.
+<img src="https://support.wethod.com/uploads/2023/02/06/job-order-template-settings.gif" alt="" /></p>
+
+<h3 id="project-metadata">Project Metadata</h3>
+
+<p>Add a detail depth to a project in pipeline with metadata tags. Add a new tag, specify its values and check the box if required. Metadata tags are useful to reach a better insight within a single cluster of data, i.e. in the report Sales Pipeline.</p>
+
+<h3 id="team-metadata">Team Metadata</h3>
 
 <ul>
 <li>You can define team metadata (tags) in this table and then assign them using the team section</li>
 <li>Each metadata is composed by a category and a tag value</li>
 <li>You can defined an illimitate number of categories and tags</li>
-</ul></li>
-<li><strong>Email Bot</strong>: here you can insert the email addresses to which send invoices, orders and travel requests;</li>
-<li><strong>Project Won/Lost Bot</strong>: here you can insert the email addresses to which send notifications each time someone of your teammates won or lost a project. A project is considered to be <em>lost</em> when its probability is 0 and <em>won</em> when its probability is 90</li>
-<li><strong>Project Types</strong>: create and manage labels that you can assign to projects in <a href="https://support.wethod.com/pipeline/index/#projects">pipeline</a>. A project type is basically composed by a name, you can than aggregate it&rsquo;s values by using a group or use a short label to better identify a project type;</li>
-<li><strong>Timesheet</strong>: here you can choose whether to use the <strong>simplified</strong> or the <strong>detailed</strong> view. When the <strong>simplified</strong> view is enabled you will be able to fill your timesheet for the whole week in a single page. You can choose to fill the total amount of hours of the week or to fill worked hours daily by using the <strong>Daily Mode</strong> toggle. This toggle can be set as &ldquo;daily&rdquo; at company level, therefore for all team members, using the &ldquo;Always&rdquo; value in the dedicated select list. When the <strong>detailed</strong> view is enabled, you will be able to fill in your timesheet day by day, and also specify in which budget area your worked on. See the <a href="https://support.wethod.com/friday/index/#detailed">timesheet section</a> for further details. You can also set a weekly or daily reminder for your employee to fill in the timesheet. <strong>Only users that have set timesheet as required will receive the email</strong>. You will also be able to enable time limitation for timesheet. See the <a href="https://support.wethod.com/friday/index/#time-limit">timesheet section</a> for further details.</li>
-<li><strong>Project</strong>:
+</ul>
+
+<h3 id="email-bot">Email Bot</h3>
+
+<p>Here you can insert the email addresses to which send invoices, orders and travel requests.</p>
+
+<h3 id="project-won-lost-bot">Project Won/Lost Bot</h3>
+
+<p>Here you can insert the email addresses to which send notifications each time someone of your teammates won or lost a project. A project is considered to be <em>lost</em> when its probability is 0 and <em>won</em> when its probability is 90.</p>
+
+<h3 id="project-types">Project Types</h3>
+
+<p>Create and manage labels that you can assign to projects in <a href="https://support.wethod.com/pipeline/index/#projects">pipeline</a>. A project type is basically composed by a name, you can than aggregate it&rsquo;s values by using a group or use a short label to better identify a project type;</p>
+
+<h3 id="timesheet">Timesheet</h3>
+
+<p>Here you can choose whether to use the <strong>simplified</strong> or the <strong>detailed</strong> view. When the <strong>simplified</strong> view is enabled you will be able to fill your timesheet for the whole week in a single page. You can choose to fill the total amount of hours of the week or to fill worked hours daily by using the <strong>Daily Mode</strong> toggle. This toggle can be set as &ldquo;daily&rdquo; at company level, therefore for all team members, using the &ldquo;Always&rdquo; value in the dedicated select list. When the <strong>detailed</strong> view is enabled, you will be able to fill in your timesheet day by day, and also specify in which budget area your worked on. See the <a href="https://support.wethod.com/friday/index/#detailed">timesheet section</a> for further details. You can also set a weekly or daily reminder for your employee to fill in the timesheet. <strong>Only users that have set timesheet as required will receive the email</strong>. You will also be able to enable time limitation for timesheet. See the <a href="https://support.wethod.com/friday/index/#time-limit">timesheet section</a> for further details.</p>
+
+<h3 id="project">Project</h3>
 
 <ul>
 <li><strong>Required contact</strong>: Whether the client&rsquo;s contact is required in order to create a Project</li>
 <li><strong>Required Job Order</strong>: Whether the Job Order is required for a Project to show up on Timesheet and Project Status sections</li>
 <li><strong>Wasted Hours</strong>: Whether the <em><a href="https://support.wethod.com/glossary/index/#wasted-hours">wasted hours</a></em> mechanism is enabled or disabled</li>
-</ul></li>
-<li><strong>Project status</strong> This feature allows the user to edit on a weekly basis the risk status for each project.To add a new risk status click on &ldquo;Add risk status&rdquo;, choose a colour, edit the name then click &ldquo;save&rdquo;.</li>
-<li><strong>People allocation</strong>:
+</ul>
+
+<h3 id="project-status">Project status</h3>
+
+<p>This feature allows the user to edit on a weekly basis the risk status for each project.To add a new risk status click on &ldquo;Add risk status&rdquo;, choose a colour, edit the name then click &ldquo;save&rdquo;.</p>
+
+<h3 id="people-allocation">People allocation</h3>
 
 <ul>
 <li><strong>Unlimited planning</strong>: plan without budget constraints</li>
 <li><strong>Use 7-days week calendar</strong>: to display Saturdays and Sundays in calendars</li>
 <li><strong>Highlight weekends</strong>: display Saturdays and Sundays in People Allocation using a special pattern and show a warning when user tries to allocate on these days (<a href="https://support.wethod.com/planning/index/#weekends">learn more</a>). This feature can be enabled only if &ldquo;Use 7-days week calendar&rdquo; is enabled too</li>
-</ul></li>
-<li><strong>Project opportunities</strong> From this section you are able to create a new status or edit the existing ones. Stages can be reordered using the drag and drop and you can edit their name, color and description.The order you see in this section is the same that will be applied when ordering your opportunities by the stage column.Please mind that the default status blank can&rsquo;t be edited and reordered while Lost and won statuses can&rsquo;t have their description updated.If you deleted an opportunity stage all opportunities that were using that stage will have their stage switched to blank.Only custom stages can be deleted.Also please note that in order to assign a stage different than blank to an opportunity you have to be sure that the JOC assigned to the opportunity is tracking the opportunity status.For more information check the Job Order Category settings section.</li>
-<li><strong>Currencies</strong>: a list of all the known currencies, each one can be made available or set as <em>master</em> (a.k.a. the currency you currently use in your company)</li>
-<li><strong>Fiscal Year</strong>: here you can change the initial month of your company&rsquo;s fiscal year. All report and tables showing temporal data will update. Automatic job order generation and automatic invoice number will follow the fiscal year start, so you might get duplicated job order or invoice number if you change it. Remember that you can always manually change them and also set a different progressive number to start with in the job order settings than the default 1.</li>
-<li><strong>Won/Lost Feedback</strong>: here you can define some possible reasons which can led to the win or loss of a project. A project is considered <strong>won</strong> when its probability reaches 90 or above, on the other hand it&rsquo;s considered <strong>lost</strong> when it goes down to 0. Users will be able to choose one of these reasons from the projects pipeline (remember to enable the related job order category&rsquo;s flag). This feedbacks will be then shown on the <a href="https://support.wethod.com/finance/index/#client-details">Client Details</a> page and can be edited from the &ldquo;More Action &gt; Edit Feedback&rdquo; button in the projects pipeline.</li>
-<li><strong>Project &amp; Team Review</strong> where you can:
+</ul>
+
+<h3 id="project-opportunities">Project opportunities</h3>
+
+<p>From this section you are able to create a new status or edit the existing ones. Stages can be reordered using the drag and drop and you can edit their name, color and description.The order you see in this section is the same that will be applied when ordering your opportunities by the stage column.Please mind that the default status blank can&rsquo;t be edited and reordered while Lost and won statuses can&rsquo;t have their description updated.If you deleted an opportunity stage all opportunities that were using that stage will have their stage switched to blank.Only custom stages can be deleted.Also please note that in order to assign a stage different than blank to an opportunity you have to be sure that the JOC assigned to the opportunity is tracking the opportunity status.For more information check the Job Order Category settings section.</p>
+
+<h3 id="currencies">Currencies</h3>
+
+<p>A list of all the known currencies, each one can be made available or set as <em>master</em> (a.k.a. the currency you currently use in your company)</p>
+
+<h3 id="fiscal-year">Fiscal Year</h3>
+
+<p>Here you can change the initial month of your company&rsquo;s fiscal year. All report and tables showing temporal data will update. Automatic job order generation and automatic invoice number will follow the fiscal year start, so you might get duplicated job order or invoice number if you change it. Remember that you can always manually change them and also set a different progressive number to start with in the job order settings than the default 1.</p>
+
+<h3 id="won-lost-feedback">Won/Lost Feedback</h3>
+
+<p>Here you can define some possible reasons which can led to the win or loss of a project. A project is considered <strong>won</strong> when its probability reaches 90 or above, on the other hand it&rsquo;s considered <strong>lost</strong> when it goes down to 0. Users will be able to choose one of these reasons from the projects pipeline (remember to enable the related job order category&rsquo;s flag). This feedbacks will be then shown on the <a href="https://support.wethod.com/finance/index/#client-details">Client Details</a> page and can be edited from the &ldquo;More Action &gt; Edit Feedback&rdquo; button in the projects pipeline.</p>
+
+<h3 id="project-team-review">Project &amp; Team Review</h3>
+
+<p>Here you can:</p>
 
 <ul>
 <li>Enable/disable <a href="https://support.wethod.com/pipeline/index/#project-team-review">Project &amp; Team Review</a></li>
@@ -847,30 +920,51 @@ Check the stage section for further information.</li>
 <li>Add or edit criteria in order to evaluate projects and team members. The reviewer will be asked to express a rate for each of the chosen criteria</li>
 <li>Set a minimum number of unique reviewers to collect feedback from before showing review’s results in the profile page and the project canvas (this is useful to keep a review anonymous)</li>
 <li>Decide for which job order categories and minimum project&rsquo;s value WETHOD will ask for review on archive.</li>
-</ul></li>
-<li><strong>Suppliers settings</strong>
+</ul>
+
+<h3 id="suppliers-settings">Suppliers settings</h3>
 
 <ul>
 <li><strong>Categories and subcategories of suppliers</strong>
 This feature allows the user to visually browse the list of suppliers and filter suppliers by category or subcategories. To set categories and subcategories for your suppliers (i.e. Hospitality - Catering) start with categories. Click on &ldquo;new category&rdquo;, add a name and assign a colour of your choice and hit &ldquo;save&rdquo;. Eventually, for each category it is possible to add subcategories and save them.</li>
 <li><strong>Status of suppliers</strong>
 This feature allows the user to determine a status of a supplier and if it is eligible for contracts or not. To set status for your suppliers hit the button &ldquo;Enable&rdquo;. Once the feature is enabled, hit &ldquo;New status&rdquo;, add a name for your status, assign a colour of your choice and put a check if suppliers with this status will be available for contracts. Remember that a user can issue an order only to suppliers that are available for contracts.</li>
-</ul></li>
-<li><strong>Expenses</strong>: manage <a href="https://support.wethod.com/finance/index/#set-a-category-of-expense">categories of expenses</a></li>
-<li><strong>Bank accounts</strong>: set the list of bank accounts available for invoicing matters in your company. To each one, you can associate a name and an IBAN code. You can then select for each of your <a href="https://support.wethod.com/finance/index/#client-list">clients</a> the appropriate bank account usually used for payments.</li>
-<li><strong>VAT rates</strong>: set the list of VAT rate options that may be applied to an invoice. To each one, you can associate a short label (to easily recognize it), the rate and a more complete description of it. You can then select for each of your <a href="https://support.wethod.com/finance/index/#client-list">clients</a> the appropriate VAT rate usually used for invoicing.
-<strong>Split payment for VAT</strong>: In some cases, legislation in Italy requires that when a state-owned company pays for an invoice, it pays VAT directly to the tax authority and the net amount to the supplier of goods and services. Suppliers must display the split amounts on the documents they issue to the client.</li>
-<li><strong>Payment terms</strong>: manage all the types of payment terms agreed with your clients for invoicing matters. Associate a name and specify when the payment should be issued: is it 30 net days after the issue of the invoice or is it 30 net days (end of the month)?</li>
-<li><strong>Company Order Plan View</strong>: here you can set your preferences about the way you want to visualise the company yearly orders, in the Company Order Plan page. Check <a href="https://support.wethod.com/order-plan/index/#overview">here</a> to see how this setting affects the visualisation of data.</li>
-<li><strong>Job titles</strong>: <a href="https://support.wethod.com/budget/index/#job-titles">can be used in a budget</a> to better specify a job figure or position needed to complete a task, for example: to complete task “Website redesign” you may need a junior designer and a senior developer, these are two distinct job titles related to junior and senior user level respectively. Each person in your team can be assigned a job title, this makes it possible to filter people by job title in the <a href="https://support.wethod.com/planning/index/#people-allocation">People Allocation section.</a> A job title cannot be deleted, it can only be archived. A job title is related to a single user level and this level can be chosen only during job title creation.</li>
-<li><strong>Google Drive Sync</strong>: manage <a href="https://support.wethod.com/pipeline/index/#sync-with-google-drive">Google Drive integration with project canvases</a>. To enable this integration you will be prompted to allow wethod access to your Google Drive and you will need to choose a folder inside one of your shared drives to use as root for all the files to keep in sync. This functionality works by sharing the selected root folder with wethod, so it can create folders and upload files in the place of the user. In order for this to work, you need to be sure to have enough Google Drive permissions to share the selected root folder with someone else (<strong>Manager</strong> or <strong>Content manager</strong>). When the integration is enabled, you can:
+</ul>
+
+<h3 id="expenses">Expenses</h3>
+
+<p>Manage <a href="https://support.wethod.com/finance/index/#set-a-category-of-expense">categories of expenses</a></p>
+
+<h3 id="bank-accounts">Bank accounts</h3>
+
+<p>Set the list of bank accounts available for invoicing matters in your company. To each one, you can associate a name and an IBAN code. You can then select for each of your <a href="https://support.wethod.com/finance/index/#client-list">clients</a> the appropriate bank account usually used for payments.</p>
+
+<h3 id="vat-rates">VAT rates</h3>
+
+<p>Set the list of VAT rate options that may be applied to an invoice. To each one, you can associate a short label (to easily recognize it), the rate and a more complete description of it. You can then select for each of your <a href="https://support.wethod.com/finance/index/#client-list">clients</a> the appropriate VAT rate usually used for invoicing.
+<strong>Split payment for VAT</strong>: In some cases, legislation in Italy requires that when a state-owned company pays for an invoice, it pays VAT directly to the tax authority and the net amount to the supplier of goods and services. Suppliers must display the split amounts on the documents they issue to the client.</p>
+
+<h3 id="payment-terms">Payment terms</h3>
+
+<p>Manage all the types of payment terms agreed with your clients for invoicing matters. Associate a name and specify when the payment should be issued: is it 30 net days after the issue of the invoice or is it 30 net days (end of the month)?</p>
+
+<h3 id="company-order-plan-view">Company Order Plan View</h3>
+
+<p>Here you can set your preferences about the way you want to visualise the company yearly orders, in the Company Order Plan page. Check <a href="https://support.wethod.com/order-plan/index/#overview">here</a> to see how this setting affects the visualisation of data.</p>
+
+<h3 id="job-titles">Job titles</h3>
+
+<p><a href="https://support.wethod.com/budget/index/#job-titles">Can be used in a budget</a> to better specify a job figure or position needed to complete a task, for example: to complete task “Website redesign” you may need a junior designer and a senior developer, these are two distinct job titles related to junior and senior user level respectively. Each person in your team can be assigned a job title, this makes it possible to filter people by job title in the <a href="https://support.wethod.com/planning/index/#people-allocation">People Allocation section.</a> A job title cannot be deleted, it can only be archived. A job title is related to a single user level and this level can be chosen only during job title creation.</p>
+
+<h3 id="google-drive-sync">Google Drive Sync</h3>
+
+<p>Manage <a href="https://support.wethod.com/pipeline/index/#sync-with-google-drive">Google Drive integration with project canvases</a>. To enable this integration you will be prompted to allow wethod access to your Google Drive and you will need to choose a folder inside one of your shared drives to use as root for all the files to keep in sync. This functionality works by sharing the selected root folder with wethod, so it can create folders and upload files in the place of the user. In order for this to work, you need to be sure to have enough Google Drive permissions to share the selected root folder with someone else (<strong>Manager</strong> or <strong>Content manager</strong>). When the integration is enabled, you can:</p>
 
 <ul>
 <li>See the <strong>root folder</strong> you have chosen</li>
 <li>See the <strong>canonical path</strong> used to link a project to its Google Drive folder. For a project &ldquo;New website&rdquo; with client &ldquo;ACME&rdquo; and job order &ldquo;1234&rdquo; the canonical path will be <em>root folder &gt; ACME &gt; New website - 1234</em>, all the canonical path components are Google Drive folders (&ldquo;New website - 1234&rdquo; is a single folder)</li>
 <li>Choose which job order categories need to be kept in sync</li>
 <li>Add <strong>default folders</strong> to create automatically each time a new Google Drive project folder is created</li>
-</ul></li>
 </ul>
 
 <p><img src="https://support.wethod.com/uploads/2022/03/09/drive-canvas-enable.gif" alt="" /></p>
