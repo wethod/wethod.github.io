@@ -761,15 +761,11 @@ For example, this is the right place to see how salary bonuses can impact your c
 <p>Each <em>Employee</em> has at least a <strong>segment</strong> which represents a work contract between that employee and the company. Every segment has:</p>
 
 <ul>
-<li><p><strong>Start month</strong></p></li>
-
-<li><p><strong>End month</strong></p></li>
-
-<li><p><strong>Gross monthly salary</strong></p></li>
-
-<li><p><strong>Taxes</strong></p></li>
-
-<li><p><strong>Business Unit</strong> (Available only if the <a href="https://support.wethod.com/settings/index/#business-unit">module</a> Business Unit is enabled)</p></li>
+<li><strong>Start month</strong></li>
+<li><strong>End month</strong></li>
+<li><strong>Gross monthly salary</strong></li>
+<li><strong>Taxes</strong></li>
+<li><strong>Business Unit</strong> (Available only if the <a href="https://support.wethod.com/settings/index/#business-unit">module</a> Business Unit is enabled)</li>
 </ul>
 
 <p>You can access the segments for a specific employee just by clicking on the employee&rsquo;s row. Each time you edit a list of the segments, this influences the employee&rsquo;s <em>salary distribution</em>: a line where all segments are visually represented, allowing you to quickly understand how many times the salary of an employee is changed during the year.</p>
@@ -784,6 +780,39 @@ For example, this is the right place to see how salary bonuses can impact your c
 </div>
 
 <p><img src="https://support.wethod.com/uploads/2021/03/15/payroll-employees.gif" alt="" /></p>
+
+<h3 id="import-placeholder-payroll">Import Placeholder Payroll</h3>
+
+<p>You can import a set of segments for your payrolls, just press on + Upload Placeholder Payroll, download the provided excel template, edit it as you like and then load it pressing on Upload and then on Import.</p>
+
+<h3 id="import-cost-adjustments-payroll">Import Cost Adjustments Payroll</h3>
+
+<p>You can do here the same thing like the placeholders to import a set of cost adjustments for your payrolls, just press on + Upload Adjustments Payroll, download the provided excel template, edit it as you like and then load it pressing on Upload and then on Import.</p>
+
+<h3 id="import-employee-payroll">Import Employee Payroll</h3>
+
+<p>Here you can perform 3 actions:</p>
+
+<ol>
+<li>Reset the payroll, explained in a previous point, but basically it deletes the all the segments.</li>
+<li>Import past payroll: import the payrolls for the previous year to the current.</li>
+<li>Upload employees payroll: using a custom template you can define as many segments you want for each employee.</li>
+</ol>
+
+<h3 id="how-to-customize-your-import-template-file">How to customize your import template file</h3>
+
+<p>Below you can find an explanation for each column of the import template file.</p>
+
+<ul>
+<li>employee_email: (this column appears only inside the employee payroll import template) insert here the email corresponding to the employee you want to create the new segment</li>
+<li>year: provide the year for the segment</li>
+<li>cost: insert here the cost</li>
+<li>taxes: insert here the percentage for the segment taxes</li>
+<li>from_month: fill with the starting month for the range of the segment (from 1 to 12)</li>
+<li>to_month: insert the ending month for the range of the segment (from 1 to 12), beware that this value must be major than from_month</li>
+<li>business_unit: if your company uses business units, insert here the name to assign one to the segment, or leave blank.</li>
+<li>label (this column appears only inside the placeholders and cost adjustments payroll import template) insert here a label for the row you&rsquo;re going to create, it&rsquo;s possibile also to leave it blank.</li>
+</ul>
 
 			
 			<aside class="copyright" role="note"></aside>
