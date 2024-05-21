@@ -173,9 +173,8 @@ Create a new order  Click button New Order and a sidebar will open.   Insert pro
       <guid>https://support.wethod.com/settings/index/</guid>
       <description>Account Here you set your name, surname and password.
 If you have the right permissions, you can:
- Change your invoice details; Import existing projects.  Team Since you have the right permissions, you can: invite people, assign specific roles and allow special permissions.
-To invite a new teammate:
- Click on the top left &amp;ldquo;+ new user&amp;rdquo; button; Assign a user level, a *role *and the email address of the person you want to invite; Click the &amp;ldquo;invite&amp;rdquo; button.</description>
+ Change your invoice details; Import existing projects.  Developer settings In this section you can generate your personal access tokens which allow you to access our public API, read more here.
+You can create a new token by providing a name and optional description (where will this token be used?), once you create a token make sure to copy it as you won&amp;rsquo;t be able to see it again.</description>
     </item>
     
     <item>
