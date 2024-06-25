@@ -1266,27 +1266,21 @@ For each report you can appreciate:</p>
 
 <p><img src="https://support.wethod.com/uploads/pricelists-create.png" alt="" /></p>
 
-<p>A pricelist defines a group of level daily rates that can be used to <a href="https://support.wethod.com/budget/index/#pricelists">adapt a project price in a budget</a>.</p>
+<p>A pricelist defines a set of daily rates and costs that can be used to tailor a project budget.</p>
 
-<p>For example, you can define a pricelist named “USA” and a pricelist named “Europe”: the first will specify level rates to use for project based in the United States and the other will do the same for projects based in Europe.</p>
+<p>For example, you might have a pricelist named &ldquo;Germany&rdquo; for projects based in Germany and another named &ldquo;Italy&rdquo; for projects in Italy, each specifying the relevant daily rates &amp; cost for their respective country.</p>
 
-<p>Each company has a company default pricelist which defines company levels default daily rates. This pricelist is marked with a &ldquo;default&rdquo; label and has a light blue background.</p>
+<p>Each company has a default pricelist that sets the standard daily rates and daily costs for the company. This default pricelist is marked with a &ldquo;default&rdquo; label and has a light blue background. </p>
 
-<p>You can&rsquo;t choose the company default pricelist, you can only edit its attributes.</p>
+<p>A pricelist can be specific to a client, and each client can have multiple associated pricelists. Additionally, each budget area within your projects can be customized with its own pricelist.</p>
 
-<p>A pricelist might be reserved to a client, this means that it can be associated only to budgets related to that specific client.</p>
+<p>For each client, only one pricelist can be designated as the default. This default pricelist is automatically applied to newly created budgets for that client. Default client pricelists are marked with a &ldquo;default&rdquo; label.</p>
 
-<p>Each client can have several pricelists related to it.</p>
-
-<p>For all pricelists associated to a specific client, at most one can be elected as default pricelist for that client: this is the special pricelist automatically associated to new created budgets for the specific client. Default client pricelists are marked with a &ldquo;default&rdquo; label.</p>
+<p>For each client, only one pricelist can be designated as the default. This default pricelist is automatically applied to newly created budgets for that client. Default client pricelists are marked with a &ldquo;default&rdquo; label.</p>
 
 <p>If no client default pricelists exist for a project client, the company default pricelist will be used.</p>
 
 <p>A company default pricelist cannot be used as client pricelist.</p>
-
-<p>If you edit a pricelist used in a budget, changes become effective the next time that budget will be taken back to draft.</p>
-
-<p>When a client is deleted, all pricelists related to it become &ldquo;normal&rdquo; pricelists and therefore can be used in any budget.</p>
 
 <p>A pricelist has:</p>
 
@@ -1301,6 +1295,8 @@ For each report you can appreciate:</p>
 <li>If “From” and “To” are not specified then product is available from its creation</li>
 </ul></li>
 <li>Rates: daily rates for every user level</li>
+<li>Cost: daily costs for every user level</li>
+<li>Sync cost with default pricelist</li>
 <li>Client</li>
 </ul>
 
