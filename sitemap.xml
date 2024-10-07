@@ -122,6 +122,11 @@
   </url>
   
   <url>
+    <loc>https://support.wethod.com/data-freezing-engine/index/</loc>
+    <lastmod>2024-10-07T12:20:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://support.wethod.com/faq/index/</loc>
     <lastmod>2017-05-22T22:00:00+00:00</lastmod>
   </url>
@@ -172,6 +177,12 @@
   <url>
     <loc>https://support.wethod.com/dashboard/</loc>
     <lastmod>2016-03-10T18:56:50+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://support.wethod.com/data-freezing-engine/</loc>
+    <lastmod>2024-10-07T12:20:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
