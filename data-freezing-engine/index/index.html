@@ -810,6 +810,25 @@
 
 <h3 id="data-freezing-orders">Data Freezing- Orders</h3>
 
+<p>Orders must be frozen because they impacts the company external costs. It’s “reference date” for the data freezing is the oldest between the issue date and the start date of the period of supply.</p>
+
+<p>Orders are partially locked, these property are always editable:</p>
+
+<ul>
+<li>Purchase Order</li>
+<li>Notes</li>
+<li>Documents (upload and delete)</li>
+<li>Status (“Send”, “Approve”, “Set as paid”)</li>
+</ul>
+
+<p>The duration of a partially locked order cannot change because it is used to distribute the value of the order into each month of the period of supply.</p>
+
+<h3 id="data-freezing-project-status">Data Freezing- Project status</h3>
+
+<p>Project statuses are locked when its date property falls into a locked period and uses the ISO week to determine so. When a project status is locked all attributes are locked.</p>
+
+<p>The “project status correction” procedure must update only non locked data.</p>
+
 			
 			<aside class="copyright" role="note"></aside>
 			<footer class="footer">
