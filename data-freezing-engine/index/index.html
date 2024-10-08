@@ -728,25 +728,25 @@
 
 <h2 id="overview">Overview</h2>
 
-<p>Data freezing is a concept and functionality that spans most sections of the system. At its core, it ensures the accuracy and reliability of historical data over time, preserving information integrity. This functionality is particularly useful for companies conducting quarterly or semi-annual financial statements, as it guarantees that Wethod continues to respect the closing data.</p>
+<p>Data freezing is a concept and functionality that spans most sections of the system. At its core, it ensures the accuracy and reliability of historical data over time, preserving information integrity. This functionality is particularly useful for companies conducting quarterly or semi-annual financial statements, as it guarantees that Wethod continues to respect the closing date.</p>
 
 <p>Data that requires freezing typically has an economic or financial impact on the Profit and Loss (P&amp;L) statement.</p>
 
 <p>In practice, data freezing is implemented through a section called &ldquo;Data Freezing Engine.&rdquo; This engine allows users to pause and freeze past periods, while a series of custom controls and logic ensure that the data remains unaltered.</p>
 
-<p>Data freezing means that all frozen data must be set in stone and no longer editable.</p>
+<p>Data freezing means all frozen data must be set in stone and no longer editable.</p>
 
-<p>Although you can use data freezing for financial statements, we are not pursuing ISO or similar certifications, so no special precautions are necessary in this regard.</p>
+<p>Although you can use data freezing for financial statements, we are not pursuing ISO or similar certifications, so no special precautions are necessary.</p>
 
 <h2 id="data-freezing-engine">Data Freezing Engine</h2>
 
-<p>In this section you will be able to select the period of time to freeze or pause your data and review the inconsistencies before running the command.</p>
+<p>In this section, you will be able to select the period to freeze or pause your data and review the inconsistencies before running the command.</p>
 
 <h4 id="1-timeline">1. Timeline: </h4>
 
 <p>The timeline represents the period during which a company has created, imported, modified, deleted, and stored data within WETHOD—spanning from the company&rsquo;s creation month to the most recent month.</p>
 
-<p>Users with specific permissions can segment the timeline by selecting a time period. This is done through a modal where they can choose the &lsquo;to&rsquo; month, but not the &lsquo;from&rsquo; month. The &lsquo;from&rsquo; month is locked to maintain freezing contiguity.</p>
+<p>Users with specific permissions can segment the timeline by selecting a period. This is done through a modal where they can choose the &lsquo;to&rsquo; month, but not the &lsquo;from&rsquo; month. The &lsquo;from&rsquo; month is locked to maintain freezing contiguity.</p>
 
 <p><img src="https://support.wethod.com/uploads/gif data freezing.gif" alt="" /></p>
 
@@ -760,7 +760,7 @@
 
 <p>👉 Clicking &ldquo;new segment&rdquo; allows users to define a new segment from the &lsquo;free to edit&rsquo; time period. This spans from the start month of the free period (non-editable input) to a chosen end month.</p>
 
-<p>Layered data editing must be applied over a contiguous range of months (with the single month as the base unit, not days). A range of months must have a level equal to or lower than the previous range.</p>
+<p>Layered data editing must be applied over a contiguous range of months (with a single month as the base unit, not days). A range of months must have a level equal to or lower than the previous range.</p>
 
 <p>For example: If you create accounts in January, freeze data in March, and pause data in June, then in September you can: freeze or release from May to June, and pause from July to September. However, you cannot freeze from July to September without first freezing from May to June.</p>
 
@@ -807,7 +807,7 @@
 <ul>
 <li>Data with an exact date (e.g: invoice): we consider the month in which the date falls</li>
 <li>Data with a period (e.g: timesheet, project status): we consider the <a href="https://www.notion.so/Data-Freezing-07508db4896345679b7e98aeab115c5b?pvs=21">ISO week</a> to determine what month a week belongs to</li>
-<li>Data with a range of dates (e.g: projects, payrolls):</li>
+<li>Data with a range of dates (e.g: projects, payrolls).</li>
 </ul>
 
 <h2 id="impact-on-specific-sections">Impact on Specific Sections:</h2>
