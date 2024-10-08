@@ -800,6 +800,16 @@
 
 <p>It draws the user&rsquo;s attention to all red, yellow, and blue alerts for projects within the selected time period. These alerts should be resolved to ensure the quality and reliability of the frozen data. </p>
 
+<h2 id="determine-if-data-is-frozen">Determine if data is frozen</h2>
+
+<p>Some data are linked to a period (e.g. timesheet and project status are linked to a week), others are linked to a specific date (e.g: invoices have a date) while others have ranges of dates (e.g. project has from-duration, payrolls have start-end dates). For each type have a difference behaviour, unless otherwise specified these roles applies:</p>
+
+<ul>
+<li>Data with an exact date (e.g: invoice): we consider the month in which the date falls</li>
+<li>Data with a period (e.g: timesheet, project status): we consider the <a href="https://www.notion.so/Data-Freezing-07508db4896345679b7e98aeab115c5b?pvs=21">ISO week</a> to determine what month a week belongs to</li>
+<li>Data with a range of dates (e.g: projects, payrolls):</li>
+</ul>
+
 <h3 id="data-freezing-project">Data Freezing - Project</h3>
 
 <p>Project duration is defined as the time period from the project&rsquo;s start date plus its duration. The project&rsquo;s reference date is the start date, combined with the duration when necessary to identify the project&rsquo;s end. Using these two dates, we can determine whether the project occurs before, after, or straddles the freeze period.</p>
@@ -837,7 +847,51 @@
 
 <h3 id="data-freezing-travels">Data Freezing-Travels</h3>
 
-<h3 id="data-freezing-permissions">Data Freezing- Permissions:</h3>
+<p>The travels section is really composed by two parts: Travel and TravelCarrier.</p>
+
+<h4 id="travels">Travels</h4>
+
+<p>Travel reference dates are date (calculated as the earliest date among all travel carries) and returnDate (nullable).</p>
+
+<p>Fields that are not editable when the travel is locked:</p>
+
+<ul>
+<li>status: cannot change the status of a locked travel because it is used in the Financial section to determine to include the value as external cost or not</li>
+<li>date: this field is never edited by the user, is always calculated as the earliest date among all travel carries</li>
+<li>return date: this field is never edited by the user, is always calculated as the latest returnDates among all travel carries</li>
+</ul>
+
+<p>Fields that are always editable, even when a travel is locked:</p>
+
+<ul>
+<li>destination</li>
+<li>notes</li>
+</ul>
+
+<h4 id="travel-carrier">Travel carrier</h4>
+
+<p>TravelCarrier reference dates are date and returndDate (nullable).</p>
+
+<p>Fields that are not editable when a travel carried is locked:</p>
+
+<ul>
+<li>Date: is used to distribute the value of the travel in the Financial section</li>
+<li>ReturnDate: is used to distribute the value of the travel in the Financial section</li>
+<li>Value: is used to distribute the value of the travel in the Financial section</li>
+</ul>
+
+<p>Fields that are always editable, even when a travel carrier is locked:- name, from, to, employees, guests, additional request travel office notes, payment method,files.</p>
+
+<h2 id="data-freezing-permissions">Data Freezing- Permissions:</h2>
+
+<p>You can allow the user level to view, pause, freeze or edit paused data.</p>
+
+<ul>
+<li>view : used to show data freezing related section (e.g: Data Freezing Engine)</li>
+<li>pause: allows to pause/unpause a period</li>
+<li>freeze: allows to freeze a period</li>
+<li>edit_paused_data : allows to edit data in a paused period</li>
+</ul>
 
 			
 			<aside class="copyright" role="note"></aside>
