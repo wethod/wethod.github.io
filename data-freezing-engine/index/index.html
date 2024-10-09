@@ -750,12 +750,13 @@
 
 <p><img src="https://support.wethod.com/uploads/gif data freezing.gif" alt="" /></p>
 
-<p> Users can choose from 3 data edit options via the edit status button:</p>
+<p> Users can choose from 4 data edit options via the edit status button:</p>
 
 <ol>
 <li>🟢 Free to edit: Data within the selected time segment remains editable.</li>
-<li>🟡 Paused edit: Data becomes non-editable, but reverting to status 1 is still possible.</li>
-<li>🔘 Frozen Data: Data becomes permanently non-editable, with no option to revert to states 1 or 2.</li>
+<li>🔵 Data review: Data within the selected time segment remains editable, but you can review inconsistencies before pausing data.<br /></li>
+<li>🟡 Paused edit: Data becomes non-editable, but reverting to status 1 or 2 is still possible.</li>
+<li>🔘 Frozen Data: Data becomes permanently non-editable, with no option to revert to the other statuses.</li>
 </ol>
 
 <p>👉 Clicking &ldquo;new segment&rdquo; allows users to define a new segment from the &lsquo;free to edit&rsquo; time period. This spans from the start month of the free period (non-editable input) to a chosen end month.</p>
@@ -766,13 +767,10 @@
 
 <p>📌 The start date of a segment will never be selectable by the user. Instead, Wethod will set it by default, depending on whether you want to pause or freeze a period. It will choose the first non-paused month or the first non-frozen month, respectively.</p>
 
-<p>For each time period selected to pause and freeze data changes, Wethod will provide a data verification report. This report allows freezing to be performed at a later date.</p>
+<p>⚠️ Remember: data freezing can only be performed on a paused period, not directly on a free period.</p>
 
-<p>⚠️ Remember: Data freezing can only be performed on a Paused period, not directly on a Free period.</p>
-
-<p>The section will comprise 4 tables containing data from the selected time segment for user review.</p>
-
-<p>You will be able to start a new data review by editing the selected segment form &ldquo;data review&rdquo; to free.</p>
+<p>You will be able to start a new data review analysis with the dedicated button. <br />
+A data verification report will then show you 4 tables containing data inconsistencies that must be reviewed before changing the status.</p>
 
 <p><img src="https://support.wethod.com/uploads/Screenshot 2024-10-08 alle 10.57.34.png" alt="" /></p>
 
@@ -784,7 +782,7 @@
 
 <p><img src="https://support.wethod.com/uploads/data freezing 2.gif" alt="" /></p>
 
-<p><strong>Unarchived Projects </strong></p>
+<p><strong>Unarchived Projects</strong></p>
 
 <p>It brings the user&rsquo;s attention to all projects that are either lost or have 100 percent probability, are completed and have invoiced the full value, included in the selected time portion.</p>
 
@@ -812,21 +810,24 @@
 
 <h2 id="impact-on-specific-sections">Impact on Specific Sections:</h2>
 
-<h4 id="data-freezing-project">Data Freezing - Project</h4>
+<h4 id="data-freezing-project"><strong>Data Freezing - Project</strong></h4>
 
-<p>Project duration is defined as the time period from the project&rsquo;s start date plus its duration. The project&rsquo;s reference date is the start date, combined with the duration when necessary to identify the project&rsquo;s end. Using these two dates, we can determine whether the project occurs before, after, or straddles the freeze period.</p>
+<p>Using the project start date and its duration, we can determine whether the project occurs before, after, or straddles the freeze period.</p>
 
-<p>When you freeze a period of time, certain project attributes remain editable: Name, Client, Client Contact, Client PO, PM, Account, Project Type, and Job Order. Furthermore, if the end date of the project falls outside the frozen period you can archive the project and modify its value, duration, and external costs and budget.</p>
+<p>When you freeze a period of time, certain project attributes remain editable: Name, Client, Client Contact, Client PO, PM, Account, Project Type, and Job Order. Furthermore, if the end date of the project falls outside the frozen period you can archive the project and modify its value, duration, external costs and budget.</p>
 
-<h5 id="data-freezing-timesheet">Data Freezing- Timesheet</h5>
+<h4 id="data-freezing-timesheet"><strong>Data Freezing - Timesheet</strong></h4>
 
-<p>When a timesheet falls into a frozen month it is fully blocked, no attributes can be altered. The detailed timesheet has a specific date so it could be considered as “Data with an exact date”, but because it is always linked to a weekly timesheet (to be able to change back and forth between them without losing data) we must use the ISO month.</p>
+<p>When a timesheet falls into a frozen month it is fully blocked, no attributes can be altered. This applies both to weekly and detailed timesheet.</p>
 
-<h4 id="data-freezing-orders">Data Freezing- Orders</h4>
+<h4 id="data-freezing-orders"><strong>Data Freezing - Orders</strong></h4>
 
-<p>Orders must be frozen because they impact the company&rsquo;s external costs. Its “reference date” for the data freezing is the oldest between the issue date and the start date of the period of supply.</p>
+<p>Orders must be frozen because they impact the company&rsquo;s external costs.</p>
 
-<p>Orders are partially locked, and these properties are always editable:</p>
+<p>To determine whether an order is frozen or not we use the oldest between the issue date and the start date of the period of supply.<br />
+For this reason those cannot be edited once the order is locked.</p>
+
+<p>Some properties are always editable:</p>
 
 <ul>
 <li>Purchase Order</li>
@@ -835,52 +836,37 @@
 <li>Status (“Send”, “Approve”, “Set as paid”)</li>
 </ul>
 
-<p>The duration of a partially locked order cannot change because it is used to distribute the value of the order into each month of the period of supply.</p>
+<h4 id="data-freezing-project-status"><strong>Data Freezing - Project status</strong></h4>
 
-<h4 id="data-freezing-project-status">Data Freezing- Project status</h4>
+<p>Project statuses are locked when its date falls into a locked period and uses the ISO week to determine so. When a project status is locked all attributes are locked.</p>
 
-<p>Project statuses are locked when its date property falls into a locked period and uses the ISO week to determine so. When a project status is locked all attributes are locked.</p>
+<p>The “project status correction” procedure will update only non locked data.</p>
 
-<p>The “project status correction” procedure must update only non locked data.</p>
+<h4 id="data-freezing-production"><strong>Data Freezing - Production</strong></h4>
 
-<h4 id="data-freezing-production">Data Freezing-Production</h4>
+<p>The ISO week of the production is used to determine if it is frozen. For partially frozen projects with production weeks spanning both frozen and non-frozen months, changes to the budget (total days or final net price) no longer distribute the production delta across all production weeks. Instead, the entire delta is applied to the first non-frozen week.</p>
 
-<p>The reference date for the production table is the week property and the ISO week must be used to determine if it falls into a locked period. For partially frozen projects with production weeks spanning both frozen and non-frozen months, changes to the budget (total days or final net price) no longer distribute the production delta across all production weeks. Instead, the entire delta is applied to the first non-frozen week.</p>
+<h4 id="data-freezing-travels"><strong>Data Freezing - Travels</strong></h4>
 
-<h4 id="data-freezing-travels">Data Freezing-Travels</h4>
-
-<p>The travels section is really composed by two parts: Travel and TravelCarrier.</p>
-
-<p>Travel reference dates consist of the departure date (calculated as the earliest date among all travel carriers) and return date (optional). Fields that are not editable when the travel is locked:</p>
+<p>Travel reference dates consist of the departure date (calculated as the earliest date among all travel carriers) and return date (optional). These fields that are not editable when the travel is locked:</p>
 
 <ul>
-<li>Status: cannot change the status of a locked travel because it is used in the Financial section to determine to include the value as external cost or not</li>
-<li>Date: This field is never edited by the user, is always calculated as the earliest date among all travel carries</li>
-<li>Return date: This field is never edited by the user, is always calculated as the latest returnDates among all travel carries</li>
-<li>Fields that are always editable, even when a travel is locked:</li>
-<li>Destination</li>
-<li>Notes</li>
+<li>Status (&ldquo;Send&rdquo;, &ldquo;Submit&rdquo;)</li>
+<li>Date and return date of each travel category</li>
+<li>Project</li>
+<li>Employee</li>
+<li>Value</li>
 </ul>
 
-<p>TravelCarrier reference dates consist of a start date and a return date, which can be left blank.The following fields cannot be edited when a travel carrier is locked:</p>
-
-<ul>
-<li>Date: Used to allocate the travel value in the Financial section.</li>
-<li>Return Date: Used to allocate the travel value in the Financial section.</li>
-<li>Value: Used to allocate the travel value in the Financial section.</li>
-</ul>
-
-<p>Fields that are always editable, even when a travel carrier is locked:- name, from, to, employees, guests, additional request travel office notes, payment method,files.</p>
-
-<h2 id="data-freezing-permissions">Data Freezing- Permissions:</h2>
+<h2 id="data-freezing-permissions">Data Freezing - Permissions:</h2>
 
 <p>You can allow the user level to view, pause, freeze or edit paused data.</p>
 
 <ul>
-<li>view : used to show data freezing related section (e.g: Data Freezing Engine)</li>
+<li>view : used to show Data Freezing Engine</li>
 <li>pause: allows to pause/unpause a period</li>
 <li>freeze: allows to freeze a period</li>
-<li>edit paused data : Edit paused data means that only people with this specific permission will be able to modify data within the paused time periods.</li>
+<li>edit paused data : allows to modify data within the paused time periods</li>
 </ul>
 
 			
