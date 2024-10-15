@@ -971,31 +971,55 @@ listing all the grouped clients with their:</p>
 <p>This is the first release of a new, broader section dedicated to reports within wethod. We are updating the documentation as we roll out new features to ensure you have complete support. Please note that this section is evolving, with new features to be added over time to enhance your management and analysis experience.</p>
 </div>
 
-<p>The newly released Report Revenues section, available under Sales in the insight area of wethod, provides a more detailed view of project revenues. The section features two primary charts:</p>
+<p>To view this section, you must have the “view” permission for “Charts.” You can check this in the Permissions section.</p>
 
-<h3 id="revenues-1">Revenues</h3>
+<p>In this section, you can create charts related to your company’s revenues.</p>
 
-<p><img src="https://support.wethod.com/uploads/chart.png" alt="" /></p>
-
-<p>The first chart is a histogram that categorizes projects by the months of the current year (x-axis) and by their probability of success:</p>
+<p>The first time you access this section, you will find:</p>
 
 <ul>
-<li>100%</li>
-<li>90%</li>
-<li>between 10% and 75%</li>
+<li>The “Revenues” chart, showing the current year&rsquo;s revenues, divided by month and grouped by probability cluster. This chart cannot be edited or deleted.</li>
+<li>The “Revenues by Client” chart, which is a child of the “Revenues” chart, showing the top 10 most profitable clients. This chart cannot be edited or deleted.</li>
 </ul>
 
-<p>The colors assigned to each probability group are random. When you click on a specific segment (for instance, the 100% probability projects for February 2024), the second chart below will update accordingly. To remove the filter, simply click on the same selected segment again, and the chart will revert to displaying the data for the entire year.</p>
+<p><img src="https://support.wethod.com/uploads/chart-revenues-default.png" alt="" /><img src="https://support.wethod.com/uploads/chart-revenues-by-client.png" alt="" /></p>
 
-<h3 id="revenues-by-client">Revenues by client</h3>
+<p>Each chart can have child charts that inherit the filters applied to the parent.</p>
 
-<p>This chart displays the revenues from the top 5 clients. By default, it shows the revenues from the top clients over the entire year. However, once you select a segment from the first chart, the second chart will filter to display the revenues of the top 5 clients for the specific period you have chosen.</p>
+<p>Each chart also has a child table that shows detailed information about the projects included in the parent chart.</p>
 
-<h3 id="table-view">Table view</h3>
+<h3 id="creating-a-new-chart">Creating a new chart</h3>
 
-<p>Each chart has a table displayed below it, listing all the projects that contribute to the calculation of the revenue section shown in the chart. When you apply filters to a chart, they are also applied to the child tables, ensuring you always have an accurate view of the data.</p>
+<p>To create a new chart, you must have the “edit” permission for “Charts.” You can check this in the Permissions section.</p>
 
-<p><img src="https://support.wethod.com/uploads/table-view.png" alt="" /></p>
+<p>By clicking the “Add chart” button, you will be prompted to enter some information about the chart you want to create:</p>
+
+<ol>
+<li>Chart info: chart name and a brief description</li>
+<li>Data segment: filters to apply to limit the data to be considered</li>
+<li>Type of chart: the type of chart to use for data visualization</li>
+<li>Dimensions: values to assign to each chart dimension. For example, if you’ve selected a Bar Chart, you will need to specify which values to display on the chart’s x and y axes.</li>
+</ol>
+
+<p><img src="https://support.wethod.com/uploads/chart-create.gif" alt="" /></p>
+
+<h3 id="editing-a-chart">Editing a chart</h3>
+
+<p>To edit an existing chart, you must have the “edit” permission for “Charts.” You can check this in the Permissions section.</p>
+
+<p>You can then click the “Edit chart” button to modify the selected chart.</p>
+
+<h3 id="deleting-a-chart">Deleting a chart</h3>
+
+<p>To delete a chart, you must have the “edit” permission for “Charts.” You can check this in the Permissions section.</p>
+
+<p>You can click the three dots next to the chart’s name to access the option to delete it.</p>
+
+<p><img src="https://support.wethod.com/uploads/chart-delete.gif" alt="" /></p>
+
+<h3 id="click-to-filter">Click to filter</h3>
+
+<p>You can click on a point in a chart to use it as a filter for child charts and child tables. For example, if you click on a point in the “Revenues” chart that groups all revenues for December related to projects with a 90% probability, the child charts will be filtered to show only the points related to December with a 90% probability.</p>
 
 <h2 id="production-value">Production Value</h2>
 
