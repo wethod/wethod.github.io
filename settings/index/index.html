@@ -886,25 +886,47 @@
 <li><strong>Must be in program</strong>: the projects in this category must be added to a <a href="https://support.wethod.com/pipeline/index/#programs">Program</a></li>
 <li><strong>Invoice driven budget</strong>: the value of the projects on this category changes based on the total invoiced for that project. This logic also updates the Invoice Plan and the Production value. You can use this flag on all the project categories in which you are not sure of the final price because it can vary slightly based on external factors. You can then set a budget with an approximate price and let the issued invoices adjust the final price as a result of the delta between the ‘invoice plan’ and the real invoice.</li>
 <li><strong>Capex</strong>: the projects in this category must be treated as investments</li>
-<li><strong>Workable</strong>: you can switch off this option for projects used to track holidays or permits, this way timesheets done on them are not used to calculate chargeability</li>
-<li><strong>Hours type</strong>: you can use this option to tell if job order category&rsquo;s hours are:
+
+<li><p><strong>Ext. Cost</strong>: the external cost of the projects of this categories are going to be associate with one of the following categories:</p>
+
+<ul>
+<li><strong>On goods sold</strong> – costs directly related to revenues (before the gross margin).</li>
+</ul>
+
+<p>Example: production costs or supplies necessary to deliver the sold product or service.
+* **Before contribution margin **– costs allocated to the personnel section in the P&amp;L.<br />
+Example: costs related to internal projects that should be reported as personnel expenses.
+* <strong>On G&amp;A</strong> – general and administrative operating costs.<br />
+Example: administrative projects, general consultancy, or back-office activities.
+* <strong>On Marketing</strong> – costs related to marketing and communication activities.<br />
+Example: advertising expenses or marketing campaigns attributed to marketing projects.</p></li>
+
+<li><p><strong>Workable</strong>: you can switch off this option for projects used to track holidays or permits, this way timesheets done on them are not used to calculate chargeability</p></li>
+
+<li><p><strong>Hours type</strong>: you can use this option to tell if job order category&rsquo;s hours are:
 1. <strong>Workable</strong>: (default) during this hours user is working
 2. <strong>Vacation time off</strong>: the annual and usually paid time you get off work
 3. <strong>Leave time off</strong>: refers to time when you can go away from your job
-4. <strong>Non workable</strong>: a general time off period</li>
-<li><strong>Plan upon approval</strong>: you can switch on this option for projects which plan requests must be approved in order to became &ldquo;effective&rdquo;. The only way to plan these kind of projects is by sending a plan request that is - in fact - a way of asking permission to use these projects budget</li>
-<li><strong>Won/lost feedback</strong>: enable to start collecting feedback about your won and lost projects. When the probability of a project in this category rise over 90 or down to zero, user will be asked to give a reason for this change</li>
-<li><strong>Track opportunity stage</strong>: Whether you can assign a custom stage to an opportunity or not. Please mind tracking and opportunity stage will tightly couple stage and probability attributes.
-Check the stage section for further information.</li>
-<li><strong>Intercompany supplier</strong>: an invoice for a project in this category cannot be sent if the project is not an <a href="https://support.wethod.com/pipeline/index/#intercompany-projects">intercompany project</a> or if its intercompany client does not <a href="https://support.wethod.com/finance/index/#intercompany-client">appear as an actual company client</a></li>
-<li><strong>Project status</strong>:
+4. <strong>Non workable</strong>: a general time off period</p></li>
+
+<li><p><strong>Plan upon approval</strong>: you can switch on this option for projects which plan requests must be approved in order to became &ldquo;effective&rdquo;. The only way to plan these kind of projects is by sending a plan request that is - in fact - a way of asking permission to use these projects budget</p></li>
+
+<li><p><strong>Won/lost feedback</strong>: enable to start collecting feedback about your won and lost projects. When the probability of a project in this category rise over 90 or down to zero, user will be asked to give a reason for this change</p></li>
+
+<li><p><strong>Track opportunity stage</strong>: Whether you can assign a custom stage to an opportunity or not. Please mind tracking and opportunity stage will tightly couple stage and probability attributes.
+Check the stage section for further information.</p></li>
+
+<li><p><strong>Intercompany supplier</strong>: an invoice for a project in this category cannot be sent if the project is not an <a href="https://support.wethod.com/pipeline/index/#intercompany-projects">intercompany project</a> or if its intercompany client does not <a href="https://support.wethod.com/finance/index/#intercompany-client">appear as an actual company client</a></p></li>
+
+<li><p><strong>Project status</strong>:</p>
 
 <ul>
 <li><strong>Work days to complete</strong>: the project status is assigned as estimated days to complete (e.g. in order to complete we need 12 more days of work)</li>
 <li><strong>Auto</strong>: the progress of the projects in this category are not based on their projects status, but based on their duration (equally distributed on their lifespan indicated by date start and duration on the pipeline)</li>
 <li><strong>Completed percentage</strong>: the project status is assigned as a progress percentage (e.g. the progress of this project is 45%)</li>
 </ul></li>
-<li><strong>Automatic timesheet</strong>: here you can choose to automate the timesheets creation process for this kind of projects. This way, timesheets are automatically created each weekend based on planned hours. <em>Be careful: Anything can go wrong because planning is not often 100% accurate, this is why timesheet exists.</em> See the <a href="https://support.wethod.com/friday/index/#automatic">timesheet section</a> for further details.</li>
+
+<li><p><strong>Automatic timesheet</strong>: here you can choose to automate the timesheets creation process for this kind of projects. This way, timesheets are automatically created each weekend based on planned hours. <em>Be careful: Anything can go wrong because planning is not often 100% accurate, this is why timesheet exists.</em> See the <a href="https://support.wethod.com/friday/index/#automatic">timesheet section</a> for further details.</p></li>
 </ul>
 
 <h3 id="job-order">Job Order</h3>
