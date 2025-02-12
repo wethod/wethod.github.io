@@ -239,12 +239,10 @@ The Headcount shows the amount of employees and placeholders with costs that imp
       <pubDate>Tue, 29 Aug 2017 08:24:54 +0000</pubDate>
       
       <guid>https://support.wethod.com/marketing/index/</guid>
-      <description>Overview This is the right place to put all that costs related to the promotion of your products or services.
-Each cost has:
- Start month
- End month
- Net month
-  Use the Import costs button to copy all the marketing costs&amp;rsquo; rows from the previous year.</description>
+      <description>Overview This is the right place to put all that costs related to the promotion of your products or services and all the marketing costs.
+There are two ways to input company marketing costs:
+ Use the marketing cost table [Financials]  This option allows you to easily manage marketing costs directly from this page without creating orders and projects. Here’s how:
+ Add a new row in the table.</description>
     </item>
     
     <item>
