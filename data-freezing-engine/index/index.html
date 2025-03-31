@@ -746,15 +746,19 @@
 
 <p>Instead, the smaller timeline represents instead only a part of all the data above, like for example &ldquo;Timesheet&rdquo; only.</p>
 
-<p>This allows the user to differentiate between type of data to freeze for different purposes. Let&rsquo;s say the company has frozen data that has an economic or financial impact on the Profit and Loss (P&amp;L) statement for the last year, but wants to still pause only the timesheet for the first 3 months of the current year, now they can to it. Obviously, &ldquo;All Data&rdquo; influences &ldquo;Timesheet&rdquo; status and not the other way around.</p>
+<p>This allows the user to differentiate between type of data to freeze for different purposes. Let&rsquo;s say the company has frozen data that has an economic or financial impact on the Profit and Loss (P&amp;L) statement for the last year, but wants to still pause only the timesheet for the first 3 months of the current year, now they can to it.</p>
+
+<p>Obviously, the main timeline influences the smaller ones, and not the other way around.</p>
 
 <p><strong>Segment Timeline</strong></p>
 
-<p>Users with specific permissions can segment the timeline by selecting a period. This is done through a modal where they can choose the &lsquo;to&rsquo; month, but not the &lsquo;from&rsquo; month. The &lsquo;from&rsquo; month is locked to maintain freezing contiguity.</p>
+<p>Users with specific permissions can segment the timeline by clicking on it and selecting. This is done through a modal where they can choose the &lsquo;to&rsquo; month, but not the &lsquo;from&rsquo; month. The &lsquo;from&rsquo; month is locked to maintain freezing contiguity.</p>
 
 <p><img src="https://support.wethod.com/uploads/gif data freezing.gif" alt="" /></p>
 
-<p> Users can choose from 4 data edit options via the edit status button:</p>
+<p> 👉 Clicking the &ldquo;New segment&rdquo; button the user can choose which kind of segment to create and a period of time. This spans from the start month of the free period (non-editable input) to a chosen end month.</p>
+
+<p>After created, the user can choose from 4 data edit options via the &ldquo;Edit Status&rdquo; button:</p>
 
 <ol>
 <li>🟢 Free to edit: Data within the selected time segment remains editable.</li>
@@ -762,8 +766,6 @@
 <li>🟡 Paused edit: Data becomes non-editable, but reverting to status 1 or 2 is still possible.</li>
 <li>🔘 Frozen Data: Data becomes permanently non-editable, with no option to revert to the other statuses.</li>
 </ol>
-
-<p>👉 Clicking &ldquo;new segment&rdquo; allows users to define a new segment from the &lsquo;free to edit&rsquo; time period. This spans from the start month of the free period (non-editable input) to a chosen end month.</p>
 
 <p>Layered data editing must be applied over a contiguous range of months (with a single month as the base unit, not days). A range of months must have a level equal to or lower than the previous range.</p>
 
