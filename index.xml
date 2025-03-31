@@ -283,7 +283,7 @@ Each row in this view represents a project and carries with it the following inf
       
       <guid>https://support.wethod.com/data-freezing-engine/index/</guid>
       <description>Overview Data freezing is a concept and functionality that spans most sections of the system. At its core, it ensures the accuracy and reliability of historical data over time, preserving information integrity. This functionality is particularly useful for companies conducting quarterly or semi-annual financial statements, as it guarantees that Wethod continues to respect the closing date.
-Data that requires freezing typically has an economic or financial impact on the Profit and Loss (P&amp;amp;L) statement.</description>
+In practice, data freezing is implemented through a section called &amp;ldquo;Data Freezing Engine.&amp;rdquo; This engine allows users to pause and freeze past periods, while a series of custom controls and logic ensure that the data remains unaltered.</description>
     </item>
     
     <item>

@@ -730,8 +730,6 @@
 
 <p>Data freezing is a concept and functionality that spans most sections of the system. At its core, it ensures the accuracy and reliability of historical data over time, preserving information integrity. This functionality is particularly useful for companies conducting quarterly or semi-annual financial statements, as it guarantees that Wethod continues to respect the closing date.</p>
 
-<p>Data that requires freezing typically has an economic or financial impact on the Profit and Loss (P&amp;L) statement.</p>
-
 <p>In practice, data freezing is implemented through a section called &ldquo;Data Freezing Engine.&rdquo; This engine allows users to pause and freeze past periods, while a series of custom controls and logic ensure that the data remains unaltered.</p>
 
 <p>Data freezing means all frozen data must be set in stone and no longer editable.</p>
@@ -744,7 +742,13 @@
 
 <h4 id="1-timeline">1. Timeline: </h4>
 
-<p>The timeline represents the period during which a company has created, imported, modified, deleted, and stored data within WETHOD—spanning from the company&rsquo;s creation month to the most recent month.</p>
+<p>The main timeline &ldquo;All Data&rdquo; represents the period during which a company has created, imported, modified, deleted, and stored data within WETHOD—spanning from the company&rsquo;s creation month to the most recent month.</p>
+
+<p>The smaller timeline represents instead only a part of all the data above, like for example &ldquo;Timesheet&rdquo; only.</p>
+
+<p>This allows the user to differentiate between type of data to freeze for different purposes.</p>
+
+<h5 id="segment-timeline">Segment Timeline</h5>
 
 <p>Users with specific permissions can segment the timeline by selecting a period. This is done through a modal where they can choose the &lsquo;to&rsquo; month, but not the &lsquo;from&rsquo; month. The &lsquo;from&rsquo; month is locked to maintain freezing contiguity.</p>
 
@@ -754,7 +758,7 @@
 
 <ol>
 <li>🟢 Free to edit: Data within the selected time segment remains editable.</li>
-<li>🔵 Data review: Data within the selected time segment remains editable, but you can review inconsistencies before pausing data.<br /></li>
+<li>🔵 Data review: Data within the selected time segment remains editable, but you can review inconsistencies before pausing data.</li>
 <li>🟡 Paused edit: Data becomes non-editable, but reverting to status 1 or 2 is still possible.</li>
 <li>🔘 Frozen Data: Data becomes permanently non-editable, with no option to revert to the other statuses.</li>
 </ol>
