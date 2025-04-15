@@ -832,37 +832,63 @@ For example, if you set it to 6 hours, it won’t be possible to assign more tha
 <p>Changes to a capacity group are applied to the past too.</p>
 </div>
 
-<h3 id="bank-holidays-planner">Bank Holidays Planner</h3>
+<h3 id="fiscal-year">Fiscal Year</h3>
 
-<p>Bank holidays planner define days-off.</p>
+<p>The Fiscal Year section allows you to align wethod with your company’s fiscal year, in case it doesn’t match the calendar year.</p>
 
-<p>Holiday has name, date and a list of locations.</p>
+<p>By default, the fiscal year runs from January to December, as it does for most European companies.</p>
 
-<p>Every holiday is related to at least one location.</p>
-
-<p>The holiday can be specific to a single date (dd/mm/yyyy) or repeated annually (dd/mm).</p>
-
-<p>Available hours in <a href="https://support.wethod.com/friday/index/#timesheet">Timesheet</a> and weekly capacity of employees in <a href="https://support.wethod.com/reports/index/#weekly-timesheet">Weekly timesheet export</a> consider holidays that are associated with the employee&rsquo;s location.<img src="https://support.wethod.com/uploads/Screenshot 2023-11-13 at 12.30.26.png" alt="" /></p>
+<p>However, if your company follows a different calendar, you can easily change the starting month—reports and the profit &amp; loss statement will automatically update based on the new configuration.</p>
 
 <h3 id="company-locations">Company Locations</h3>
 
-<p>Locations are company working cities.</p>
+<p>The Company Locations section allows you to set up the different offices or branches of your company.</p>
 
-<p>There is always a default location, named Headquarter by default even if it can be renamed.</p>
+<p>This setting is useful for filtering team members based on their assigned location and, most importantly, it’s essential for assigning the correct Bank Holidays.</p>
 
-<p>Initially Headquarter is linked to all company employees.</p>
+<p>If your team works remotely and is spread across different cities - but still follows the holiday calendar of the main office - it’s best to set up just one Location. In that case, you can use tags to indicate where each person works, without complicating the holiday configuration.</p>
 
-<p>Locations will be linked to employees in the <a href="https://support.wethod.com/settings/index/#team">Team section</a>.</p>
+<p><img src="https://support.wethod.com/uploads/Screenshot 2023-11-13 at 17.12.52.png" alt="" /></p>
 
-<p>Every time a location is deleted it’s employees will be automatically linked to the default one.</p>
+<h3 id="bank-holidays-planner">Bank Holidays Planner</h3>
 
-<p>Locations are required to create related holidays in <a href="https://support.wethod.com/settings/index/#company">Bank Holidays Planner</a> section.<img src="https://support.wethod.com/uploads/Screenshot 2023-11-13 at 17.12.52.png" alt="" /></p>
+<p>In this section, you can upload your company holidays - these are national or local public holidays during which no work is expected.</p>
+
+<p>Be careful not to confuse them with individual days off, like vacation or personal leave: holidays apply to the whole company or to a specific location, and follow the official national or regional calendar (e.g. New Year’s Day, Labor Day, etc.).</p>
+
+<p>By clicking on Add Holiday, you can create a new holiday and choose whether it should repeat every year (handy for fixed dates like December 25th) or not, as in the case of Easter, which changes every year. It’s important to assign each holiday to one or more Company Locations, so the system knows which offices recognize that day as non-working.</p>
+
+<p>You can assignee each location to the employees via the <a href="https://support.wethod.com/settings/index/#import-metadata">Team metadata import</a>.</p>
+
+<p>Once set, these holidays will have two effects:</p>
+
+<ul>
+<li>In the planning section, people won’t be schedulable on those days.</li>
+<li>In the timesheet and its export, you’ll see a yellow icon with a total of 0 expected hours, indicating it’s a holiday.</li>
+</ul>
+
+<p><img src="https://support.wethod.com/uploads/Screenshot 2023-11-13 at 12.30.26.png" alt="" /></p>
 
 <h3 id="user-levels">User levels</h3>
 
-<p>Each one of your collaborators has a level which defines his daily cost to the company and the price you want to sell a day of his work to the clients. This way you can define clusters of employees like intern, junior, senior and so on. For each user level you can set a <strong>chargeability target</strong> – expressed in percentage – meaning as the amount of hours people belonging to a specific user level should work on profitable projects.</p>
+<p>⚠️ <strong>Heads up</strong>: once a level is <strong>assigned to a person</strong> or <strong>used in a budget</strong>, <strong>it can no longer be deleted</strong>. So if you’re testing things out or not entirely sure, take a moment to double-check before creating new levels. When in doubt, it’s better to ask first. However, you can always rename a level and update its details at any time.</p>
 
-<p>You can also define whether that level is default, meaning that every new budget will have by default this level visible. Within the budget page, you will always be able to show/hide all the levels available for that budget.</p>
+<p>The <strong>User Level</strong> section lets you define different clusters of people within your company, each associated with a **standard daily cost **and a <strong>daily resale price</strong>.</p>
+
+<p>It’s important to clarify: this isn’t about grouping people by job type (e.g. designer, developer, account manager), but by their <strong>cost to the company</strong>, which mostly depends on their salary range.</p>
+
+<p>We recommend creating levels that group people with similar salary brackets—for example: *junior, senior, manager*—and assigning each level an identifying code.</p>
+
+<p>Available settings include:</p>
+
+<ul>
+<li><strong>Chargeability Target</strong>: a helpful analysis indicator that shows whether, based on timesheets, people in that level are actually working on sold (chargeable) projects.</li>
+<li><strong>Code</strong>: a simple abbreviation of the name (e.g. jr, sr, pr) that will be displayed in the budget and people allocation sections.</li>
+<li><strong>External</strong>: enable this only for levels created specifically for external vendors who will be filling in timesheets in the platform. If you’re just uploading external costs (no timesheets involved), you don’t need to create a level.</li>
+<li><strong>Must be planned</strong>: if enabled, this means people in that level must be included in the planning. If they’re not, an alert will appear.</li>
+<li><strong>Must do the timesheet</strong>: similar to the above, but related to the requirement to fill in timesheets.</li>
+<li><strong>Default in budget</strong>: when this is active, the level will be suggested by default when creating new budgets.</li>
+</ul>
 
 <h3 id="job-order-categories">Job Order Categories</h3>
 
@@ -965,7 +991,7 @@ Check the stage section for further information.</li>
 
 <p>A list of all the known currencies, each one can be made available or set as <em>master</em> (a.k.a. the currency you currently use in your company)</p>
 
-<h3 id="fiscal-year">Fiscal Year</h3>
+<h3 id="fiscal-year-1">Fiscal Year</h3>
 
 <p>Here you can change the initial month of your company&rsquo;s fiscal year. All report and tables showing temporal data will update. Automatic job order generation and automatic invoice number will follow the fiscal year start, so you might get duplicated job order or invoice number if you change it. Remember that you can always manually change them and also set a different progressive number to start with in the job order settings than the default 1.</p>
 
