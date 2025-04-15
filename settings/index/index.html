@@ -890,44 +890,101 @@ For example, if you set it to 6 hours, it won’t be possible to assign more tha
 <li><strong>Default in budget</strong>: when this is active, the level will be suggested by default when creating new budgets.</li>
 </ul>
 
+<h3 id="job-titles">Job Titles</h3>
+
+<p>The Job Titles table allows you to define, in relation to the previously configured User Levels, the type of professional role you want to estimate in the budget. For example, you can create a junior copywriter and link it to the junior level, or a senior designer connected to the senior level.</p>
+
+<p>This setup lets you indicate more precisely what kind of role you expect to involve in a specific project activity during the budgeting phase—improving both the accuracy of your estimates and the clarity of your project plan.</p>
+
 <h3 id="job-order-categories">Job Order Categories</h3>
 
-<p>Here you can add the categories for your projects, each category needs at least a name and a color. You can change the categories&rsquo; sort order by simply drag and dropping them. For each category you can set some options:</p>
+<p>Through <strong>Job Order Categories</strong>, you can configure the main <strong>project categories</strong> your company typically works with. Each category represents an organizational cluster- a set of projects that share common <strong>behavioral rules</strong>.</p>
+
+<p>The purpose of this section is <strong>not</strong> to list <strong>every activity in detail</strong>, but to <strong>define the main types of project</strong>s along with their operational, financial, and management characteristics.</p>
+
+<h4 id="why-does-it-matter">Why does it matter?</h4>
+
+<p>Defining project categories allows you to:</p>
 
 <ul>
-<li><strong>Chargeable</strong>: the projects in this category are billable</li>
-<li><strong>Everybody can plan</strong>: the projects in this category can be planned by everybody, not only by its pm or account</li>
-<li><strong>Unlimited planning</strong>: the projects in this category can be planned regardless budget availability</li>
-<li><strong>Must be in program</strong>: the projects in this category must be added to a <a href="https://support.wethod.com/pipeline/index/#programs">Program</a></li>
-<li><strong>Invoice driven budget</strong>: the value of the projects on this category changes based on the total invoiced for that project. This logic also updates the Invoice Plan and the Production value. You can use this flag on all the project categories in which you are not sure of the final price because it can vary slightly based on external factors. You can then set a budget with an approximate price and let the issued invoices adjust the final price as a result of the delta between the ‘invoice plan’ and the real invoice.</li>
-<li><strong>Capex</strong>: the projects in this category must be treated as investments</li>
-<li><strong>Ext. Cost</strong>: the external cost of the projects of this categories are going to be associate with one of the following categories:
+<li><strong>automate</strong> certain <strong>management logics</strong> (e.g. automatic project status updates, economic value tracking based on invoices);</li>
+<li><strong>align your financial reporting</strong> (e.g. capitalizable projects, marketing, internal…);</li>
+<li><strong>create consistency in workflows</strong>: if a category requires “approval before planning” or must always be part of a program, those rules will be applied automatically;</li>
+<li><strong>improve control</strong> and <strong>reporting</strong> at a company-wide level.</li>
+</ul>
+
+<p>Need an example?</p>
+
+<p>You could create a category called “R&amp;D” for investment projects, set it as Capex (capital expenditures), and have its status update automatically over time. Or a “Sales” category for opportunities, where you track the reason a project was won or lost.</p>
+
+<p><strong>What you can configure for each category</strong></p>
+
+<p>Each <strong>Job Order Category</strong> can be customized through a range of options that define how it behaves in budgeting, planning, timesheets, and financial reporting. Here’s what each setting does:</p>
 
 <ul>
-<li><strong>On goods sold</strong> – costs directly related to revenues (before the gross margin). Example: production costs or supplies necessary to deliver the sold product or service.</li>
-<li><strong>Before contribution margin</strong> – costs allocated to the personnel section in the P&amp;L. Example: costs related to internal projects that should be reported as personnel expenses.</li>
-<li><strong>On G&amp;A</strong> – general and administrative operating costs. Example: administrative projects, general consultancy, or back-office activities.</li>
-<li><strong>On Marketing</strong> – costs related to marketing and communication activities. Example: advertising expenses or marketing campaigns attributed to marketing projects.</li>
+<li>Name: the name clearly identifies the nature of the category and helps you recognize it throughout the platform;</li>
+<li>Color: the assigned color visually distinguishes projects in the People Allocation section. All projects belonging to the same category will share the same color, making it easy to identify them at a glance;</li>
+<li><strong>Chargeable</strong>: marks projects as billable. wethod will check that:
+
+<ul>
+<li>there is a budget greater than zero;</li>
+<li>timesheeted hours count toward chargeability;</li>
+<li>the full value has been invoiced before archiving;</li>
 </ul></li>
-<li><strong>Workable</strong>: you can switch off this option for projects used to track holidays or permits, this way timesheets done on them are not used to calculate chargeability</li>
-<li><strong>Hours type</strong>: you can use this option to tell if job order category&rsquo;s hours are:
-1. <strong>Workable</strong>: (default) during this hours user is working
-2. <strong>Vacation time off</strong>: the annual and usually paid time you get off work
-3. <strong>Leave time off</strong>: refers to time when you can go away from your job
-4. <strong>Non workable</strong>: a general time off period</li>
-<li><strong>Plan upon approval</strong>: you can switch on this option for projects which plan requests must be approved in order to became &ldquo;effective&rdquo;. The only way to plan these kind of projects is by sending a plan request that is - in fact - a way of asking permission to use these projects budget</li>
-<li><strong>Won/lost feedback</strong>: enable to start collecting feedback about your won and lost projects. When the probability of a project in this category rise over 90 or down to zero, user will be asked to give a reason for this change</li>
-<li><strong>Track opportunity stage</strong>: Whether you can assign a custom stage to an opportunity or not. Please mind tracking and opportunity stage will tightly couple stage and probability attributes.
-Check the stage section for further information.</li>
-<li><strong>Intercompany supplier</strong>: an invoice for a project in this category cannot be sent if the project is not an <a href="https://support.wethod.com/pipeline/index/#intercompany-projects">intercompany project</a> or if its intercompany client does not <a href="https://support.wethod.com/finance/index/#intercompany-client">appear as an actual company client</a></li>
-<li><strong>Project status</strong>:
+<li>Plan upon approval: people can only be scheduled after planning is approved. Recommended only for planned absences (e.g. approved vacation).</li>
+</ul>
+
+<p>⚠️ If enabled, you must also activate “Everybody can plan”, otherwise users won’t be able to submit requests. Make sure to assign a location manager in the Team section to handle approvals.
+* <strong>Everybody can plan</strong>: anyone can plan on the project—not just the PM or account owner
+* Unlimited planning: lets you plan even if the budget runs out. Useful for:
+  * absences (vacation, sick leave, etc.)
+  * internal projects you want to monitor only after the factthe projects in this category can be planned regardless budget availability</p>
+
+<p>⚠️ You still need to set at least one hour of initial budget—after that, planning is treated as unlimited.</p>
 
 <ul>
-<li><strong>Work days to complete</strong>: the project status is assigned as estimated days to complete (e.g. in order to complete we need 12 more days of work)</li>
-<li><strong>Auto</strong>: the progress of the projects in this category are not based on their projects status, but based on their duration (equally distributed on their lifespan indicated by date start and duration on the pipeline)</li>
-<li><strong>Completed percentage</strong>: the project status is assigned as a progress percentage (e.g. the progress of this project is 45%)</li>
+<li><strong>Hours type:</strong> defines the nature of the timesheet hours:
+
+<ul>
+<li>Workable (default)</li>
+<li>Vacation time off: reduces vacation allowance</li>
+<li>Leave time off: reduces leave allowance</li>
+<li>Non workable: other absences (e.g. sick leave, parental leave) — tracked but don’t affect allowances</li>
 </ul></li>
-<li><strong>Automatic timesheet</strong>: here you can choose to automate the timesheets creation process for this kind of projects. This way, timesheets are automatically created each weekend based on planned hours. <em>Be careful: Anything can go wrong because planning is not often 100% accurate, this is why timesheet exists.</em> See the <a href="https://support.wethod.com/friday/index/#automatic">timesheet section</a> for further details.</li>
+<li><strong>Must be in program</strong>: requires the project to be part of a <a href="https://support.wethod.com/pipeline/index/#programs">Program</a> (a view that groups multiple projects).</li>
+</ul>
+
+<p>⚠️ Not recommended unless you’re managing structured or multi-level projects.
+* <strong>Invoice driven budget</strong>: the project’s economic value updates based on actual invoices. Ideal for:
+  * time &amp; material projects
+  * projects where the final price may differ from the estimate. wethod will update the budget, invoice plan, and production value automatically. You can then set a budget with an approximate price and let the issued invoices adjust the final price as a result of the delta between the ‘invoice plan’ and the real invoice.
+* <strong>Capex</strong>: marks the project as an investment. Internal and external costs can be capitalized across multiple fiscal years in the Financials section.
+* <strong>Ext. Cost</strong>: Tells wethod where to allocate external costs in the P&amp;L:
+  * <strong>On goods sold</strong> – costs directly related to revenues (before the gross margin). Example: production costs or supplies necessary to deliver the sold product or service.
+  * <strong>Before contribution margin</strong> – costs allocated to the personnel section in the P&amp;L. Example: costs related to internal projects that should be reported as personnel expenses.
+  * <strong>On G&amp;A</strong> – general and administrative operating costs. Example: administrative projects, general consultancy, or back-office activities.
+  * <strong>On Marketing</strong> – costs related to marketing and communication activities. Example: advertising expenses or marketing campaigns attributed to marketing projects.
+* <strong>Won/lost feedback</strong>: when a project’s probability goes from 0% to 100% (or vice versa), wethod asks for the win/loss reason. Reasons can be set up in the Won/Lost Feedback section. Great for sales projects and funnel tracking.
+* <strong>Track opportunity stage</strong>: lets you define a custom sales stage (e.g. prospecting, proposal sent, negotiation). The stage links to probability and helps build a personalized sales funnel.
+* <strong>Job Order Categories Group</strong>: just below the category table, you can create Groups of Categories.
+  Handy if you have categories with similar settings but slight differences (e.g. project tracking) and still want to group them for reporting. Example: Client Auto (chargeable, no status tracking) and Project Client (chargeable, with status tracking). You can group them together for clearer analysis.
+* <strong>Automatic Timesheet</strong>: when enabled, timesheets are automatically filled every weekend, copying hours from People Allocation.
+  This means:
+  * <strong>you can’t edit the current week’s timesheet manually</strong>
+  * if you need to make changes, do it in the planning section
+    You can still edit past weeks if needed.</p>
+
+<p>👉 Recommended only for tightly scheduled activities like vacation or leave. For other projects, better to let people log actual hours manually, even if they differ from the plan.</p>
+
+<ul>
+<li><strong>Project Status</strong>: controls how the status of projects in this category is updated weekly. Remember: <strong>status is not just timesheet-based</strong>—it should reflect how much work is left. Options:
+
+<ul>
+<li><strong>Work days to complete</strong>: the PM enters remaining workdays</li>
+<li><strong>Automatic</strong>: status auto-progresses based on project start and duration</li>
+<li><strong>Completed percentage</strong>: enter a weekly completion percentage—more visual, but subjective</li>
+</ul></li>
+<li><strong>Intercompany supplier</strong> (only visible if the intercompany module is active): an invoice for a project in this category cannot be sent if the project is not an <a href="https://support.wethod.com/pipeline/index/#intercompany-projects">intercompany project</a> or if its intercompany client does not <a href="https://support.wethod.com/finance/index/#intercompany-client">appear as an actual company client</a></li>
 </ul>
 
 <h3 id="job-order">Job Order</h3>
@@ -1042,7 +1099,7 @@ This feature allows the user to determine a status of a supplier and if it is el
 
 <p>Here you can set your preferences about the way you want to visualise the company yearly orders, in the Company Order Plan page. Check <a href="https://support.wethod.com/order-plan/index/#overview">here</a> to see how this setting affects the visualisation of data.</p>
 
-<h3 id="job-titles">Job titles</h3>
+<h3 id="job-titles-1">Job titles</h3>
 
 <p><a href="https://support.wethod.com/budget/index/#job-titles">Can be used in a budget</a> to better specify a job figure or position needed to complete a task, for example: to complete task “Website redesign” you may need a junior designer and a senior developer, these are two distinct job titles related to junior and senior user level respectively. Each person in your team can be assigned a job title, this makes it possible to filter people by job title in the <a href="https://support.wethod.com/planning/index/#people-allocation">People Allocation section.</a> A job title cannot be deleted, it can only be archived. A job title is related to a single user level and this level can be chosen only during job title creation.</p>
 
