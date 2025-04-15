@@ -922,8 +922,8 @@ For example, if you set it to 6 hours, it won’t be possible to assign more tha
 <p>Each <strong>Job Order Category</strong> can be customized through a range of options that define how it behaves in budgeting, planning, timesheets, and financial reporting. Here’s what each setting does:</p>
 
 <ul>
-<li>Name: the name clearly identifies the nature of the category and helps you recognize it throughout the platform;</li>
-<li>Color: the assigned color visually distinguishes projects in the People Allocation section. All projects belonging to the same category will share the same color, making it easy to identify them at a glance;</li>
+<li><strong>Name</strong>: the name clearly identifies the nature of the category and helps you recognize it throughout the platform;</li>
+<li><strong>Color</strong>: the assigned color visually distinguishes projects in the People Allocation section. All projects belonging to the same category will share the same color, making it easy to identify them at a glance;</li>
 <li><strong>Chargeable</strong>: marks projects as billable. wethod will check that:
 
 <ul>
@@ -931,18 +931,16 @@ For example, if you set it to 6 hours, it won’t be possible to assign more tha
 <li>timesheeted hours count toward chargeability;</li>
 <li>the full value has been invoiced before archiving;</li>
 </ul></li>
-<li>Plan upon approval: people can only be scheduled after planning is approved. Recommended only for planned absences (e.g. approved vacation).</li>
-</ul>
-
-<p>⚠️ If enabled, you must also activate “Everybody can plan”, otherwise users won’t be able to submit requests. Make sure to assign a location manager in the Team section to handle approvals.
-* <strong>Everybody can plan</strong>: anyone can plan on the project—not just the PM or account owner
-* Unlimited planning: lets you plan even if the budget runs out. Useful for:
-  * absences (vacation, sick leave, etc.)
-  * internal projects you want to monitor only after the factthe projects in this category can be planned regardless budget availability</p>
-
-<p>⚠️ You still need to set at least one hour of initial budget—after that, planning is treated as unlimited.</p>
+<li><strong>Plan upon approval</strong>: people can only be scheduled after planning is approved. Recommended only for planned absences (e.g. approved vacation).
+⚠️ If enabled, you must also activate “Everybody can plan”, otherwise users won’t be able to submit requests. Make sure to assign a location manager in the Team section to handle approvals.</li>
+<li><strong>Everybody can plan</strong>: anyone can plan on the project—not just the PM or account owner</li>
+<li><strong>Unlimited planning</strong>: lets you plan even if the budget runs out. Useful for:
 
 <ul>
+<li>absences (vacation, sick leave, etc.)</li>
+<li>internal projects you want to monitor only after the factthe projects in this category can be planned regardless budget availability
+⚠️ You still need to set at least one hour of initial budget—after that, planning is treated as unlimited.</li>
+</ul></li>
 <li><strong>Hours type:</strong> defines the nature of the timesheet hours:
 
 <ul>
@@ -951,28 +949,36 @@ For example, if you set it to 6 hours, it won’t be possible to assign more tha
 <li>Leave time off: reduces leave allowance</li>
 <li>Non workable: other absences (e.g. sick leave, parental leave) — tracked but don’t affect allowances</li>
 </ul></li>
-<li><strong>Must be in program</strong>: requires the project to be part of a <a href="https://support.wethod.com/pipeline/index/#programs">Program</a> (a view that groups multiple projects).</li>
-</ul>
+<li><strong>Must be in program</strong>: requires the project to be part of a <a href="https://support.wethod.com/pipeline/index/#programs">Program</a> (a view that groups multiple projects).
+⚠️ Not recommended unless you’re managing structured or multi-level projects.</li>
+<li><strong>Invoice driven budget</strong>: the project’s economic value updates based on actual invoices. Ideal for:
 
-<p>⚠️ Not recommended unless you’re managing structured or multi-level projects.
-* <strong>Invoice driven budget</strong>: the project’s economic value updates based on actual invoices. Ideal for:
-  * time &amp; material projects
-  * projects where the final price may differ from the estimate. wethod will update the budget, invoice plan, and production value automatically. You can then set a budget with an approximate price and let the issued invoices adjust the final price as a result of the delta between the ‘invoice plan’ and the real invoice.
-* <strong>Capex</strong>: marks the project as an investment. Internal and external costs can be capitalized across multiple fiscal years in the Financials section.
-* <strong>Ext. Cost</strong>: Tells wethod where to allocate external costs in the P&amp;L:
-  * <strong>On goods sold</strong> – costs directly related to revenues (before the gross margin). Example: production costs or supplies necessary to deliver the sold product or service.
-  * <strong>Before contribution margin</strong> – costs allocated to the personnel section in the P&amp;L. Example: costs related to internal projects that should be reported as personnel expenses.
-  * <strong>On G&amp;A</strong> – general and administrative operating costs. Example: administrative projects, general consultancy, or back-office activities.
-  * <strong>On Marketing</strong> – costs related to marketing and communication activities. Example: advertising expenses or marketing campaigns attributed to marketing projects.
-* <strong>Won/lost feedback</strong>: when a project’s probability goes from 0% to 100% (or vice versa), wethod asks for the win/loss reason. Reasons can be set up in the Won/Lost Feedback section. Great for sales projects and funnel tracking.
-* <strong>Track opportunity stage</strong>: lets you define a custom sales stage (e.g. prospecting, proposal sent, negotiation). The stage links to probability and helps build a personalized sales funnel.
-* <strong>Job Order Categories Group</strong>: just below the category table, you can create Groups of Categories.
-  Handy if you have categories with similar settings but slight differences (e.g. project tracking) and still want to group them for reporting. Example: Client Auto (chargeable, no status tracking) and Project Client (chargeable, with status tracking). You can group them together for clearer analysis.
-* <strong>Automatic Timesheet</strong>: when enabled, timesheets are automatically filled every weekend, copying hours from People Allocation.
-  This means:
-  * <strong>you can’t edit the current week’s timesheet manually</strong>
-  * if you need to make changes, do it in the planning section
-    You can still edit past weeks if needed.</p>
+<ul>
+<li>time &amp; material projects</li>
+<li>projects where the final price may differ from the estimate. wethod will update the budget, invoice plan, and production value automatically. You can then set a budget with an approximate price and let the issued invoices adjust the final price as a result of the delta between the ‘invoice plan’ and the real invoice.</li>
+</ul></li>
+<li><strong>Capex</strong>: marks the project as an investment. Internal and external costs can be capitalized across multiple fiscal years in the Financials section.</li>
+<li><strong>Ext. Cost</strong>: Tells wethod where to allocate external costs in the P&amp;L:
+
+<ul>
+<li><strong>On goods sold</strong> – costs directly related to revenues (before the gross margin). Example: production costs or supplies necessary to deliver the sold product or service.</li>
+<li><strong>Before contribution margin</strong> – costs allocated to the personnel section in the P&amp;L. Example: costs related to internal projects that should be reported as personnel expenses.</li>
+<li><strong>On G&amp;A</strong> – general and administrative operating costs. Example: administrative projects, general consultancy, or back-office activities.</li>
+<li><strong>On Marketing</strong> – costs related to marketing and communication activities. Example: advertising expenses or marketing campaigns attributed to marketing projects.</li>
+</ul></li>
+<li><strong>Won/lost feedback</strong>: when a project’s probability goes from 0% to 100% (or vice versa), wethod asks for the win/loss reason. Reasons can be set up in the Won/Lost Feedback section. Great for sales projects and funnel tracking.</li>
+<li><strong>Track opportunity stage</strong>: lets you define a custom sales stage (e.g. prospecting, proposal sent, negotiation). The stage links to probability and helps build a personalized sales funnel.</li>
+<li><strong>Job Order Categories Group</strong>: just below the category table, you can create Groups of Categories.
+Handy if you have categories with similar settings but slight differences (e.g. project tracking) and still want to group them for reporting. Example: Client Auto (chargeable, no status tracking) and Project Client (chargeable, with status tracking). You can group them together for clearer analysis.</li>
+<li><strong>Automatic Timesheet</strong>: when enabled, timesheets are automatically filled every weekend, copying hours from People Allocation.
+This means:
+
+<ul>
+<li><strong>you can’t edit the current week’s timesheet manually</strong></li>
+<li>if you need to make changes, do it in the planning section
+You can still edit past weeks if needed.</li>
+</ul></li>
+</ul>
 
 <p>👉 Recommended only for tightly scheduled activities like vacation or leave. For other projects, better to let people log actual hours manually, even if they differ from the plan.</p>
 
