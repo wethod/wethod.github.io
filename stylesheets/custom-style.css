@@ -10,7 +10,7 @@
     padding: 0 0 0 20px !important;
 }
 .ds-dropdown-menu{
-	font-size: 14px !important;
+	font-size: var(--font-s) !important;
 	top: 48px !important;
 	box-shadow: none !important;
 	min-width: 0 !important;
@@ -69,7 +69,7 @@
 	padding: 4px;
 	text-align: center;
 	background-color: white;
-	border: 1px solid #363636;
+	border: 1px solid var(--etna-stone-black);
 }
 
 .tab:first-child {
@@ -81,12 +81,12 @@
 }
 
 .tab--selected {
-	background-color: #363636;
+	background-color: var(--etna-stone-black);
 }
 
 .tab a {
-	color: black !important;
-	font-weight: bold;
+	color: var(--etna-stone-black) !important;
+	font-weight: var(--w-bold);
 	text-decoration: none;
 	border: none;
 }
@@ -98,4 +98,35 @@
 .actions-right {
 	display: flex;
 	justify-content: flex-end;
+}
+
+.article h3 {
+    font-size: var(--font-m);
+    font-weight: var(--w-semibold);
+    line-height: 1.5em;
+}
+
+.article h4 {
+    font-size: var(--font-s);
+    font-weight: var(--w-semibold);
+    line-height: 1.5em;
+    font-style: normal;
+}
+
+.article h5 {
+    font-size: var(--font-xs);
+    font-weight: var(--w-medium);
+    line-height: 1.5em;
+    text-transform: uppercase;
+}
+
+.drawer .section {
+	color: var(--nobel-grey);
+}
+
+/* Submenu styles */
+.drawer .toc li.anchor a.active {
+    font-weight: 700;
+    border-left: 2px solid var(--wethod-blue);
+    color: var(--wethod-blue);
 }

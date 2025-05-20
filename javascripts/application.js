@@ -885,3 +885,65 @@ if ("document" in self && ("classList" in document.createElement("_") ? ! functi
         "href" in node && -1 !== node.href.indexOf("http") && (-1 !== node.href.indexOf(document.location.host) || remotes) && (t.preventDefault(), document.location.href = node.href)
     }, !1)
 }
+
+// Submenu handling
+window.onload = function() {
+    var headers = document.getElementsByTagName("h2");
+    var scrollspy = document.getElementById('scrollspy');
+
+    if(scrollspy && headers.length > 0) {
+        // Function to highlight active link
+        function highlightActiveLink(headerId) {
+            // Remove active class from all links
+            var allLinks = scrollspy.getElementsByTagName("a");
+            for(var i = 0; i < allLinks.length; i++) {
+                allLinks[i].classList.remove("active");
+            }
+
+            // Add active class to corresponding link
+            if(headerId) {
+                var activeLink = scrollspy.querySelector('a[href="#' + headerId + '"]');
+                if(activeLink) {
+                    activeLink.classList.add("active");
+                }
+            }
+        }
+        
+        // Check URL hash on page load
+        if(window.location.hash) {
+            var headerId = window.location.hash.substring(1);
+            highlightActiveLink(headerId);
+        }
+        
+        // Add scroll event listener
+        window.addEventListener('scroll', function() {
+            var scrollPosition = window.scrollY;
+            var activeHeader = null;
+            var minDistance = Infinity;
+
+            // Find the header closest to scroll position
+            for(var i = 0; i < headers.length; i++) {
+                var header = headers[i];
+                var distance = Math.abs(header.offsetTop - scrollPosition);
+                
+                if(distance < minDistance) {
+                    minDistance = distance;
+                    activeHeader = header;
+                }
+            }
+
+            if(activeHeader) {
+                highlightActiveLink(activeHeader.id);
+            }
+        });
+
+        // Add click event listener to existing links
+        var existingLinks = scrollspy.getElementsByTagName("a");
+        for(var i = 0; i < existingLinks.length; i++) {
+            existingLinks[i].onclick = function(e) {
+                var headerId = this.getAttribute('href').substring(1);
+                highlightActiveLink(headerId);
+            };
+        }
+    }
+};

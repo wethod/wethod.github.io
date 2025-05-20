@@ -1,0 +1,19 @@
+:root {
+    /* Font sizes */
+    --font-xs: 12px;
+    --font-s: 14px;
+    --font-m: 16px;
+    --font-l: 20px;
+    --font-xl: 24px;
+
+    /* Font weights */
+    --w-normal: 400;
+    --w-medium: 500;
+    --w-semibold: 600;
+    --w-bold: 700;
+
+    /* Colors */
+    --wethod-blue: #009FE3;
+    --etna-stone-black: #212121;
+    --nobel-grey: #777777;
+} 
