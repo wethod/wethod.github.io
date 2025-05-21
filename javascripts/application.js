@@ -890,10 +890,22 @@ if ("document" in self && ("classList" in document.createElement("_") ? ! functi
 window.onload = function() {
     var headers = document.getElementsByTagName("h2");
     var scrollspy = document.getElementById('scrollspy');
+    var lastClickedHeader = null;
+    var isManualSelection = false;
+    var activeH3Id = null;
+    var activeH2Id = null;
 
     if(scrollspy && headers.length > 0) {
-        // Function to highlight active link
-        function highlightActiveLink(headerId) {
+        // Function to find parent h2 of an h3
+        function findParentH2(element) {
+            while(element && element.tagName !== 'H2') {
+                element = element.previousElementSibling;
+            }
+            return element;
+        }
+
+        // Function to highlight active link and show h3 submenu
+        function highlightActiveLink(headerId, isClick = false, h3Id = null) {
             // Remove active class from all links
             var allLinks = scrollspy.getElementsByTagName("a");
             for(var i = 0; i < allLinks.length; i++) {
@@ -905,6 +917,64 @@ window.onload = function() {
                 var activeLink = scrollspy.querySelector('a[href="#' + headerId + '"]');
                 if(activeLink) {
                     activeLink.classList.add("active");
+                    activeH2Id = headerId;
+                    
+                    // Find the active h2 element
+                    var activeH2 = document.getElementById(headerId);
+                    if(activeH2) {
+                        // Remove all existing h3 submenus
+                        var existingSubmenus = scrollspy.getElementsByTagName("ul");
+                        while(existingSubmenus.length > 0) {
+                            existingSubmenus[0].parentNode.removeChild(existingSubmenus[0]);
+                        }
+                        
+                        // Create new submenu for h3 elements
+                        var h3Submenu = document.createElement('ul');
+                        var currentElement = activeH2.nextElementSibling;
+                        
+                        // Find all h3 elements until next h2
+                        while(currentElement && currentElement.tagName !== 'H2') {
+                            if(currentElement.tagName === 'H3') {
+                                var h3Link = document.createElement('a');
+                                h3Link.href = '#' + currentElement.id;
+                                
+                                // Get text content and remove any HTML formatting
+                                var h3Title = currentElement.textContent;
+                                // Remove the permanent link symbol if present
+                                h3Title = h3Title.replace(/[¶#]$/, '').trim();
+                                h3Link.textContent = h3Title;
+                                
+                                // Add click event listener to h3 link
+                                h3Link.addEventListener('click', function(e) {
+                                    var clickedH3Id = this.getAttribute('href').substring(1);
+                                    var clickedH3 = document.getElementById(clickedH3Id);
+                                    if(clickedH3) {
+                                        var parentH2 = findParentH2(clickedH3);
+                                        if(parentH2) {
+                                            isManualSelection = true;
+                                            activeH3Id = clickedH3Id;
+                                            highlightActiveLink(parentH2.id, true, clickedH3Id);
+                                        }
+                                    }
+                                });
+                                
+                                // If this is the active h3, add active class
+                                if(h3Id && currentElement.id === h3Id) {
+                                    h3Link.classList.add("active");
+                                }
+                                
+                                var h3Li = document.createElement('li');
+                                h3Li.appendChild(h3Link);
+                                h3Submenu.appendChild(h3Li);
+                            }
+                            currentElement = currentElement.nextElementSibling;
+                        }
+                        
+                        // Add the submenu if it has items
+                        if(h3Submenu.children.length > 0) {
+                            activeLink.parentElement.appendChild(h3Submenu);
+                        }
+                    }
                 }
             }
         }
@@ -912,38 +982,43 @@ window.onload = function() {
         // Check URL hash on page load
         if(window.location.hash) {
             var headerId = window.location.hash.substring(1);
-            highlightActiveLink(headerId);
-        }
-        
-        // Add scroll event listener
-        window.addEventListener('scroll', function() {
-            var scrollPosition = window.scrollY;
-            var activeHeader = null;
-            var minDistance = Infinity;
-
-            // Find the header closest to scroll position
-            for(var i = 0; i < headers.length; i++) {
-                var header = headers[i];
-                var distance = Math.abs(header.offsetTop - scrollPosition);
-                
-                if(distance < minDistance) {
-                    minDistance = distance;
-                    activeHeader = header;
+            var header = document.getElementById(headerId);
+            if(header) {
+                if(header.tagName === 'H3') {
+                    var parentH2 = findParentH2(header);
+                    if(parentH2) {
+                        isManualSelection = true;
+                        activeH3Id = headerId;
+                        highlightActiveLink(parentH2.id, true, headerId);
+                    }
+                } else {
+                    isManualSelection = true;
+                    activeH3Id = null;
+                    highlightActiveLink(headerId, true);
                 }
             }
-
-            if(activeHeader) {
-                highlightActiveLink(activeHeader.id);
-            }
+        }
+        
+        // Add click event listener to h2 links
+        var h2Links = scrollspy.querySelectorAll('a[href^="#"]');
+        h2Links.forEach(function(link) {
+            link.addEventListener('click', function(e) {
+                var headerId = this.getAttribute('href').substring(1);
+                var header = document.getElementById(headerId);
+                if(header && header.tagName === 'H2') {
+                    isManualSelection = true;
+                    activeH3Id = null;
+                    highlightActiveLink(headerId, true);
+                }
+            });
         });
 
-        // Add click event listener to existing links
-        var existingLinks = scrollspy.getElementsByTagName("a");
-        for(var i = 0; i < existingLinks.length; i++) {
-            existingLinks[i].onclick = function(e) {
-                var headerId = this.getAttribute('href').substring(1);
-                highlightActiveLink(headerId);
-            };
-        }
+        // Reset manual selection when clicking outside the menu
+        document.addEventListener('click', function(e) {
+            if(!scrollspy.contains(e.target)) {
+                isManualSelection = false;
+            }
+        });
     }
 };
+
