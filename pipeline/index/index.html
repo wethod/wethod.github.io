@@ -1218,6 +1218,155 @@ If you master invoice plan was set on &ldquo;manual&rdquo; mode you will have to
 
 <p><img src="https://support.wethod.com/uploads/2022/05/12/timeline-calendar.png" alt="" /></p>
 
+<h2 id="project-plan">Project Plan</h2>
+
+<p>The Project Plan is designed for those who want to manage projects in a visual, simple, and structured way.</p>
+
+<p>It allows you to plan tasks, timelines, assignments, and dependencies in an immediate way</p>
+
+<p>But it’s not just a basic task manager: the Project Plan integrates directly with the budget and People Allocation, ensuring that each task is effectively planned in line with available resources, capacity, and financial constraints.</p>
+
+<p>From the project list, open the relevant project and check the side panel. Here, you&rsquo;ll find the icon to access the Project Plan.</p>
+
+<ul>
+<li>From Budget: already have a well-structured budget? Great—start from there and import the areas and tasks you’ve already defined.</li>
+<li>New: prefer to start from scratch with full creative freedom.</li>
+</ul>
+
+<p>💡 Expert tip: if your budget is well structured, choose the first option. You’ll save valuable time and keep everything aligned.</p>
+
+<h2 id="the-structure">The Structure</h2>
+
+<p>Once the plan is created, you can define its structure through a Gantt view (Sheet and Kanban views coming soon).</p>
+
+<p>If you imported the plan “From budget”, all areas and tasks are generated automatically.</p>
+
+<p>If you selected “New,” you can build the plan manually by entering the project phases yourself.</p>
+
+<p>The hierarchy is simple and follows three levels:</p>
+
+<ol>
+<li>BUDGET AREAS (uppercase and clearly visible): match the budget areas (if imported);</li>
+<li>TASKS (actual work to be done): activities defined in the budget or manually added;</li>
+<li>SUBTASKS (smaller, more detailed actions): used to break tasks down further.</li>
+</ol>
+
+<p>💡 Smart note: if a task has scheduled subtasks, it becomes a summary container and loses its own individual scheduling. The subtasks handle all planning.</p>
+
+<p>By enabling the “Budget days always on” option (via the gear icon), you’ll see two values next to each area or task: Assigned hours (manually entered on the task) / Budgeted hours (estimated in the budget)</p>
+
+<p>This allows you to constantly track time allocation against the budget.</p>
+
+<p>##The Workflow
+To start concretely, click on any task or subtask: a side drawer will open, allowing you to manage key planning elements. Within the drawer, you can:</p>
+
+<p>📅 Set start and end dates
+Define when the activity starts and ends so it’s correctly positioned in the Gantt.</p>
+
+<p>🚦Assign a status
+Each task can have a status indicating its progress. The color will reflect in the Gantt when using the “View by status” option:</p>
+
+<ul>
+<li>🟩 Completed</li>
+<li>🟨 In progress</li>
+<li>🟥 Blocked</li>
+<li>⬜ Not started / Closed</li>
+</ul>
+
+<p>🔗 Set dependencies between tasks
+Not all activities start simultaneously—some depend on others. You can define these dependencies in the Project Plan, visualized via arrows in the Gantt.</p>
+
+<p>To set a dependency:</p>
+
+<ol>
+<li>Open the task/subtask drawer</li>
+<li>In the &ldquo;Depending on&rdquo; section, select the relevant task</li>
+<li>Specify the dependency type</li>
+</ol>
+
+<p>⚠️ If the plan is inconsistent, the system flags it and offers two quick fixes:</p>
+
+<ul>
+<li>Adjust dependency – automatically updates dates to resolve the issue</li>
+<li>Remove dependency</li>
+</ul>
+
+<p>💡Example: if the subtask &ldquo;ui&rdquo; depends on &ldquo;ux&rdquo; with a “Finish to start” logic, but starts earlier in the Gantt, the system shows a warning and offers actions to fix it.</p>
+
+<p>📝 <strong>Add notes</strong>
+Use this space to describe the task, provide guidelines, or share references with colleagues.</p>
+
+<p>👥 <strong>Assign one or more people</strong>
+Choose who is responsible for a task (Assignee) and how many days are required.</p>
+
+<ul>
+<li>Click &ldquo;Add assignee&rdquo;, select team members, and define the effort.</li>
+<li>The task will appear in their Desk and, if enabled, in People Allocation via Automatic Planning.</li>
+</ul>
+
+<h2 id="planning-options">Planning Options</h2>
+
+<p>You can choose whether to let the system manage resource allocation or do it manually:</p>
+
+<p>🔔 <strong>Automatic Planning ON (recommended):</strong>
+The system places the task in the person&rsquo;s People Allocation schedule, checking availability, budget, and planning rules.
+Alerts will highlight any issues.
+🔕 <strong>Automatic Planning OFF:</strong>
+The task is assigned but not automatically scheduled. You&rsquo;ll need to handle planning manually. A popup will remind you when this is off.</p>
+
+<p>If Automatic Planning is active, you can choose between two scheduling modes:</p>
+
+<p>🚀 <strong>&ldquo;Plan as soon as possible&rdquo;</strong>: assigns the task to the first available days within the defined period.
+🗓️ <strong>&ldquo;Distribute the task&rdquo;</strong>: evenly spreads the effort across the entire task duration.</p>
+
+<p>Clicking the Button “Plan in People Allocation” adds the task to the person’s planning.</p>
+
+<p>✅ * <strong>Tip</strong>: automatic assignment in People Allocation is one of the smartest and strictest features of the Project Plan. Choose assignees carefully to benefit from real-time checks. You can always switch to manual planning if needed.*</p>
+
+<h2 id="automatic-planning">Automatic Planning</h2>
+
+<p>When “Automatic Planning” is on, when you assign a person to a task, wethod checks their availability. If there&rsquo;s a conflict, it warns you.</p>
+
+<p>Type of Alerts and Suggestions</p>
+
+<h3 id="red-triangle-critical">🔺 Red triangle (Critical)</h3>
+
+<p>No budget capacity available for the person&rsquo;s level.
+💡 Solution: change assignee, adjust seniority level, or update the budget.</p>
+
+<h3 id="orange-triangle-time-issue">🟠 Orange triangle (Time issue)</h3>
+
+<p>The person doesn’t have enough time available during that period.
+💡 Solution: reduce required effort, move the task, or reassign it.</p>
+
+<h3 id="yellow-triangle-inconsistency">🟡 Yellow triangle (Inconsistency)</h3>
+
+<p>Mismatch between the project plan and the assignee’s personal planning.
+💡 Solution: click “Plan in People Allocation” to resolve.</p>
+
+<h3 id="blue-lightbulb-opportunity">🔵 Blue lightbulb (Opportunity)</h3>
+
+<p>Good news! There&rsquo;s availability to finish the task earlier than expected.
+💡 Solution: you can bring the task forward to optimize time and resources.</p>
+
+<p>##Views
+###Gantt
+The Gantt is not just a timeline—it&rsquo;s an interactive and customizable tool that helps you track progress and intervene where needed.
+####View by
+Located at the top right, the “View by” menu lets you switch display modes:</p>
+
+<ul>
+<li><strong>Default</strong>: classic view with tasks and assignees. Great for a clean, operational overview.</li>
+<li><strong>Status</strong>: colors tasks and subtasks based on their current status (Not Started, In Progress, Blocked, Completed, Closed).
+💡 This allows you to quickly spot progress and issues—supporting faster, data-driven decisions.
+####Drag and drop tasks directly in the Gantt
+Tasks and subtasks are draggable. You can move them to change their start/end dates visually. Be cautious: wethod checks if the new dates align with actual resource planning.
+⚠️ A yellow triangle will appear if there’s a mismatch.
+🔧 How to fix it?
+Open the drawer and click &ldquo;Plan in People Allocation&rdquo; to update the person&rsquo;s planning based on the new dates.
+✅ Once aligned, a green check confirms the task is correctly scheduled in both the Gantt and People Allocation.</li>
+</ul>
+
 <h2 id="project-canvas">Project Canvas</h2>
 
 <p>To work well and efficiently on a project you first need to understand it and then highlight its main aspects. In WETHOD you can start &ldquo;drawing&rdquo; your project since its first stages by defining:</p>
