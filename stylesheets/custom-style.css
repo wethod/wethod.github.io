@@ -100,6 +100,14 @@
 	justify-content: flex-end;
 }
 
+.article h1 {
+	font-weight: var(--w-semibold);
+}
+
+.article h2 {
+	font-weight: var(--w-semibold);
+}
+
 .article h3 {
     font-size: var(--font-m);
     font-weight: var(--w-semibold);
