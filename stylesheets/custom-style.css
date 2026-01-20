@@ -69,7 +69,7 @@
 	padding: 4px;
 	text-align: center;
 	background-color: white;
-	border: 1px solid var(--etna-stone-black);
+	border: 1px solid var(--onyx);
 }
 
 .tab:first-child {
@@ -81,11 +81,11 @@
 }
 
 .tab--selected {
-	background-color: var(--etna-stone-black);
+	background-color: var(--onyx);
 }
 
 .tab a {
-	color: var(--etna-stone-black) !important;
+	color: var(--onyx) !important;
 	font-weight: var(--w-bold);
 	text-decoration: none;
 	border: none;
@@ -129,14 +129,14 @@
 }
 
 .drawer .section {
-	color: var(--nobel-grey);
+	color: var(--nobel-gray);
 }
 
 /* Submenu styles */
 .drawer .toc li.anchor a.active {
     font-weight: 700;
-    border-left: 2px solid var(--wethod-blue);
-    color: var(--wethod-blue);
+    border-left: 2px solid var(--brand);
+    color: var(--brand);
 }
 
 /* H3 submenu styles */
@@ -148,16 +148,16 @@
 .drawer .toc li.anchor ul li a {
     font-size: 12px;
     padding: 4px 24px 4px 12px;
-    color: var(--nobel-grey);
+    color: var(--nobel-gray);
     display: block;
 }
 
 .drawer .toc li.anchor ul li a:hover {
-    color: var(--wethod-blue);
+    color: var(--brand);
 }
 
 .drawer .toc li.anchor ul li a.active {
     font-weight: 600;
-    border-left: 2px solid var(--wethod-blue);
-    color: var(--wethod-blue);
+    border-left: 2px solid var(--brand);
+    color: var(--brand);
 }

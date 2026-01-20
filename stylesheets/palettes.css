@@ -1,43 +1,43 @@
 /* Black palette */
 @supports (-webkit-appearance: none) {
     .palette-primary-black {
-        background: var(--etna-stone-black);
+        background: var(--onyx);
     }
 }
 .palette-primary-black .footer,
 .palette-primary-black .header {
-    background: var(--etna-stone-black);
+    background: var(--onyx);
 }
 .palette-primary-black .drawer .toc a.current,
 .palette-primary-black .drawer .toc a:focus {
-    color: var(--etna-stone-black);
+    color: var(--onyx);
 }
 .palette-primary-black .drawer .toc a:hover {
-    color: var(--wethod-blue);
+    color: var(--brand);
 }
 .palette-primary-black .drawer .anchor a {
-    border-left: 2px solid var(--wethod-blue);
+    border-left: 2px solid var(--brand);
 }
 .ios.standalone .palette-primary-black .article {
-    background: -webkit-linear-gradient(top, #fff 50%, var(--etna-stone-black), 0);
-    background: linear-gradient(180deg, #fff 50%, var(--etna-stone-black), 0);
+    background: -webkit-linear-gradient(top, #fff 50%, var(--onyx), 0);
+    background: linear-gradient(180deg, #fff 50%, var(--onyx), 0);
 }
 .palette-primary-black .article a,
 .palette-primary-black .article code,
 .palette-primary-black .article h1 {
-    color: var(--wethod-blue);
+    color: var(--brand);
 }
 .palette-primary-black .article h2 {
-    color: var(--etna-stone-black);
+    color: var(--onyx);
 }
 .palette-primary-black .article .headerlink {
     color: rgba(0, 0, 0, .26);
 }
 .palette-primary-black .article table th {
-    background: var(--wethod-blue);
+    background: var(--brand);
 }
 .palette-primary-black .results .meta {
-    background: var(--wethod-blue);
+    background: var(--brand);
 }
 
 /* Red palette */
