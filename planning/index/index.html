@@ -742,7 +742,510 @@
 
 <p>The blue dot in the calendar&rsquo;s header highlights the current day.</p>
 
-<h2 id="people-allocation">People Allocation</h2>
+<h2 id="new-people-allocation">New People Allocation</h2>
+
+<p>With the latest release, People Allocation has been completely revamped. You&rsquo;ll find a smoother interface, new tools for fast planning, and some brand-new features. This guide walks you through everything you can do.</p>
+
+<h3 id="filters-and-search">Filters and search</h3>
+
+<p>If you work in a large team or have several projects open at the same time, the grid can get crowded. Filters and the search bar exist exactly for this: they show only the people you&rsquo;re interested in at that moment, without touching any of the underlying data.</p>
+
+<p>How to search for a person</p>
+
+<p>Type in the search field at the top. You don&rsquo;t need to scroll through the whole page: you can search by first and last name. The grid updates as you type.</p>
+
+<p>How to use filters</p>
+
+<p>Click &ldquo;Add filter&rdquo; to open the panel. You can filter by many criteria: for example level, job title, business unit, skill, language, or by project, client, PM. For each filter you can choose whether to include those matching that criterion (is) or exclude them (is not). You can combine as many filters as you like — only people who meet all the criteria together are shown.</p>
+
+<p>Active filters appear as chips in the bar: remove one by clicking the ×.</p>
+
+<blockquote>
+<p>Note: If you filter by a single project at a time, the grid also shows a small panel with the available hours for that project, person by person.</p>
+</blockquote>
+
+<h3 id="granularity-selector">Granularity selector</h3>
+
+<p>The grid can show the calendar in three different ways, depending on how much you want to &ldquo;zoom.&rdquo;</p>
+
+<ul>
+<li>Daily: Perfect when you need to plan precisely or check what&rsquo;s happening in a specific week.</li>
+<li>Weekly (default view): The balance point between detail and overview — most of the time you&rsquo;ll be here.</li>
+<li>Biweekly: When you want to plan across two weeks.</li>
+<li>Monthly: Useful when you want to understand how workload is distributed over the long term, without going into the detail of individual days.</li>
+</ul>
+
+<blockquote>
+<p>Note: In Monthly view the blocks become small and the text inside them may be truncated. Hover over them to read the details, or switch back to Weekly view if you need to work on them.</p>
+</blockquote>
+
+<p>To change view, click the granularity selector in the top bar: a dropdown opens and you choose the one you prefer.</p>
+
+<h3 id="density-change">Density change</h3>
+
+<p>If the grid feels too compact or too spread out, you can adjust the display density from the settings. This option controls row height and the overall size of elements in the grid.</p>
+
+<p>Available options</p>
+
+<ul>
+<li>Compact: thinner rows, more people visible at once without scrolling. Ideal for large teams or a quick overview.</li>
+<li>Comfortable (default view): the balance point — standard row height, readable text in the blocks.</li>
+<li>Spacious: taller rows, bigger blocks. In this mode, linked task information also appears directly in the block, without needing to open the tooltip.</li>
+</ul>
+
+<p>How to change it</p>
+
+<p>You&rsquo;ll find the option in the on-page settings (⚙️ icon). The preference is saved for your profile, so it doesn&rsquo;t affect other users&rsquo; views.</p>
+
+<h3 id="adding-an-allocation-from-the-sidebar">Adding an allocation from the sidebar</h3>
+
+<p>The most complete way to create a new allocation is through the sidebar. It lets you configure everything calmly — project, hours, dates, status — before saving.</p>
+
+<p>How to open the sidebar</p>
+
+<p>Click New Allocation at the top right. The sidebar opens on the right side and the grid narrows, but stays visible — so you can see in real time where the block will be placed.</p>
+
+<p>What&rsquo;s in the form</p>
+
+<ul>
+<li>Start and end dates — the planning range.</li>
+<li>Hours / Percentage — how much to plan. You can express the value in hours per day (HH:MM).</li>
+<li>Assign to — choose who to assign the allocation to. You&rsquo;re preselected by default. Click + to add more people. If a person doesn&rsquo;t have enough availability, they&rsquo;re highlighted in yellow.</li>
+<li>Select Project — search and select the project.</li>
+</ul>
+
+<blockquote>
+<p>Note: If the hours you&rsquo;re entering exceed the project&rsquo;s available budget, the system flags it with a warning. From there you can choose to convert days to budget or revise the budget directly.</p>
+</blockquote>
+
+<ul>
+<li>Note — free text field, later visible by hovering over the block.</li>
+</ul>
+
+<h3 id="adding-an-allocation-from-the-calendar">Adding an allocation from the calendar</h3>
+
+<p>If you prefer a more visual and quick approach, you can create an allocation directly by drawing it on the grid. It works intuitively: click, drag across the days you want to include, and release.</p>
+
+<p>How to do it</p>
+
+<ol>
+<li>Make sure you&rsquo;re in Add/Edit mode (the arrow in the toolbar — see the Cursors section).</li>
+<li>Position yourself on the person&rsquo;s row and on the start day you want.</li>
+<li>Click, hold, and drag to the right.</li>
+<li>Release: the sidebar opens with the info already filled in: start and end, hours, and assignee.</li>
+</ol>
+
+<blockquote>
+<p>Note: Hours are automatically pre-filled with the full day. You can edit them directly in the small panel before saving.</p>
+</blockquote>
+
+<h3 id="repeat-allocation">Repeat allocation</h3>
+
+<p>Do you have someone working on the same project every week for the next three months? Instead of manually creating each individual allocation, use the Repeat function: you configure it once and the system generates all the occurrences for you.</p>
+
+<p>How to activate it</p>
+
+<p>Repetition isn&rsquo;t a separate action — you&rsquo;ll find it as a tab inside the sidebar. At the top, select Repeat instead of Once.</p>
+
+<p>What to configure</p>
+
+<ul>
+<li>From / To: the dates of the single occurrence.</li>
+<li>Repeat: how often to repeat.</li>
+<li>Until: how long to keep creating occurrences.</li>
+</ul>
+
+<p>Every block that&rsquo;s created has a small icon indicating it&rsquo;s part of a recurring series.</p>
+
+<p>Editing or deleting a single occurrence</p>
+
+<p>Click the block and make your changes. The system asks whether you want to change only that one (This allocation) or that one and all following ones (This and all future allocations).</p>
+
+<blockquote>
+<p>Note: If issues come up while creating the repetitions — insufficient budget, person unavailable on certain dates, occurrences falling on holidays — the system flags it before proceeding, so you can decide how to handle them.</p>
+</blockquote>
+
+<h3 id="planning-on-basket">Planning on Basket</h3>
+
+<p>The Basket lets you plan hours for a project that doesn&rsquo;t exist yet — for example an opportunity you&rsquo;re still evaluating, or an internal activity without a formal project. You can create the basket on the fly directly from People Allocation and start planning right away, without waiting for the project to be officially created.</p>
+
+<p>How to create a basket</p>
+
+<p>When you create an allocation and search for the project in the sidebar or calendar, if the project doesn&rsquo;t exist yet you&rsquo;ll see the &ldquo;Create in Basket&rdquo; CTA. Clicking it opens a drawer with only two required fields:</p>
+
+<ul>
+<li>Name* — the name you want to give the basket.</li>
+<li>In charge* — the person responsible (pre-filled with your name).</li>
+</ul>
+
+<p>After saving, the basket is immediately available for planning in People Allocation and also appears in wethod&rsquo;s Basket section, where you can view and edit all the associated information.</p>
+
+<p>How to recognize a basket block</p>
+
+<p>Allocation blocks on a basket look different from those on real projects, so you can spot them at a glance:</p>
+
+<ul>
+<li>Grey outline — the basket doesn&rsquo;t have a Job Order Category yet.</li>
+<li>Colored outline — it&rsquo;s been moved to pipeline and has a JOC assigned.</li>
+<li>Solid color — it&rsquo;s in pipeline with a budget, or has a JOC with unlimited planning.</li>
+</ul>
+
+<p>How to filter by project type</p>
+
+<p>In the filter bar you&rsquo;ll find the Project Type filter, which lets you filter by Basket, Pipeline Opportunity, or Project. Useful for quickly isolating all basket plannings.</p>
+
+<p>How to manage a basket</p>
+
+<p>From the Basket section you can open the detail drawer for each entry. From there you&rsquo;ll find the available actions:</p>
+
+<ul>
+<li>Delete — deletes the basket and all associated planning. The system asks for confirmation, specifying that the action is irreversible and that the planning blocks will also be deleted.</li>
+<li>Move to Pipeline — promotes the basket to a Pipeline Opportunity, keeping all planning already done.</li>
+</ul>
+
+<blockquote>
+<p>Note: Only those with permission to create Pipeline Opportunities can use the &ldquo;Move to Pipeline&rdquo; action.</p>
+</blockquote>
+
+<h3 id="utilization-in-hours-or-percentage">Utilization in hours or percentage</h3>
+
+<p>The counters column — the second fixed column on the left of the grid — can show usage values in hours or in percentage. You can choose which you prefer: the preference is personal and doesn&rsquo;t affect other users&rsquo; views.</p>
+
+<p>In H mode (hours):</p>
+
+<ul>
+<li>Planned — hours planned in the selected period.</li>
+<li>Unplanned — hours still available.</li>
+<li>Overtime — hours exceeding capacity.</li>
+</ul>
+
+<p>In % mode (percentage):</p>
+
+<p>Utilization — occupancy as a percentage relative to the person&rsquo;s total capacity. Useful for comparing resources with different contracts.</p>
+
+<p>In both modes, colors give an immediate visual indication:</p>
+
+<ul>
+<li>Grey — the person still has availability (under 90%).</li>
+<li>Green — the person is close to full occupancy (over 90%).</li>
+<li>Red — the person is in overtime (over 100%), or has at least one day in overtime within the selected period.</li>
+</ul>
+
+<p>The row at the top of the column shows the aggregate total for the whole visible team in the current period.</p>
+
+<blockquote>
+<p>Note: Hovering over the column header shows all the detailed values: Planned, Unplanned, Overtime.</p>
+</blockquote>
+
+<h3 id="block-hover">Block hover</h3>
+
+<p>Hovering over an allocation block in the grid shows a tooltip with that allocation&rsquo;s details. This is especially handy in Monthly view, where the blocks are small and there&rsquo;s no room to read the text inside them.</p>
+
+<p>What&rsquo;s in the tooltip</p>
+
+<ul>
+<li>The full project name, with a circle in the associated color.</li>
+<li>The block&rsquo;s total hours — always in hours, even if the grid is set to show percentages. So you always see the actual conversion.</li>
+<li>The list of Project Plan tasks linked to that allocation. Clicking the → arrow next to a task takes you directly to its detail in the Project Plan.</li>
+</ul>
+
+<blockquote>
+<p>Note: Blocks with a project probability below 100% appear in a lighter color compared to confirmed blocks — so you can visually distinguish the project&rsquo;s status without opening anything.</p>
+</blockquote>
+
+<h3 id="1block-resize">1Block resize</h3>
+
+<p>Want to lengthen or shorten an allocation without opening the sidebar? Drag the block&rsquo;s edges directly in the grid.</p>
+
+<p>Horizontal resize — changes the dates</p>
+
+<p>Grab the right or left edge of the block (the cursor changes shape when you&rsquo;re in the right position) and drag to extend or reduce the duration over time.</p>
+
+<p>Vertical resize — changes daily hours</p>
+
+<p>Grab the bottom edge of the block and drag down to increase hours, up to decrease them. Hours update in half-hour increments as you drag.</p>
+
+<blockquote>
+<p>Note: If the resize pushes hours beyond the project&rsquo;s available budget, the block returns to its original size on release and a message appears prompting you to update the budget.</p>
+</blockquote>
+
+<h3 id="block-drag-drop">Block Drag &amp; Drop</h3>
+
+<p>Need to move an allocation to another week, or redistribute it to a colleague? Drag it directly to the new position.</p>
+
+<p>How to do it</p>
+
+<p>Click the center of the block (not the edge, or you&rsquo;ll trigger resize) — the cursor becomes a hand. Then drag:</p>
+
+<ol>
+<li>Horizontally to move it to another period.</li>
+<li>Vertically to reassign it to another person.</li>
+<li>Or in both directions at once if you need to move it in time and change the person.</li>
+<li>Release when you&rsquo;re in the right position.</li>
+</ol>
+
+<blockquote>
+<p>Note: If you don&rsquo;t have permission to edit another person&rsquo;s allocations, the destination cells turn red while dragging and an error toast message appears on release.</p>
+</blockquote>
+
+<h3 id="cursors">Cursors</h3>
+
+<p>In the toolbar you&rsquo;ll find four interaction modes for the grid.</p>
+
+<p>Add/Edit - Keybord Key: A</p>
+
+<p>The default mode. Create new allocations, edit existing ones, use resize and drag &amp; drop.</p>
+
+<p>By Project - Keybord Key: P</p>
+
+<p>Select a project and the people already allocated to it move to the top. You can plan by clicking cells without having to choose the project each time.</p>
+
+<p>Split - Keybord Key: S</p>
+
+<p>Click a block spanning multiple days to split it into two separate blocks at the point you click.</p>
+
+<p>Delete - Keybord Key: D</p>
+
+<p>Click a block to delete it directly, with no confirmation.</p>
+
+<blockquote>
+<p>Note: When in Delete mode, you&rsquo;re not asked for any confirmation before deleting — be careful not to accidentally click the wrong blocks.</p>
+</blockquote>
+
+<p>To change mode, click the icon in the bar or press the corresponding key. To return to Add/Edit from any other mode, press ESC.</p>
+
+<h3 id="overcapacity">Overcapacity</h3>
+
+<p>Overcapacity occurs when you plan more hours than a person has available in a given period. How People Allocation handles this depends on how your company is configured.</p>
+
+<blockquote>
+<p>Note: By default, the ability to go into overcapacity is disabled: the system directly blocks actions that would exceed the person&rsquo;s availability. If it&rsquo;s enabled in company settings, the system allows over-planning but flags it visually.</p>
+</blockquote>
+
+<p>When overcapacity is enabled</p>
+
+<p>A red block appears in the grid starting from the point where the person&rsquo;s availability ends, extending to show the excess hours. In the counters column on the left, the value becomes negative (e.g. -1H) on a red background with the label Overtime.</p>
+
+<p>When overcapacity is disabled</p>
+
+<p>The system blocks the action before you can exceed availability:</p>
+
+<ul>
+<li>If you&rsquo;re creating an allocation from the sidebar, saving is disabled and a message appears near the Assign to field.</li>
+<li>If you&rsquo;re using the calendar to draw a block, the panel blocks creation with a message.</li>
+<li>If you&rsquo;re resizing, the block returns to its original size with a warning.</li>
+<li>If you&rsquo;re using drag &amp; drop toward another person, the move succeeds but — if overcapacity is enabled — you&rsquo;re flagged visually.</li>
+</ul>
+
+<p>How to resolve an overcapacity</p>
+
+<p>You have several options: you can reduce hours on one of the allocations, move one to a freer period, extend it over more days via resize, or pass it to a colleague who has availability.</p>
+
+<blockquote>
+<p>Note: Each person&rsquo;s availability depends on their profile (weekly hours, contract type). If the values don&rsquo;t seem correct to you, contact your account administrator.</p>
+</blockquote>
+
+<h3 id="user-placeholder">User Placeholder</h3>
+
+<p>Do you need to plan hours for someone who hasn&rsquo;t been hired yet or hasn&rsquo;t accepted the invitation yet? You can create a Placeholder in Team — a temporary person who appears in People Allocation as a plannable resource, without having to wait for the real account to be activated.</p>
+
+<p>How to create a placeholder</p>
+
+<p>Go to the end of the list of people or directly in <a href="https://support.wethod.com/settings/index/#team">Team</a> section and click Add user. You&rsquo;ll find the same fields as a normal user, but for a placeholder the only required fields are Level and — if your company uses pricelist planning — Pricelist. Other fields (role, capacity, location) are pre-filled with default values and can be edited.</p>
+
+<p>Once created, the placeholder immediately appears in People Allocation with a generic person icon and the temporary name you set. Hours planned for them are deducted from the project budget as normal.</p>
+
+<p>How to invite them when ready</p>
+
+<p>Add their email to the profile and click Invite. Until the email is filled in, the button stays disabled.</p>
+
+<blockquote>
+<p>Note: If you don&rsquo;t have permission to send invites, the email field and Invite button are disabled.</p>
+</blockquote>
+
+<p>How to edit them</p>
+
+<p>You can change level, capacity, and other properties at any time. Available hours are recalculated automatically.</p>
+
+<p>How to delete them</p>
+
+<p>You can delete a placeholder: deletion also removes the associated planning.</p>
+
+<blockquote>
+<p>Note: Hours already accounted for in past weeks are not recalculated. Those from the current week onward are &ldquo;returned&rdquo; — availability values update accordingly.</p>
+</blockquote>
+
+<p>Filters</p>
+
+<p>In the filter bar you&rsquo;ll find the User Status filter with two options:</p>
+
+<ul>
+<li>Active — users with an active account.</li>
+<li>Placeholder — placeholders (including those with a pending invite).</li>
+</ul>
+
+<blockquote>
+<p>Note: Placeholder management is controlled from the Team section in company settings. Without the Edit Placeholder permission, it&rsquo;s not possible to create or edit placeholders.</p>
+</blockquote>
+
+<h3 id="pricelist-planning">Pricelist planning</h3>
+
+<p>This feature lets you specify, for each allocation, which contractual rate should apply. This way, planned costs in financial reports reflect the project&rsquo;s real rates, not just hours.</p>
+
+<blockquote>
+<p>Note: Pricelist planning must be enabled in company settings by an administrator. If you don&rsquo;t see it, contact whoever manages your wethod account.</p>
+</blockquote>
+
+<p>How it works</p>
+
+<p>When the feature is active, the grid shows a small panel with available hours broken down by pricelist.</p>
+
+<p>Select the pricelist you want to apply by clicking the corresponding row: the grid then updates and automatically hides people who don&rsquo;t have that pricelist, so you only see who&rsquo;s actually plannable at that rate.</p>
+
+<p>From there, you create or edit the allocation as normal.</p>
+
+<blockquote>
+<p>Note: The available pricelists are those configured on the project you selected. If none appear, check the project&rsquo;s configuration.</p>
+</blockquote>
+
+<h3 id="16-tasks-linked-from-project-plan">16. Tasks linked from Project Plan</h3>
+
+<p>If your team also uses wethod&rsquo;s Project Plan, tasks assigned to people are visible directly in the People Allocation grid. You don&rsquo;t need to switch between modules to understand what a person has on their plate: allocations and operational tasks coexist in the same view.</p>
+
+<p>To see a task&rsquo;s details</p>
+
+<p>Hover over an allocation block: the tooltip that appears also shows the list of linked tasks. Click the → arrow next to a task to open its detail drawer directly in the Project Plan.</p>
+
+<p>What you can do from People Allocation</p>
+
+<p>You can only view and navigate to tasks. For now, to edit them — change dates, hours, assignment — you need to go to the Project Plan.</p>
+
+<blockquote>
+<p>Note: Tasks appear in the grid only if they have an assigned person and defined dates in the Project Plan. If a task is missing, check that these two fields are filled in in the Project Plan.</p>
+</blockquote>
+
+<h3 id="convert-available-budget-days-from-another-user-level">Convert available budget days from another user level</h3>
+
+<p>This feature allows you to quickly dispose of extra budget days, when needed, in order to allocate people on a project.</p>
+
+<p>You will access to a simple view of the project’s budget, including areas, tasks and the total number of available days per user level.</p>
+
+<p>Use the number of available budget days from a user-level of your choice and see on the top the conversion into budget days you can use for other user-levels. You can only convert budget days within the same pricelist.</p>
+
+<p>The conversion ratio is based on the daily cost of user-levels and it’s not possible to exceed the total amount of internal cost on the budget.</p>
+
+<p>A new version of the budget is automatically created each time a user makes a conversion.</p>
+
+<blockquote>
+<p>Note: You need to use all the available contingency to be able to convert days between levels.</p>
+</blockquote>
+
+<h3 id="dealing-with-allocation-requests">Dealing with allocation requests</h3>
+
+<p>Projects with job order category of type &ldquo;plan upon request&rdquo; cannot be planned the usual way: user needs to visit <a href="https://support.wethod.com/planning/index/#allocation-requests">Allocation Requests</a> and ask to be allocated.</p>
+
+<h2 id="allocation-requests">Allocation Requests</h2>
+
+<p>Particular job order categories may expect people to ask to be planned on them, this can be the case of job order categories representing holidays, leaves or - why not - R&amp;D projects.</p>
+
+<p>&ldquo;Allocation requests&rdquo; section is where all this requests can be created and managed.</p>
+
+<p><strong>To create a request</strong></p>
+
+<ol>
+<li>Click on &ldquo;Add request&rdquo; button to open related sidebar</li>
+<li>Select the project to request (required). You can only use a project which job order category has the &ldquo;plan upon approval&rdquo; flag enabled. To enable this flag just head to the <a href="https://support.wethod.com/settings/index/#company">company settings</a> section</li>
+<li>Select start date and end date (required). Once both selected, for each day in the period you can express how many hours to request (1 - 8), by default each day is an 8 hours request</li>
+<li>Add notes if needed</li>
+</ol>
+
+<p>Once created, a request acquires the &ldquo;Pending&rdquo; status and</p>
+
+<ul>
+<li>If the selected from-to is within 14 days an “urgent” mail notification is sent to the user allocation manager, if exists. Allocation manager for a user can be set from the <a href="https://support.wethod.com/settings/index/#team">team settings</a> section</li>
+<li>Request is displayed in people allocation using a particular pattern</li>
+</ul>
+
+<p>Now users with <strong>approve permission</strong> can see &ldquo;Approve/reject&rdquo; button and:</p>
+
+<ul>
+<li><strong>Approve</strong> request: it gets &ldquo;Approved&rdquo; status and a mail notification is sent to the user who made the request</li>
+<li><strong>Reject</strong> request: it gets &ldquo;Rejected&rdquo; status and a mail notification is sent to the user who made the request</li>
+</ul>
+
+<p>Once approved, a request is shown in planning as a &ldquo;normal&rdquo; project. It still cannot be planned straight from here.</p>
+
+<p>Users with <strong>edit permission</strong> can edit a request like this:</p>
+
+<ol>
+<li>Click on the request arrow button to open its sidebar</li>
+<li>Click on the edit button</li>
+</ol>
+
+<p>A special <strong>edit permission</strong> is needed to edit and see others requests.</p>
+
+<p>Approved and rejected requests cannot be edited but can be deleted.</p>
+
+<p>When a request is deleted, it disappears from <a href="https://support.wethod.com/planning/index/#people-allocation">people allocation</a>.</p>
+
+<p>Creating or editing a pending request can create <strong>conflicts</strong> if:</p>
+
+<ol>
+<li>In the requested period there is <strong>at least one hour already planned</strong></li>
+<li>In the requested period there is <strong>at</strong> <strong>least one hour belonging to another request</strong></li>
+</ol>
+
+<p><strong>Requests with conflicts</strong></p>
+
+<ul>
+<li>Get a particular status</li>
+<li>Does not appear in people allocation</li>
+<li>Shows conflict days inside details sidebar</li>
+<li>Cannot be approved: they can just be edited, deleted or rejected</li>
+</ul>
+
+<p>If a request has conflict with another pending request only the last created request will be marked as “conflict”, the existing one keeps its status.</p>
+
+<p>Once a week an email containing the recap of all pending planning requests is sent to all allocation managers (excluding “urgent” emails).</p>
+
+<h2 id="projects-heatmap">Projects&rsquo; Heatmap</h2>
+
+<p>This is useful to show the <em>weight</em> of planned people on each project: the darker is the color of a cell, the more people are planned on the project that day.</p>
+
+<p>The color&rsquo;s range is made up of 10 levels from white to blue, where the darkest blue represents the most planned people on a project in a day for the visible range of time.</p>
+
+<p>By clicking on a day you can:</p>
+
+<ul>
+<li>See who is planned on a project for the day</li>
+<li>See and edit the <strong>event</strong> related to the day: usually a project&rsquo;s life is fulfilled of important events, by tracking them you&rsquo;re giving a general point of view to all of your organization. This is also useful to avoid overlapping of two or more important events that usually need a lot of resources.</li>
+</ul>
+
+<p>You can hide a project by clicking on the &ldquo;<strong>X</strong>&rdquo; near the project&rsquo;s name.</p>
+
+<h2 id="production-plan">Production Plan</h2>
+
+<p>Here you can express the percentage of the project&rsquo;s value you plan to produce for each month.</p>
+
+<p>You will only see the projects with a value greater than 0: you cannot edit the plan when there is no value.</p>
+
+<p>Past months are read-only and are automatically populated with the real production, based on the month&rsquo;s project status.
+You can edit future months but remember: a production plan can be saved only if you&rsquo;ve distributed the 100% of its value, you can easily check this by looking at the total: a red total means that your planning is someway different from 100%.</p>
+
+<p>Each time you edit a past project status&rsquo; week or when a month ends, the production plan for that week is recalculated in order to allocate the remaining production or to adjust incoherent plans. The adjustments are reported as orange monthly apex.</p>
+
+<p>A solid blue line indicates the project&rsquo;s duration, a dashed line instead tells you that the project&rsquo;s boundaries (the project&rsquo;s start/end) are outside the visible planning&rsquo;s portion.
+When you move the start or end date of a project with probability lower than 90%, its production plan will reflect the changes, adapting its duration and distributing accordingly.</p>
+
+<p>Other than searching projects by name, pm or client, you can even filter them by who&rsquo;s in charge for them: <strong>Mine</strong> shows you all the projects where you&rsquo;re pm or account while <strong>Others</strong> &hellip; well, we think you&rsquo;re smart enough to understand it by yourself.</p>
+
+<p>If you&rsquo;re editing a project, you can move its whole duration or the plan for a single month by simply dragging them as shown in the GIF below. If you change a project&rsquo;s duration, it will be saved as soon as you click on the &ldquo;save&rdquo; button.</p>
+
+<p>Use the &ldquo;<strong>Auto distribution</strong>&rdquo; function on a project to spread it&rsquo;s remaining plan on the future months of its duration.</p>
+
+<hr />
+
+<h2 id="old-people-allocation">Old People Allocation</h2>
 
 <p>People Allocation gives an overview of the team’s allocation on the projects in your company. From here you can plan your colleagues, filter them by skill, language, interest or tag, and access their profile pages to learn more about their backgrounds and goals.</p>
 
@@ -785,20 +1288,12 @@
 <ol>
 <li>Select a project.</li>
 <li>A box on the top of the page will show how many budget days and hours are available to plan, grouped by user level.</li>
-<li>If needed, you can <strong>apply multiple filters on people</strong>. For example, you may decide to see only the internal employees which are managers and have a background in design
-<img src="https://support.wethod.com/uploads/2017/11/02/planning-people-filters.png" alt="" /></li>
+<li>If needed, you can <strong>apply multiple filters on people</strong>. For example, you may decide to see only the internal employees which are managers and have a background in design</li>
 <li>You can use the search bar even to <strong>filter people by</strong> <strong><a href="https://support.wethod.com/settings/index/#skills">skill</a></strong>, <strong>interest or language</strong>. Try to input something like <strong>skill:photoshop;skill:illustrator</strong> to find everybody who has a skill named &ldquo;photoshop&rdquo; and a skill named &ldquo;illustrator&rdquo;. Type <strong>language:italian;language:english</strong> to find everybody who speaks “Italian” and “English&rdquo;, or instead type <strong>interest:reading</strong> to find everybody who loves reading.</li>
 <li>To <strong>plan for an hour, a half day or for an entire week</strong>, just position the mouse on the day/week you want to allocate and click to plan. Click and drag to quickly assign more than an hour, a half day or a week at once.</li>
 </ol>
 
 <p>*If the day/week has some hours/days already planned on other projects, wethod allows you to plan the user on the remaining hours/days available for that day/week.</p>
-
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p><strong>You cannot plan people for the current day: if you don&rsquo;t know what you have to do when you arrive at the office, how can you be productive?</strong></p>
-
-<p><strong>A project manager can plan other people on a project only if a budget exists for that project.</strong></p>
-</div>
 
 <p>When you run out of days, you can choose between two options:</p>
 
@@ -828,15 +1323,11 @@
 <li>When one tries to plan on weekends, an alert will ask if he really want to plan over the weekend. If user clicks “Yes”, plan is confirmed and no similar warning appears until user changes the selected project. If user clicks “No”, weekends are removed from requested plans</li>
 </ol>
 
-<p><img src="https://support.wethod.com/uploads/2022/07/15/highlight-weekend.gif" alt="" /></p>
-
 <h3 id="bank-holidays">Bank holidays</h3>
 
 <p>Similar to weekends, <a href="https://support.wethod.com/settings/index/#bank-holidays-planner">bank holidays</a> are also highlighted with a special visual pattern. For each person in this section, the holidays linked to his <a href="https://support.wethod.com/settings/index/#company-locations">company location</a> are highlighted. When planning a person on a bank holiday a modal window asks if you want to proceed with the scheduling or you want to leave bank holiday days empty.</p>
 
 <h3 id="repeat-an-allocation"><strong>Repeat an allocation</strong></h3>
-
-<p><img src="https://support.wethod.com/uploads/2020/12/18/schermata-2020-12-18-alle-18-50-00.png" alt="" /></p>
 
 <ol>
 <li>Click &ldquo;Enable recurring mode&rdquo; on the top right</li>
@@ -861,148 +1352,6 @@
 <li>Select an end date.</li>
 <li>Click &ldquo;Apply&rdquo;</li>
 </ol>
-
-<h3 id="convert-available-budget-days-from-another-user-level">Convert available budget days from another user level</h3>
-
-<p>This feature allows you to quickly dispose of extra budget days, when needed, in order to allocate people on a project.</p>
-
-<p><img src="https://support.wethod.com/uploads/convert budget days (1).gif" alt="" /></p>
-
-<p>You will access to a simple view of the project’s budget, including areas, tasks and the total number of available days per user level.</p>
-
-<p>Use the number of available budget days from a user-level of your choice and see on the top the conversion into budget days you can use for other user-levels. You can only convert budget days within the same pricelist.</p>
-
-<p>The conversion ratio is based on the daily cost of user-levels and it’s not possible to exceed the total amount of internal cost on the budget.</p>
-
-<p>A new version of the budget is automatically created each time a user makes a conversion.</p>
-
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p><strong>You need to use all the available contingency to be able to convert days between levels.</strong></p>
-</div>
-
-<h3 id="dealing-with-allocation-requests">Dealing with allocation requests</h3>
-
-<p>Projects with job order category of type &ldquo;plan upon request&rdquo; cannot be planned the usual way: user needs to visit <a href="https://support.wethod.com/planning/index/#allocation-requests">Allocation Requests</a> and ask to be allocated.</p>
-
-<h2 id="allocation-requests">Allocation Requests</h2>
-
-<p>Particular job order categories may expect people to ask to be planned on them, this can be the case of job order categories representing holidays, leaves or - why not - R&amp;D projects.</p>
-
-<p>&ldquo;Allocation requests&rdquo; section is where all this requests can be created and managed.</p>
-
-<p><img src="https://support.wethod.com/uploads/2022/01/17/allocation-requests.png" alt="" /></p>
-
-<p>To create a request:</p>
-
-<ol>
-<li>Click on &ldquo;Add request&rdquo; button to open related sidebar</li>
-<li>Select the project to request (required). You can only use a project which job order category has the &ldquo;plan upon approval&rdquo; flag enabled. To enable this flag just head to the <a href="https://support.wethod.com/settings/index/#company">company settings</a> section</li>
-<li>Select start date and end date (required). Once both selected, for each day in the period you can express how many hours to request (1 - 8), by default each day is an 8 hours request</li>
-<li>Add notes if needed</li>
-</ol>
-
-<p>Once created, a request acquires the &ldquo;Pending&rdquo; status and:</p>
-
-<ul>
-<li>If the selected from-to is within 14 days an “urgent” mail notification is sent to the user allocation manager, if exists. Allocation manager for a user can be set from the <a href="https://support.wethod.com/settings/index/#team">team settings</a> section</li>
-<li>Request is displayed in people allocation using a particular pattern</li>
-</ul>
-
-<p><img src="https://support.wethod.com/uploads/2022/01/17/planning_allocation-request.png" alt="" /></p>
-
-<p>Now users with <strong>approve permission</strong> can see &ldquo;Approve/reject&rdquo; button and:</p>
-
-<ul>
-<li><strong>Approve</strong> request: it gets &ldquo;Approved&rdquo; status and a mail notification is sent to the user who made the request</li>
-<li><strong>Reject</strong> request: it gets &ldquo;Rejected&rdquo; status and a mail notification is sent to the user who made the request</li>
-</ul>
-
-<p>Once approved, a request is shown in planning as a &ldquo;normal&rdquo; project. It still cannot be planned straight from here.</p>
-
-<p>Users with <strong>edit permission</strong> can edit a request like this:</p>
-
-<ol>
-<li>Click on the request arrow button to open its sidebar</li>
-<li>Click on the edit button</li>
-</ol>
-
-<p>A special <strong>edit permission</strong> is needed to edit and see others requests.</p>
-
-<p>Approved and rejected requests cannot be edited but can be deleted.</p>
-
-<p>When a request is deleted, it disappears from <a href="https://support.wethod.com/planning/index/#people-allocation">people allocation</a>.</p>
-
-<p>Creating or editing a pending request can create <strong>conflicts</strong> if:</p>
-
-<ol>
-<li>In the requested period there is <strong>at least one hour already planned</strong></li>
-<li>In the requested period there is <strong>at</strong> <strong>least one hour belonging to another request</strong></li>
-</ol>
-
-<p>Requests with conflicts:</p>
-
-<ul>
-<li>Get a particular status</li>
-<li>Does not appear in people allocation</li>
-<li>Shows conflict days inside details sidebar</li>
-<li>Cannot be approved: they can just be edited, deleted or rejected</li>
-</ul>
-
-<p><img src="https://support.wethod.com/uploads/2022/01/17/allocation-requests_sidebar-conflict.png" alt="" /></p>
-
-<p>If a request has conflict with another pending request only the last created request will be marked as “conflict”, the existing one keeps its status.</p>
-
-<p>Once a week an email containing the recap of all pending planning requests is sent to all allocation managers (excluding “urgent” emails).</p>
-
-<h2 id="projects-heatmap">Projects&rsquo; Heatmap</h2>
-
-<p>This is useful to show the <em>weight</em> of planned people on each project: the darker is the color of a cell, the more people are planned on the project that day.</p>
-
-<p>The color&rsquo;s range is made up of 10 levels from white to blue, where the darkest blue represents the most planned people on a project in a day for the visible range of time.</p>
-
-<p>By clicking on a day you can:</p>
-
-<ul>
-<li>See who is planned on a project for the day</li>
-<li>See and edit the <strong>event</strong> related to the day: usually a project&rsquo;s life is fulfilled of important events, by tracking them you&rsquo;re giving a general point of view to all of your organization. This is also useful to avoid overlapping of two or more important events that usually need a lot of resources.</li>
-</ul>
-
-<p>You can hide a project by clicking on the &ldquo;<strong>X</strong>&rdquo; near the project&rsquo;s name.</p>
-
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p><strong>The heatmap is always updated based on the visible projects and date range.</strong></p>
-</div>
-
-<p><img src="https://support.wethod.com/uploads/2017/11/15/heatmap.gif" alt="" /></p>
-
-<h2 id="production-plan">Production Plan</h2>
-
-<p>Here you can express the percentage of the project&rsquo;s value you plan to produce for each month.</p>
-
-<p>You will only see the projects with a value greater than 0: you cannot edit the plan when there is no value.</p>
-
-<p>Past months are read-only and are automatically populated with the real production, based on the month&rsquo;s project status.
-You can edit future months but remember: a production plan can be saved only if you&rsquo;ve distributed the 100% of its value, you can easily check this by looking at the total: a red total means that your planning is someway different from 100%.</p>
-
-<p>Each time you edit a past project status&rsquo; week or when a month ends, the production plan for that week is recalculated in order to allocate the remaining production or to adjust incoherent plans. The adjustments are reported as orange monthly apex.</p>
-
-<p>A solid blue line indicates the project&rsquo;s duration, a dashed line instead tells you that the project&rsquo;s boundaries (the project&rsquo;s start/end) are outside the visible planning&rsquo;s portion.
-When you move the start or end date of a project with probability lower than 90%, its production plan will reflect the changes, adapting its duration and distributing accordingly.</p>
-
-<p>Other than searching projects by name, pm or client, you can even filter them by who&rsquo;s in charge for them: <strong>Mine</strong> shows you all the projects where you&rsquo;re pm or account while <strong>Others</strong> &hellip; well, we think you&rsquo;re smart enough to understand it by yourself.</p>
-
-<p>If you&rsquo;re editing a project, you can move its whole duration or the plan for a single month by simply dragging them as shown in the GIF below. If you change a project&rsquo;s duration, it will be saved as soon as you click on the &ldquo;save&rdquo; button.</p>
-
-<p>Use the &ldquo;<strong>Auto distribution</strong>&rdquo; function on a project to spread it&rsquo;s remaining plan on the future months of its duration.</p>
-
-<p><img src="https://support.wethod.com/uploads/2019/11/18/production-plan.gif" alt="" /></p>
-
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p><strong>The production plan calendar follows ISO 8601, this means that a week belongs to a particular month only if its thursday belongs to that month</strong></p>
-</div>
 
 			
 			<aside class="copyright" role="note"></aside>
