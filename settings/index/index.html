@@ -1058,7 +1058,25 @@ It’s useful for distinguishing internal vs. client work, and avoids messy, man
 
 <h3 id="opportunity-win-probability-threshold">Opportunity Win Probability (%) threshold</h3>
 
-<p>Set the percentage of probability threshold that defines an opportunity as won between 75%, 90% or 100%. Each</p>
+<p>Set the percentage of probability threshold that defines an opportunity as won between 75%, 90% or 100%.
+If the threshold set decreases, the change will:</p>
+
+<ul>
+<li>Convert [nr] opportunities into projects and move them to the Project List.</li>
+<li>Affect some reports in the Insight section.</li>
+<li>Set the win date to today. You can edit it anytime from the project details.</li>
+<li>Leave the Win Feedback blank. You can edit it anytime from the project details. PMs and accounts of the concerned projects will be notified (optional) and asked to update the win feedback from each project details in the Project List</li>
+</ul>
+
+<p>If the threshold set increases, the change will:</p>
+
+<ul>
+<li>Convert [X] projects back into open opportunities and move them to the Pipeline Opportunities page.</li>
+<li>Affect some reports in the Insight section.</li>
+<li>Remove the Win date and the Win Feedback from these projects.</li>
+</ul>
+
+<p>Optional: In both scenarios PMs and Accounts of the concerned projects/opportunities will be notified via email.</p>
 
 <h3 id="project-types">Project Types</h3>
 
