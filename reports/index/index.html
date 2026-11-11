@@ -837,6 +837,62 @@
 <li>Non-detailed timesheet: the entire week of the start and end dates are considered while fetching data. This applies to both worked and planned hours.</li>
 </ul>
 
+<h2 id="new-insights">New Insights</h2>
+
+<p>In this section, you can create your own personalized charts related to your company’s data such as</p>
+
+<p><strong>Sales</strong></p>
+
+<ul>
+<li>Revenues</li>
+<li>Gross Margin</li>
+<li>External Costs</li>
+<li>Average Daily rate</li>
+</ul>
+
+<p>Operations</p>
+
+<ul>
+<li>Timesheet Hours</li>
+<li>Planning Hours</li>
+<li>More on the way…</li>
+</ul>
+
+<p>To bee able to access this section, you must have the “view” permission for “Charts.&rdquo; and edit to create or edit new ones. You can check this in the <a href="https://support.wethod.com/settings/index/#permissions">Permissions section</a>.</p>
+
+<p>Each chart can have child charts that inherit the filters applied to the parent.</p>
+
+<p>Each chart also has a child table that shows detailed information about the projects included in the parent chart.</p>
+
+<h3 id="creating-a-new-chart">Creating a new chart</h3>
+
+<p>To create a new chart, you must have the “edit” permission for “Charts.” You can check this in the Permissions section.</p>
+
+<p>By clicking the “Add chart” button, you will be prompted to enter some information about the chart you want to create:</p>
+
+<ol>
+<li>Chart info: chart name and a brief description</li>
+<li>Data segment: filters to apply to limit the data to be considered</li>
+<li>Type of chart: the type of chart to use for data visualization</li>
+<li>Dimensions: values to assign to each chart dimension. For example, if you’ve selected a Bar Chart, you will need to specify which values to display on the chart’s x and y axes.</li>
+</ol>
+
+<h3 id="editing-a-chart">Editing a chart</h3>
+
+<p>To edit an existing chart, you must have the “edit” permission for “Charts.” You can check this in the Permissions section.</p>
+
+<p>You can then click the “Edit chart” button to modify the selected chart.</p>
+
+<h3 id="deleting-a-chart">Deleting a chart</h3>
+
+<p>To delete a chart, you must have the “edit” permission for “Charts.” You can check this in the Permissions section.</p>
+
+<p>You can click the three dots next to the chart’s name to access the option to delete it.</p>
+
+<h3 id="click-to-filter">Click to filter</h3>
+
+<p>You can click on a point in a chart to use it as a filter for child charts and child tables. For example, if you click on a point in the “Revenues” chart that groups all revenues for December related to projects with a 90% probability, the child charts will be filtered to show only the points related to December with a 90% probability.</p>
+
 <h2 id="consumption-vs-status">Consumption vs Status</h2>
 
 <p>This is an overview of all Projects in terms of resources and time spent on the project, allowing you to analyse their health at a glance.</p>
@@ -950,64 +1006,6 @@ listing all the grouped clients with their:</p>
 </ul>
 
 <p>Items on the list are ordered by value.</p>
-
-<h2 id="new-insights">New Insights</h2>
-
-<h4 id="revenues-gross-margin-average-daily-rate">Revenues, Gross Margin, Average Daily rate</h4>
-
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>This is the first release of a new, broader section dedicated to reports within wethod. We are updating the documentation as we roll out new features to ensure you have complete support. Please note that this section is evolving, with new features to be added over time to enhance your management and analysis experience.</p>
-</div>
-
-<p>To view this section, you must have the “view” permission for “Charts.” You can check this in the Permissions section.</p>
-
-<p>In this section, you can create charts related to your company’s revenues.</p>
-
-<p>Each chart can have child charts that inherit the filters applied to the parent.</p>
-
-<p>Each chart also has a child table that shows detailed information about the projects included in the parent chart.</p>
-
-<h3 id="creating-a-new-chart">Creating a new chart</h3>
-
-<p>To create a new chart, you must have the “edit” permission for “Charts.” You can check this in the Permissions section.</p>
-
-<p>By clicking the “Add chart” button, you will be prompted to enter some information about the chart you want to create:</p>
-
-<ol>
-<li>Chart info: chart name and a brief description</li>
-<li>Data segment: filters to apply to limit the data to be considered</li>
-<li>Type of chart: the type of chart to use for data visualization</li>
-<li>Dimensions: values to assign to each chart dimension. For example, if you’ve selected a Bar Chart, you will need to specify which values to display on the chart’s x and y axes.</li>
-</ol>
-
-<h3 id="editing-a-chart">Editing a chart</h3>
-
-<p>To edit an existing chart, you must have the “edit” permission for “Charts.” You can check this in the Permissions section.</p>
-
-<p>You can then click the “Edit chart” button to modify the selected chart.</p>
-
-<h3 id="deleting-a-chart">Deleting a chart</h3>
-
-<p>To delete a chart, you must have the “edit” permission for “Charts.” You can check this in the Permissions section.</p>
-
-<p>You can click the three dots next to the chart’s name to access the option to delete it.</p>
-
-<h3 id="click-to-filter">Click to filter</h3>
-
-<p>You can click on a point in a chart to use it as a filter for child charts and child tables. For example, if you click on a point in the “Revenues” chart that groups all revenues for December related to projects with a 90% probability, the child charts will be filtered to show only the points related to December with a 90% probability.</p>
-
-<h2 id="gross-margin">Gross Margin</h2>
-
-<p>We’ve introduced a new dimension, “Gross Margin,” which uses data from the “Total” row in this section of the table: <a href="https://support.wethod.com/profit-loss/index/#overview">Economics</a>.</p>
-
-<p>The data segment filters and dimensions are consistent with those in the “Revenues” section. However, the only numeric dimension here will be “Gross Margin” (instead of “Revenues”). It works the same as <a href="https://support.wethod.com/reports/index/#revenues">Revenues above</a>.</p>
-
-<h2 id="average-daily-rate">Average Daily Rate</h2>
-
-<p>We’ve introduced a new dimension, “Average Daily Rate,” to understand how much a day costs in your company.</p>
-
-<p>The data segment filters and dimensions are consistent with those in the “Revenues” section. However, the only numeric dimension here will be “Average daily rate” (instead of “Revenues”). It works the same as <a href="https://support.wethod.com/reports/index/#revenues">Revenues above</a>.</p>
 
 <h2 id="production-value">Production Value</h2>
 
